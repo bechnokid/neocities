@@ -689,6 +689,10 @@ textarea {
   height:240px;
 }
 
+/* SITEMAP */
+.sitemap h2{
+  color: indigo;
+}
 
 /* To keep your site RESPONSIVE, make sure this variable matches the width for --container-width UNLESS --container-width is 100% - if it's 100%, you'll need to manually input a breakpoint. */
 @media only screen and (max-width: 1000px) {
