@@ -7,7 +7,15 @@
 h1, h2, h3, h4 {
   font-family: "Dyslexic";
   font-weight: 400;
-  color: var(--link-color);
+}
+
+body a,
+#nav-menu ul li a {
+  color: var(--link-color)
+}
+
+h2, h3, h4 {
+  color: indigo;
 }
 
 hr {
@@ -45,13 +53,12 @@ html, body {
 }
 
 body a {
-  color: var(--link-color);
   font-weight: 700;
   text-decoration: var(--link-text-decoration);
 }
 
 body a:hover {
-  text-decoration: underline;
+  text-decoration: var(--link-text-hover);
 }
 
 ul {
@@ -114,8 +121,8 @@ textarea {
   padding-bottom: 5px;
 }
 
-.wrapper b {
-  color: indigo;
+h1, .wrapper b {
+  color: #b8005c;
 }
 
 .center-page {
@@ -357,6 +364,14 @@ textarea {
   top: 160px;
 }
 
+#sidebar-nav a {
+  text-decoration: var(--link-text-hover);
+}
+
+#sidebar-nav a:hover{
+  text-decoration: var(--link-text-decoration)
+}
+
 #nav-menu input {
   position: absolute;
   height: 0;
@@ -394,10 +409,6 @@ textarea {
   height: 0;
   overflow: hidden;
   transition: height .1s linear;
-}
-
-#nav-menu ul li a{
-  color: var(--link-color);
 }
 
 #nav-menu input:checked + .sub-menu {
@@ -687,11 +698,6 @@ textarea {
   font-size:1em;
   width:240px;
   height:240px;
-}
-
-/* SITEMAP */
-.sitemap h2{
-  color: indigo;
 }
 
 /* To keep your site RESPONSIVE, make sure this variable matches the width for --container-width UNLESS --container-width is 100% - if it's 100%, you'll need to manually input a breakpoint. */

@@ -6,8 +6,9 @@
   --font-size: 12px;
   --line-height: 1.3em;
   --font-color: black;
-  --link-color: #bc3b66;
-  --link-text-decoration: none;
+  --link-color: #d60076;
+  --link-text-decoration: underline;
+  --link-text-hover: none;
   
   /* background */
   --background-image: url('/images/bg.jpg');
