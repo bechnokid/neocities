@@ -1,7 +1,5 @@
 # Bechno Kid's Hideout
 
- - [ ] Edit not_found.html page
- - [ ] Create blog entry about adorable little girl
  - [ ] Clean up CSS and HTML
  - [ ] Put blog entries into folders with year
 
