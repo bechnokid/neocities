@@ -545,8 +545,8 @@ h1,.wrapper b {
 }
 
 .header-img {
-  width:78px;
-  max-height:230px;
+  width:75px;
+  max-height:250px;
   object-fit:none;
   object-position:100% 0;
   border:2px solid var(--content-border-color)
