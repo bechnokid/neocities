@@ -1,0 +1,171 @@
+body {
+    background-color: gray;
+    font-family: verdana;
+    font-size: 0.75em;
+  }
+
+  h1, h2 {
+    font-family: georgia;
+  }
+
+  img {
+    width: 60%;
+    margin: auto;
+    display: block;
+  }
+
+  .container {
+    padding: 10px;
+    max-height: 700px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  #page {
+    height: 100vh;
+    align-items: center;
+  }
+
+  #left-container {
+    max-width: 520px;
+    height: 486px;
+    margin-right: 10px;
+    background-color: #0b0c0f;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  #hunter-title {
+    width: 98.5%;
+    text-align: center;
+    margin-bottom: 10px;
+    color: lightgrey;
+    border: 3px double lightgrey;
+  }
+
+  #hunter-info {
+    margin-bottom: 10px;
+  }
+
+  #hunter-photo {
+    margin-right: 10px;
+    background-color: silver;
+    width: 180px;
+    height: 200px;
+  }
+
+  #hunter-info dl {
+    line-height: 1.5em;
+  }
+
+  #hunter-info dt {
+    font-family: georgia;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkturquoise;
+  }
+
+  #hunter-info dd {
+    color: lightgrey;
+    margin-bottom: 5px;
+    border-bottom: 2px dashed silver;
+    margin-left: 15px;
+  }
+
+  #navigation p {
+    line-height: 0;
+    text-align: right;
+    padding-right: 5px;
+  }
+
+  #hunter-weapon {
+    background-color: silver;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+  }
+
+  #links {
+    align-items: center;
+  }
+
+  #links ul {
+    list-style-type: none;
+    padding: 0;
+    color: lightgrey;
+  }
+
+  #links li {
+    line-height: 2em;
+    padding: 4px 40px;
+    font-weight: bold;
+    border-top: 2px dashed silver;
+  }
+
+  #links li:last-child {
+    border-bottom: 2px dashed silver;
+  }
+
+  #links a {
+    color: unset;
+    text-decoration: none;
+  }
+
+  #links li a:hover {
+    text-decoration: underline
+  }
+
+  #links li:hover {
+    background-color: ghostwhite;
+    color: black;
+  }
+
+  #links img {
+    width: 13%;
+  }
+
+  li.head {
+    background-image: url("images/helm.png")
+  }
+
+  li.chest {
+    background-image: url("images/chest.png");
+  }
+
+  li.arms {
+    background-image: url("images/arm.png");
+  }
+
+  li.coil {
+    background-image: url("images/coil.png");
+  }
+
+  li.legs {
+    background-image: url("images/legs.png");
+  }
+
+  li.icon {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 10%;
+  }
+
+  #right-container {
+    max-width: 600px;
+    overflow: auto;
+    background-color: white;
+    flex-direction: column;
+  }
+
+  #page-title {
+    width: 100%;
+    background-color: silver;
+    text-align: center;
+  }
