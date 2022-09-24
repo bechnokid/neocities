@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/javascript/script.js"></script>
+    <script src="/javascript/script-min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile - Bechno Kid's Hideout</title>
@@ -18,38 +18,32 @@
           <div class="wrapper">
             <h1 class="content-title">About the Artist</h1><hr>
             <div id="profile-content">
-              <div id="profile-side">
-                <div id="profile-img" class="profile-side-content">
-                  <img src="images/profile/profile.jpg" alt="It's me, Bechno Kid!">
-                  <div id="desc">"The ticket to the future is always open." -Rem Saverem, TRIGUN</div>
+              <div class="profile-side">
+                <img style="width:100%" src="images/profile/profile.jpg" alt="It's me, Bechno Kid!">
+                <div style="margin-bottom:10px">"The ticket to the future is always open." -Rem Saverem, TRIGUN</div>
+                <div class="flex-center profile-flags">
+                  <a href="https://toyhou.se/9179110.f2u-pride-pixels/gallery">
+                    <img title="Asexual" src="images/profile/asexual.png" alt="Asexual">
+                    <img title="Demigirl" src="images/profile/demigirl.png" alt="Demigirl">
+                    <img title="Polyamorous" src="images/profile/polyamorous.png" alt="Polyamorous">
+                  </a>
                 </div>
-                <dl>
-                  <marquee onmouseover="this.stop();" onmouseout="this.start();" id="profile-buttons" class="profile-side-content">
-                    <a href="https://www1.flightrising.com/forums/cc/3078623">
-                      <img src="images/profile/button_asexual.png" alt="Asexual">
-                      <img src="images/profile/button_panromantic.png" alt="Panromantic">
-                      <img src="images/profile/button_polyamorous.png" alt="Polyamorous">
-                      <img src="images/profile/button_demigirl.png" alt="Demigirl">
-                    </a>
-                  </marquee>
-                </dl>
               </div>
               <div id="profile-text">
-                <ul>
-                  <li><b>Name:</b> Bechno Kid</li>
+                <h2>About Me</h2>
+                <ul class="links-list small-list">
                   <li><b>Age:</b> <span id="age"></span></li>
                   <li><b>Birthdate:</b> February 10</li>
-                  <li><b>Zodiac:</b> Aquarius sun, Taurus moon, Gemini rising</li>
+                  <li><b>Zodiac:</b> Aquarius ☼, Taurus ☾, Gemini &uarr;</li>
                   <li><b>Pronouns:</b> she/her, they/them</li>
                 </ul>
-                <h2>About Me</h2>
                 <p>Hi! I'm Bechno Kid.</p>
                 <p>I'm also known as "Bec/Bech", "BK", "Beekay", or just plain ol' "Bechno".</p>
                 <p>Don't be fooled by the "Kid", I'm very much an adult! However, I <i>do</i> have interests that many would consider childish, and that's ok.</p>
                 <p>I am a multi-fandom artist who works full-time as a software developer. I currently live with my two spouses and two dogs. I have a Bachelor's Degree in Computer Science and graduated with honors from my university. I have no formal education when it comes to the arts, and am entirely self-taught.</p>
                 <p>I have been drawing for more than 20 years, but art has always been just a side hobby for me. My true passion is in coding, whether it is very, VERY basic web design, or in software development. I have coded in a variety of languages, but I am always willing to learn more when I can. I am not an expert programmer or artist by any means, though. I just like to learn whatever I can. ^_^</p><hr>
-                <div class="flex-center profile-column">
-                  <div style="width:49%;margin-right:15px">
+                <div class="flex two-col">
+                  <div>
                     <h2>Favorites</h2>
                     <ul>
                       <li><b>Meals:</b> Sushi, bún riêu, bún bò Huế, phở</li>
@@ -57,32 +51,68 @@
                       <li><b>Drinks:</b> Lemonade, boba tea, Thai tea, coffee, vegetable juice</li>
                       <li><b>Colors:</b> Pink, mint green, purple</li>
                       <li><b>Animals:</b> Snakes, tarantulas, frogs, octopi, isopods, beetles</li>
-                      <li><b>Movies:</b> Doctor Strange in the Multiverse of Madness, Spider-Man 2, Wreck-It Ralph, Great Mouse Detective, Baby Driver, Mean Girls, Monster Hunter: Legends of the Guild</li>
+                      <li><b>Movies</b>
+                        <ul class="links-list small-list">
+                          <li>Doctor Strange in the Multiverse of Madness</li>
+                          <li>Spider-Man2</li>
+                          <li>Wreck-It Ralph</li>
+                          <li>Great Mouse Detective</li>
+                          <li>Baby Driver</li>
+                          <li>Mean Girls</li>
+                          <li>Monster Hunter: Legends of the Guild</li>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
-                  <div style="width:49%">
+                  <div>
                     <h2>Interests</h2>
                     <ul>
-                      <li><b>Animanga:</b> Trigun, Demon Slayer, Jujutsu Kaisen, Spy x Family
-                      <li><b>Games:</b> Monster Hunter, Pokémon, Kirby, MediEvil, Animal Crossing, Crash Bandicoot, Kingdom Hearts</li>
-                      <li><b>Music:</b> Weird Al Yankovic, The Hush Sound, video game OSTs, Vocaloid</li>
+                      <li><b>Animanga</b>
+                        <ul class="links-list small-list">
+                          <li>Trigun</li>
+                          <li>Demon Slayer</li>
+                          <li>Jujutsu Kaisen</li>
+                          <li>SpyxFamily</li>
+                        </ul>
+                      </li>
+                      <li><b>Games</b>
+                        <ul class="links-list small-list">
+                          <li>Monster Hunter</li>
+                          <li>Pokemon</li>
+                          <li>Kirby</li>
+                          <li>MediEvil</li>
+                          <li>Animal Crossing</li>
+                          <li>Crash Bandicoot</li>
+                          <li>Kingdom Hearts</li>
+                        </ul>
+                      </li>
                       <li><b>Podcasts/Radio Plays:</b> Megaton Girl</li>
                     </ul>
                   </div>
                 </div>
                 <hr>
-                <h2>Contact/Sites</h2>
-                <ul>
-                  <li>Email: <a href="mailto: bechnokid@yahoo.com">bechnokid@yahoo.com</a></li>
-                  <li>Twitter: <a href="https://twitter.com/bechnokid">bechnokid</a></li>
-                  <li>Tumblr: <a href="https://bechnokid.tumblr.com">bechnokid</a></li>
-                  <li>DeviantArt: <a href="https://deviantart.com/bechnokid">bechnokid</a></li>
-                </ul>
+                <div class="flex two-col">
+                  <div>
+                    <h2>Contact/Sites</h2>
+                    <ul>
+                      <li>Email: <a href="mailto: bechnokid@yahoo.com">bechnokid@yahoo.com</a></li>
+                      <li>Twitter: <a href="https://twitter.com/bechnokid">bechnokid</a></li>
+                      <li>Tumblr: <a href="https://bechnokid.tumblr.com">bechnokid</a></li>
+                      <li>DeviantArt: <a href="https://deviantart.com/bechnokid">bechnokid</a></li>
+                    </ul>
+                  </div>
+                  <div id="random-facts">
+                    <h2>Random Fun Fact</h2>
+                    <p>Click the button below for a random fun fact about me. :3</p>
+                    <button id="show-fact" class="basic-button">Another?</button>
+                  </div>
+                </div>
                 <hr>
                 <h2>Awards</h2>
                 <div class="flex-center quizzes">
-                  <div><img src="images/awards/award-connected.png" alt="Connected Award"></div>
-                  <div><img src="images/awards/gettingthere.png" alt="'Getting There' Award"></div>
+                  <div><a href='https://softheartclinic.neocities.org/subpages/awards.html' target='_blank'><img src='images/awards/award-connected.png' alt='Connected Award'></a></div>
+                  <div><a href="https://koinuko.pink/mygraphics/awards.html" target="_blank"><img src="images/awards/gettingthere.png" alt="'Getting There' Award"></a></div>
+                  <div><a href="https://www.dragonflycave.com/marquee-of-doom" target="_blank"><img src="images/awards/extremepatience.gif" alt="Awared of Extreme Patience"></a>
                 </div>
               </div>
             </div>

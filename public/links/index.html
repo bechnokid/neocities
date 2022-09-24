@@ -2,16 +2,16 @@
 <html lang="en">
   <head>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/javascript/script.js"></script>
+    <script src="/javascript/script-min.js"></script>
     <script src="/javascript/freezeframe.js"></script>
-    <script src="https://koinuko.neocities.org/shipping/webring/tryitscript.js"></script>
+    <script src="https://koinuko.neocities.org/shipping/webring/webringminiscript.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links - Bechno Kid's Hideout</title>
     <link href="/css/variables.css" rel="stylesheet" type="text/css" media="all">
     <link href="/css/main-min.css" rel="stylesheet" type="text/css" media="all">
   </head>
-  <body onload="setListNumber(), myFunction()">
+  <body onload="setListNumber(), selfInsertWebringLoad()">
     <div id="main-container">
       <header id="header-contained" style="display: block;"></header>
       <div class="content-wrap flex alignment">
@@ -30,9 +30,14 @@
                 <div><textarea class="copy-button"><a href="https://bechnokid.neocities.org" target="_blank"><img src="https://bechnokid.neocities.org/images/button.jpg" alt="Bechno Kid's Hideout"></a></textarea></div>
                 <div style="margin-top:10px;">You can save the image, or copy the code! :3</div>
               </div>
-              <hr />
-              <h2>Recommended links</h2>
-              <p><b>Neocities Neighbors</b></p>
+              <hr>
+              <h2>Webrings</h2>
+              <div id="webring">
+                <div style="padding: 5px; display: inline-block"><a href="https://isaacfish.neocities.org/webring/22.html"><img src="https://isaacfish.neocities.org/webring/left.png" alt="left arrow"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/"><img src="https://isaacfish.neocities.org/webring/queercoded.png" alt="queer coded webring"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/24.html"><img src="https://isaacfish.neocities.org/webring/right.png" alt="right arrow"></a></div>
+                <div id="selfinsertwebringmini"><script>function setListNumber(){positionInList=128};</script></div>
+              </div>
+              <hr>
+              <h2>Neocities Sites</h2>
               <div class="freezeframe flex-center rec-links randomize">
                 <div><a href="https://sadgrl.online" target="_blank"><img src="images/sadgrlonline.gif" alt="Working Toward a Better Interne"></a></div>
                 <div><a href="https://yesterweb.org" target="_blank"><img src="images/yesterweb.png" alt="The Yesterweb - Reclaiming the Internet"></a></div>
@@ -65,36 +70,37 @@
                 <div><a href="https://purinland.neocities.org/" target="_blank"><img src="https://purinland.neocities.org/img/assets/webanner.png"></a></div>
                 <div><a href="https://hellokittyminigun.neocities.org/" target="_blank"><img src="images/hellokittyminigun.png" alt="Hello Kitty Minigun"></a></div>
                 <div><a href="https://itsnotstupid.neocities.org/" target="_blank"><img src="images/itsnotstupid.gif" alt="It's Not Stupid, It's Advanced!"></a></div>
+                <div><a href='https://lhfm.neocities.org' target='_blank'><img src='images/lhfm.png' alt='リテラリーひふみ'></a></div>
+                <div><a href='https://mystsaphyr.me' target='_blank'><img src='images/mystsaphyr_me.gif' alt='MystSaphyr'></a></div>
+                <div><a href='https://kookoioi.neocities.org' target='_blank'><img src='images/kookoioi.png' alt='Kookoioi Art'></a></div>
+                <div><a href='https://strovi.neocities.org' target='_blank'><img src='images/strovi.gif' alt='STROVI.ART'></a></div>
+                <div><a href='https://moonie.neocities.org' target='_blank'><img src='images/moonie.png' alt='moonie'></a></div>
+                <div><a href='https://shishka.neocities.org' target='_blank'><img src='images/shishka.gif' alt='shishka'></a></div>
               </div>
-              <p><b>Out-of-Town Sites</b></p>
+              <h2>Out-of-Town Sites</h2>
               <div class="freezeframe flex-center rec-links randomize">
-                <div><a href="http://engrampixel.tumblr.com"> <img src="http://media.tumblr.com/tumblr_m5106aHKT11qid2nw.gif" alt="☆.。:*єηgяαм ριχєℓ。.*・"></a></div>
-                <div><a href="https://web.archive.org/web/20050204000701/http://www.sonicfoundation.org/main.php"><img src="images/tsf.gif" alt="The Sonic Foundation"></a></div>
-                <div><a href="http://www.sonicteam.com/"><img src="images/sonicteam.gif" alt="Sonic Team"></a></div>
-                <div><a href="https://sonicstadium.org"><img src="images/sonicstadium.gif" alt="Sonic Stadium"></a></div>
-                <div><a href="https://cooltext.com"><img alt="cooltext.com" src="images/cooltxt.gif"></a></div>
+                <div><a href="http://engrampixel.tumblr.com" target="_blank"> <img src="http://media.tumblr.com/tumblr_m5106aHKT11qid2nw.gif" alt="☆.。:*єηgяαм ριχєℓ。.*・"></a></div>
+                <div><a href="https://web.archive.org/web/20050204000701/http://www.sonicfoundation.org/main.php" target="_blank"><img src="images/tsf.gif" alt="The Sonic Foundation"></a></div>
+                <div><a href="http://www.sonicteam.com/" target="_blank"><img src="images/sonicteam.png" alt="Sonic Team"></a></div>
+                <div><a href="https://sonicstadium.org" target="_blank"><img src="images/sonicstadium.gif" alt="Sonic Stadium"></a></div>
+                <div><a href="https://cooltext.com" target="_blank"><img alt="cooltext.com" src="images/cooltxt.gif"></a></div>
                 <div><a href="https://www.saturdaymorningsonic.com/"><img alt="Saturday Morning Sonic" src="images/sms.png"></a></div>
+                <div><a href='https://ezgif.com/' target='_blank'><img src='images/ezgif.gif' alt='EZGif: Animated GIFs Made Easy'></a></div>
               </div>
-              <p><b>Useful sites</b></p>
+              <ul class="links-list">
+                <li><a href='http://thefanlistings.org/' target='_blank'>The Fanlistings Network</a>: An entire repository of fanlistings that you can join.</li>
+                <li><a href='https://animefanlistings.com/' target='_blank'>The Anime Fanlistings</a>: A repository of anime/manga-related fanlistings that you can join.</li>
+                <li><a href='https://zombo.com/' target='_blank'>Zombo.com</a>: Trust me on this ;)</li>
+              </ul><br>
+              <h2>Useful Sites</h2>
               <ul class="links-list">
                 <li><a href="https://www.thistothat.com/" target="_blank">This to that (Glue Advice)</a>: A site that will tell you how to glue different materials together!</li>
                 <li><a href="https://mashable.com/article/how-to-blur-your-house-on-google-street-view" target="_blank">How to blur your house on Google Street View (and why you should)</a></li>
-                <li><a href="https://www.w3schools.com/howto/default.asp">W3Schools How TO - Code snippets for HTML, CSS, and JavaScript</a>: Tons of examples readily available at W3Schools</li>
-                <li><a href="https://leonarnott.neocities.org/" target="_blank">Leon Arnott's Site</a>: A repository of neat CSS effects you can add to text</li>
-                <li><a href="https://unicode-table.com/en/html-entities/" target="_blank">HTML Entities Table</a>: A complete HTML entities list, for copying and pasting symbols, or for looking up codes to type manually</li>
-                <li><a href="http://waifu2x.udp.jp/" target="_blank">waifu2x</a>: A site where you can take almost any image and upscale it up to 2x with little or no loss of quality</li>
+                <li><a href="https://www.w3schools.com/howto/default.asp" target="_blank">W3Schools How TO - Code snippets for HTML, CSS, and JavaScript</a>: Tons of examples readily available at W3Schools.</li>
+                <li><a href="https://leonarnott.neocities.org/" target="_blank">Leon Arnott's Site</a>: A repository of neat CSS effects you can add to text.</li>
+                <li><a href="https://unicode-table.com/en/html-entities/" target="_blank">HTML Entities Table</a>: A complete HTML entities list, for copying and pasting symbols, or for looking up codes to type manually.</li>
+                <li><a href="http://waifu2x.udp.jp/" target="_blank">waifu2x</a>: A site where you can take almost any image and upscale it up to 2x with little or no loss of quality.</li>
               </ul>
-              <hr>
-              <h2>Webrings</h2>
-              <div id="webring" class="flex">
-                <div id="selfinsertwebring">
-                  <script>
-                    function setListNumber() {
-                      positionInList = 128
-                    };
-                  </script>
-                </div>
-              </div>
               <hr>
               <h2>Credits</h2>
               <ul class="links-list">

@@ -7,11 +7,39 @@
     <description>art, blog, resources, and more?!</description>
     <language>en-us</language>
     <item>
+      <title>September 24, 2022</title>
+      <pubDate>Sat, 24 Sep 2022 14:30:00 -0400</pubDate>
+      <link>https://bechnokid.neocities.org/home</link>
+      <description><![CDATA[
+        Another big update!
+        <br>- (General) Minified CSS and JS files
+        <br>- (General) Adjusted all files to use new CSS and JS files
+        <br>- (Art) Finished 2016 section, and optimized code
+        <br>- (About) Created a dream diary
+        <br>- (About) Added more fanlistings
+        <br>- (About) Updated profile and quizzes
+        <br>- (About) Added a FAQ page and added links to appropriate pages
+        <br>- (Links) Added more links, joined another webring
+        <br>- (Web goods) Added more graphics, a toy box, and a blinkie section
+      ]]>
+      </description>
+    </item>
+    <item>
       <title>September 19, 2022</title>
       <pubDate>Mon, 19 Sep 2022 22:33:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[A pretty big update this time around!<br>- (General) Moved several pages around<br>- (General) Rearranged sections<br>- (General) Cleaned up and moved some pages<br>- (General) Added headers for some sections<br>- (About) Added a quiz result<br>- (About) Added awards<br>- (Art) Added a new Misc. art section<br>- (Stamps) Replaced all stamps with ones that can be linked back]]>
-    </description>
+      <description><![CDATA[
+        A pretty big update this time around!
+        <br>- (General) Moved several pages around
+        <br>- (General) Rearranged sections
+        <br>- (General) Cleaned up and moved some pages
+        <br>- (General) Added headers for some sections
+        <br>- (About) Added a quiz result
+        <br>- (About) Added awards
+        <br>- (Art) Added a new Misc. art section
+        <br>- (Stamps) Replaced all stamps with ones that can be linked back
+      ]]>
+      </description>
     </item>
     <item>
       <title>September 15, 2022</title>
@@ -27,7 +55,7 @@
     </item>
     <item>
       <title>August 26, 2022</title>
-      <pubDate>Thu, 26 Aug 2022 18:30:00 -0400</pubDate>
+      <pubDate>Fri, 26 Aug 2022 18:30:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description>Minor changes, but all images in the Graphics page have a neat function where you can play or stop the GIFs! Hopefully, this will be helpful to those who are sensitive to flashing/moving images.</description>
     </item>
