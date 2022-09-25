@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/javascript/script-min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game- Bechno Kid's Hideout</title>
+    <link href="/css/variables.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/css/main-min.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <div id="main-container">
+      <header id="header-contained" style="display: block;"></header>
+      <div class="content-wrap flex alignment">
+        <nav id="left-sidebar" style="display: block;"></nav>
+        <main id="content-container" style="flex-grow: 1;">
+          <div class="wrapper">
+            <h1 class="content-title">Game</h1>
+            <p>Click any thumbnail will show a larger version of the artwork!</p>
+            <hr/>
+            <div id="filter-btns" class="flex-center">
+              <button id="2022" class="btn active">2022</button>
+            </div>
+            <div id="2022-art" class="show flex-center art-row">
+              <div class="thumbnail"><img src="fanart/2022/boop.webp" style="margin:-50px 0 0 -200px" data-desc="<p><b>Description:</b> Boop!</p><p>Characters: Ms. Chalice, Rook - Cuphead DLC</p>"></div>
+              <div class="thumbnail"><img src="fanart/2022/rook.webp" style="margin:-10px 0 0 -210px" data-desc="<p><b>Description:</b> He's the champion of my heart ♥ (Right-click and open in new tab!)</p><p>Characters: Rook, King, Queen - Cuphead DLC</p>"></div>
+              <div class="thumbnail"><img src="fanart/2022/dedede_marker.webp" style="margin:-50px 0 0 -170px" data-desc="<p><b>Description:</b> It's been almost a year since i did anything with markers! couple of mistakes here and there, but i am happy! :3</p><p>Character: King Dedede (gijinka) - Kirby</p>"></div>
+              <div class="thumbnail"><img src="fanart/2022/mkwings.webp" style="margin:-180px 0 0 -380px;width:800%" data-desc="<p><b>Description:</b> Showing off Meta Knight's wings before I go to bed! I know everyone likes to compare his wings to those of a bat's, but consider this: wyvern wings. (Right-click and open in new tab!)</p><p>Character: Meta Knight (gijinka) - Kirby</p>"></div>
+              <div class="thumbnail"><img src="fanart/2022/mk.webp" style="margin:-10px 0 0 -140px" data-desc="<p><b>Description:</b> Attempt #86 in a Meta Knight gijinka design...I'm pretty happy with this one! (Right-click and open in new tab!)</p><p>Character: Meta Knight (gijinka) - Kirby</p>"></div>
+              <div class="thumbnail"><img src="fanart/2022/dddseinfeld.webp" style="margin:-50px 0 0 -200px" data-desc="<p><b>Description:</b> If you know the meme, you know the meme!</p><p>Character: King Dedede (gijinka) - Kirby</p>"></div>
+              <div class="thumbnail"><img src="fanart/2022/elfilin.webp" style="margin:-50px 0 0 -180px" data-desc="<p><b>Description:</b> My favorite character from Forgotten Land is... <i>-smudged handwriting on hand-</i>
+                &quot;Elfo&quot;!</p><p>Character: Elfilin (gijinka) - Kirby</p>"></div>
+              <div class="thumbnail"><img src="fanart/2022/susie.webp" style="margin:-30px 0 0 -190px" data-desc="<p><b>Description:</b> I don't trust her! Not one bit!!</p><p>Character: Susie Hartmann (gijinka) - Kirby</p>"></div>
+              <div class="thumbnail"><img src="fanart/2022/dededelirious.webp" style="margin:-30px 0 0 -180px" data-desc="<p><b>Description:</b> I still wholeheartedly believe that Dedede has become a father figure to Kirby (and the Waddle Dees), but I love making maniacal expressions for the self-made king of Dreamland!</p><p>Charcter: King Dedede (gijinka) - Kirby</p>"></div>
+              <div class="thumbnail"><img src="fanart/2022/uglytwin.webp" style="margin:-30px 0 0 -90px" data-desc="<p><b>Description:</b> This is honestly the best news I've ever heard for the twins lol (Right-click and open in new tab!)</p><p>Characters: Emmet (left), Ingo (right) - Pokémon: Black and White</p>"></div>
+              <div class="thumbnail"><img src="fanart/2022/lethimsleep.webp" style="margin:-60px 0 0 -200px" data-desc="<p><b>Description:</b> A sleep-dededeprived king. but hey, at least he got a cool outfit!</p><p>Character: King Dedede (gijinka) - Kirby</p>"></div>
+            </div>
+            <div class="full-art">
+              <div id="image-container" class="flex-center">
+                <span id="close-button">&times;</span>
+                <div id="image-file"></div>
+              </div>
+              <div id="image-text"></div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer id="footer" style="display: block;"></footer>
+    </div>
+  </body>
+</html>
