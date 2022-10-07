@@ -75,9 +75,9 @@ $(function () {
     $("#play-gif").on("click", function () {
       e.start();
     }),
-      $("#stop-gif").on("click", function () {
-        e.stop();
-      });
+    $("#stop-gif").on("click", function () {
+      e.stop();
+    });
   }
   async function l(e) {
     const t = e.srcElement;

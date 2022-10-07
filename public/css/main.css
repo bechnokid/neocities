@@ -13,6 +13,7 @@ body {
   color: var(--font-color);
   scrollbar-color: #b8005c var(--footer-bg-color);
   scrollbar-width: thin;
+  height: 100%;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -152,6 +153,47 @@ h1,
 .divider p:after {
   content: "❤\00a0\00a0✦\00a0\00a0❤\00a0\00a0✦\00a0\00a0❤\00a0\00a0✦\00a0\00a0❤\00a0\00a0✦\00a0\00a0❤\00a0\00a0✦\00a0\00a0❤\00a0\00a0✦\00a0\00a0❤";
 }
+.tabs {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.tab-content {
+  padding: 20px;
+  padding-bottom: 0;
+  display: none;
+  border-top: 1px solid var(--content-border-color);
+  margin-top: -1px;
+}
+
+.tabs input {
+  display: none
+}
+
+.tabs label {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid transparent;
+}
+
+.tabs input:checked + label {
+  background: white;
+  border: 1px solid var(--content-border-color);
+  border-bottom: 1px solid white;
+}
+
+#tab-buttons:checked ~ #buttons-88x31,
+#tab-stickers:checked ~ #stickers,
+#tab-toybox:checked ~ #toybox,
+#tab-blinkies:checked ~ #blinkies,
+#tab-stamps:checked ~ #stamps,
+#tab-profile:checked ~ #profile,
+#tab-favorites:checked ~ #favorites,
+#tab-interests:checked ~ #interests,
+#tab-contact:checked ~ #contact {
+  display: block
+}
+
 #main-container {
   max-width: var(--container-width);
   margin: 0 auto;
@@ -235,6 +277,7 @@ h1,
   cursor: pointer;
 }
 .freezeframe-btn {
+  margin-top: 10px;
   padding: 10px;
   font-family: Dyslexic;
   font-size: 1.25em;
@@ -243,6 +286,18 @@ h1,
   position: absolute;
   top: 5px;
   right: 5px;
+}
+.profile-content li{
+  line-height: 2em;
+}
+.profile-side {
+  width: 200px;
+  margin-right: 50px;
+  font-size: 0.8em;
+  text-align: center;
+}
+.profile-side a{
+  text-decoration: none !important;
 }
 #splash-page,
 #splash-container,
@@ -602,25 +657,6 @@ h1,
 #update-list {
   margin-top: -5px;
 }
-.profile-side {
-  width: 200px;
-  float: right;
-  margin: 0 0 20px 50px;
-  text-align: center;
-  font-size: 10px;
-  line-height: 1em;
-  margin-bottom: 10px;
-  border: 2px solid var(--content-border-color);
-  box-sizing: border-box;
-  padding: 5px;
-}
-.profile-flags img {
-  width: 25%;
-  margin-right: 5px;
-}
-.profile-flags a {
-  text-decoration: none;
-}
 .quizzes,
 #pot p {
   font-size: 0.9em;
@@ -631,10 +667,6 @@ h1,
 .quizzes div {
   margin-bottom: 10px;
   margin-right: 10px;
-}
-#profile-content li {
-  line-height: 2em;
-  margin-left: 10px;
 }
 .footer-wrapper {
   font-size: var(--footer-text-size);
@@ -876,24 +908,7 @@ h1,
     border-top: 2px dashed var(--sidebar-border-color);
     height: 100px;
   }
-  #profile-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .profile-side {
-    float: none;
-    order: 1;
-    margin: 0;
-  }
-  .profile-side a {
-    text-decoration: none;
-  }
-  #profile-text {
-    order: 2;
-  }
+
   .copy-button {
     width: 97%;
     height: 60px;
@@ -910,6 +925,19 @@ h1,
   #garden-text {
     width: 235px;
     height: 88px;
+  }
+  .profile-content {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-side {
+    order: 1;
+    margin: 0;
+  }
+  .profile-text {
+    order: 2;
   }
 }
 @media only screen and (max-width: 600px) {
