@@ -111,9 +111,20 @@ i {
   margin-bottom: var(--row-gap);
   display: flex;
 }
-.flex-center {
+.flex-center,
+.flex-center-ver,
+.flex-center-hor {
   display: flex;
   flex-wrap: wrap;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.flex-center-ver {
+  align-items: center;
+}
+.flex-center-hor {
   justify-content: center;
 }
 .content-title {
@@ -190,8 +201,37 @@ h1,
 #tab-profile:checked ~ #profile,
 #tab-favorites:checked ~ #favorites,
 #tab-interests:checked ~ #interests,
-#tab-contact:checked ~ #contact {
+#tab-contact:checked ~ #contact,
+#tab-awardsquizzes:checked ~ #awardsquizzes,
+#tab-fanlistings:checked ~ #fanlistings,
+#tab-links-main:checked ~ #links-main,
+#tab-links-resources:checked ~ #links-resources,
+#tab-links-other:checked ~ #links-other {
   display: block
+}
+
+#tab-pokejinka-2022:checked ~ #art-pokejinka-2022,
+#tab-pokejinka-2021:checked ~ #art-pokejinka-2021,
+#tab-pokejinka-2020:checked ~ #art-pokejinka-2020,
+#tab-pokejinka-2019:checked ~ #art-pokejinka-2019,
+#tab-pokejinka-2018:checked ~ #art-pokejinka-2018,
+#tab-pokejinka-2017:checked ~ #art-pokejinka-2017,
+#tab-pokejinka-2016:checked ~ #art-pokejinka-2016,
+#tab-oc-2022:checked ~ #art-oc-2022,
+#tab-oc-2021:checked ~ #art-oc-2021,
+#tab-oc-2020:checked ~ #art-oc-2020,
+#tab-oc-2019:checked ~ #art-oc-2019,
+#tab-oc-2018:checked ~ #art-oc-2018,
+#tab-oc-2017:checked ~ #art-oc-2017,
+#tab-oc-2016:checked ~ #art-oc-2016,
+#tab-game-2022:checked ~ #art-game-2022,
+#tab-game-2021:checked ~ #art-game-2021,
+#tab-game-2020:checked ~ #art-game-2020,
+#tab-game-2019:checked ~ #art-game-2019,
+#tab-game-2018:checked ~ #art-game-2018,
+#tab-game-2017:checked ~ #art-game-2017,
+#tab-game-2016:checked ~ #art-game-2016 {
+  display: flex
 }
 
 #main-container {
@@ -308,6 +348,9 @@ h1,
 #webring {
   align-items: center;
 }
+#cuddler-webring img {
+  margin: 0 5px;
+}
 #webring #templateWebring {
   margin: 0 !important;
 }
@@ -379,6 +422,9 @@ h1,
 }
 .blog-content {
   flex-direction: column;
+}
+.blog-content,
+.tabs-profile {
   line-height: 1.75em;
 }
 .back-button {

@@ -5,7 +5,7 @@ $(function () {
     }),
     $("#footer").load("/footer.html"),
     $("#age").length > 0 && $("#age").html(Math.abs(new Date(Date.now() - new Date("02/10/1992").getTime()).getUTCFullYear() - 1970)),
-    $("#filter-btns").length > 0 &&
+    $(".art-tabs").length > 0 &&
       ($(".content-art-desc").html('<p>Clicking any thumbnail will show a larger version of the artwork, and clicking the larger image will open the full res in a new tab!</p>'),
         $(".btn").on("click", function () {
         var e = $(".active").attr("id"),
