@@ -230,7 +230,10 @@ h1,
 #tab-game-2019:checked ~ #art-game-2019,
 #tab-game-2018:checked ~ #art-game-2018,
 #tab-game-2017:checked ~ #art-game-2017,
-#tab-game-2016:checked ~ #art-game-2016 {
+#tab-game-2016:checked ~ #art-game-2016,
+#tab-anime-2022:checked ~ #art-anime-2022,
+#tab-anime-2021:checked ~ #art-anime-2021,
+#tab-misc-2022:checked ~ #art-misc-2022 {
   display: flex
 }
 
