@@ -13,6 +13,7 @@ body {
   color: var(--font-color);
   scrollbar-color: #b8005c var(--footer-bg-color);
   scrollbar-width: thin;
+  height: 100%;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -110,9 +111,20 @@ i {
   margin-bottom: var(--row-gap);
   display: flex;
 }
-.flex-center {
+.flex-center,
+.flex-center-ver,
+.flex-center-hor {
   display: flex;
   flex-wrap: wrap;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.flex-center-ver {
+  align-items: center;
+}
+.flex-center-hor {
   justify-content: center;
 }
 .content-title {
@@ -141,7 +153,7 @@ h1,
 .shrine-div {
   height: 150px;
   width: 300px;
-  margin-right: 20px;
+  margin: 10px;
   border: 3px solid var(--content-border-color);
   background-color: var(--footer-bg-color);
 }
@@ -152,6 +164,79 @@ h1,
 .divider p:after {
   content: "❤\00a0\00a0✦\00a0\00a0❤\00a0\00a0✦\00a0\00a0❤\00a0\00a0✦\00a0\00a0❤\00a0\00a0✦\00a0\00a0❤\00a0\00a0✦\00a0\00a0❤\00a0\00a0✦\00a0\00a0❤";
 }
+.tabs {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.tab-content {
+  padding: 20px;
+  padding-bottom: 0;
+  display: none;
+  border-top: 1px solid var(--content-border-color);
+  margin-top: -1px;
+}
+
+.tabs input {
+  display: none
+}
+
+.tabs label {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid transparent;
+}
+
+.tabs input:checked + label {
+  background: white;
+  border: 1px solid var(--content-border-color);
+  border-bottom: 1px solid white;
+}
+
+#tab-buttons:checked ~ #buttons-88x31,
+#tab-stickers:checked ~ #stickers,
+#tab-toybox:checked ~ #toybox,
+#tab-blinkies:checked ~ #blinkies,
+#tab-stamps:checked ~ #stamps,
+#tab-profile:checked ~ #profile,
+#tab-favorites:checked ~ #favorites,
+#tab-interests:checked ~ #interests,
+#tab-contact:checked ~ #contact,
+#tab-awardsquizzes:checked ~ #awardsquizzes,
+#tab-fanlistings:checked ~ #fanlistings,
+#tab-links-main:checked ~ #links-main,
+#tab-links-resources:checked ~ #links-resources,
+#tab-links-other:checked ~ #links-other {
+  display: block
+}
+
+#tab-pokejinka-2022:checked ~ #art-pokejinka-2022,
+#tab-pokejinka-2021:checked ~ #art-pokejinka-2021,
+#tab-pokejinka-2020:checked ~ #art-pokejinka-2020,
+#tab-pokejinka-2019:checked ~ #art-pokejinka-2019,
+#tab-pokejinka-2018:checked ~ #art-pokejinka-2018,
+#tab-pokejinka-2017:checked ~ #art-pokejinka-2017,
+#tab-pokejinka-2016:checked ~ #art-pokejinka-2016,
+#tab-oc-2022:checked ~ #art-oc-2022,
+#tab-oc-2021:checked ~ #art-oc-2021,
+#tab-oc-2020:checked ~ #art-oc-2020,
+#tab-oc-2019:checked ~ #art-oc-2019,
+#tab-oc-2018:checked ~ #art-oc-2018,
+#tab-oc-2017:checked ~ #art-oc-2017,
+#tab-oc-2016:checked ~ #art-oc-2016,
+#tab-game-2022:checked ~ #art-game-2022,
+#tab-game-2021:checked ~ #art-game-2021,
+#tab-game-2020:checked ~ #art-game-2020,
+#tab-game-2019:checked ~ #art-game-2019,
+#tab-game-2018:checked ~ #art-game-2018,
+#tab-game-2017:checked ~ #art-game-2017,
+#tab-game-2016:checked ~ #art-game-2016,
+#tab-anime-2022:checked ~ #art-anime-2022,
+#tab-anime-2021:checked ~ #art-anime-2021,
+#tab-misc-2022:checked ~ #art-misc-2022 {
+  display: flex
+}
+
 #main-container {
   max-width: var(--container-width);
   margin: 0 auto;
@@ -235,6 +320,7 @@ h1,
   cursor: pointer;
 }
 .freezeframe-btn {
+  margin-top: 10px;
   padding: 10px;
   font-family: Dyslexic;
   font-size: 1.25em;
@@ -244,6 +330,18 @@ h1,
   top: 5px;
   right: 5px;
 }
+.profile-content li{
+  line-height: 2em;
+}
+.profile-side {
+  width: 200px;
+  margin-right: 50px;
+  font-size: 0.8em;
+  text-align: center;
+}
+.profile-side a{
+  text-decoration: none !important;
+}
 #splash-page,
 #splash-container,
 .blog-content,
@@ -252,6 +350,9 @@ h1,
 #webgarden,
 #webring {
   align-items: center;
+}
+#cuddler-webring img {
+  margin: 0 5px;
 }
 #webring #templateWebring {
   margin: 0 !important;
@@ -324,6 +425,9 @@ h1,
 }
 .blog-content {
   flex-direction: column;
+}
+.blog-content,
+.tabs-profile {
   line-height: 1.75em;
 }
 .back-button {
@@ -602,25 +706,6 @@ h1,
 #update-list {
   margin-top: -5px;
 }
-.profile-side {
-  width: 200px;
-  float: right;
-  margin: 0 0 20px 50px;
-  text-align: center;
-  font-size: 10px;
-  line-height: 1em;
-  margin-bottom: 10px;
-  border: 2px solid var(--content-border-color);
-  box-sizing: border-box;
-  padding: 5px;
-}
-.profile-flags img {
-  width: 25%;
-  margin-right: 5px;
-}
-.profile-flags a {
-  text-decoration: none;
-}
 .quizzes,
 #pot p {
   font-size: 0.9em;
@@ -631,10 +716,6 @@ h1,
 .quizzes div {
   margin-bottom: 10px;
   margin-right: 10px;
-}
-#profile-content li {
-  line-height: 2em;
-  margin-left: 10px;
 }
 .footer-wrapper {
   font-size: var(--footer-text-size);
@@ -876,24 +957,7 @@ h1,
     border-top: 2px dashed var(--sidebar-border-color);
     height: 100px;
   }
-  #profile-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .profile-side {
-    float: none;
-    order: 1;
-    margin: 0;
-  }
-  .profile-side a {
-    text-decoration: none;
-  }
-  #profile-text {
-    order: 2;
-  }
+
   .copy-button {
     width: 97%;
     height: 60px;
@@ -910,6 +974,19 @@ h1,
   #garden-text {
     width: 235px;
     height: 88px;
+  }
+  .profile-content {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-side {
+    order: 1;
+    margin: 0;
+  }
+  .profile-text {
+    order: 2;
   }
 }
 @media only screen and (max-width: 600px) {
