@@ -415,7 +415,7 @@ h1,
   height: var(--sidebar-height);
   overflow: var(--sidebar-overflow);
   background-color: var(--sidebar-bg-color);
-  margin-top: 160px;
+  margin-top: -140px;
 }
 .blog-title .content-title {
   margin-top: 10px;
