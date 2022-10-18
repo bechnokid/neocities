@@ -229,7 +229,8 @@ h1,
 #tab-anime-2022:checked ~ #art-anime-2022,
 #tab-anime-2021:checked ~ #art-anime-2021,
 #tab-anime-2020:checked ~ #art-anime-2020,
-#tab-misc-2022:checked ~ #art-misc-2022 {
+#tab-misc-2022:checked ~ #art-misc-2022,
+#tab-misc-2020:checked ~ #art-misc-2020 {
   display: flex
 }
 
