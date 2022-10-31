@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -7,7 +8,8 @@
   <title>Webgarden - Bechno Kid's Hideout</title>
   <link rel="stylesheet" href="/css/variables.css" type="text/css" media="all">
   <link rel="stylesheet" href="/css/main-min.css" type="text/css" media="all">
-  <style>.web-pots div{ margin-right: 10px; margin-bottom: 10px} iframe, textarea{ width: 250px; height: 250px;} textarea{ padding: 10px; margin-left: 10px; font-family: verdana; font-size: 1em; border: 1px solid var(--link-color);} textarea::selection{ background-color: var(--footer-bg-color);} @media only screen and (max-width:600px){ textarea{ margin: 0; margin-top: 10px; width: 250px; height: 88px}} </style>
+  <link rel="stylesheet" href="/css/prism.css">
+  <style>.web-pots div{ margin-right: 10px; margin-bottom: 10px} iframe, textarea{ width: 250px; height: 250px;} textarea{ margin-left: 10px} pre[class*="language-" ], code[class*="language-"]{ white-space: normal; overflow: auto; word-break: break-word;} .code-block{ width: 60%} @media only screen and (max-width:600px){ textarea{ margin: 0; margin-top: 10px; width: 250px; height: 88px} .code-block{ width: 100%}} </style>
 </head>
 <body>
   <div id="main-container">
@@ -17,11 +19,17 @@
       <main id="content-container" style="flex-grow: 1;">
         <div class="wrapper">
           <h1 class="content-title">Webgarden</h1>
-          <p>Webgardens are a concept created by the wonderful <a href='https://missmoss.neocities.org/webgardens/index.html'>Miss Moss</a>. They are, as she quotes, <i>"a fun way to see new content from your favorite websites"</i>.<br><br>There aren't that many out there, but I intend to collect as many as I can! If you have a webgarden and would like to add mine, the code will be on the right!</p>
-          <div class="flex-center">
-            <iframe src="/webgarden.html" style="border:none"></iframe><textarea><iframe src="https://bechnokid.neocities.org/webgarden.html" style="border:none"></iframe></textarea>
+          <p>Webgardens are a concept created by the wonderful <a href='https://missmoss.neocities.org/webgardens/index.html'>Miss Moss</a>. They are, as she quotes, <i>"a fun way to see new content from your favorite websites"</i>.<br><br>There aren't that many out there, but I intend to collect as many as I can!</p><hr>
+          <h2>My Pot</h2>
+          <div class="flex-center" style="flex-direction:column">
+            <div><iframe src="/webgarden.html" style="border:none"></iframe></div>
+            <div class="code-block">
+              <pre><code class="language-html">&lt;iframe src="https://bechnokid.neocities.org/webgarden.html" style="border:none">&lt;/iframe>
+              </code></pre>
+            </div>
           </div>
           <hr>
+          <h2>Shelf of Pots!</h2>
           <div class="flex-center web-pots randomize">
             <div><iframe src="https://keysklubhouse.neocities.org/webgarden.html" style="width:250px;height:250px;"></iframe></div>
             <div><iframe src="https://blissnet.neocities.org/Webgarden.html" scrolling="no" loading="lazy" style="width:250px;height:250px"></iframe></div>
@@ -51,6 +59,6 @@
     </div>
     <footer id="footer" style="display: block;"></footer>
   </div>
+  <script src="/javascript/prism.js"></script>
 </body>
-
 </html>

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="/css/main-min.css" type="text/css" media="all">
   <link rel="stylesheet" href="/css/prism.css">
   <title>August 22nd, 2022 - Bechno Kid's Hideout</title>
+  <style>.code-toolbar{ width: 60% } .toolbar{ top: 1em !important; right: 0.5em !important } @media only screen and (max-width:600px){ .code-toolbar{ width: 100% }}</style>
 </head>
 <body>
   <div id="main-container">
@@ -20,7 +21,7 @@
           <div class="blog-title flex-center"><h1 class="content-title">How to Use Visual Studio Code with Neocities</h1></div><hr>
           <div class="content-main blog-content">
             <p>Up until recently, I had mostly edited my code in <a href="https://codepen.io" target="_new">CodePen</a> and Notepad++, the former mostly being used for debugging while looking at its live preview and such. CodePen is great, don't get me wrong, but I wasn't really keen on logging in every time and working in a relatively cramped workspace. Notepad++ is fine and provides lots of space, it doesn't provide a live preview of the page I'm editing.</p>
-            <p>I remember following <a href="https://gutz.neocities.org/neocities.html" target="_new">gutz's tutorial on editing HTML files locally</a>. It was super great and easy to follow, but there were many parts of it that didn't work out for me. That included:</p>
+            <p>I remember following <a href="http://web.archive.org/web/20220918162237/https://gutz.neocities.org/neocities.html" target="_new">gutz's tutorial on editing HTML files locally</a>. It was super great and easy to follow, but there were many parts of it that didn't work out for me. That included:</p>
             <ul style="margin-top:35px;margin-bottom:35px;" class="links-list">
               <li>Links to CSS and JS files must be hardcoded with the full URL from our Neocities site, which limits users to only being able to edit their HTML files locally</li>
               <li>Some of these full URLS will not even show up when opening the HTML file directly from your hard drive because of the Cross-Origin Requests that are only available for Supporters, or paying users.</li>
@@ -45,16 +46,18 @@
               <li>A new tab will open for settings, which will be where you can configure the editor however you'd like.</li>
               <li><b>(Recommended for new users) </b>VSCode allows users to save their settings into a JSON file. To open the JSON file, press "Ctrl + Shift + P", and type "Open Settings (JSON)". This will open settings.json. The JSON file that I will provide below allows HTML tags to be automatically renamed and closed, changes the tab size to 2 spaces, and trims any trailing whitespace:</li>
             </ol>
-            <pre class="code-block"><code class="language-json">{
+            <div class="flex-center">
+              <pre><code class="language-json">{
   "editor.tabSize": 2,
   "editor.linkedEditing": true,
   "files.trimTrailingWhitespace": true,
   "editor.wordWrap": "on",
-}</code></pre><br>
+}</code></pre>
+            </div>
             <span class="divider"><p></p></span>
             <h2>Opening Neocities Pages in VSCode</h2>
             <ol>
-              <li>Follow steps 1 to 3 from <a href="https://gutz.neocities.org/neocities.html" target="_new">gutz's tutorial</a>.</li>
+              <li>Follow steps 1 to 3 from <a href="http://web.archive.org/web/20220918162237/https://gutz.neocities.org/neocities.html" target="_new">gutz's tutorial</a>.</li>
               <li>From VSCode, select File > Open Folder</li>
               <li>Locate the folder where your files are located. For example, if all of your files are located in a folder called "neocities", find the "neocities" folder, click on it once, and click on "Select Folder".</li>
               <li>Your files will appear on the Explorer sidebar on the left side of the screen. The layout should look identical to your Neocities dashboard.</li>
