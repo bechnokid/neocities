@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/javascript/script-min.js"></script>
@@ -9,26 +8,13 @@
   <title>Sitemap - Bechno Kid's Hideout</title>
   <link href="/css/variables.css" rel="stylesheet" type="text/css" media="all">
   <link href="/css/main-min.css" rel="stylesheet" type="text/css" media="all">
-  <style>
-    .sitemap .links-list:not(:last-child) {
-      margin-bottom: 40px
-    }
-
-    ul li ul {
-      margin-bottom: 25px;
-    }
-
-    .main-link {
-      color: indigo;
-    }
-  </style>
+  <style>.sitemap .links-list:not(:last-child){ margin-bottom: 40px} ul li ul{ margin-bottom: 25px;} .main-link{ color: indigo;} </style>
 </head>
-
 <body>
   <div id="main-container">
-    <header id="header-contained" style="display: block;"></header>
+    <header id="header-contained"></header>
     <div class="content-wrap flex alignment">
-      <div id="left-sidebar" style="display: block;"></div>
+      <div id="left-sidebar" class="sidebar"></div>
       <main id="content-container" style="flex-grow: 1;">
         <div class="wrapper">
           <h1 class="content-title">Sitemap</h1>
@@ -43,7 +29,7 @@
                   <li><a href="">RSS Feed</a></li>
                 </ul>
               </li>
-              <li"><a class="main-link href="/about">About Me</a>
+              <li><a class="main-link" href="/about">About Me</a>
                 <ul class="links-list">
                   <li><a href="/about/dreams.html">Dream Diary</a></li>
                   <li><a href="/faq.html">F.A.Q.</a></li>
@@ -105,8 +91,7 @@
         </div>
       </main>
     </div>
-    <footer id="footer" style="display: block;"></footer>
+    <footer id="footer"></footer>
   </div>
 </body>
-
 </html>

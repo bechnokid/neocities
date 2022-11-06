@@ -1,107 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/javascript/script-min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bechno Kid's Hideout</title>
-    <link rel="stylesheet" href="/css/variables.css" type="text/css" media="all">
-    <link rel="stylesheet" href="/css/main-min.css" type="text/css" media="all">
-    <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="RSS">
-    <style>#guestbook-link{ text-align: center; margin-bottom: 3px} #guestbook-link a{ font-weight: unset} #thick-link-container{ margin-block: 15px} .thick-link{ text-align: center; margin-block: 0} .thick-link a{ font-weight: unset} #content-guestbook-container{ height: 275px; max-width: 500px; overflow: hidden} #content-guestbook{ border: 0} @media only screen and (max-width:1000px){ #thick-link-container{ flex-wrap: nowrap} .thick-link{ width: 50%} #content-guestbook-container{ display: none}} </style>
-  </head>
-  <body>
-    <div id="main-container">
-      <header id="header-contained" style="display: block;"></header>
-      <div class="flex-center alignment">
-        <nav id="left-sidebar" style="display: block;"></nav>
-        <main id="content-container" style="flex-grow: 1;">
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/javascript/script-min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bechno Kid's Hideout</title>
+  <link rel="stylesheet" href="/css/variables.css" type="text/css" media="all">
+  <link rel="stylesheet" href="/css/main-min.css" type="text/css" media="all">
+  <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="RSS">
+  <style>.update-block h1{ font-size:1.5em} #guestbook-link{ text-align: center; margin-bottom: 3px} #guestbook-link a{ font-weight: unset} #thick-link-container{ margin-block: 15px} #thick-link-container span{ margin-inline: 15px; color: var(--sidebar-border-color)} .thick-link{ text-align: center; margin-block: 0} .thick-link a{ font-weight: unset} #content-guestbook-container{ height: 275px; max-width: 500px; overflow: hidden} #content-guestbook{ border: 0} @media only screen and (max-width:1000px){ #thick-link-container{ flex-wrap: nowrap} .thick-link{ width: 50%} #content-guestbook-container{ display: none}} </style>
+</head>
+<body>
+  <div id="main-container">
+    <header id="header-contained"></header>
+    <div class="flex-center">
+      <nav id="left-sidebar" class="sidebar"></nav>
+      <main id="content-container" style="flex-grow: 1;">
         <h1 class="content-title">Bechno Kid's Hideout</h1>
-          <div class="content-main">
-            <p>Hello and welcome to Bechno Kid's Hideout! This is a little nook where a software programmer can live her childhood dream as a webmaster. Not only do I post artwork, but I also post coding resources that I hope will help other webmasters out there.<br><br>Feel free to check out the menu, and please enjoy your stay! :D
-            </p><hr>
-            <div class="flex-center">
-              <div id="thick-link-container" class="flex-center" style="align-items:center">
-                <h2 class="thick-link"><a href="https://bechnokid.neocities.org/feed.xml">RSS Feed</a></h2><span style="margin-inline:15px;color:var(--sidebar-border-color)"> ❤ </span><h2 class="thick-link"><a href="/faq.html">FAQ</a></h2><span style="margin-inline:15px;color:var(--sidebar-border-color)"> ❤ </span><h2 class="thick-link"><a href="https://bechnokid.123guestbook.com/" target="_new">View the guestbook</a></h2>
-              </div>
-              <div id="content-guestbook-container">
-                <iframe id="content-guestbook" src="https://bechnokid.123guestbook.com/" height="300" width="525" title="Bechno Kid's Guestbook"></iframe>
-              </div>
+        <div class="content-main">
+          <p>Hello and welcome to Bechno Kid's Hideout! This is a little nook where a software programmer can live her childhood dream as a webmaster. Not only do I post artwork, but I also post coding resources that I hope will help other webmasters out there.<br><br>Feel free to check out the menu, and please enjoy your stay! :D</p>
+          <hr>
+          <div class="flex-center">
+            <div id="thick-link-container" class="flex-center">
+              <h2 class="thick-link"><a href="https://bechnokid.neocities.org/feed.xml">RSS Feed</a></h2><span> ❤ </span>
+              <h2 class="thick-link"><a href="/faq.html">FAQ</a></h2><span> ❤ </span>
+              <h2 class="thick-link"><a href="https://bechnokid.123guestbook.com/" target="_new">View the guestbook</a></h2>
+            </div>
+            <div id="content-guestbook-container">
+              <iframe id="content-guestbook" src="https://bechnokid.123guestbook.com/" height="300" width="525" title="Bechno Kid's Guestbook"></iframe>
             </div>
           </div>
-        </main>
-        <div id="right-sidebar" style="display: block;">
-          <div class="sidebar-wrapper" id="sidebar-update">
-            <div class="update-block">
-              <h1 style="font-size:1.5em"><small>❤</small> UPDATES <small>❤</small></h1>
-              <div id="update-list">
-                <p class="update-text"><b>Oct. 31<sup>st</sup>, 2022</b>
-                  <br>- Happy Halloween! There's a new blog entry!
-                </p>
-                <p class="update-text"><b>Oct. 29<sup>th</sup>, 2022</b>
-                  <br>- Created a shrine for Ava
-                  <br>- (Art) New 2022 art in Misc.
-                  <br>- (Graphics) New stamps and stickers
-                  <br>- (General) Fixed and optimized CSS
-                </p>
-                <p class="update-text"><b>Oct. 18<sup>th</sup>, 2022</b>
-                  <br>- (Art) New 2022 misc art and 2020 art, renamed some art pages
-                  <br>- (Links) New links
-                  <br>- (General) Reverted some page layouts back to original versions
-                </p>
-                <p class="update-text"><b>Oct. 14<sup>th</sup>, 2022</b>
-                  <br>- (Art) New 2022 Misc art, uploaded 2021 art for all sections
-                  <br>- (General) Implemented tabbed menus for several pages
-                </p>
-                <p class="update-text"><b>Oct. 5<sup>th</sup>, 2022</b>
-                  <br>- (Art) New artwork in "Miscellaneous"
-                  <br>- (Links) Added "Cuddler" webring and more links
-                </p>
-                <p class="update-text"><b>Oct. 1<sup>st</sup>, 2022</b>
-                  <br>- (Art) New art in Misc.
-                  <br>- (Graphics) Added sticker sheet
-                </p>
-                <p class="update-text"><b>Sep. 30<sup>th</sup>, 2022</b>
-                  <br>- New blog post! It's a Strange one. :3
-                </p>
-                <p class="update-text"><b>Sep. 25<sup>th</sup>, 2022</b>
-                  <br>- (Art) New art in Misc
-                  <br>- (Art) Added 2022 section for Anime
-                  <br>- (Art) Added 2022 section for Games
-                  <br>- (Art) Added 2022 section for OCs
-                  <br>- (About) New dream diary entry
-                  <br>- (Links) Added new links and general look of page
-                </p>
-                <p class="update-text"><b>Sep. 24<sup>th</sup>, 2022</b>
-                  <br>Another big update!
-                  <br>- (General) Minified CSS and JS files
-                  <br>- (General) Adjusted all files to use new CSS and JS files
-                  <br>- (Art) Finished 2016 section, and optimized code
-                  <br>- (About) Created a dream diary
-                  <br>- (About) Added more fanlistings
-                  <br>- (About) Updated profile and quizzes
-                  <br>- (About) Added a FAQ page and added links to appropriate pages
-                  <br>- (Links) Added more links, joined another webring
-                  <br>- (Web goods) Added more graphics, a toy box, and a blinkie section
-                </p>
-                <p class="update-text"><b>Sep. 19<sup>th</sup>, 2022</b>
-                  <br>A pretty big update this time around!
-                  <br>- (General) Moved several pages around
-                  <br>- (General) Rearranged sections
-                  <br>- (General) Cleaned up and moved some pages
-                  <br>- (General) Added headers for some sections
-                  <br>- (About) Added a quiz result
-                  <br>- (About) Added awards
-                  <br>- (Art) Added a new Misc. art section
-                  <br>- (Stamps) Replaced all stamps with ones that can be linked back
-                </p>
-              </div>
+        </div>
+      </main>
+      <div id="right-sidebar" class="sidebar">
+        <div class="box">
+          <div class="update-block">
+            <h1><small>❤</small> UPDATES <small>❤</small></h1>
+            <div id="update-list">
+              <p class="update-text"><b>Nov. 5<sup>th</sup>, 2022</b>
+                <br>- (Art) Uploaded Misc 2022 art
+                <br>- (Graphics) Added stamps
+                <br>- (Other) Optimized CSS
+              </p>
+              <p class="update-text"><b>Oct. 31<sup>st</sup>, 2022</b>
+                <br>- Happy Halloween! There's a new blog entry!
+              </p>
+              <p class="update-text"><b>Oct. 29<sup>th</sup>, 2022</b>
+                <br>- Created a shrine for Ava
+                <br>- (Art) New 2022 art in Misc.
+                <br>- (Graphics) New stamps and stickers
+                <br>- (General) Fixed and optimized CSS
+              </p>
+              <p class="update-text"><b>Oct. 18<sup>th</sup>, 2022</b>
+                <br>- (Art) New 2022 misc art and 2020 art, renamed some art pages
+                <br>- (Links) New links
+                <br>- (General) Reverted some page layouts back to original versions
+              </p>
+              <p class="update-text"><b>Oct. 14<sup>th</sup>, 2022</b>
+                <br>- (Art) New 2022 Misc art, uploaded 2021 art for all sections
+                <br>- (General) Implemented tabbed menus for several pages
+              </p>
+              <p class="update-text"><b>Oct. 5<sup>th</sup>, 2022</b>
+                <br>- (Art) New artwork in "Miscellaneous"
+                <br>- (Links) Added "Cuddler" webring and more links
+              </p>
+              <p class="update-text"><b>Oct. 1<sup>st</sup>, 2022</b>
+                <br>- (Art) New art in Misc.
+                <br>- (Graphics) Added sticker sheet
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <footer id="footer" style="display: block;"></footer>
     </div>
-  </body>
+    <footer id="footer"></footer>
+  </div>
+</body>
 </html>

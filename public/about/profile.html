@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/javascript/script-min.js"></script>
@@ -9,14 +8,13 @@
   <title>Profile - Bechno Kid's Hideout</title>
   <link href="/css/variables.css" rel="stylesheet" type="text/css" media="all" />
   <link href="/css/main-min.css" rel="stylesheet" type="text/css" media="all" />
-  <style>#tab-profile:checked~#profile, #tab-favorites:checked~#favorites, #tab-interests:checked~#interests, #tab-awardsquizzes:checked~#awardsquizzes, #tab-fanlistings:checked~#fanlistings{ display: block;} .likes-icon{ font-size: 1.3em;} @media only screen and (max-width: 1000px){ .row div:last-child{ margin-top: -10px;} .profile-content{ width: 100%; flex-direction: column; justify-content: center; align-items: center} .profile-side{ order: 1; margin: 0} .profile-text{ order: 2}} </style>
+  <style>#tab-profile:checked~#profile, #tab-favorites:checked~#favorites, #tab-interests:checked~#interests, #tab-awardsquizzes:checked~#awardsquizzes, #tab-fanlistings:checked~#fanlistings{ display: block;} .likes-icon{ font-size: 1.3em;} .row div{ margin: 0 50px 0 20px} .col-1{ width: unset;} @media only screen and (max-width: 1000px){ .row div:last-child{ margin-top: -10px;} .profile-content{ width: 100%; flex-direction: column; justify-content: center; align-items: center} .profile-side{ order: 1; margin: 0} .profile-text{ order: 2}} </style>
 </head>
-
 <body>
   <div id="main-container">
-    <header id="header-contained" style="display: block;"></header>
+    <header id="header-contained"></header>
     <div class="content-wrap flex alignment">
-      <div id="left-sidebar" style="display: block;"></div>
+      <div id="left-sidebar" class="sidebar"></div>
       <main id="content-container" style="flex-grow: 1;">
         <div class="wrapper">
           <h1 class="content-title">About the Artist</h1>
@@ -201,9 +199,62 @@
                 </div>
                 <div><a href="https://openpsychometrics.org/tests/O4TS/" target="_new"><img src="https://i.imgur.com/dewHHWY.png" alt="I am Phlegmatic" /></a></div>
                 <div><a href="https://web.archive.org/web/20050427204345/http://www.wiredreflection.com/tests/magic.html" target="new"><img loading="lazy" src="https://web.archive.org/web/20050427204345im_/http://www.wiredreflection.com/tests/priestess.jpg" border="0" frameborder="0" alt="You are a Priestess!" /></a></div>
-                <div style="border: 1px solid #999; border-radius: 6px; padding: 6px; font: normal 1em sans-serif; background: #fff; color: #000; min-width: 200px; max-width: 360px;"><style scoped>.resBarOuter{ width: 75%; height: 15px; padding: 0; margin: 0; background: #eee; border: 1px solid #000; text-align: left !important; position: relative;} .resBarInner{ text-indent: -9999px; height: 15px; background: #d02; font-size: 6px; line-height: 6px; margin: 0; padding: 0; position: relative; background-image: linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -moz-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -webkit-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -ms-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%);} .resBarM{ width: 35%; float: right; margin-right: 10px;} .resRow{ color: #000; background: #fff; clear: both; margin: 5px 0;} </style><div style="color: #000; font: bold 1.2em sans-serif; margin: 0 0 8px 0;">What Is Your Gender Expression?</div><div style="font: bold 1.2em sans-serif; margin: 0 0 4px 0;">Your Result: <strong>Androgynous</strong></div><div class="resBarOuter"><div class="resBarInner" style="width: 76%;">&nbsp;</div></div><div style="margin: 10px 0 4px; border: none; background: #fff; color: #000;">You are between masculinity and femininity. If you are nonbinary, then you've reached the golden center of expression. You casually float in space beyond Mars and Venus. However, don't assume that you need to be perfectly in the middle of expression to be nonbinary. If you are a man or a woman, most people will be cool with it, except for the most conservative ones. Expect a lot of "are you a boy or are you a girl?" from confused onlookers. Enjoy being yourself. </div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width: 68%;">&nbsp;</div></div>Quite Masculine </div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width: 59%;">&nbsp;</div></div>Quite Feminine </div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width: 38%;">&nbsp;</div></div>Very Masculine </div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width: 22%;">&nbsp;</div></div>Very Feminine </div><div><a style="color: #00f;" href="https://www.gotoquiz.com/what_is_your_gender_expression"><strong>What Is Your Gender Expression?</strong></a></div></div>
-                <div style="margin-bottom: 10px; margin-right: 10px;"><table bgcolor="#E0FFFF" border="1" width="350px;"><tr><td><center><font color="#000000"><big>you are lightcyan</big><br />#E0FFFF </font></center></td></tr><tr><td bgcolor="#FFFFFF"><center><font color="#000000"><br />Your dominant hues are green and blue. You're smart and you know it, and want to use your power to help people and relate to others. Even though you tend to battle with yourself, you solve other people's conflicts well.<br /><br />Your saturation level is very low - you have better things to do than jump headfirst into every little project. You make sure your actions are going to really accomplish something before you start because you hate wasting energy making everyone else think you're working.<br /><br />Your outlook on life is very bright. You are sunny and optimistic about life and others find it very encouraging, but remember to tone it down if you sense irritation.<br /></font></center></td></tr><tr><td><center><a href="http://spacefem.com/quizzes/colors">the spacefem.com html color quiz</a></center></td></tr></table></div>
-                <div style="padding: 3px; text-align: center; width: 350px; color: #ffffa8; background-color: #ff2e96; border: 1px solid #c70063;"><div style="margin: 3px; padding: 3px; color: #940094; background-color: #ffa8d4; border: 1px solid #c70063;"><span style="font-size: 90%;">Bechno Kid's Dewey Decimal Section: </span><br /><span style="font-size: 120%;">202 Doctrines </span><br /><br /><b>Class:</b><br />200 Religion<br /><br /><b>Contains:</b><br />The Bible and other religious texts, books about the general philosophy and theory of religion. <br /><br /><b>What it says about you:</b><br />You don't mind thinking about the unknown or other very big ideas. You will never feel like your work is finished. The 200-series is dominated by Christian topics, so you may feel like you're constantly surrounded by Christians.<br /><br /><i>(this is funny because I actually am Catholic)</i></div><a href="http://www.spacefem.com/quizzes/dewey" style="color: #000094;">Find your Dewey Decimal Section at Spacefem.com</a></div>
+                <div style="border: 1px solid #999; border-radius: 6px; padding: 6px; font: normal 1em sans-serif; background: #fff; color: #000; min-width: 200px; max-width: 360px;">
+                  <style scoped>.resBarOuter{ width: 75%; height: 15px; padding: 0; margin: 0; background: #eee; border: 1px solid #000; text-align: left !important; position: relative;} .resBarInner{ text-indent: -9999px; height: 15px; background: #d02; font-size: 6px; line-height: 6px; margin: 0; padding: 0; position: relative; background-image: linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -moz-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -webkit-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -ms-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%);} .resBarM{ width: 35%; float: right; margin-right: 10px;} .resRow{ color: #000; background: #fff; clear: both; margin: 5px 0;} </style>
+                  <div style="color: #000; font: bold 1.2em sans-serif; margin: 0 0 8px 0;">What Is Your Gender Expression?</div>
+                  <div style="font: bold 1.2em sans-serif; margin: 0 0 4px 0;">Your Result: <strong>Androgynous</strong></div>
+                  <div class="resBarOuter">
+                    <div class="resBarInner" style="width: 76%;">&nbsp;</div>
+                  </div>
+                  <div style="margin: 10px 0 4px; border: none; background: #fff; color: #000;">You are between masculinity and femininity. If you are nonbinary, then you've reached the golden center of expression. You casually float in space beyond Mars and Venus. However, don't assume that you need to be perfectly in the middle of expression to be nonbinary. If you are a man or a woman, most people will be cool with it, except for the most conservative ones. Expect a lot of "are you a boy or are you a girl?" from confused onlookers. Enjoy being yourself. </div>
+                  <div class="resRow">
+                    <div class="resBarOuter resBarM">
+                      <div class="resBarInner" style="width: 68%;">&nbsp;</div>
+                    </div>Quite Masculine
+                  </div>
+                  <div class="resRow">
+                    <div class="resBarOuter resBarM">
+                      <div class="resBarInner" style="width: 59%;">&nbsp;</div>
+                    </div>Quite Feminine
+                  </div>
+                  <div class="resRow">
+                    <div class="resBarOuter resBarM">
+                      <div class="resBarInner" style="width: 38%;">&nbsp;</div>
+                    </div>Very Masculine
+                  </div>
+                  <div class="resRow">
+                    <div class="resBarOuter resBarM">
+                      <div class="resBarInner" style="width: 22%;">&nbsp;</div>
+                    </div>Very Feminine
+                  </div>
+                  <div><a style="color: #00f;" href="https://www.gotoquiz.com/what_is_your_gender_expression"><strong>What Is Your Gender Expression?</strong></a></div>
+                </div>
+                <div style="margin-bottom: 10px; margin-right: 10px;">
+                  <table bgcolor="#E0FFFF" border="1" width="350px;">
+                    <tr>
+                      <td>
+                        <center>
+                          <font color="#000000"><big>you are lightcyan</big><br />#E0FFFF </font>
+                        </center>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td bgcolor="#FFFFFF">
+                        <center>
+                          <font color="#000000"><br />Your dominant hues are green and blue. You're smart and you know it, and want to use your power to help people and relate to others. Even though you tend to battle with yourself, you solve other people's conflicts well.<br /><br />Your saturation level is very low - you have better things to do than jump headfirst into every little project. You make sure your actions are going to really accomplish something before you start because you hate wasting energy making everyone else think you're working.<br /><br />Your outlook on life is very bright. You are sunny and optimistic about life and others find it very encouraging, but remember to tone it down if you sense irritation.<br /></font>
+                        </center>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <center><a href="http://spacefem.com/quizzes/colors">the spacefem.com html color quiz</a></center>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <div style="padding: 3px; text-align: center; width: 350px; color: #ffffa8; background-color: #ff2e96; border: 1px solid #c70063;">
+                  <div style="margin: 3px; padding: 3px; color: #940094; background-color: #ffa8d4; border: 1px solid #c70063;"><span style="font-size: 90%;">Bechno Kid's Dewey Decimal Section: </span><br /><span style="font-size: 120%;">202 Doctrines </span><br /><br /><b>Class:</b><br />200 Religion<br /><br /><b>Contains:</b><br />The Bible and other religious texts, books about the general philosophy and theory of religion. <br /><br /><b>What it says about you:</b><br />You don't mind thinking about the unknown or other very big ideas. You will never feel like your work is finished. The 200-series is dominated by Christian topics, so you may feel like you're constantly surrounded by Christians.<br /><br /><i>(this is funny because I actually am Catholic)</i></div><a href="http://www.spacefem.com/quizzes/dewey" style="color: #000094;">Find your Dewey Decimal Section at Spacefem.com</a>
+                </div>
               </div>
             </div>
             <div class="tab-content" id="fanlistings">
@@ -249,8 +300,7 @@
         </div>
       </main>
     </div>
-    <footer id="footer" style="display: block;"></footer>
+    <footer id="footer"></footer>
   </div>
 </body>
-
 </html>

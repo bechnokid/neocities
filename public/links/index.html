@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/javascript/script-min.js"></script>
@@ -11,14 +10,13 @@
   <title>Links - Bechno Kid's Hideout</title>
   <link href="/css/variables.css" rel="stylesheet" type="text/css" media="all">
   <link href="/css/main-min.css" rel="stylesheet" type="text/css" media="all">
-  <style>#cuddler-webring img{ margin: 0 5px} #webring #templateWebring{ margin: 0 !important} @media only screen and (max-width:1000px){ #webring{ justify-content: center} #webring div{ margin-bottom: 10px} #webring div:last-child{ margin-bottom: 0}} </style>
+  <style>#cuddler-webring img{ margin: 0 5px} #webring #templateWebring{ margin: 0 !important} #clique a{ text-decoration: none;} #webring div{ margin-bottom: 10px} #webring div:last-child{ margin-bottom: 0} @media only screen and (max-width:1000px) { #webring{justify-content: center; } .col-1{width:40%}} @media only screen and (max-width:600px){ #webring .col-1{margin-bottom:20px}} </style>
 </head>
-
 <body onload="setListNumber(), selfInsertWebringLoad()">
   <div id="main-container">
-    <header id="header-contained" style="display: block;"></header>
-    <div class="content-wrap flex alignment">
-      <nav id="left-sidebar" style="display: block;"></nav>
+    <header id="header-contained"></header>
+    <div class="content-wrap flex-center">
+      <nav id="left-sidebar" class="sidebar"></nav>
       <main id="content-container" style="flex-grow: 1;">
         <div class="wrapper">
           <h1 class="content-title">Links</h1>
@@ -31,16 +29,36 @@
               used! Thank you for understanding!</p>
           </div>
           <hr>
-          <h2>Webrings</h2>
-          <div id="webring">
-            <div id='ncring' class="freezeframe flex-center-ver">
-              <script type="text/javascript" src="https://neocreatives.neocities.org/onionring-variables.js"></script>
-              <script type="text/javascript" src="https://neocreatives.neocities.org/onionring-widget.js"></script>
+          <h2>Webrings / Cliques</h2>
+          <div id="webring" class="flex row">
+            <div class="flex col-1" style="flex-direction:column">
+              <div id='ncring' class="freezeframe flex-center-ver">
+                <script type="text/javascript" src="https://neocreatives.neocities.org/onionring-variables.js"></script>
+                <script type="text/javascript" src="https://neocreatives.neocities.org/onionring-widget.js"></script>
+              </div>
+              <div id="cuddler-webring" class="flex-center-ver">
+                <a href="https://cuddler-webring.netlify.app/bechnokid/previous"><img src="/images/webring_cuddler_left.gif" alt="Cuddler Webring: Prev"></a><a href="https://mincerafter42.github.io/cuddle/"><img src="/images/webring_cuddler.png" alt="Cuddler Webring"></a><a href="https://cuddler-webring.netlify.app/bechnokid/next"><img src="/images/webring_cuddler_right.gif" alt="Cuddler Webring: Next"></a>
+              </div>
+              <div style="padding: 5px; display: inline-block">
+                <a href="https://isaacfish.neocities.org/webring/22.html"><img src="https://isaacfish.neocities.org/webring/left.png" alt="left arrow"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/"><img src="https://isaacfish.neocities.org/webring/queercoded.png" alt="queer coded webring"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/24.html"><img src="https://isaacfish.neocities.org/webring/right.png" alt="right arrow"></a>
+              </div>
+              <div id="selfinsertwebringmini">
+                <script>function setListNumber() { positionInList = 128 };</script>
+              </div>
             </div>
-            <div id="cuddler-webring" class="flex-center-ver"><a href="https://cuddler-webring.netlify.app/bechnokid/previous"><img src="/images/webring_cuddler_left.gif" alt="Cuddler Webring: Prev"></a><a href="https://mincerafter42.github.io/cuddle/"><img src="/images/webring_cuddler.png" alt="Cuddler Webring"></a><a href="https://cuddler-webring.netlify.app/bechnokid/next"><img src="/images/webring_cuddler_right.gif" alt="Cuddler Webring: Next"></a></div>
-            <div style="padding: 5px; display: inline-block"><a href="https://isaacfish.neocities.org/webring/22.html"><img src="https://isaacfish.neocities.org/webring/left.png" alt="left arrow"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/"><img src="https://isaacfish.neocities.org/webring/queercoded.png" alt="queer coded webring"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/24.html"><img src="https://isaacfish.neocities.org/webring/right.png" alt="right arrow"></a></div>
-            <div id="selfinsertwebringmini">
-              <script>function setListNumber(){ positionInList = 128 };</script>
+            <div id="clique" class="flex col-2" style="flex-direction:column">
+              <div class="flex-center-ver">
+                <a href="http://cliqued.wings.nu/" target="_new">OTF</a>&nbsp;<img src="http://cliqued.wings.nu/otf/default.png">&nbsp;Doctor Strange
+              </div>
+              <div>
+                <a href="http://dearest.snow-heart.net/" target="_new">OTP</a> :: Stephen Strange & Cloak
+              </div>
+              <div class="flex-center-ver">
+                <a href="http://cliqued.wings.nu/" target="_new">my jam!!</a>&nbsp;<img src="http://cliqued.wings.nu/jam/pink.png">&nbsp;"Chaotic Love Revolution"
+              </div>
+              <div>
+                <a href="http://aromatic.wings.nu/" target="_new">aromatic</a> // phở
+              </div>
             </div>
           </div>
           <hr>
@@ -96,7 +114,6 @@
             <div><a href="https://allyratworld.neocities.org/" target="_new"><img src="images/allyratworld.png" alt="AllyRat World"></a></div>
             <div><a href="https://pomelo.neocities.org/" target="_new"><img src="images/pomelo.gif" class="freezeframe"></a></div>
             <div><a href="https://mani.neocities.org/" target="_new"><img src="images/mani.gif" class="freezeframe"></a></div>
-            <div><a href="https://sugarangel.neocities.org/" target="_new"><img src="images/sugarangel.png" alt="sugarangel"></a></div>
             <div><a href="https://dannarchy.com/" target="_new"><img src="images/dannarchy.gif" class="freezeframe" alt="Dannarchy"></a>
             </div>
             <div><a href="https://cosmic-kiko.neocities.org/" target="_new"><img alt="Cosmic Kiko" src="images/cosmic-kiko.gif" class="freezeframe"></a></div>
@@ -155,159 +172,96 @@
           </div>
           <table class="table-basic" style="margin-top:10px">
             <tr>
-              <td class="table-center"><a href="http://thefanlistings.org/" target="_new">The Fanlistings Network</a>
-              </td>
-              <td>
-                <p>An entire repository of fanlistings that you can join.</p>
-              </td>
+              <td class="table-center"><a href="http://thefanlistings.org/" target="_new">The Fanlistings Network</a></td>
+              <td><p>An entire repository of fanlistings that you can join.</p></td>
             </tr>
             <tr>
-              <td class="table-center"><a href="https://animefanlistings.com" target="_new">The Anime Fanlstings</a>
-              </td>
-              <td>
-                <p>A repository of anime/manga-related fanlistings that you can join</p>
-              </td>
+              <td class="table-center"><a href="https://animefanlistings.com" target="_new">The Anime Fanlstings</a></td>
+              <td><p>A repository of anime/manga-related fanlistings that you can join</p></td>
             </tr>
             <tr>
               <td class="table-center"><a href="https://zombo.com" target="_new">Zombo.com</a></td>
-              <td>
-                <p>Trust me on this ;)</p>
-              </td>
+              <td><p>Trust me on this ;)</p></td>
             </tr>
             <tr>
-              <td class="table-center"><a href="https://benedictcumberbatchgenerator.tumblr.com/" target="_new">Benedict
-                  Cumberbatch Name Generator</a></td>
-              <td>
-                <p>Exactly what it says on the tin.</p>
-              </td>
+              <td class="table-center"><a href="https://benedictcumberbatchgenerator.tumblr.com/" target="_new">Benedict Cumberbatch Name Generator</a></td>
+              <td><p>Exactly what it says on the tin.</p></td>
             </tr>
           </table>
           <hr>
           <h2>Resources</h2>
           <table class="table-basic" style="margin-bottom:20px">
-            <thead>
-              <tr>
-                <th class="table-center" colspan="2">Pixels/Sozai</th>
-              </tr>
-            </thead>
+            <thead><tr><th class="table-center" colspan="2">Pixels/Sozai</th></tr></thead>
             <tbody>
               <tr>
                 <td class="table-center"><a href="https://cinni.net/directory/" target="_blank"><img src="https://cinni.net/directory/img/88x31.png"></a></td>
-                <td>
-                  <p>Quite possibly the largest catalog of adorable pixel sites I've seen!</p>
-                </td>
+                <td><p>Quite possibly the largest catalog of adorable pixel sites I've seen!</p></td>
               </tr>
               <tr>
                 <td class="table-center"><a href="http://engrampixel.tumblr.com" target="_new"><img src="http://media.tumblr.com/tumblr_m5106aHKT11qid2nw.gif" class="freezeframe" alt="Engram Pixel"></a></td>
-                <td>
-                  <p>A collection of adorable pixels and emoji on Tumblr!</p>
-                </td>
+                <td><p>A collection of adorable pixels and emoji on Tumblr!</p></td>
               </tr>
           </table>
           <table class="table-basic" style="margin-bottom:20px">
-            <thead>
-              <tr>
-                <th class="table-center" colspan="2">CSS/HTML/JS</th>
-              </tr>
-            </thead>
+            <thead><tr><th class="table-center" colspan="2">CSS/HTML/JS</th></tr></thead>
             <tbody>
               <tr>
                 <td class="table-center"><a href="https://neothemes.neocities.org/" target="_new"><img src="images/neothemes.png" alt="Neothemes - Layouts and Themes for Neocities"></a></td>
-                <td>
-                  <p>A Neocities site that provides free layouts! Responsive, and great for beginners!</p>
-                </td>
+                <td><p>A Neocities site that provides free layouts! Responsive, and great for beginners!</p></td>
               </tr>
               <tr>
-                <td class="table-center"><a href="https://www.w3schools.com/howto/default.asp" target="_new">W3Schools
-                    How TO - Code snippets for HTML, CSS, and JavaScript</a></td>
-                <td>
-                  <p>I've seen people recommend just W3Schools, but if you want specific examples, this is the site for
-                    you!</p>
-                </td>
+                <td class="table-center"><a href="https://www.w3schools.com/howto/default.asp" target="_new">W3Schools How TO - Code snippets for HTML, CSS, and JavaScript</a></td>
+                <td><p>I've seen people recommend just W3Schools, but if you want specific examples, this is the site for you!</p></td>
               </tr>
               <tr>
-                <td class="table-center"><a href="https://terribleideas.neocities.org/" target="_new">Terribleideas'
-                    Site</a></td>
-                <td>
-                  <p>A repository of neat(?) CSS effects you can add to text.</p>
-                </td>
+                <td class="table-center"><a href="https://terribleideas.neocities.org/" target="_new">Terribleideas' Site</a></td>
+                <td><p>A repository of neat(?) CSS effects you can add to text.</p></td>
               </tr>
               <tr>
                 <td class="table-center"><a href="https://www.htmlsymbols.xyz/" target="_new">HTML Symbols</a></td>
-                <td>
-                  <p>A huge list of HTML symbols with their respective numbers and names.</p>
-                </td>
+                <td><p>A huge list of HTML symbols with their respective numbers and names.</p></td>
               </tr>
               <tr>
                 <td class="table-center"><a href="http://kaomoji.ru/en/" target="_new">Kaomoji.ru</a></td>
-                <td>
-                  <p>You like kaomojis? Of course you do! This is the largest database for kaomojis that I know of that
-                    you can copy and paste!</p>
-                </td>
+                <td><p>You like kaomojis? Of course you do! This is the largest database for kaomojis that I know of that you can copy and paste!</p></td>
               </tr>
             </tbody>
           </table>
           <table class="table-basic" style="margin-bottom:20px">
-            <thead>
-              <tr>
-                <th class="table-center" colspan="2">Graphics</th>
-              </tr>
-            </thead>
+            <thead><tr><th class="table-center" colspan="2">Graphics</th></tr></thead>
             <tbody>
               <tr>
                 <td class="table-center"><a href='https://ezgif.com/' target='_new'><img src='images/ezgif.gif' class="freezeframe" alt='EZGif: Animated GIFs Made Easy'></a></td>
-                <td>
-                  <p>A free toolset primarily used for creating and editing animated GIFs, but it does a TON of other
-                    stuff as well!</p>
-                </td>
+                <td><p>A free toolset primarily used for creating and editing animated GIFs, but it does a TON of other stuff as well!</p></td>
               </tr>
               <tr>
                 <td class="table-center"><a href="https://cooltext.com" target="_new"><img alt="cooltext.com" src="images/cooltxt.gif" class="freezeframe"></a></td>
-                <td>
-                  <p>A graphics generator where you can make your own logos! Haven't used it myself, but it's really
-                    cool.</p>
-                </td>
+                <td><p>A graphics generator where you can make your own logos! Haven't used it myself, but it's really cool.</p></td>
               </tr>
               <tr>
                 <td class="table-center"><a href="http://waifu2x.udp.jp/" target="_new">waifu2x</a></td>
-                <td>
-                  <p>A site where you can take almost any image and upscale it up to 2x with little or no loss of
-                    quality.</p>
-                </td>
+                <td><p>A site where you can take almost any image and upscale it up to 2x with little or no loss of quality.</p></td>
               </tr>
               <tr>
                 <td class="table-center"><a href="https://neonaut.neocities.org/brain/image-compression.html" target="_new">Become a Compression Sorcerer</a></td>
-                <td>
-                  <p>Neonaut's guide for compressing images to optimize your site.</p>
-                </td>
+                <td><p>Neonaut's guide for compressing images to optimize your site.</p></td>
               </tr>
             </tbody>
           </table>
           <table class="table-basic" style="margin-bottom:20px">
-            <thead>
-              <tr>
-                <th class="table-center" colspan="2">Other</th>
-              </tr>
-            </thead>
+            <thead><tr><th class="table-center" colspan="2">Other</th></tr></thead>
             <tbody>
               <tr>
                 <td class="table-center"><a href="https://www.thistothat.com" target="_new">This to That</a></td>
-                <td>
-                  <p>A site that tells how to glue different materials together! I'm sure this will come in handy for a
-                    cosplayer like myself lol</p>
-                </td>
+                <td><p>A site that tells how to glue different materials together! I'm sure this will come in handy for a cosplayer like myself lol</p></td>
               </tr>
               <tr>
-                <td class="table-center"><a href="https://mashable.com/article/how-to-blur-your-house-on-google-street-view" target="_new">How
-                    to blur your house on Google Street View (and why you should)</a></td>
-                <td>What it says on the tin!</td>
+                <td class="table-center"><a href="https://mashable.com/article/how-to-blur-your-house-on-google-street-view" target="_new">How to blur your house on Google Street View (and why you should)</a></td>
+                <td><p>What it says on the tin!</p></td>
               </tr>
               <tr>
                 <td class="table-center"><a href="https://www.roboleary.net/vscode/2020/08/05/dont-need-extensions.html" target="_new">VS Code: You don't need that extension</a>(<a href="https://www.roboleary.net/2021/11/06/vscode-you-dont-need-that-extension2.html" target="_new">Part 2</a>, <a href="https://www.roboleary.net/tools/2022/05/18/vscode-you-dont-need-a-formatting-extension-prettier-and-friends.html" target="_new">Part 3</a>)</td>
-                <td>
-                  <p>Helpful guides by Rob O'Leary that explain what VSCode can already do without needing to install
-                    extensions.</p>
-                </td>
+                <td><p>Helpful guides by Rob O'Leary that explain what VSCode can already do without needing to install extensions.</p></td>
               </tr>
             </tbody>
           </table>
@@ -315,13 +269,11 @@
           <h2>Credits</h2>
           <ul class="links-list">
             <li>Layout inspiration: <a href="http://web.archive.org/web/20041206135411/rinacat.com/main.html" target="_new">Rina Cat's Domain</a></li>
-            <li>Layout template: <a href="https://sadgrl.online/projects/layout-builder/" target="_new">Sadgrl's Layout
-                Builder</a></li>
+            <li>Layout template: <a href="https://sadgrl.online/projects/layout-builder/" target="_new">Sadgrl's Layout Builder</a></li>
             <li>Web counter: <a href="https://www.websiteout.net/counter.php" target="_new">WebsiteOut</a></li>
             <li>Graphics: <a href="https://anlucas.neocities.org/88x31Buttons.html" target="_new">A.N. Lucas</a>, <a href="https://foollovers.com/index.html" target="_new">Fool Lovers</a></li>
             <li>Fonts: Verdana and <a href="https://opendyslexic.org/" target="_new">OpenDyslexic</a></li>
-            <li>Coding help: <a href="https://sadgrl.online/webmastery/html-css-help.html" target="_new">Sadgrl's
-                HTML/CSS/JS Help</a>, <a href="https://www.w3schools.com/" target="_new">W3Schools</a></li>
+            <li>Coding help: <a href="https://sadgrl.online/webmastery/html-css-help.html" target="_new">Sadgrl's HTML/CSS/JS Help</a>, <a href="https://www.w3schools.com/" target="_new">W3Schools</a></li>
             <li>JS libraries used: <a href="https://github.com/ctrl-freaks/freezeframe.js/" target="_new">freezeframe.js</a>, <a href="https://prismjs.com/" target="_new">Prism</a></li>
           </ul>
         </div>
@@ -330,5 +282,4 @@
     <footer id="footer" style="display: block;"></footer>
   </div>
 </body>
-
 </html>
