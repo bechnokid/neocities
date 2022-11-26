@@ -1,76 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/javascript/script-min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OCs- Bechno Kid's Hideout</title>
-    <link href="/css/variables.css" rel="stylesheet" type="text/css" media="all">
-    <link href="/css/main-min.css" rel="stylesheet" type="text/css" media="all">
-    <style>#tab-oc-2022:checked~#art-oc-2022, #tab-oc-2021:checked~#art-oc-2021, #tab-oc-2020:checked~#art-oc-2020{ display: flex} </style>
-  </head>
-  <body>
-    <div id="main-container">
-      <header id="header-contained"></header>
-      <div class="content-wrap flex alignment">
-        <nav id="left-sidebar" class="sidebar"></nav>
-        <main id="content-container" style="flex-grow: 1;">
-          <div class="wrapper">
-            <h1 class="content-title">OCs</h1>
-            <p>Any original character, fan-made or otherwise, will be found here! This household welcomes OCxCanon ships!</p>
-            <span class="content-art-desc"></span>
-            <hr>
-            <div class="tabs art-tabs">
-              <input type="radio" name="tabs" id="tab-oc-2022" checked>
-              <label for="tab-oc-2022">2022</label>
-              <input type="radio" name="tabs" id="tab-oc-2021">
-              <label for="tab-oc-2021">2021</label>
-              <input type="radio" name="tabs" id="tab-oc-2020">
-              <label for="tab-oc-2020">2020</label>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#d65da4">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:dnt" content="on">
 
-              <div class="tab-content flex-center" id="art-oc-2022">
-                <div class="thumbnail"><img src="original/2022/meme_charsheet_etahis.webp" style="margin:-20px 0 0 -40px" data-desc="<p><b>Description:</b> I honestly love filling out memes of these two! I admit that this was a bit tricky to fill out haha.</p><p><i>Character:</i> Etahis (Loveless Empire)</p>"></div>
-                <div class="thumbnail"><img src="original/2022/meme_charsheet_rosa.webp" style="margin:-30px 0 0 -55px" data-desc="<p><b>Description:</b> I honestly love filling out memes of these two! I admit that this was a bit tricky to fill out haha.</p><p><i>Character:</i> Rosalivia (Loveless Empire)</p>"></div>
-                <div class="thumbnail"><img src="original/2022/hangoutwithhisui.webp" style="margin:-150px 0 0 -70px" data-desc="<p><b>Description:</b> A small interaction!</p><p><i>Characters:</i> Hisui (OC), Hotaru Haganezuka (Demon Slayer)</p>"></div>
-                <div class="thumbnail"><img src="original/2022/hisui.webp" style="margin:-30px 0 0 -120px" data-desc="<p><b>Description:</b> Oh boy, I wonder why she has those dango! It can't possibly be a gift for a certain someone who she totally doesn't have a crush on. ;) (Another old OC who has been repurposed! Hisui here used to be a Sonic OC under a different name. :3)</p><p><i>Character:</i> Hisui (Demon Slayer OC)</p>"></div>
-                <div class="thumbnail"><img src="original/2022/luckystar.jpg" style="margin:-70px 0 0 -200px" data-desc="<p><b>Description:</b> Belated birthday gift for my friend <a href='https://twitter.com/floatshavenart'>FloatsHavenArt</a> of one of his OCs!</p><p><i>Character:</i> Lucky Star (OC)</p>"></div>
-              </div>
-              <div class="tab-content flex-center" id="art-oc-2021">
-                <div class="thumbnail"><img src="original/2021/commission_retroleum.png" style="margin:-40px 0 0 -160px" data-desc="<p><b>Description:</b> Commission for <a href='https://twitter.com/arcadekore'>KJ</a> on Twitter of their OC Coralie with Roark from Pokemon DPPt! OC/canon ships make my heart grow 3x bigger, so I couldn't resist drawing a smooch. :3</p><p><i>Characters:</i> Roark (Pokemon Diamond and Pearl), Coralie (Pokemon OC)</p>"></div>
-                <div class="thumbnail"><img src="original/2021/commission_kelbremdusk.png" style="margin:-100px 0 0 -410px;width:1000%" data-desc="<p><b>Description:</b> Commission for <a href='https://twitter.com/kelbremdusk'>Bea</a> of theirs and their friend's DnD OCs: Clara and Grigori, respectively! A cat and a guard dog, falling in love? It's more likely than you think!!</p><p><i>Characters: </i>Clara, Grigori (Dungeons and Dragons OCs)</p>"></div>
-                <div class="thumbnail"><img src="original/2021/commission_OBJ_MOTHERFCKER.png" style="margin:-130px 0 0 -270px" data-desc="<p><b>Description:</b> Commission for <a href='https://twitter.com/HoolOfTheNorth'>Hool</a> on Twitter of their OCs, Aradia (left) and Jarvis (right)! Mad scientists who are madly in love? SIGN ME UP!</p><p><i>Characters: </i>Aradia, Jarvis (Crash Bandicoot OCs)</p>"></div>
-                <div class="thumbnail"><img src="original/2021/firstnamebasis.jpg" style="margin:-140px 0 0 -130px" data-desc="<p><b>Description:</b> First name basis?</p><p><i>Characters: </i>Doctor Vitamin (IZ OC), Professor Membrane (Invader Zim)</p>"></div>
-                <div class="thumbnail"><img src="original/2021/rosaspam.jpg" style="margin:-90px 0 0 -250px" data-desc="<p><b>Description:</b> i don't have a human!spamton, but i do have an OC who is just as horrible as him, if not even more so :3<p><i>Character:</i> Rosalivia (Loveless Empire)</p>"></div>
-                <div class="thumbnail"><img src="original/2021/rosadoodles.jpg" style="margin:-170px 0 0 -220px" data-desc="<p><b>Description:</b> some doodles of my OC rosalivia since i couldn't sleep (anxious to pick up sam from the airport!)</p><p><i>Character:</i> Rosalivia (Loveless Empire)</p>"></div>
-                <div class="thumbnail"><img src="original/2021/newyear_2021.jpg" style="margin:-100px 0 0 -60px" data-desc="<p><b>Description:</b> Rosalivia and Etahis wish you all a Happy New Year! Here's to 2022 being uneventful! ♥ We need it, honestly lol</p><p><i>Characters:</i> Etahis, Rosalivia (Loveless Empire)</p>"></div>
-              </div>
-              <div class="tab-content flex-center" id="art-oc-2020">
-                <div class="thumbnail"><img src="original/2020/meettheartist_2020.jpg" style="margin:-50px 0 0 -50px" data-desc="<p><b>Description: </b>I wish I can drink my tea like that! I can dream!</p><p><i>Character:</i> It's me!</p>"></div>
-                <div class="thumbnail"><img src="original/2020/meme_5minute.jpg" style="margin:-90px 0 0 -300px" data-desc="<p><b>Description: </b>Cool kids are doing it! Peer pressure!!!</p><p><i>Character: </i>It's me!</p>"></div>
-                <div class="thumbnail"><img src="original/2020/jackandjillredesigns.png" style="margin:-140px 0 0 -380px;width:600%" data-desc="<p><b>Description: </b>Ex-grunts of a recently disbanded crime syndicate! Jack and Jill are now trying to live normal lives, but how does one live a normal life if all they ever knew was crime since childhood??</p><p><i>Characters:</i> Jack, Jill (unnamed story)</p>"></div>
-                <div class="thumbnail"><img src="original/2020/jackandjillcupheads.png" style="margin:-100px 0 0 -300px" data-desc="</div><p><b>Description: </b>Some sketches I never posted before! My friend Jeremy were talking about Cuphead OCs, and I wondered how Jack and Jill would look in Inkwell Isles!</p><p><i>Characters:</i> Jack, Jill (unnamed story)</p>"></div>
-                <div class="thumbnail"><img src="original/2020/commission_DMXI.jpg" style="margin:-90px 0 0 -87px" data-desc="<p><b>Description: </b>Commission for my friend <a href='https://twitter.com/DMXI'>dungeonmaster11</a> on Twitter of a marriage proposal between his OCs!! ;w;</p><p><i>Characters: </i>Kyae, Artemis</p>"></div>
-                <div class="thumbnail"><img src="original/2020/jillpractice.png" style="margin:-90px 0 0 -120px;width:300%" data-desc="<p><b>Description: </b>Warm-up drawing of Jill! don't worry, that's ketchup on her face. She likes to look scary sometimes.</p><p><i>Characters:</i> Jill (unnamed story)</p>"></div>
-                <div class="thumbnail"><img src="original/2020/vitaminfamily.png" style="margin:-300px 0 0 -320px" data-desc="<p><b>Description: </b>I've had instances of fan OCs becoming their own characters, but never the other way around...until now!</p><p><i>Characters: </i>Doctor Vitamin, Amelia Vitamin (Invader Zim OCs)</p>"></div>
-                <div class="thumbnail"><img src="original/2020/takeurvitamin.png" style="margin:-90px 0 0 -450px;width:800%" data-desc="<p><b>Description: </b>Drew some Doctor Vitamin without any pen pressure! It's weird, but makes for good and quick doodles when I don't have the energy, but still want to draw (which is very often nowadays)</p><p><i>Character: </i>Doctor Vitamin (Invader Zim OC)</p>"></div>
-                <div class="thumbnail"><img src="original/2020/drawoldmen.png" style="margin:-190px 0 0 -340px" data-desc="<p><b>Description: </b>I often blame myself for not being one of those really good artists with 10k+ followers. However, in the end, my happiness and mental health come first, and if that happiness comes in the form of drawing mad scientists, then by god, I will draw those mad scientists.</p><p><i>Characters:</i> Bechno Kid (persona), Rosalivia (Loveless Empire)</p>"></div>
-                <div class="thumbnail"><img src="original/2020/housekeepers.png" style="margin:-40px 0 0 -280px" data-desc="<p><b>Description: </b>Rosa's housekeepers aboard her ship! They were the only company she had until Etahis joined.</p><p><i>Characters:</i> Flea, Socks (Loveless Empire)</p>"></div>
-                <div class="thumbnail"><img src="original/2020/rosa_copics.PNG" style="margin:-100px 0 0 -80px;width:300%" data-desc="<p><b>Description: </b>Copic practice with Rosa!</p><p><i>Character:</i> Rosalivia (Loveless Empire)</p>"></div>
-                <div class="thumbnail"><img src="original/2020/ramatin.png" style="margin:-20px 0 0 -190px" data-desc="<p><b>Description: </b>I've mentioned Etahis's older brother, but I never drew a proper picture of him haha.....but here he is now! He is much, MUCH nicer than Etahis.</p><p><i>Character:</i> Ramatin (Loveless Empire)</p>"></div>
-              </div>
-            </div>
-            <div class="full-art">
-              <div id="image-container" class="flex-center">
-                <span id="close-button">&times;</span>
-                <div id="image-file"></div>
-              </div>
-              <div id="image-text"></div>
-            </div>
-          </div>
-        </main>
-      </div>
-      <footer id="footer"></footer>
+  <meta property="og:title" content="Bechno Kid's Hideout">
+  <meta property="og:description" content="Art, blog, resources, and more?!">
+  <meta property="og:image" content="/images/og_image.png">
+  <meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities">
+  <meta property="og:locale" content="en_US">
+  <meta property="og_type" content="website">
+  <meta property="og:url" content="https://bechnokid.neocities.org">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/javascript/script.js"></script>
+
+  <link rel="canonical" href="https://bechnokid.neociites.org">
+  <link rel="preload" href="/css/main.css" as="style">
+  <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
+  <style>#tab-oc-2022:checked~#art-oc-2022, #tab-oc-2021:checked~#art-oc-2021, #tab-oc-2020:checked~#art-oc-2020{ display: flex} </style>
+  <title>OCs - Bechno Kid's Hideout</title>
+</head>
+<body>
+  <div class="container">
+    <header class="header"></header>
+    <div class="content">
+      <nav class="sidebar"></nav>
+      <main>
+        <h1>OCs</h1>
+        <p>Any original character, fan-made or otherwise, will be found here! This household welcomes OCxCanon ships!</p>
+        <hr>
+        <nav class="tabs">
+          <input type="radio" name="tabs" id="tab-oc-2022" checked>
+          <label for="tab-oc-2022">2022</label>
+          <input type="radio" name="tabs" id="tab-oc-2021">
+          <label for="tab-oc-2021">2021</label>
+          <input type="radio" name="tabs" id="tab-oc-2020">
+          <label for="tab-oc-2020">2020</label>
+          <article class="tab-content flex-center" id="art-oc-2022">
+            <section class="thumbs flex-center">
+              <a href="#img-oc-2022-1"><div class="thumbnail" style="background-image:url(original/2022/meme_charsheet_etahis.webp);background-position:4% 2%"></div></a>
+              <a href="#img-oc-2022-2"><div class="thumbnail" style="background-image:url(original/2022/meme_charsheet_rosa.webp);background-position:4% 2%"></div></a>
+              <a href="#img-oc-2022-3"><div class="thumbnail" style="background-image:url(original/2022/hangoutwithhisui.webp);background-position:14% 15%"></div></a>
+              <a href="#img-oc-2022-4"><div class="thumbnail" style="background-image:url(original/2022/hisui.webp);background-position:21% 2%"></div></a>
+              <a href="#img-oc-2022-5"><div class="thumbnail" style="background-image:url(original/2022/luckystar.jpg);background-position:54% 4%"></div></a>
+            </section>
+            <section class="lightboxes">
+              <div class="lightbox" id="img-oc-2022-1"><a href="#"><img src="original/2022/meme_charsheet_etahis.webp"></a><div class="desc"><p>I honestly love filling out memes of these two! I admit that this was a bit tricky to fill out haha.</p><p><i>Character:</i> Etahis (Loveless Empire)</p></div></div>
+              <div class="lightbox" id="img-oc-2022-2"><a href="#"><img src="original/2022/meme_charsheet_rosa.webp"></a><div class="desc"><p>I honestly love filling out memes of these two! I admit that this was a bit tricky to fill out haha.</p><p><i>Character:</i> Rosalivia (Loveless Empire)</p></div></div>
+              <div class="lightbox" id="img-oc-2022-3"><a href="#"><img src="original/2022/hangoutwithhisui.webp"></a><div class="desc"><p><small>(<a href="original/2022/hangoutwithhisui.webp" target="_new">Click to open in new tab</a>) </small></p><p>A small interaction!</p><p><i>Characters:</i> Hisui (OC), Hotaru Haganezuka (Demon Slayer)</p></div></div>
+              <div class="lightbox" id="img-oc-2022-4"><a href="#"><img src="original/2022/hisui.webp"></a><div class="desc"><p>Oh boy, I wonder why she has those dango! It can't possibly be a gift for a certain someone who she totally doesn't have a crush on. ;) (Another old OC who has been repurposed! Hisui here used to be a Sonic OC under a different name. :3)</p><p><i>Character:</i> Hisui (Demon Slayer OC)</p></div></div>
+              <div class="lightbox" id="img-oc-2022-5"><a href="#"><img src="original/2022/luckystar.jpg"></a><div class="desc"><p>Belated birthday gift for my friend <a href='https://twitter.com/floatshavenart'>FloatsHavenArt</a> of one of his OCs!</p><p><i>Character:</i> Lucky Star (One Punch Man OC)</p></div></div>
+            </section>
+          </article>
+          <article class="tab-content flex-center" id="art-oc-2021">
+            <section class="thumbs flex-center">
+              <a href="#img-oc-2021-1"><div class="thumbnail" style="background-image:url(original/2021/commission_retroleum.png);background-position:38% 5%;background-size: 400%"></div></a>
+              <a href="#img-oc-2021-2"><div class="thumbnail" style="background-image:url(original/2021/commission_kelbremdusk.png);background-position:44% 7%;background-size: 600%"></div></a>
+              <a href="#img-oc-2021-3"><div class="thumbnail" style="background-image:url(original/2021/commission_OBJ_MOTHERFCKER.png);background-position:56% 25%"></div></a>
+              <a href="#img-oc-2021-4"><div class="thumbnail" style="background-image:url(original/2021/firstnamebasis.jpg);background-position:27% 32%"></div></a>
+              <a href="#img-oc-2021-5"><div class="thumbnail" style="background-image:url(original/2021/rosaspam.jpg);background-position:73% 7%"></div></a>
+              <a href="#img-oc-2021-6"><div class="thumbnail" style="background-image:url(original/2021/rosadoodles.jpg);background-position:54% 55%;background-size: 500%"></div></a>
+              <a href="#img-oc-2021-7"><div class="thumbnail" style="background-image:url(original/2021/newyear_2021.jpg);background-position:63% 13%;background-size: 500%"></div></a>
+            </section>
+            <section class="lightboxes"><div class="lightbox" id="img-oc-2021-1"><a href="#"><img src="original/2021/commission_retroleum.png"></a><div class="desc"><p>Commission for <a href='https://twitter.com/arcadekore'>KJ</a> on Twitter of their OC Coralie with Roark from Pokemon DPPt! OC/canon ships make my heart grow 3x bigger, so I couldn't resist drawing a smooch. :3</p><p><i>Characters:</i> Roark (Pokemon Diamond and Pearl), Coralie (Pokemon OC)</p></div></div>
+              <div class="lightbox" id="img-oc-2021-2"><a href="#"><img src="original/2021/commission_kelbremdusk.png"></a><div class="desc"><p><small>(<a href="original/2021/commission_kelbremdusk.png" target="_new">Click to open in new tab</a>)</small></p><p>Commission for <a href='https://twitter.com/kelbremdusk'>Bea</a> of theirs and their friend's DnD OCs: Clara and Grigori, respectively! A cat and a guard dog, falling in love? It's more likely than you think!!</p><p><i>Characters: </i>Clara, Grigori (Dungeons and Dragons OCs)</p></div></div>
+              <div class="lightbox" id="img-oc-2021-3"><a href="#"><img src="original/2021/commission_OBJ_MOTHERFCKER.png"></a><div class="desc"><p>Commission for <a href='https://twitter.com/HoolOfTheNorth'>Hool</a> on Twitter of their OCs, Aradia (left) and Jarvis (right)! Mad scientists who are madly in love? SIGN ME UP!</p><p><i>Characters: </i>Aradia, Jarvis (Crash Bandicoot OCs)</p></div></div>
+              <div class="lightbox" id="img-oc-2021-4"><a href="#"><img src="original/2021/firstnamebasis.jpg" style="width:70%"></a><div class="desc"><p>First name basis?</p><p><i>Characters: </i>Doctor Vitamin (IZ OC), Professor Membrane (Invader Zim)</p></div></div>
+              <div class="lightbox" id="img-oc-2021-5"><a href="#"><img src="original/2021/rosaspam.jpg"></a><div class="desc"><p>i don't have a human!spamton, but i do have an OC who is just as horrible as him, if not even more so :3<p><i>Character:</i> Rosalivia (Loveless Empire)</p></div></div>
+              <div class="lightbox" id="img-oc-2021-6"><a href="#"><img src="original/2021/rosadoodles.jpg"></a><div class="desc"><p>some doodles of my OC rosalivia since i couldn't sleep (anxious to pick up sam from the airport!)</p><p><i>Character:</i> Rosalivia (Loveless Empire)</p></div></div>
+              <div class="lightbox" id="img-oc-2021-7"><a href="#"><img src="original/2021/newyear_2021.jpg"></a><div class="desc"><p><small>(<a href="original/2021/newyear_2021.jpg" target="_new">Click to open in new tab</a>)</small></p><p>Rosalivia and Etahis wish you all a Happy New Year! Here's to 2022 being uneventful! ♥ We need it, honestly lol</p><p><i>Characters:</i> Etahis, Rosalivia (Loveless Empire)</p></div></div>
+            </section>
+          </article>
+          <article class="tab-content flex-center" id="art-oc-2020">
+            <section class="thumbs flex-center">
+              <a href="#img-oc-2020-1"><div class="thumbnail" style="background-image:url(original/2020/meettheartist_2020.jpg);background-position:74% 0%"></div></a>
+              <a href="#img-oc-2020-2"><div class="thumbnail" style="background-image:url(original/2020/meme_5minute.jpg);background-position:17% 0%"></div></a>
+              <a href="#img-oc-2020-3"><div class="thumbnail" style="background-image:url(original/2020/jackandjillredesigns.png);background-position:78% 23%;background-size: 500%"></div></a>
+              <a href="#img-oc-2020-4"><div class="thumbnail" style="background-image:url(original/2020/jackandjillcupheads.png);background-position:18% 0%"></div></a>
+              <a href="#img-oc-2020-5"><div class="thumbnail" style="background-image:url(original/2020/commission_DMXI.jpg);background-position:77% 6%;background-size: 500%"></div></a>
+              <a href="#img-oc-2020-6"><div class="thumbnail" style="background-image:url(original/2020/jillpractice.png);background-position:56% 33%;background-size: 200%"></div></a>
+              <a href="#img-oc-2020-7"><div class="thumbnail" style="background-image:url(original/2020/vitaminfamily.png);background-position:30% 12%"></div></a>
+              <a href="#img-oc-2020-8"><div class="thumbnail" style="background-image:url(original/2020/takeurvitamin.png);background-position:68% 4%;background-size: 500%"></div></a>
+              <a href="#img-oc-2020-9"><div class="thumbnail" style="background-image:url(original/2020/drawoldmen.png);background-position:91% 4%"></div></a>
+              <a href="#img-oc-2020-10"><div class="thumbnail" style="background-image:url(original/2020/housekeepers.png);background-position:72% 13%;background-size: 400%"></div></a>
+              <a href="#img-oc-2020-11"><div class="thumbnail" style="background-image:url(original/2020/rosa_copics.PNG);background-position:40% 30%;background-size: 200%"></div></a>
+              <a href="#img-oc-2020-12"><div class="thumbnail" style="background-image:url(original/2020/ramatin.png);background-position:50% 2%"></div></a>
+            </section>
+            <section class="lightboxes">
+              <div class="lightbox" id="img-oc-2020-1"><a href="#"><img src="original/2020/meettheartist_2020.jpg"></a><div class="desc"><p>I wish I can drink my tea like that! I can dream!</p><p><i>Character:</i> It's me!</p></div></div>
+              <div class="lightbox" id="img-oc-2020-2"><a href="#"><img src="original/2020/meme_5minute.jpg"></a><div class="desc"><p>Cool kids are doing it! Peer pressure!!!</p><p><i>Character: </i>It's me!</p></div></div>
+              <div class="lightbox" id="img-oc-2020-3"><a href="#"><img src="original/2020/jackandjillredesigns.png"></a><div class="desc"><p>Ex-grunts of a recently disbanded crime syndicate! Jack and Jill are now trying to live normal lives, but how does one live a normal life if all they ever knew was crime since childhood??</p><p><i>Characters:</i> Jack, Jill (unnamed story)</p></div></div>
+              <div class="lightbox" id="img-oc-2020-4"><a href="#"><img src="original/2020/jackandjillcupheads.png"></a><div class="desc"><p>Some sketches I never posted before! My friend Jeremy and I were talking about Cuphead OCs, and I wondered how Jack and Jill would look in Inkwell Isles!</p><p><i>Characters:</i> Jack, Jill (unnamed story)</p></div></div>
+              <div class="lightbox" id="img-oc-2020-5"><a href="#"><img src="original/2020/commission_DMXI.jpg"></a><div class="desc"><p>Commission for my friend <a href='https://twitter.com/DMXI'>dungeonmaster11</a> on Twitter of a marriage proposal between his OCs!! ;w;</p><p><i>Characters: </i>Kyae, Artemis</p></div></div>
+              <div class="lightbox" id="img-oc-2020-6"><a href="#"><img src="original/2020/jillpractice.png"></a><div class="desc"><p>Warm-up drawing of Jill! don't worry, that's ketchup on her face. She likes to look scary sometimes.</p><p><i>Characters:</i> Jill (unnamed story)</p></div></div>
+              <div class="lightbox" id="img-oc-2020-7"><a href="#"><img src="original/2020/vitaminfamily.png"></a><div class="desc"><p>I've had instances of fan OCs becoming their own characters, but never the other way around...until now!</p><p><i>Characters: </i>Doctor Vitamin, Amelia Vitamin (Invader Zim OCs)</p></div></div>
+              <div class="lightbox" id="img-oc-2020-8"><a href="#"><img src="original/2020/takeurvitamin.png"></a><div class="desc"><p>Drew some Doctor Vitamin without any pen pressure! It's weird, but makes for good and quick doodles when I don't have the energy, but still want to draw (which is very often nowadays)</p><p><i>Character: </i>Doctor Vitamin (Invader Zim OC)</p></div></div>
+              <div class="lightbox" id="img-oc-2020-9"><a href="#"><img src="original/2020/drawoldmen.png"></a><div class="desc"><p>I often blame myself for not being one of those really good artists with 10k+ followers. However, in the end, my happiness and mental health come first, and if that happiness comes in the form of drawing mad scientists, then by god, I will draw those mad scientists.</p><p><i>Characters:</i> Bechno Kid (persona), Rosalivia (Loveless Empire)</p></div></div>
+              <div class="lightbox" id="img-oc-2020-10"><a href="#"><img src="original/2020/housekeepers.png"></a><div class="desc"><p>Rosa's housekeepers aboard her ship! They were the only company she had until Etahis joined.</p><p><i>Characters:</i> Flea, Socks (Loveless Empire)</p></div></div>
+              <div class="lightbox" id="img-oc-2020-11"><a href="#"><img src="original/2020/rosa_copics.PNG"></a><div class="desc"><p>Copic practice with Rosa!</p><p><i>Character:</i> Rosalivia (Loveless Empire)</p></div></div>
+              <div class="lightbox" id="img-oc-2020-12"><a href="#"><img src="original/2020/ramatin.png"></a><div class="desc"><p>I've mentioned Etahis's older brother, but I never drew a proper picture of him haha.....but here he is now! He is much, MUCH nicer than Etahis.</p><p><i>Character:</i> Ramatin (Loveless Empire)</p></div></div>
+            </section>
+          </article>
+        </nav>
+      </main>
     </div>
-  </body>
+    <footer class="footer"></footer>
+  </div>
+</body>
 </html>

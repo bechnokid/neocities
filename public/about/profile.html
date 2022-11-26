@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#d65da4">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:dnt" content="on">
+
+  <meta property="og:title" content="Bechno Kid's Hideout">
+  <meta property="og:description" content="Art, blog, resources, and more?!">
+  <meta property="og:image" content="/images/og_image.png">
+  <meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities">
+  <meta property="og:locale" content="en_US">
+  <meta property="og_type" content="website">
+  <meta property="og:url" content="https://bechnokid.neocities.org">
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/javascript/script-min.js"></script>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="/javascript/script.js"></script>
+
+  <link rel="canonical" href="https://bechnokid.neociites.org">
+  <link rel="preload" href="/css/main.css" as="style">
+  <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
+
   <title>Profile - Bechno Kid's Hideout</title>
-  <link href="/css/variables.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="/css/main-min.css" rel="stylesheet" type="text/css" media="all" />
-  <style>#tab-profile:checked~#profile, #tab-favorites:checked~#favorites, #tab-interests:checked~#interests, #tab-awardsquizzes:checked~#awardsquizzes, #tab-fanlistings:checked~#fanlistings{ display: block;} .likes-icon{ font-size: 1.3em;} .row div{ margin: 0 50px 0 20px} .col-1{ width: unset;} @media only screen and (max-width: 1000px){ .row div:last-child{ margin-top: -10px;} .profile-content{ width: 100%; flex-direction: column; justify-content: center; align-items: center} .profile-side{ order: 1; margin: 0} .profile-text{ order: 2}} </style>
+  <style>
+  #tab-profile:checked~.profile, #tab-favorites:checked~.favorites, #tab-interests:checked~.interests, #tab-awards:checked~.awards, #tab-fanlistings:checked~.fanlistings{ display: block;} figure{ width: 200px; float: left; margin: 0 20px 30px 0;} figure div img:not(:last-child){ margin-right: 5px} figure div img:hover{ opacity: 0.50} hr{ margin-bottom: 10px} h2+p:not(.random){ margin-left: 20px;} h3 span{ font-size: 1.3em} section ul{ margin-bottom: 10px} section hr{ border-top: 1px solid var(--sidebar-border)} ul b{ color: var(--italic)} .favorites ul{ margin-left: 20px;} .grid{grid-template-columns: repeat(auto-fit, minmax(200px, auto));} .awards img{ max-height: 150px; margin-right: 10px; margin-bottom: 10px;} .fanlistings h3{ font-size: medium;} .quiz2, .quiz3{ font-size: smaller} .resBarOuter{ width: 75%; height: 15px; padding: 0; margin: 0; background: #eee; border: 1px solid #000; text-align: left !important; position: relative} .resBarInner{ text-indent: -9999px; height: 15px; background: #d02; font-size: 6px; line-height: 6px; margin: 0; padding: 0; position: relative; background-image: linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -moz-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -webkit-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -ms-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%)} .resBarM{ width: 35%; float: right; margin-right: 10px} .resRow{ color: #000; background: #fff; clear: both; margin: 5px 0} .quiz2 td{ border: 1px solid #000;} @media only screen and (max-width:768px){ figure{ float: none; margin: 0 auto;} .main-info{ display: flex; flex-direction: column; justify-content: center;} .main-info ul{ margin-top: 10px; padding-top: 20px; border-top: 2px dotted var(--sidebar-border);} .favorites .flex-grid{ width: 100%;}}
+  </style>
 </head>
 <body>
-  <div id="main-container">
-    <header id="header-contained"></header>
-    <div class="content-wrap flex alignment">
-      <div id="left-sidebar" class="sidebar"></div>
-      <main id="content-container" style="flex-grow: 1;">
-        <div class="wrapper">
-          <h1 class="content-title">About the Artist</h1>
-          <hr>
-          <div class="tabs tabs-profile"><input type="radio" class="tab-button" name="tabs" id="tab-profile" checked /><label for="tab-profile">Profile</label><input type="radio" name="tabs" id="tab-favorites" /><label for="tab-favorites">Favorites/Interests</label><input type="radio" name="tabs" id="tab-awardsquizzes" /><label for="tab-awardsquizzes">Awards/Quizzes</label><input type="radio" name="tabs" id="tab-fanlistings" /><label for="tab-fanlistings">Fanlistings</label>
-            <div class="tab-content" id="profile">
-              <div class="profile-content" style="display: flex; margin-top: 10px;">
-                <div class="profile-side"><img src="images/profile/profile.jpg" alt="Bechno Kid" />
-                  <p>"The ticket to the future is always open." -Rem Saverem, TRIGUN</p><a href="https://toyhou.se/9179110.f2u-pride-pixels/gallery"><img title="Asexual" src="images/profile/asexual.png" alt="Asexual" /><img title="Demigirl" src="images/profile/demigirl.png" alt="Demigirl" /><img title="Polyamorous" src="images/profile/polyamorous.png" alt="Polyamorous" /></a>
+  <div class="container">
+    <header class="header"></header>
+    <div class="content">
+      <nav class="sidebar"></nav>
+      <main>
+        <h1>About the Artist</h1>
+        <hr>
+        <nav class="tabs">
+          <input type="radio" name="tabs" id="tab-profile" checked>
+          <label for="tab-profile">Profile</label>
+          <input type="radio" name="tabs" id="tab-favorites">
+          <label for="tab-favorites">Favorites/Interests</label>
+          <input type="radio" name="tabs" id="tab-awards">
+          <label for="tab-awards">Awards/Quizzes</label>
+          <input type="radio" name="tabs" id="tab-fanlistings">
+          <label for="tab-fanlistings">Fanlistings</label>
+          <article class="tab-content profile">
+            <section class="main-info">
+              <figure>
+                <img src="images/profile/profile.jpg" alt="Bechno Kid profile image">
+                <figcaption style="margin-bottom:5px;text-align:center;font-size:x-small">"The ticket to the future is always open." -Rem Saverem, TRIGUN</figcaption>
+                <div class="flex-center">
+                  <a href="https://toyhou.se/9179110.f2u-pride-pixels/gallery"><img src="images/profile/asexual.png" title="Asexual" alt="Asexual pixel flag"><img src="images/profile/demigirl.png" title="Demigirl" alt="Demigirl pixel flag"><img src="images/profile/polyamorous.png" title="Polyamorous" alt="Polyamorous pixel flag"></a>
                 </div>
-                <div class="profile-text">
-                  <ul class="links-list small-list">
-                    <li><b>Age:</b>&nbsp;<span id="age"></span></li>
-                    <li><b>Birthdate:</b>&nbsp;February 10</li>
-                    <li><b>Zodiac:</b>&nbsp;Aquarius ☼, Taurus ☾, Gemini &uarr;</li>
-                    <li><b>Pronouns:</b>&nbsp;she/her, they/them</li>
-                  </ul>
-                  <p>Hi! I'm Bechno Kid.</p>
-                  <p>I'm also known as "Bec/Bech", "BK", "Beekay", or just plain ol' "Bechno".</p>
-                  <p>Don't be fooled by the "Kid", I'm very much an adult! However, I <i>do</i>&nbsp;have interests that many would consider childish, and that's ok.</p>
-                  <p>I am a multi-fandom artist who works full-time as a software developer. I currently live with my two spouses and two dogs. I have a Bachelor's Degree in Computer Science and graduated with honors from my university. I have no formal education when it comes to the arts, and am entirely self-taught. </p>
-                  <p>I have been drawing for more than 20 years, but art has always been just a side hobby for me. My true passion is in coding, whether it is very, VERY basic web design, or in software development. I have coded in a variety of languages, but I am always willing to learn more when I can. I am not an expert programmer or artist by any means, though. I just like to learn whatever I can. ^_^ </p>
-                </div>
+              </figure>
+              <div>
+                <ul>
+                  <li><b>Age:</b><span id="age"></span></li>
+                  <li><b>Birthdate:</b> February 10</li>
+                  <li><b>Zodiac:</b> Aquarius ☼, Taurus ☾, Gemini &uarr;</li>
+                  <li><b>Pronouns:</b> she/her, they/them</li>
+                </ul>
+                <hr class="small">
+                <p>Hi! I'm <b style="font-weight:400;font-family:'Dyslexic';font-size:larger">Bechno Kid</b>.</p>
+                <p>I'm also known as "Bec/Bech", "BK", "Beekay", or just plain ol' "Bechno".</p>
+                <p>Don't be fooled by the "Kid", I'm very much an adult! However, I <i>do</i> have interests that many would consider childish, and that's ok.</p>
+                <p>I am a multi-fandom artist who works full-time as a software developer. I currently live with my two spouses and two dogs. I have a Bachelor's Degree in Computer Science and graduated with honors from my university. I have no formal education when it comes to the arts, and am entirely self-taught. </p>
+                <p>I have been drawing for more than 20 years, but art has always been just a side hobby for me. My true passion is in coding, whether it is very, <i>VERY</i> basic web design, or software development. I have coded in a variety of languages, but I am always willing to learn more when I can. I am not an expert programmer or artist by any means, though. I just like to learn whatever I can. ^_^ </p>
               </div>
-              <div id="random-facts">
-                <h2>Random Fun Fact</h2>
-                <p>Click the button below for a random fun fact about me. :3</p><button id="show-fact" class="basic-button">Another?</button>
-              </div>
-              <hr />
+            </section>
+            <hr>
+            <section class="random-facts">
+              <h2>Random Fun Fact</h2>
+              <p class="random" style="height:70px;padding:10px;margin-bottom:20px;border:1px solid var(--sidebar-border)">Click the button below for a random fun fact about me. :3</p>
+              <button class="show-fact">Gimme!</button>
+            </section>
+            <hr>
+            <section class="contact">
               <h2>Contact/Sites</h2>
               <ul>
                 <li>Email: <a href="mailto: bechnokid@yahoo.com">bechnokid@yahoo.com</a></li>
@@ -51,256 +84,187 @@
                 <li>Tumblr: <a href="https://bechnokid.tumblr.com">bechnokid</a></li>
                 <li>DeviantArt: <a href="https://deviantart.com/bechnokid">bechnokid</a></li>
               </ul>
-            </div>
-            <div class="tab-content" id="favorites">
-              <h2>❤&nbsp;<u>Favorites</u>&nbsp;❤</h2>
-              <div class="flex row">
-                <div class="col-1">
-                  <ul>
-                    <li>
-                      <h3>Colors ✎</h3>
-                      <ul class="links-list small-list">
-                        <li style="color: #f561ab;">Pink</li>
-                        <li style="color: rgb(7, 190, 145);">Mint green</li>
-                        <li style="color: #940094;">Purple</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <h3>Food <span class="likes-icon">🍽︎</span></h3>
-                      <ul class="links-list small-list">
-                        <li>Fish (cooked or raw)</li>
-                        <li>Noodle soups (especially Viet)</li>
-                        <li>Crunchy snacks</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <h3>Drinks ☕︎</h3>
-                      <ul class="links-list small-list">
-                        <li>Lemonade</li>
-                        <li>Boba tea</li>
-                        <li>Coffee</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-2">
-                  <ul>
-                    <li>
-                      <h3>Animals 🐦︎</h3>
-                      <ul class="links-list small-list">
-                        <li>Snakes</li>
-                        <li>Tarantulas</li>
-                        <li>Isopods</li>
-                        <li>Beetles</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <h3>Movies 🎬︎</h3>
-                      <ul class="links-list small-list">
-                        <li>Doctor Strange in the Multiverse of Madness</li>
-                        <li>Spider-Man 2</li>
-                        <li>Wreck-It Ralph</li>
-                        <li>Great Mouse Detective</li>
-                        <li>Baby Driver</li>
-                        <li>Mean Girls</li>
-                        <li>Monster Hunter: Legends of the Guild</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
+            </section>
+          </article>
+          <article class="tab-content favorites">
+            <h2>❤ Favorites ❤</h2>
+            <section class="grid">
+              <div>
+                <h3>Colors <span>✎</span></h3>
+                <ul>
+                  <li style="color:#f561ab">Pink</li>
+                  <li style="color:#07be91">Mint green</li>
+                  <li style="color:#940094">Purple</li>
+                </ul>
+                <h3>Food <span>🍽</span></h3>
+                <ul>
+                  <li>Fish (cooked or raw)</li>
+                  <li>Noodle soups (especially Viet)</li>
+                  <li>Crunchy snacks</li>
+                </ul>
+                <h3>Drinks <span>☕︎</span></h3>
+                <ul>
+                  <li>Lemonade</li>
+                  <li>Boba tea</li>
+                  <li>Coffee</li>
+                </ul>
               </div>
-              <hr />
-              <h2>✦&nbsp;<u>Interests</u>&nbsp;✦</h2>
-              <div class="flex row">
-                <div class="col-1">
-                  <ul>
-                    <li>
-                      <h3>Games 🎮︎</h3>
-                      <ul class="links-list small-list">
-                        <li><b>Monster Hunter 🟊</b></li>
-                        <li>Pokemon</li>
-                        <li>Kirby</li>
-                        <li>MediEvil</li>
-                        <li>Splatoon</li>
-                        <li>Animal Crossing</li>
-                        <li>Crash Bandicoot</li>
-                        <li>Kingdom Hearts</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-2">
-                  <ul>
-                    <li>
-                      <h3>Comics (DC / Marvel) 🕵︎</h3>
-                      <ul class="links-list small-list">
-                        <li><b>Doctor Strange 🟊</b></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <h3>Podcasts / Radio Plays 📻︎</h3>
-                      <ul class="links-list small-list">
-                        <li>Megaton Girl</li>
-                      </ul>
-                    </li>
-                    <li>
-                      <h3>Anime / Manga / Webtoons 📚︎</h3>
-                      <ul class="links-list small-list">
-                        <li>Trigun</li>
-                        <li>Demon Slayer</li>
-                        <li>Jujutsu Kaisen</li>
-                        <li>SpyxFamily</li>
-                        <li>Suitor Armor</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
+              <div>
+                <h3>Animals 🐦︎</h3>
+                <ul>
+                  <li>Snakes</li>
+                  <li>Tarantulas</li>
+                  <li>Isopods</li>
+                  <li>Beetles</li>
+                </ul>
+                <h3>Movies 🎬︎</h3>
+                <ul>
+                  <li>Doctor Strange (2016)</li>
+                  <li>Doctor Strange in the Multiverse of Madness</li>
+                  <li>Spider-Man 2</li>
+                  <li>Wreck-It Ralph</li>
+                  <li>Great Mouse Detective</li>
+                  <li>Baby Driver</li>
+                  <li>Mean Girls</li>
+                  <li>Monster Hunter: Legends of the Guild</li>
+                </ul>
               </div>
-            </div>
-            <div class="tab-content" id="awardsquizzes">
+            </section>
+            <hr>
+            <h2>✦ Interests ✦</h2>
+            <section class="grid">
+              <div>
+                <h3>Games 🎮︎</h3>
+                <ul>
+                  <li><b>Monster Hunter 🟊</b></li>
+                  <li>Pokemon</li>
+                  <li>Kirby</li>
+                  <li>MediEvil</li>
+                  <li>Splatoon</li>
+                  <li>Animal Crossing</li>
+                  <li>Crash Bandicoot</li>
+                  <li>Kingdom Hearts</li>
+                </ul>
+                <h3>Podcasts / Radio Plays <span>📻︎</span></h3>
+                <ul>
+                  <li>Megaton Girl</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Comics (DC / Marvel) <span>🕵︎</span></h3>
+                <ul>
+                  <li><b>Doctor Strange 🟊</b></li>
+                </ul>
+                <h3>Anime / Manga / Webtoons <span>📚︎</span></h3>
+                <ul>
+                  <li>Trigun</li>
+                  <li>Demon Slayer</li>
+                  <li>Jujutsu Kaisen</li>
+                  <li>SpyxFamily</li>
+                  <li>Suitor Armor</li>
+                </ul>
+              </div>
+            </section>
+          </article>
+          <article class="tab-content awards">
+            <section>
               <h2>Awards</h2>
               <p>Sometimes, it is the small victories that matter the most!</p>
               <div class="flex-center quizzes">
-                <div><a href="https://softheartclinic.neocities.org/subpages/awards.html" target="_new"><img src="images/awards/award-connected.png" alt="Connected Award" /></a></div>
-                <div><a href="https://koinuko.pink/mygraphics/awards.html" target="_new"><img src="images/awards/gettingthere.png" alt="'Getting There' Award" /></a></div>
-                <div><a href="https://www.dragonflycave.com/marquee-of-doom" target="_new"><img src="images/awards/extremepatience.gif" alt="Awared of Extreme Patience" /></a></div>
+                <a href="https://softheartclinic.neocities.org/subpages/awards.html" target="_new"><img src="images/awards/award-connected.png" alt="Connected Award"></a>
+                <a href="https://koinuko.pink/mygraphics/awards.html" target="_new"><img src="images/awards/gettingthere.png" alt="'Getting There' Award"></a>
+                <a href="https://www.dragonflycave.com/marquee-of-doom" target="_new"><img src="images/awards/extremepatience.gif" alt="Award of Extreme Patience"></a>
+                <a href="https://meganova.neocities.org/water-trial.html" target="_new"><img src="images/awards/trial_of_water-meganova.png" alt="The Pearl - Meganova"></a>
+                <a href="https://meganova.neocities.org/sky-trial.html" target="_new"><img src="images/awards/trial_of_sky-meganova.png" alt="The Opal - Meganova"></a>
+                <a href="https://meganova.neocities.org/fire-trial.html" target="_new"><img src="images/awards/trial_of_fire-meganova.png" alt="The Sunstone - Meganova"></a>
               </div>
-              <hr />
+            </section>
+            <hr>
+            <section class="quizzes">
               <h2>Quizzes</h2>
-              <p>Taking personality quizzes were always super fun, but what was <b>super</b>fun was seeing quizmakers add a little bit of spice to their quizzes that allow people to share their results. Whether it was simple tables, or badly compressed JPG images, I loved them all and always wanted to add them to my theoretical website when I was younger! Now, I finally can!! </p>
-              <div class="flex-center quizzes">
-                <div><a href="https://www.asia.capcom.com/mha/en/monsterquiz/"><img loading="lazy" style="max-height: 170px;" src="https://i.imgur.com/4wNYjA6.png" alt="I'm Almudron, the Hermit of the Swamp!" /></a></div>
-                <div class="flex-center" style="width: 100%;"><a href="https://www.monsterhunter.com/content/sunbreak-monsterquiz/en/"><img loading="lazy" style="max-height: 200px;" src="https://i.imgur.com/FwjBJyr.png" alt="I'm Espinas, the Forbidden Venom!" /></a></div>
-                <div><a href="http://mirage-island.neocities.org/quiz.html"><img loading="lazy" src="http://mirage-island.neocities.org/results/riolu.gif" alt="Riolu" title="You are a disciplined person who is sensitive to other people's feelings. Though quiet, you have no problem speaking when it matters." /></a></div>
-                <div><a href="https://www.dragonflycave.com/quizzes/what-type-are-you/rock"><img loading="lazy" src="https://www.dragonflycave.com/typequiz/rock.png" alt="Rock" title="I am a Rock-type!" /></a></div>
-                <div><a href="https://casiopea.neocities.org/isopod/isopodquiz.html"><img loading="lazy" alt="I am a pill millipede! Cute!" src="https://i.imgur.com/3Xk1FJH.png" /></a></div>
-                <div><a href="http://www.nerdtests.com/ft_nq.php"><img loading="lazy" src="https://i.imgur.com/nOD0Erj.gif" title="I am nerdier than 76% of all people. Are you a nerd? Click here to take the Nerd Test, get geeky images and jokes, and talk on the nerd forum!" alt="I am nerdier than 76% of all people." /></a></div>
-                <div><a href="http://www.nerdtests.com/ft_nt2.php"><img loading="lazy" src="https://i.imgur.com/tybTyKN.png" alt="I'm a Mega-Dorky High Nerd" /></a></div>
-                <div><a href="https://clownfredzone.neocities.org/"><img loading="lazy" src="https://clownfredzone.neocities.org/cq/WhitefaceLarge1.png" alt="I am a Whiteface Clown!" /></a></div>
-                <div><a href="http://www.dragonflycave.com/quizzes/what-pokemon-are-you"><img loading="lazy" src="https://i.imgur.com/96LqCZA.gif" alt="I am a Mew!" title="Find out what Pokémon you are at The Cave of Dragonflies" /></a></div>
-                <div><a href="http://thousandroads.net/misc/pmdquiz/"><img loading="lazy" src="https://i.imgur.com/cvi3Jhm.png" alt="I am Tepig!" /></a></div>
-                <div><a href="https://web.archive.org/web/20091128223303/http://valvigirl.net/quizzes/ppgquiz.html"><img loading="lazy" src="https://i.imgur.com/JSHhqyD.gif" alt="I'm Blossom!" /></a></div>
-                <div><a href="http://www.allaboutfrogs.org/funstuff/frogtest.php3"><img loading="lazy" src="https://i.imgur.com/Bjs8eb6.jpg" width="215" height="100" alt="I'm a Red Eyed Tree Frog!" border="0" /></a></div>
-                <div><a href="http://cupped-expressions.net/cheese/quiz/"><img loading="lazy" src="https://i.imgur.com/cglgdvV.gif" alt="I am american cheese!" /></a></div>
-                <div><a href="https://web.archive.org/web/20090925025817/http://www.geocities.com/Tokyo/Garden/7024/scoutquiz.html"><img loading="lazy" src="https://web.archive.org/web/20021118111157im_/http://fairykucha.homestead.com/files/minimoon.gif" alt="I am Sailor Mini/Chibi Moon!" border="0" /></a></div>
-                <div><a href="http://www.theotaku.com/quizzes/view/611/what_mew_mew_are_you%3F"><img loading="lazy" border="0" src="https://i.imgur.com/RerPFN3.jpg" alt="What Mew Mew Are You?" /><br /></a></div>
-                <div><a href="http://www.theotaku.com/quizzes/view/3760/what_type_of_dere_are_you%3F_"><img loading="lazy" border="0" src="https://i.imgur.com/C8uewpj.jpg" alt="What Type Of Dere Are You? " /></a></div>
-                <div><a href="http://www.theotaku.com/quizzes/view/3913/which_hatsune_miku_nendoroid_model_are_you%3F"><img loading="lazy" src="https://i.imgur.com/78Ki2yS.jpg" alt="I'm the Snow Miku Nendoroid!" /></a></div>
-                <div><a href="http://www.springhole.net"><img loading="lazy" src="https://i.imgur.com/4Ddc3tl.gif" alt="I am a SNOW FAIRY" /></a></div>
-                <div><a href="http://theotaku.com/quizzes/view/4069/what_type_of_otaku_are_you%3F"><img loading="lazy" border="0" src="https://i.imgur.com/rGP5sj0.jpg" alt="What type of otaku are you?" /></a></div>
-                <div><a href="http://www.theotaku.com/quizzes/view/1078/what_lucky_star_character_are_you%3F"><img loading="lazy" src="https://i.imgur.com/Ams2EU9.jpg" alt="I'm Miyuki Takara! What a treasure~" /></a></div>
-                <div><a href="http://theotaku.com/quizzes/view/2838/what_sonic-x_character_are_you%3F"><img loading="lazy" border="0" src="https://i.imgur.com/COJBFVg.jpg" alt="What Sonic-X Character Are You?" /></a>
+              <p>Taking personality quizzes were always super fun, but what was <b>super</b> fun was seeing quizmakers add a little bit of spice to their quizzes that allow people to share their results. Whether it was simple tables, or badly compressed JPG images, I loved them all and always wanted to add them to my theoretical website when I was younger! Now, I finally can!!</p>
+              <div class="flex-center">
+                <a class="fill-center" href="https://www.asia.capcom.com/mha/en/monsterquiz/"><img loading="lazy" style="max-height: 170px;" src="images/quizzes/almudron.png" alt="I'm Almudron, the Hermit of the Swamp!"></a>
+                <a class="fill-center" href="https://www.monsterhunter.com/content/sunbreak-monsterquiz/en/"><img loading="lazy" style="max-height: 200px;" src="images/quizzes/espinas.png" alt="I'm Espinas, the Forbidden Venom!"></a>
+                <a href="http://mirage-island.neocities.org/quiz.html"><img loading="lazy" src="http://mirage-island.neocities.org/results/riolu.gif" alt="Riolu" title="You are a disciplined person who is sensitive to other people's feelings. Though quiet, you have no problem speaking when it matters."></a>
+                <a href="https://www.dragonflycave.com/quizzes/what-type-are-you/rock"><img loading="lazy" src="https://www.dragonflycave.com/typequiz/rock.png" alt="Rock" title="I am a Rock-type!"></a>
+                <a href="http://www.springhole.net"><img loading="lazy" src="images/quizzes/fairy.gif" alt="I am a SNOW FAIRY"></a>
+                <a href="https://casiopea.neocities.org/isopod/isopodquiz.html"><img loading="lazy" alt="I am a bathnomus giganteus, also known as a giant ispod! Cute!" src="images/quizzes/isopod.png"></a>
+                <a href="http://www.nerdtests.com/ft_nq.php"><img loading="lazy" src="images/quizzes/nerd.gif" title="I am nerdier than 76% of all people. Are you a nerd? Click here to take the Nerd Test, get geeky images and jokes, and talk on the nerd forum!" alt="I am nerdier than 76% of all people."></a>
+                <a href="http://www.allaboutfrogs.org/funstuff/frogtest.php3"><img loading="lazy" src="images/quizzes/frog.jpg" alt="I'm a Red Eyed Tree Frog!" border="0"></a>
+                <a href="http://cupped-expressions.net/cheese/quiz/"><img loading="lazy" src="images/quizzes/cheese.gif" alt="I am american cheese!"></a>
+                <a href="https://clownfredzone.neocities.org/"><img loading="lazy" src="https://clownfredzone.neocities.org/cq/WhitefaceLarge1.png" alt="I am a Whiteface Clown!"></a>
+                <a href="https://web.archive.org/web/20091128223303/http://valvigirl.net/quizzes/ppgquiz.html"><img loading="lazy" src="images/quizzes/ppg.gif" alt="I'm Blossom!"></a>
+                <a href="http://www.dragonflycave.com/quizzes/what-pokemon-are-you"><img loading="lazy" src="images/quizzes/pkmn.gif" alt="I am a Mew!" title="Find out what Pokémon you are at The Cave of Dragonflies"></a>
+                <a href="http://thousandroads.net/misc/pmdquiz/"><img loading="lazy" src="images/quizzes/pmd.png" alt="I am Tepig!"></a>
+                <a href="https://web.archive.org/web/20090925025817/http://www.geocities.com/Tokyo/Garden/7024/scoutquiz.html"><img loading="lazy" src="images/quizzes/sailorscout.gif" alt="I am Sailor Mini/Chibi Moon!" border="0"></a>
+                <a href="http://www.theotaku.com/quizzes/view/611/what_mew_mew_are_you%3F"><img loading="lazy" src="images/quizzes/mewmew.jpg" alt="What Mew Mew Are You?"></a>
+                <a href="http://www.theotaku.com/quizzes/view/3760/what_type_of_dere_are_you%3F_"><img loading="lazy" border="0" src="images/quizzes/dere.jpg" alt="What Type Of Dere Are You? "></a>
+                <a href="http://www.theotaku.com/quizzes/view/3913/which_hatsune_miku_nendoroid_model_are_you%3F"><img loading="lazy" src="images/quizzes/nendo.jpg" alt="I'm the Snow Miku Nendoroid!"></a>
+                <a href="http://theotaku.com/quizzes/view/4069/what_type_of_otaku_are_you%3F"><img loading="lazy" src="images/quizzes/otaku.jpg" alt="What type of otaku are you?"></a>
+                <a href="http://www.theotaku.com/quizzes/view/1078/what_lucky_star_character_are_you%3F"><img loading="lazy" src="images/quizzes/luckystar.jpg" alt="I'm Miyuki Takara! What a treasure~"></a>
+                <div><a href="http://theotaku.com/quizzes/view/2838/what_sonic-x_character_are_you%3F"><img loading="lazy" border="0" src="images/quizzes/sonic-x.jpg" alt="What Sonic-X Character Are You?"></a>
                   <p>(^^^ lmao I actually wasn't expecting this)</p>
                 </div>
-                <div><a href="https://www.nodiatis.com/personalityquestions.htm" target="_new"><img src="https://www.nodiatis.com/personalityquestions.htm" alt="I am the PRIEST" /></a></div>
-                <div><a href="https://uquiz.com/quiz/Rlz4qh?p=1277914"><img loading="lazy" src="https://i.imgur.com/owWUcAJ.png" alt="I'm the color green!" /></a></div>
-                <div><a href="https://purity.neocities.org/"><img loading="lazy" src="https://i.imgur.com/F2sK7iX.png" alt="I'm 97.25% pure!" /></a>
-                  <p>^^^ Still a virgin at the age of 30 lmao,,,</p>
-                </div>
-                <div><a href="https://openpsychometrics.org/tests/O4TS/" target="_new"><img src="https://i.imgur.com/dewHHWY.png" alt="I am Phlegmatic" /></a></div>
-                <div><a href="https://web.archive.org/web/20050427204345/http://www.wiredreflection.com/tests/magic.html" target="new"><img loading="lazy" src="https://web.archive.org/web/20050427204345im_/http://www.wiredreflection.com/tests/priestess.jpg" border="0" frameborder="0" alt="You are a Priestess!" /></a></div>
-                <div style="border: 1px solid #999; border-radius: 6px; padding: 6px; font: normal 1em sans-serif; background: #fff; color: #000; min-width: 200px; max-width: 360px;">
-                  <style scoped>.resBarOuter{ width: 75%; height: 15px; padding: 0; margin: 0; background: #eee; border: 1px solid #000; text-align: left !important; position: relative;} .resBarInner{ text-indent: -9999px; height: 15px; background: #d02; font-size: 6px; line-height: 6px; margin: 0; padding: 0; position: relative; background-image: linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -moz-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -webkit-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%); background-image: -ms-linear-gradient(bottom, rgb(221, 0, 33) 40%, rgb(255, 60, 86) 74%, rgb(221, 0, 33) 100%);} .resBarM{ width: 35%; float: right; margin-right: 10px;} .resRow{ color: #000; background: #fff; clear: both; margin: 5px 0;} </style>
-                  <div style="color: #000; font: bold 1.2em sans-serif; margin: 0 0 8px 0;">What Is Your Gender Expression?</div>
-                  <div style="font: bold 1.2em sans-serif; margin: 0 0 4px 0;">Your Result: <strong>Androgynous</strong></div>
-                  <div class="resBarOuter">
-                    <div class="resBarInner" style="width: 76%;">&nbsp;</div>
-                  </div>
-                  <div style="margin: 10px 0 4px; border: none; background: #fff; color: #000;">You are between masculinity and femininity. If you are nonbinary, then you've reached the golden center of expression. You casually float in space beyond Mars and Venus. However, don't assume that you need to be perfectly in the middle of expression to be nonbinary. If you are a man or a woman, most people will be cool with it, except for the most conservative ones. Expect a lot of "are you a boy or are you a girl?" from confused onlookers. Enjoy being yourself. </div>
-                  <div class="resRow">
-                    <div class="resBarOuter resBarM">
-                      <div class="resBarInner" style="width: 68%;">&nbsp;</div>
-                    </div>Quite Masculine
-                  </div>
-                  <div class="resRow">
-                    <div class="resBarOuter resBarM">
-                      <div class="resBarInner" style="width: 59%;">&nbsp;</div>
-                    </div>Quite Feminine
-                  </div>
-                  <div class="resRow">
-                    <div class="resBarOuter resBarM">
-                      <div class="resBarInner" style="width: 38%;">&nbsp;</div>
-                    </div>Very Masculine
-                  </div>
-                  <div class="resRow">
-                    <div class="resBarOuter resBarM">
-                      <div class="resBarInner" style="width: 22%;">&nbsp;</div>
-                    </div>Very Feminine
-                  </div>
-                  <div><a style="color: #00f;" href="https://www.gotoquiz.com/what_is_your_gender_expression"><strong>What Is Your Gender Expression?</strong></a></div>
-                </div>
-                <div style="margin-bottom: 10px; margin-right: 10px;">
-                  <table bgcolor="#E0FFFF" border="1" width="350px;">
-                    <tr>
-                      <td>
-                        <center>
-                          <font color="#000000"><big>you are lightcyan</big><br />#E0FFFF </font>
-                        </center>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td bgcolor="#FFFFFF">
-                        <center>
-                          <font color="#000000"><br />Your dominant hues are green and blue. You're smart and you know it, and want to use your power to help people and relate to others. Even though you tend to battle with yourself, you solve other people's conflicts well.<br /><br />Your saturation level is very low - you have better things to do than jump headfirst into every little project. You make sure your actions are going to really accomplish something before you start because you hate wasting energy making everyone else think you're working.<br /><br />Your outlook on life is very bright. You are sunny and optimistic about life and others find it very encouraging, but remember to tone it down if you sense irritation.<br /></font>
-                        </center>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <center><a href="http://spacefem.com/quizzes/colors">the spacefem.com html color quiz</a></center>
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-                <div style="padding: 3px; text-align: center; width: 350px; color: #ffffa8; background-color: #ff2e96; border: 1px solid #c70063;">
-                  <div style="margin: 3px; padding: 3px; color: #940094; background-color: #ffa8d4; border: 1px solid #c70063;"><span style="font-size: 90%;">Bechno Kid's Dewey Decimal Section: </span><br /><span style="font-size: 120%;">202 Doctrines </span><br /><br /><b>Class:</b><br />200 Religion<br /><br /><b>Contains:</b><br />The Bible and other religious texts, books about the general philosophy and theory of religion. <br /><br /><b>What it says about you:</b><br />You don't mind thinking about the unknown or other very big ideas. You will never feel like your work is finished. The 200-series is dominated by Christian topics, so you may feel like you're constantly surrounded by Christians.<br /><br /><i>(this is funny because I actually am Catholic)</i></div><a href="http://www.spacefem.com/quizzes/dewey" style="color: #000094;">Find your Dewey Decimal Section at Spacefem.com</a>
-                </div>
+                <a href="https://www.nodiatis.com/personalityquestions.htm" target="_new"><img src="http://www.nodiatis.com/pub/10.jpg" alt="I am the PRIEST"></a>
+                <div class="quiz1" style="border:1px solid #999;border-radius:6px;padding:6px;font:normal 1em sans-serif;background:#fff;color:#000;min-width:200px;max-width:360px;margin-right:10px;margin-bottom:10px"><div class="title" style="color:#000;font:bold 1.2em sans-serif;margin:0 0 8px 0;">What Is Your Gender Expression?</div><div class="result" style="font:bold 1.2em sans-serif;margin:0 0 4px 0">Your Result: <strong>Androgynous</strong></div><div class="resBarOuter"><div class="resBarInner" style="width: 76%;">&nbsp;</div></div><div class="summary" style="margin:10px 0 4px;border:none;background:#fff;color:#000">You are between masculinity and femininity. If you are nonbinary, then you've reached the golden center of expression. You casually float in space beyond Mars and Venus. However, don't assume that you need to be perfectly in the middle of expression to be nonbinary. If you are a man or a woman, most people will be cool with it, except for the most conservative ones. Expect a lot of "are you a boy or are you a girl?" from confused onlookers. Enjoy being yourself.</div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width: 68%;">&nbsp;</div></div>Quite Masculine</div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width: 59%;">&nbsp;</div></div>Quite Feminine</div><div class="resRow"><div class="resBarOuter resBarM"><div class="resBarInner" style="width: 38%;">&nbsp;</div></div>Very Masculine</div><div class="resRow"><div class="resBarOuter "><div class="resBarInner" style="width: 22%;">&nbsp;</div></div>Very Feminine</div><div><a href="https://www.gotoquiz.com/what_is_your_gender_expression" style="color:#00f"><strong>What Is Your Gender Expression?</strong></a></div></div>
+                <div class="quiz2" style="color:#000;margin-bottom:10px;margin-right:10px"><table style="background-color:#e0ffff;width:350px"><tr><td><center><font><big>you are lightcyan</big><br>#E0FFFF </font></center></td></tr><tr><td bgcolor="#FFF"><center><font><br>Your dominant hues are green and blue. You're smart and you know it, and want to use your power to help people and relate to others. Even though you tend to battle with yourself, you solve other people's conflicts well.<br><br>Your saturation level is very low - you have better things to do than jump headfirst into every little project. You make sure your actions are going to really accomplish something before you start because you hate wasting energy making everyone else think you're working.<br><br>Your outlook on life is very bright. You are sunny and optimistic about life and others find it very encouraging, but remember to tone it down if you sense irritation.<br></font></center></td></tr><tr><td><center><a href="http://spacefem.com/quizzes/colors">the spacefem.com html color quiz</a></center></td></tr></table></div>
+                <div class="quiz3" style="padding:3px;text-align:center;width:350px;color:#ffffa8;background-color:#ff2e96;border:1px solid #c70063"><div style="margin:3px;padding:3px;color:#940094;background-color:#ffa8d4;border:1px solid #c70063"><b>Bechno Kid's Dewey Decimal Section:</b><br><span>202 Doctrines </span><br><br><b>Class:</b><br>200 <br><br><b>Contains:</b><br>The Bible and other religious texts, books about the general philosophy and theory of religion. <br><br><b>What it says about you:</b><br>You don't mind thinking about the unknown or other very big ideas. You will never feel like your work is finished. The 200-series is dominated by Christian topics, so you may feel like you're constantly surrounded by Christians.<br><br><i>(this is funny because I actually am Catholic)</i></div><a href="http://www.spacefem.com/quizzes/dewey" style="color: #000094;">Find your Dewey Decimal Section at Spacefem.com</a></div>
               </div>
-            </div>
-            <div class="tab-content" id="fanlistings">
-              <h2>Fanlistings</h2>
-              <p>In case my bio or my large collection of stamps doesn't describe me or my interests enough!</p>
-              <hr>
-              <h2>Joined</h2>
+            </section>
+          </article>
+          <article class="tab-content fanlistings">
+            <h2>Fanlistings</h2>
+            <p>In case my bio or my large collection of stamps doesn't describe me or my interests enough!</p>
+            <hr>
+            <section>
+              <h3>Joined</h3>
               <div class="flex-center randomize">
-                <div><a href="http://fanique.altervista.org/emoticons/" target="_new"><img src="images/fanlistings/emoticons.png" alt="Digital Expressions: Emoticons Fanlisting" /></a></div>
-                <div><a href="http://www.ladyrose.buruma.net/weirdal" target="_new"><img src="images/fanlistings/weird_al.gif" alt="Satire: Weird Al Fanlisting" /></a></div>
-                <div><a href="http://daria.ravenbeauty.net/" target="_new"><img src="images/fanlistings/daria.png" alt="You're Standing On My Neck: Daria Fanlisting" /></a></div>
-                <div><a href="https://boundless-realms.com/invaderzim/"><img src="images/fanlistings/fan_iz.png" alt="Defense Mode: Invader Zim Fanlisting" /></a></div>
-                <div><a href="https://precious-memory.net/betty/index.php"><img src="images/fanlistings/betty_white.gif" alt="True Golden Girl: The Betty White Fanlisting" /></a></div>
-                <div><a href="http://rikafire.fifteenth-moon.net/recess/index.php"><img src="images/fanlistings/recess.png" alt="3rd St. Adventures :: The Recess Fanlisting" /></a></div>
-                <div><a href="http://rhythm-emotion.net/sonic/index.php"><img src="images/fanlistings/sonic_series.png" alt="blue blur || sonic series fanlisting" /></a></div>
-                <div><a href="https://moudoku.com/strange/index.php"><img src="images/fanlistings/drstrange.png" alt="Forget everything that you think you know" /></a></div>
-                <div><a href="https://fightingspirit.waterprincess.net/" target="_new"><img src="images/fanlistings/jjba.png" alt="Fighting Spirit" /></a></div>
-                <div><a href="https://hagaren.org/" target="_new"><img src="images/fanlistings/fma.gif" alt="Equivalent Exchange: Fullmetal Alchemist fanlisting" /></a></div>
-                <div><a href="https://michiru.org/spyxfamily/" target="_new"><img src="images/fanlistings/spyxfamily.png" alt="Elegant: SPYXFAMILY Fanlisting" /></a></div>
-                <div><a href="https://fan.enamour.nu/trigun/" target="_new"><img src="images/fanlistings/trigun.png" alt="PARABELLUM: Trigun fanlisting" /></a></div>
-                <div><a href="https://movies.sweetbrat.cc/dsmm/" target="_new"><img src="images/fanlistings/dsmm.png" alt="Trust Your Power: Multiverse of Madness fanlisting" /></a></div>
-                <div><a href="https://movies.sweetbrat.cc/doctor_strange" target="_new"><img src="images/fanlistings/doctor_strange.png" alt="Sorcerer Supreme: Doctor Strange (2016) fanlisting" /></a></div>
-                <div><a href="http://fan.haltfate.org/nendoroid" target="_new"><img src="images/fanlistings/nendoroid.png" alt="POCKET-SIZED PERFECTION: Nendoroid fanlisting" /></a></div>
-                <div><a href="http://www.rikafire.fifteenth-moon.net/tamers/" target="_new"><img src="images/fanlistings/digimontamers.png" alt="Reset Reality: Digimon Tamers fanlisting" /></a></div>
-                <div><a href="https://fan.robotess.net/programming"><img src="images/fanlistings/programming.jpeg" alt="Coding Geeks: Programming fanlisting" /></a></div>
-                <div><a href="https://10-31.net/jenn/meangirls/" target="_new"><img src="images/fanlistings/mean_girls.png" alt="Watch Your Back: Mean Girls fanlisting" /></a></div>
-                <div><a href="https://10-31.net/halloween/index.php"><img src="images/fanlistings/halloween.png" alt="HALLOWEEN FANLISTING" /></a></div>
-                <div><a href="https://10-31.net/megan/valentines/index.php"><img src="images/fanlistings/valentines.png" alt="Valentine's Day fanlisting" /></a></div>
-                <div><a href="https://love.cordy.nu/bones/" target="_new"><img src="images/fanlistings/bones.gif" alt="You Can Always Count on the Dead: BONES fanlisting" /></a></div>
-                <div><a href="https://hellokitty.i-heart-you.net/" target="_new"><img src="images/fanlistings/hello_kitty.gif" alt="Hello! || Hello Kitty Fanlisting" /></a></div>
-                <div><a href="https://doc.deadstars.nu"><img src="images/fanlistings/docbrown.jpg" alt="Great Scott! || Emmett 'Doc' Brown fanlisting" /></a></div>
+                <div><a href="http://fanique.altervista.org/emoticons/" target="_new"><img src="images/fanlistings/emoticons.png" alt="Digital Expressions: Emoticons Fanlisting"></a></div>
+                <div><a href="http://www.ladyrose.buruma.net/weirdal" target="_new"><img src="images/fanlistings/weird_al.gif" alt="Satire: Weird Al Fanlisting"></a></div>
+                <div><a href="http://daria.ravenbeauty.net/" target="_new"><img src="images/fanlistings/daria.png" alt="You're Standing On My Neck: Daria Fanlisting"></a></div>
+                <div><a href="https://boundless-realms.com/invaderzim/"><img src="images/fanlistings/fan_iz.png" alt="Defense Mode: Invader Zim Fanlisting"></a></div>
+                <div><a href="https://precious-memory.net/betty/index.php"><img src="images/fanlistings/betty_white.gif" alt="True Golden Girl: The Betty White Fanlisting"></a></div>
+                <div><a href="http://rikafire.fifteenth-moon.net/recess/index.php"><img src="images/fanlistings/recess.png" alt="3rd St. Adventures :: The Recess Fanlisting"></a></div>
+                <div><a href="http://rhythm-emotion.net/sonic/index.php"><img src="images/fanlistings/sonic_series.png" alt="blue blur || sonic series fanlisting"></a></div>
+                <div><a href="https://moudoku.com/strange/index.php"><img src="images/fanlistings/drstrange.png" alt="Forget everything that you think you know"></a></div>
+                <div><a href="https://fightingspirit.waterprincess.net/" target="_new"><img src="images/fanlistings/jjba.png" alt="Fighting Spirit"></a></div>
+                <div><a href="https://hagaren.org/" target="_new"><img src="images/fanlistings/fma.gif" alt="Equivalent Exchange: Fullmetal Alchemist fanlisting"></a></div>
+                <div><a href="https://michiru.org/spyxfamily/" target="_new"><img src="images/fanlistings/spyxfamily.png" alt="Elegant: SPYXFAMILY Fanlisting"></a></div>
+                <div><a href="https://fan.enamour.nu/trigun/" target="_new"><img src="images/fanlistings/trigun.png" alt="PARABELLUM: Trigun fanlisting"></a></div>
+                <div><a href="https://movies.sweetbrat.cc/dsmm/" target="_new"><img src="images/fanlistings/dsmm.png" alt="Trust Your Power: Multiverse of Madness fanlisting"></a></div>
+                <div><a href="https://movies.sweetbrat.cc/doctor_strange" target="_new"><img src="images/fanlistings/doctor_strange.png" alt="Sorcerer Supreme: Doctor Strange (2016) fanlisting"></a></div>
+                <div><a href="http://fan.haltfate.org/nendoroid" target="_new"><img src="images/fanlistings/nendoroid.png" alt="POCKET-SIZED PERFECTION: Nendoroid fanlisting"></a></div>
+                <div><a href="http://www.rikafire.fifteenth-moon.net/tamers/" target="_new"><img src="images/fanlistings/digimontamers.png" alt="Reset Reality: Digimon Tamers fanlisting"></a></div>
+                <div><a href="https://fan.robotess.net/programming"><img src="images/fanlistings/programming.jpeg" alt="Coding Geeks: Programming fanlisting"></a></div>
+                <div><a href="https://10-31.net/jenn/meangirls/" target="_new"><img src="images/fanlistings/mean_girls.png" alt="Watch Your Back: Mean Girls fanlisting"></a></div>
+                <div><a href="https://10-31.net/halloween/index.php"><img src="images/fanlistings/halloween.png" alt="HALLOWEEN FANLISTING"></a></div>
+                <div><a href="https://10-31.net/megan/valentines/index.php"><img src="images/fanlistings/valentines.png" alt="Valentine's Day fanlisting"></a></div>
+                <div><a href="https://love.cordy.nu/bones/" target="_new"><img src="images/fanlistings/bones.gif" alt="You Can Always Count on the Dead: BONES fanlisting"></a></div>
+                <div><a href="https://hellokitty.i-heart-you.net/" target="_new"><img src="images/fanlistings/hello_kitty.gif" alt="Hello! || Hello Kitty Fanlisting"></a></div>
+                <div><a href="https://doc.deadstars.nu"><img src="images/fanlistings/docbrown.jpg" alt="Great Scott! || Emmett 'Doc' Brown fanlisting"></a></div>
+                <div><a href="https://precious-memory.net/food/clamchowder/" target="_new"><img src="images/fanlistings/clam_chowder.gif" alt="Creamy: Clam Chowder fanlisting"></a></div>
+                <div><a href="http://fan.greenhype.net/thaiicedtea/" target="_new"><img src="images/fanlistings/thai_iced_tea.gif" alt="Refreshing: Thai iced tea fanlisting"></a></div>
+                <div><a href="https://pkmn.redcrown.net/hoenn/" target="_new"><img src="images/fanlistings/oras.png" alt="coexistence: ruby & sapphire"></a></div>
+                <div><a href="https://www.ladyrose.buruma.net/3ds/" target="_new"><img src="images/fanlistings/3ds.png" alt="Three Dimensional: The Approved Nintendo 3DS Fanlist"></a></div>
+                <div><a href="https://www.ladyrose.buruma.net/gamecube/" target="_new"><img src="images/fanlistings/gc.jpg" alt="Gamecube: The Approved Nintendo Gamecube Fanlist"></a></div>
+                <div><a href="http://fan.warmer-climate.net/portal2/" target="_new"><img src="images/fanlistings/portal2.png" alt="For Science...You Monster"></a></div>
               </div>
-              <hr />
-              <h2>Applied</h2>
+              <hr class="small">
+              <h3>Applied</h3>
               <div class="flex-center randomize">
-                <div><a href="https://thewildrose.org/winter/index.php"><img src="images/fanlistings/winter_holidays.png" alt="Frozen bliss: Winter Holidays fanlisting" /></a></div>
-                <div><a href="https://fans.thislove.nu/css"><img src="images/fanlistings/css.jpg" alt="Keep It Simple: Cascading Style Sheets fanlisting" /></a></div>
-                <div><a href="https://precious-memory.net/food/clamchowder/" target="_new"><img src="images/fanlistings/clam_chowder.gif" alt="Creamy: Clam Chowder fanlisting" /></a></div>
-                <div><a href="http://fan.greenhype.net/thaiicedtea/" target="_new"><img src="images/fanlistings/thai_iced_tea.gif" alt="Refreshing: Thai iced tea fanlisting" /></a></div>
+                <div><a href="https://thewildrose.org/winter/index.php" target="_new"><img src="images/fanlistings/winter_holidays.png" alt="Frozen bliss: Winter Holidays fanlisting"></a></div>
+                <div><a href="https://fans.thislove.nu/css" target="_new"><img src="images/fanlistings/css.jpg" alt="Keep It Simple: Cascading Style Sheets fanlisting"></a></div>
+                <div><a href="http://firaga.org/ffx/join.php" target="_new"><img src="images/fanlistings/ffx.png" alt="Eternal Calm"></a></div>
+                <div><a href="http://fan.greenhype.net/gbasp/join.php" target="_new"><img src="images/fanlistings/gbasp.gif" alt="Portable >> The Game Boy Advance SP fanlisting"></a></div>
+                <div><a href="http://fan.greenhype.net/switch/" target="_new"><img src="images/fanlistings/switch.gif" alt="Hybrid Console >> The Nintendo Switch Fanlisting"></a></div>
               </div>
-            </div>
-          </div>
-        </div>
+            </section>
+          </article>
+        </nav>
       </main>
     </div>
-    <footer id="footer"></footer>
+    <footer class="footer"></footer>
   </div>
 </body>
 </html>

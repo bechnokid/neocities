@@ -1,1 +1,34 @@
-<!DOCTYPE html><html id="splash-html" lang="en"><head><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="/javascript/script-min.js"></script><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Welcome to Bechno Kid's Hideout!</title><link href="/css/variables.css" rel="stylesheet" type="text/css" media="all"><link href="/css/main-min.css" rel="stylesheet" type="text/css" media="all"><style>#splash-container{ padding: 20px; height: 600px; width: 800px; background-color: #fff; border: 3px solid var(--link-color)} #splash-text{ width: 40%; text-align: center} #splash-img{ text-align: center; width: 60%} #splash-img img{ max-width: 100%} @media only screen and (max-width:600px){ #splash-container{ width: 80%; flex-direction: column} #splash-img{ width: 100%; max-height: 60%; text-align: center; order: 1} #splash-text{ order: 2; width: 100%; padding: 0; margin-top: 20px}} </style></head><body><div id="splash-page" class="flex-center center-page"><div id="splash-container" class="flex-center"><div id="splash-text"><h2>Bechno Kid's Hideout!</h2><p>Welcome!</p><p>This website is mobile-friendly, but is<br>best viewed on a desktop!</p><p><a href="/home">ENTER HERE</a></p><div style="margin: 10px 0;"><script type="text/javascript" src="//counter.websiteout.net/js/7/0/1386/0"></script></div><p><small>Last updated: <span id="lastupdate"></span></small></p></div><div id="splash-img"><img src="/images/splash_2022_09.jpg" alt="Stare..."></div></div></div></body></html>
+<!DOCTYPE html>
+<html id="splash-html" lang="en">
+
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/javascript/script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Bechno Kid's Hideout!</title>
+  <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
+  <style>
+    main{ min-height: 100vh; width: unset; margin: 0;} article{ width: 800px; height: 500px; padding: 20px; background-color: #fff; border: 2px solid var(--bold);} a{ text-decoration: underline;} h1{ font-size: 1.5em; font-variant: normal !important; color: var(--italic);} h1::before{ content: "❤"; margin-right: 10px;} h1::after{ content: "❤"; margin-left: 10px;} .splash-img{ width: 50%;} .splash-text{ display: flex; flex-direction: column; justify-content: center; margin-right: 20px; padding: 40px; text-align: center;}
+  </style>
+</head>
+<body>
+  <main class="flex-center">
+    <article class="flex-center">
+      <section class="splash-text">
+        <h1>Bechno Kid's Hideout!</h1>
+        <hr style="margin:0">
+        <p>Welcome!</p>
+        <p>This website is mobile-friendly, but is<br>best viewed on a desktop!</p>
+        <p><a href="/home">ENTER HERE</a></p>
+        <div style="margin: 10px 0;">
+          <script type="text/javascript" src="//counter.websiteout.net/js/7/0/1386/0"></script>
+        </div>
+        <p><small>Last updated: <span id="lastupdate"></span></small></p>
+      </section>
+      <section class="splash-img">
+        <img src="/images/splash.jpg" alt="Warm...">
+      </section>
+  </main>
+</body>
+</html>

@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://bechnokid.neocities.org/javascript/script-min.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bechno Kid's Hideout</title>
-  <link rel="stylesheet" href="https://bechnokid.neocities.org/css/variables.css" type="text/css" media="all">
-  <link rel="stylesheet" href="https://bechnokid.neocities.org/css/main-min.css" type="text/css" media="all">
-  <style>#webgarden{ width: 250px; height: 250px} #pot{ width: 220px; height: 220px; background-color: #fff; text-align: center; border: 2px solid var(--link-color)} #pot hr{ margin: 0; width: 90%} #pot p{ margin-top: 2px; margin-bottom: 10px; color: indigo; width: 100%} #pot a{ height: 40%} #pot img{ height: 100%; margin-bottom: 10px; animation: bechRotate 2s ease-in-out infinite alternate; transition: transform 1s ease-in 1s} #pot img:hover{ animation: bechWhoosh .8s linear infinite normal} @keyframes bechRotate{ from{ transform: rotate(0deg)} to{ transform: rotate(-10deg)}} @keyframes bechWhoosh{ from{ transform: rotate(0deg)} to{ transform: rotate(360deg)}} #pot .last-updated{ background-color: var(--footer-bg-color); font-size: .75em; margin-bottom: 0; line-height: 3em} </style>
-</head>
+  <meta name="theme-color" content="#d65da4">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:dnt" content="on">
 
-<body style="background-size:150%;">
-  <main id="webgarden" class="flex-center">
-    <div id="pot" class="flex-center-hor">
-      <h2 style="margin: 14px 0;width:100%">Bechno Kid's Hideout!</h2>
-      <hr>
-      <p>art, blog, resources, & more?!</p><a href='https://bechnokid.neocities.org/home' target="_new"><img title="Click to enter!" src="https://bechnokid.neocities.org/images/webgarden_head.png"></a>
-      <p class="last-updated">Last updated: <span id="lastupdate"></span></p>
-    </div>
+  <meta property="og:title" content="Bechno Kid's Hideout">
+  <meta property="og:description" content="Art, blog, resources, and more?!">
+  <meta property="og:image" content="/images/og_image.png">
+  <meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities">
+  <meta property="og:locale" content="en_US">
+  <meta property="og_type" content="website">
+  <meta property="og:url" content="https://bechnokid.neocities.org">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://bechnokid.neociites.org/javascript/script.js"></script>
+
+  <link rel="canonical" href="https://bechnokid.neociites.org">
+  <link rel="preload" href="https://bechnokid.neociites.org/css/main.css" as="style">
+  <link rel="stylesheet" href="https://bechnokid.neociites.org/css/main.css" type="text/css" media="all">
+  <style>body{ overflow: hidden; background-size: 130%} main{ margin: 0;} article{ margin: 5px; padding: 10px; background-color: #fff; border: 2px solid var(--bold)} img{ width: 63%; animation: bechRotate 2s ease-in-out infinite alternate; transition: transform 1s ease-in 1s} img:hover{ animation: bechWhoosh .8s linear infinite normal} p{ font-size: smaller; text-align: center;} @keyframes bechRotate{ from{ transform: rotate(0deg)} to{ transform: rotate(-10deg)}} @keyframes bechWhoosh{ from{ transform: rotate(0deg)} to{ transform: rotate(360deg)}} </style>
+  <title>Bechno Kid's Hideout</title>
+</head>
+<body>
+  <main>
+    <article>
+      <h1 style="font-variant:none;font-size:medium;color:var(--italic)">Bechno Kid's Hideout!</h1>
+      <hr style="margin:0">
+      <p style="font-size:smaller">art, blog, resources, & more?!</p>
+      <a class="flex-center" style="margin-bottom:5px" href='https://bechnokid.neocities.org/home' target="_new"><img title="Click to enter!" src="https://bechnokid.neocities.org/images/webgarden_head.png"></a>
+      <p style="color:var(--italic)">Last updated: <span id="lastupdate"></span></p>
+    </article>
   </main>
 </body>
-
 </html>

@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/javascript/script-min.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/variables.css">
-  <link rel="stylesheet" href="/css/main-min.css" type="text/css" media="all">
+  <meta name="theme-color" content="#d65da4">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:dnt" content="on">
+
+  <meta property="og:title" content="Bechno Kid's Hideout">
+  <meta property="og:description" content="Art, blog, resources, and more?!">
+  <meta property="og:image" content="/images/og_image.png">
+  <meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities">
+  <meta property="og:locale" content="en_US">
+  <meta property="og_type" content="website">
+  <meta property="og:url" content="https://bechnokid.neocities.org">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/javascript/script.js"></script>
+
+  <link rel="canonical" href="https://bechnokid.neociites.org">
+  <link rel="preload" href="/css/main.css" as="style">
+  <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
   <title>September 13th, 2022 - Bechno Kid's Hideout</title>
 </head>
 <body>
-  <div id="main-container">
-    <div id="header-contained" style="display:block"></div>
-    <div class="content-wrap flex alignment">
-      <div id="left-sidebar" class="sidebar"></div>
-      <div id="content-container" style="flex-grow:1">
-        <div class="wrapper">
-          <div class="blog-title flex-center"><h1 class="content-title">Journey(?) of Epic Proportions</h1></div><hr>
-          <div class="content-main blog-content">
+  <div class="container">
+    <header class="header"></header>
+    <div class="content">
+      <nav class="sidebar"></nav>
+      <main class="blog">
+        <h1>Journey(?) of Epic Proportions</h1><hr>
+        <article class="flex-center-hor">
+          <section>
             <p>On August 26<sup>th</sup>, I embarked on a life-changing journey.</p>
             <p>A journey...</p>
             <p>...on a Disney cruise.</p>
@@ -30,12 +44,12 @@
             <p>I'm honestly pretty lucky to have the parents like my mom and dad, and to have a sibling like my sister. I know that it's pretty common to complain about our family online. Heck, the trauma I had to experience growing up might never go away. However, it hurts a lot less now after meeting up with my family and seeing just how much they changed for the better. I actually got a proper apology from them, too. It's funny that a Disney cruise would be the place where I finally got some closure for all of the pain I had to endure in the past.</p>
             <p>Now don't get me wrong, this isn't me saying, "<i>YOUR PARENTS LOVE YOU, GIVE THEM A CHANCE!!</i>" I am fully aware that there are truly toxic and abusive parents out there. I just hope some of you don't mind this old beet sharing her own experiences. It kinda sucks that it took me this long to finally get some closure, but I'm happy to have gotten it now than later, or not at all.</p>
             <p>I don't know how much longer my parents will have until they pass, but I honestly wouldn't mind gritting my teeth and pushing through my hatred of traveling just to hang out with them a little bit longer.</p>
-            <span class="back-button"><h2 class="go-back" onclick="history.back()">Back</h2></span>
-          </div>
-        </div>
-      </div>
+          </section>
+          <span class="back" onclick="history.back()">Go back</span>
+        </article>
+      </main>
     </div>
-    <div id="footer"></div>
+    <footer class="footer"></footer>
   </div>
 </body>
 </html>

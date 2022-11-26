@@ -1,285 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/javascript/script-min.js"></script>
-  <script src="/javascript/freezeframe.js"></script>
-  <script src="https://koinuko.neocities.org/shipping/webring/webringminiscript.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#d65da4">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:dnt" content="on">
+
+  <meta property="og:title" content="Bechno Kid's Hideout">
+  <meta property="og:description" content="Art, blog, resources, and more?!">
+  <meta property="og:image" content="/images/og_image.png">
+  <meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities">
+  <meta property="og:locale" content="en_US">
+  <meta property="og_type" content="website">
+  <meta property="og:url" content="https://bechnokid.neocities.org">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/javascript/script.js"></script>
+  <script src="/javascript/freezeframe.js"></script>
+  <script src="https://koinuko.neocities.org/shipping/webring/webringminiscript.js"></script>
+
+  <link rel="canonical" href="https://bechnokid.neociites.org">
+  <link rel="preload" href="/css/main.css" as="style">
+  <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
+  <style>
+    main .flex-center a,
+    main .flex-center-ver a {
+      display: flex;
+      align-items: center;
+    }
+
+    dl {
+      margin-left: 10px;
+    }
+
+    dt {
+      margin-bottom: 0px;
+    }
+
+    hr.small {
+      width: 50%;
+    }
+
+    table {
+      width: 80%;
+    }
+
+    #ncring td {
+      border: 0;
+      padding: 0px;
+    }
+
+    #cuddler-webring a:not(:last-child) {
+      margin-right: 5px;
+    }
+
+    #selfinsertwebringmini #templateWebring {
+      margin: 0 !important;
+    }
+
+    .grid{
+      grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    }
+
+    .grid div div:not(#webringdescbox) {
+      margin-bottom: 10px;
+    }
+
+  </style>
   <title>Links - Bechno Kid's Hideout</title>
-  <link href="/css/variables.css" rel="stylesheet" type="text/css" media="all">
-  <link href="/css/main-min.css" rel="stylesheet" type="text/css" media="all">
-  <style>#cuddler-webring img{ margin: 0 5px} #webring #templateWebring{ margin: 0 !important} #clique a{ text-decoration: none;} #webring div{ margin-bottom: 10px} #webring div:last-child{ margin-bottom: 0} @media only screen and (max-width:1000px) { #webring{justify-content: center; } .col-1{width:40%}} @media only screen and (max-width:600px){ #webring .col-1{margin-bottom:20px}} </style>
 </head>
-<body onload="setListNumber(), selfInsertWebringLoad()">
-  <div id="main-container">
-    <header id="header-contained"></header>
-    <div class="content-wrap flex-center">
-      <nav id="left-sidebar" class="sidebar"></nav>
-      <main id="content-container" style="flex-grow: 1;">
-        <div class="wrapper">
-          <h1 class="content-title">Links</h1>
-          <p>Thank you for stopping by my page! Listed below are a few websites that I believe are super cool, super
-            helpful, or both!</p><button id="play-gif" class="basic-button freezeframe-btn">Play GIFs</button><button id="stop-gif" class="basic-button freezeframe-btn">Stop GIFs</button>
-          <hr>
-          <div id="my-link">
-            <h2>Link back?</h2><img src="/images/button.jpg" alt="Button to Bechno Kid's site">
-            <p>Please remember to save this image and upload to your server, this helps prevent bandwidth from being
-              used! Thank you for understanding!</p>
-          </div>
-          <hr>
-          <h2>Webrings / Cliques</h2>
-          <div id="webring" class="flex row">
-            <div class="flex col-1" style="flex-direction:column">
-              <div id='ncring' class="freezeframe flex-center-ver">
+<body>
+  <div class="container">
+    <header class="header"></header>
+    <div class="content">
+      <nav class="sidebar"></nav>
+      <main>
+        <h1>Links</h1>
+        <p>Thank you for stopping by my page! Listed below are a few websites that I believe are super cool, super helpful, or both!</p>
+        <div class="freezeframe-btns"><button id="play-gif">Play GIFs</button><button id="stop-gif">Stop GIFs</button></div>
+        <hr>
+        <article class="my-link">
+          <h2>Link back?</h2>
+          <img src="/images/button.jpg" alt="Button to Bechno Kid's site">
+          <p>Please remember to save this image and upload to your server, this helps prevent bandwidth from being used! Thank you for understanding!</p>
+        </article>
+        <hr>
+        <h2>Webrings / Cliques</h2>
+        <article class="webrings">
+          <section class="grid">
+            <div class="webring">
+              <div id="ncring" class="freezeframe flex-center-ver web">
                 <script type="text/javascript" src="https://neocreatives.neocities.org/onionring-variables.js"></script>
                 <script type="text/javascript" src="https://neocreatives.neocities.org/onionring-widget.js"></script>
               </div>
-              <div id="cuddler-webring" class="flex-center-ver">
+              <div id="cuddler-webring" class="flex-center-ver web">
                 <a href="https://cuddler-webring.netlify.app/bechnokid/previous"><img src="/images/webring_cuddler_left.gif" alt="Cuddler Webring: Prev"></a><a href="https://mincerafter42.github.io/cuddle/"><img src="/images/webring_cuddler.png" alt="Cuddler Webring"></a><a href="https://cuddler-webring.netlify.app/bechnokid/next"><img src="/images/webring_cuddler_right.gif" alt="Cuddler Webring: Next"></a>
               </div>
-              <div style="padding: 5px; display: inline-block">
+              <div class="flex-center-ver web">
                 <a href="https://isaacfish.neocities.org/webring/22.html"><img src="https://isaacfish.neocities.org/webring/left.png" alt="left arrow"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/"><img src="https://isaacfish.neocities.org/webring/queercoded.png" alt="queer coded webring"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/24.html"><img src="https://isaacfish.neocities.org/webring/right.png" alt="right arrow"></a>
               </div>
               <div id="selfinsertwebringmini">
                 <script>function setListNumber() { positionInList = 128 };</script>
               </div>
             </div>
-            <div id="clique" class="flex col-2" style="flex-direction:column">
-              <div class="flex-center-ver">
-                <a href="http://cliqued.wings.nu/" target="_new">OTF</a>&nbsp;<img src="http://cliqued.wings.nu/otf/default.png">&nbsp;Doctor Strange
-              </div>
-              <div>
-                <a href="http://dearest.snow-heart.net/" target="_new">OTP</a> :: Stephen Strange & Cloak
-              </div>
-              <div class="flex-center-ver">
-                <a href="http://cliqued.wings.nu/" target="_new">my jam!!</a>&nbsp;<img src="http://cliqued.wings.nu/jam/pink.png">&nbsp;"Chaotic Love Revolution"
-              </div>
-              <div>
-                <a href="http://aromatic.wings.nu/" target="_new">aromatic</a> // phở
-              </div>
+            <div class="clique">
+              <div class="flex-center-ver"><a href="http://cliqued.wings.nu/" target="_new">OTF</a>&nbsp;<img src="http://cliqued.wings.nu/otf/default.png">&nbsp;Doctor Strange</div>
+              <div><a href="http://dearest.snow-heart.net/" target="_new">OTP</a> :: Stephen Strange & Cloak</div>
+              <div class="flex-center-ver"><a href="http://cliqued.wings.nu/" target="_new">my jam!!</a>&nbsp;<img src="http://cliqued.wings.nu/jam/pink.png">&nbsp;"Chaotic Love Revolution"</div>
+              <div><a href="http://aromatic.wings.nu/" target="_new">aromatic</a> // phở</div>
+              <div><a href="https://ac.kuchiki.net/" target="new"><img src="images/ac-emerald.gif" title="pixel friends | Emerald"><img src="images/ac-coach.gif" title="pixel friends | Coach"><img src="images/ac-cornimer.gif" title="pixel friends | Cornimer"></a></div>
+              <div><a href="https://dust.kuchiki.net/" target="_blank"><img class="freezeframe" src="images/aquarius.gif" title="celestial divine // aquarius"></a></div>
             </div>
-          </div>
+          </section>
+        </article>
+        <hr>
+          <article class="neocities-links">
+            <h2>Neocities Neighbors</h2>
+            <p>If you've already added me, please let me know through site comments or email! :D</p>
+            <div class="flex-center randomize" style="margin-bottom:20px">
+              <div><a href="https://keysklubhouse.neocities.org/" target="_new"><img src="images/keysklubhouse.png" alt="Key's Klubhouse"></a></div>
+              <div><a href="https://pklucky.neocities.org/" target="_new"><img src="images/pklucky.gif" class="freezeframe" alt="PKLucky's Beachside Lounge"></a></div>
+              <div><a href="https://lhfm.neocities.org" target="_new"><img src="images/lhfm.png" alt="リテラリーひふみ"></a></div>
+              <div><a href="https://doctordizzy.neocities.org/" target="_new"><img src="images/doctordizzy.png" alt="Dizzy's Bunny Hell"></a></div>
+              <div><a href="https://l-chan.neocities.org/" target="_new"><img src="images/l-chan.png" alt="L-Chan's Website"></a></div>
+              <div><a href="https://arlita.neocities.org/" target="_new"><img src="images/arlita.gif" class="freezeframe" alt="arlita's internet page"></a></div>
+              <div><a href="https://nickle4apickle.neocities.org/" target="_new"><img src="images/nicklesfaves.gif" class="freezeframe" alt="Nickle4aPickle on NeoCities"></a></div>
+              <div><a href="https://hellokittyminigun.neocities.org/" target="_new"><img src="images/hellokittyminigun.png" alt="Hello Kitty Minigun"></a></div>
+              <div><a href="https://mystsaphyr.me" target="_new"><img src="images/mystsaphyr_me.gif" class="freezeframe" alt="MystSaphyr"></a></div>
+              <div><a href="https://fwishy.neocities.org/" target="_new"><img src="images/fwishy.png" alt="Fwishy," style="width:88px;"></a></div>
+              <div><a href="https://daximus.site" target="_new"><img src="images/daximus.gif" class="freezeframe" alt="Daximus"></a></div>
+              <div><a href="https://artwork.neocities.org/" target="_new"><img src="images/artwork.gif" class="freezeframe" alt="✼ A R T W O R K ✼"></a></div>
+              <div><a href="https://lugaw.gay/"><img src="images/lugaw.png"></a></div>
+              <div><a href="https://myblace.neocities.org/" target="_new"><img src="images/MyBlace.png" alt="My Blace"></a></div>
+              <div><a href="https://skykristal.art/" target="_new"><img src="images/hidden_world.png" alt="Hidden World ✎ Skykristal"></a></div>
+              <div><a href="https://jade-everstone.neocities.org/" target="_new"><img src="images/jade-everstone.png"></a></div>
+            </div>
+            <p>Other sites that I follow are over <a href="https://neocities.org/site/bechnokid/follows" target="_new">here</a>!
+          </article>
           <hr>
-          <h2>Neocities Sites</h2>
-          <div class="flex-center rec-links randomize">
-            <div><a href="https://sadgrl.online" target="_new"><img src="images/sadgrlonline.gif" class="freezeframe" alt="Working Toward a Better Interne"></a></div>
-            <div><a href="https://yesterweb.org" target="_new"><img src="images/yesterweb.png" alt="The Yesterweb - Reclaiming the Internet"></a></div>
-            <div><a href="https://psshaw.neocities.org/" target="_new"><img src="images/psshaw.png" alt="▼ PSSHAW!"></a>
-            </div>
-            <div><a href="https://cinni.net" target="_new"><img src="images/cinni.png" alt="♡cinni's dream home♡"></a>
-            </div>
-            <div><a href="https://cinnamuff.neocities.org/" target="_new"><img src="images/cinnamuff.png" alt="Cinnamuff's Galaxy!"></a></div>
-            <div><a href="https://lu.tiny-universes.net/" target="_new"><img src="images/lulu.gif" class="freezeframe" alt="lulu in cyberspace!"></a></div>
-            <div><a href="https://koinuko.pink/" target="_new"><img src="images/koinuko.gif" class="freezeframe" alt="koinuko returns"></a>
-            </div>
-            <div><a href="https://missmoss.neocities.org" target="_new"><img src="images/missmoss.png" alt="miss moss"></a></div>
-            <div><a href="https://keysklubhouse.neocities.org/" target="_new"><img src="images/keysklubhouse.png" alt="Key's Klubhouse"></a></div>
-            <div><a href="https://gildedware.neocities.org/index.html" target="_new"><img src="images/gildedware.gif" class="freezeframe" alt="Installing Gildedware..."></a></div>
-            <div><a href="https://pklucky.neocities.org/" target="_new"><img src="images/pklucky.gif" class="freezeframe" alt="PKLucky's Beachside Lounge"></a></div>
-            <div><a href="https://l-chan.neocities.org/" target="_new"><img src="images/l-chan.png" alt="L-Chan's Website"></a></div>
-            <div><a href="https://ratthew.neocities.org/" target="_new"><img src="images/ratthew.png" alt="☆ratthew's place!!☆"></a></div>
-            <div><a href="https://softheartclinic.neocities.org/" target="_new"><img src="images/softheartclinic.gif" class="freezeframe" alt="softheartclinic"></a></div>
-            <div><a href="https://arlita.neocities.org/" target="_new"><img src="images/arlita.gif" class="freezeframe" alt="arlita's internet page"></a></div>
-            <div><a href="https://nuange.neocities.org/" target="_new"><img src="images/nuange.gif" class="freezeframe" alt="Shnizkeria"></a></div>
-            <div><a href="https://yaya.social/" target="_new"><img src="images/yairscorner.png" alt="Yair's Corner"></a>
-            </div>
-            <div><a href="https://plasticdino.neocities.org/" target="_new"><img src="images/plasticdino.gif" class="freezeframe" alt="plasticdino"></a></div>
-            <div><a href="https://mooeena.neocities.org/" target="_new"><img src="images/mooeena.png" alt="Moo Like A Goat!"></a></div>
-            <div><a href="https://nickle4apickle.neocities.org/" target="_new"><img src="images/nicklesfaves.gif" class="freezeframe" alt="Nickle4aPickle on NeoCities"></a></div>
-            <div><a href="https://blissnet.neocities.org/" target="_new"><img src="images/blissnet.png" alt="Bliss-Net"></a></div>
-            <div><a href="https://theenderdraco.neocities.org/" target="_new"><img src="images/theenderdraco.gif" class="freezeframe" alt="draco's super swag website thingy"></a></div>
-            <div><a href="https://pleurodelinae.neocities.org/" target="_new"><img src="images/pleurodelinae.png" alt="PLEURODELINAE"></a></div>
-            <div><a href="https://teddybear-halo.neocities.org/" target="_new"><img src="images/teddybear-halo.gif" class="freezeframe" alt="step inside the dream . . ."></a></div>
-            <div><a href="https://nightmarefantasmic.neocities.org/" target="_new"><img src="images/nightmarefantasmic.png" alt="Nightmare Fantasmic...+...Trapped Spirit"></a></div>
-            <div><a href="https://neoratz.neocities.org/" target="_new"><img src="images/neoratz.gif" class="freezeframe" alt="neoratz"></a>
-            </div>
-            <div><a href="https://purinland.neocities.org/"><img src="images/purinland.png"></a></div>
-            <div><a href="https://hellokittyminigun.neocities.org/" target="_new"><img src="images/hellokittyminigun.png" alt="Hello Kitty Minigun"></a></div>
-            <div><a href="https://itsnotstupid.neocities.org/" target="_new"><img src="images/itsnotstupid.gif" class="freezeframe" alt="It's Not Stupid, It's Advanced!"></a></div>
-            <div><a href='https://lhfm.neocities.org' target='_new'><img src='images/lhfm.png' alt='リテラリーひふみ'></a></div>
-            <div><a href='https://mystsaphyr.me' target='_new'><img src='images/mystsaphyr_me.gif' class="freezeframe" alt='MystSaphyr'></a>
-            </div>
-            <div><a href='https://kookoioi.neocities.org' target='_new'><img src='images/kookoioi.png' alt='Kookoioi Art'></a></div>
-            <div><a href='https://strovi.neocities.org' target='_new'><img src='images/strovi.gif' class="freezeframe" alt='STROVI.ART'></a>
-            </div>
-            <div><a href='https://moonie.neocities.org' target='_new'><img src='images/moonie.png' alt='moonie'></a>
-            </div>
-            <div><a href='https://shishka.neocities.org' target='_new'><img src='images/shishka.gif' class="freezeframe" alt='shishka'></a>
-            </div>
-            <div><a href="https://vaje.neocities.org/" target="_new"><img src="images/vaje.gif" class="freezeframe" alt="Are you sure you remember the way out?"></a></div>
-            <div><a href="https://theglittersalamango.neocities.org/" target="_new"><img src="images/theglittersalamango.gif" class="freezeframe" alt="TheGlitterSalamango Website"></a></div>
-            <div><a href="https://ita.toys" target="_new"><img src="images/ita-toys.gif" class="freezeframe" alt="ita.toys"></a></div>
-            <div><a href="https://allyratworld.neocities.org/" target="_new"><img src="images/allyratworld.png" alt="AllyRat World"></a></div>
-            <div><a href="https://pomelo.neocities.org/" target="_new"><img src="images/pomelo.gif" class="freezeframe"></a></div>
-            <div><a href="https://mani.neocities.org/" target="_new"><img src="images/mani.gif" class="freezeframe"></a></div>
-            <div><a href="https://dannarchy.com/" target="_new"><img src="images/dannarchy.gif" class="freezeframe" alt="Dannarchy"></a>
-            </div>
-            <div><a href="https://cosmic-kiko.neocities.org/" target="_new"><img alt="Cosmic Kiko" src="images/cosmic-kiko.gif" class="freezeframe"></a></div>
-            <div><a href="https://ralts.neocities.org/" target="_new"><img src="images/ralts.png" alt="&quot;You should have made the url 'really.gov!'&quot;"></a></div>
-            <div><a href="https://fwishy.neocities.org/" target="_new"><img src="images/fwishy.png" alt="Fwishy," style="width:88px;"></a></div>
-            <div><a href="https://graybox.neocities.org/" target="_new"><img src="images/graybox.png" alt="GrayBox"></a>
-            </div>
-            <div><a href="https://daximus.site" target="_new"><img src="images/daximus.gif" class="freezeframe" alt="Daximus"></a></div>
-            <div><a href="https://artwork.neocities.org/" target="_new"><img src="images/artwork.gif" class="freezeframe" alt="✼ A R T W O R K ✼"></a></div>
-            <div><a href="https://nyaa.neocities.org/"><img src="images/nyaa.gif" class="freezeframe"></a></div>
-            <div><a href="https://lugaw.gay/"><img src="images/lugaw.png"></a></div>
-            <div><a href="https://wildsage.neocities.org/" target="_new"><img src="images/wildsage.png" alt="growing in the weeds"></a></div>
-            <div><a href="https://myblace.neocities.org/" target="_new"><img src="images/MyBlace.png" alt="My Blace"></a></div>
-            <div><a href="https://getcubed.neocities.org/" target="_new"><img src="images/getcubed.png" alt="Get Cubed"></a></div>
-            <div><a href="https://bisuko.neocities.org/" target="_new"><img src="images/tigercarnival.png" alt="Tiger Carnival"></a></div>
-            <div><a href="https://vertpush.neocities.org/" target="_new"><img src="images/vertpush.gif" class="freezeframe" /></a></div>
-            <div><a href="https://strawberry-gashes.neocities.org" target="_new"><img src="images/strawberry-gashes.gif" class="freezeframe"></a></div>
-            <div><a href="https://pastelhell.neocities.org" target="_new"><img src="images/pastelhell.gif" class="freezeframe" alt="pastelhell"></a></div>
-            <div><a href="https://doctordizzy.neocities.org/" target="_new"><img src="images/doctordizzy.png" alt="Dizzy's Bunny Hell"></a></div>
-            <div><a href="https://anemptyblissbeyondthisworld.neocities.org/" target="_new"><img src="images/anemptybliss.png" alt="An Empty Bliss Beyond This World"></a></div>
-            <div><a href="https://humanfinny.neocities.org/" target="_new"><img src="images/humanfinny.gif" class="freezeframe" alt="Human Finny"></a></div>
-            <div><a href="https://skykristal.art/" target="_new"><img src="images/hidden_world.png" alt="Hidden World ✎ Skykristal"></a></div>
-            <div><a href="https://cvrsed.neocities.org/" target="_new"><img src="images/cvrsed.gif" class="freezeframe" alt="..⸸*cvrsed 's EVIL home on the 'net*⸸.."></a></div>
-            <div><a href="https://nine-moonbeams.neocities.org/" target="_new"><img src="images/nine-moonbeams.gif" class="freezeframe" alt="nine moonbeams"></a></div>
-            <div><a href="https://dimden.dev/" target="_new"><img src="images/dimden.gif" class="freezeframe" alt="dimden's hotel"></a>
-            </div>
-            <div><a href="https://lazer-bunny.neocities.org/" target="_new"><img src="images/lazer-bunny.gif" class="freezeframe" alt="Lazer-Bunny's Website ˚ʚ♡ɞ˚"></a></div>
-            <div><a href="https://gothiclolita.neocities.org/" target="_new"><img src="images/gothiclolita.png" alt="HIII ^_^"></a></div>
-            <div><a href="https://rosedryad.com/" target="_new"><img src="images/rosedryad.gif" class="freezeframe" alt="RoseDryad"></a>
-            </div>
-            <div><a href="https://falltumn.neocities.org/" target="_new"><img src="images/falltumn.gif" class="freezeframe" alt="house :)"></a></div>
-            <div><a href="https://loves1ck.neocities.org" target="_new"><img src="images/lovesick.png" alt="lovesick !!!"></a></div>
-            <div><a href="https://strawbearie.neocities.org/" target="_new"><img src="images/strawbearie.png" alt="sera's world ♡ "></a></div>
-            <div><a href="https://nonkiru.neocities.org/" target="_new"><img src="images/nonkiru.gif" class="freezeframe" alt="nonkiru"></a>
-            </div>
-            <div><a href="https://sleepy-sage.neocities.org/" target="_new"><img src="images/sleepysage.png" alt="sleepy sage"></a></div>
-            <div><a href="https://nostalgic.neocities.org/" target="_new"><img src="images/nostalgic.png" alt="Nostalgia for the 2000s"></a></div>
-            <div><a href="https://d-o-r-e-m-i.neocities.org/" target="_new"><img src="images/doremi.gif" class="freezeframe" alt="Doremi"></a></div>
-            <div><a href="https://ocean-waves.xyz/" target="_new"><img src="images/ocean-waves.gif" class="freezeframe" alt="Ocean Waves"></a></div>
-            <div><a href="https://freakphone.net/" target="_new"><img src="images/freakphone.gif" class="freezeframe" alt="CALL NOW"></a>
-            </div>
-            <div><a href="https://ales-playground.neocities.org/" target="_new"><img src="images/AlesPlayground.gif" class="freezeframe" alt="Ale's Playground"></a></div>
-            <div><a href="https://jackisnotbright.neocities.org/" target="_new"><img src="images/jackisnotbright.gif" class="freezeframe" alt="JACKISNOTBRIGHT"></a></div>
-            <div><a href="https://purupurple.neocities.org/" target="_new"><img src="images/puruland.png" alt="welcome to puruland"></a></div>
-            <div><a href="https://raining-starss.neocities.org/" target="_new"><img src="images/raining-starss.gif" class="freezeframe" alt="☆ Kidcore wonderland ☆"></a></div>
-          </div>
-          <hr>
+        <article>
           <h2>Out-of-Town Sites</h2>
-          <div class="flex-center rec-links randomize">
-            <div><a href="https://web.archive.org/web/20050204000701/http://www.sonicfoundation.org/main.php" target="_new"><img src="images/tsf.gif" class="freezeframe" alt="The Sonic Foundation"></a></div>
-            <div><a href="http://www.sonicteam.com/" target="_new"><img src="images/sonicteam.png" alt="Sonic Team"></a>
-            </div>
-            <div><a href="https://sonicstadium.org" target="_new"><img src="images/sonicstadium.gif" class="freezeframe" alt="Sonic Stadium"></a></div>
-            <div><a href="https://www.saturdaymorningsonic.com/"><img alt="Saturday Morning Sonic" src="images/sms.png"></a></div>
-            <div><a href="http://www5d.biglobe.ne.jp/~aoi-k/" target="_new"><img src="images/aoi.gif" class="freezeframe" alt="Comical Highway"></a></div>
-          </div>
-          <table class="table-basic" style="margin-top:10px">
-            <tr>
-              <td class="table-center"><a href="http://thefanlistings.org/" target="_new">The Fanlistings Network</a></td>
-              <td><p>An entire repository of fanlistings that you can join.</p></td>
-            </tr>
-            <tr>
-              <td class="table-center"><a href="https://animefanlistings.com" target="_new">The Anime Fanlstings</a></td>
-              <td><p>A repository of anime/manga-related fanlistings that you can join</p></td>
-            </tr>
-            <tr>
-              <td class="table-center"><a href="https://zombo.com" target="_new">Zombo.com</a></td>
-              <td><p>Trust me on this ;)</p></td>
-            </tr>
-            <tr>
-              <td class="table-center"><a href="https://benedictcumberbatchgenerator.tumblr.com/" target="_new">Benedict Cumberbatch Name Generator</a></td>
-              <td><p>Exactly what it says on the tin.</p></td>
-            </tr>
-          </table>
-          <hr>
+          <dl>
+            <dt class="flex-center-ver randomize">
+              <div><a href="https://web.archive.org/web/20050204000701/http://www.sonicfoundation.org/main.php" target="_new"><img src="images/tsf.gif" class="freezeframe" alt="The Sonic Foundation"></a></div>
+              <div><a href="https://sonicstadium.org" target="_new"><img src="images/sonicstadium.gif" class="freezeframe" alt="Sonic Stadium"></a></div>
+              <div><a href="http://www5d.biglobe.ne.jp/~aoi-k/" target="_new"><img src="images/aoi.gif" alt="Comical Highway"></a></div>
+            </dt>
+            <dd>A list of old sites I used to visit when I was younger!</dd>
+            <dt><a href="http://thefanlistings.org/" target="_new">The Fanlistings Network</a></dt>
+            <dd>An entire repository of fanlistings that you can join.</dd>
+            <dt><a href="https://animefanlistings.com" target="_new">The Anime Fanlstings</a></dt>
+            <dd>A repository of anime/manga-related fanlistings that you can join.</dd>
+            <dt><a href="https://zombo.com" target="_new">Zombo.com</a></dt>
+            <dd>Trust me on this ;)</dd>
+            <dt><a href="https://benedictcumberbatchgenerator.tumblr.com/" target="_new">Benedict Cumberbatch Name Generator</a></dt>
+            <dd>Exactly what it says on the tin.</dd>
+          </dl>
+        </article>
+        <hr>
+        <article class="resources">
           <h2>Resources</h2>
-          <table class="table-basic" style="margin-bottom:20px">
-            <thead><tr><th class="table-center" colspan="2">Pixels/Sozai</th></tr></thead>
-            <tbody>
-              <tr>
-                <td class="table-center"><a href="https://cinni.net/directory/" target="_blank"><img src="https://cinni.net/directory/img/88x31.png"></a></td>
-                <td><p>Quite possibly the largest catalog of adorable pixel sites I've seen!</p></td>
-              </tr>
-              <tr>
-                <td class="table-center"><a href="http://engrampixel.tumblr.com" target="_new"><img src="http://media.tumblr.com/tumblr_m5106aHKT11qid2nw.gif" class="freezeframe" alt="Engram Pixel"></a></td>
-                <td><p>A collection of adorable pixels and emoji on Tumblr!</p></td>
-              </tr>
-          </table>
-          <table class="table-basic" style="margin-bottom:20px">
-            <thead><tr><th class="table-center" colspan="2">CSS/HTML/JS</th></tr></thead>
-            <tbody>
-              <tr>
-                <td class="table-center"><a href="https://neothemes.neocities.org/" target="_new"><img src="images/neothemes.png" alt="Neothemes - Layouts and Themes for Neocities"></a></td>
-                <td><p>A Neocities site that provides free layouts! Responsive, and great for beginners!</p></td>
-              </tr>
-              <tr>
-                <td class="table-center"><a href="https://www.w3schools.com/howto/default.asp" target="_new">W3Schools How TO - Code snippets for HTML, CSS, and JavaScript</a></td>
-                <td><p>I've seen people recommend just W3Schools, but if you want specific examples, this is the site for you!</p></td>
-              </tr>
-              <tr>
-                <td class="table-center"><a href="https://terribleideas.neocities.org/" target="_new">Terribleideas' Site</a></td>
-                <td><p>A repository of neat(?) CSS effects you can add to text.</p></td>
-              </tr>
-              <tr>
-                <td class="table-center"><a href="https://www.htmlsymbols.xyz/" target="_new">HTML Symbols</a></td>
-                <td><p>A huge list of HTML symbols with their respective numbers and names.</p></td>
-              </tr>
-              <tr>
-                <td class="table-center"><a href="http://kaomoji.ru/en/" target="_new">Kaomoji.ru</a></td>
-                <td><p>You like kaomojis? Of course you do! This is the largest database for kaomojis that I know of that you can copy and paste!</p></td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="table-basic" style="margin-bottom:20px">
-            <thead><tr><th class="table-center" colspan="2">Graphics</th></tr></thead>
-            <tbody>
-              <tr>
-                <td class="table-center"><a href='https://ezgif.com/' target='_new'><img src='images/ezgif.gif' class="freezeframe" alt='EZGif: Animated GIFs Made Easy'></a></td>
-                <td><p>A free toolset primarily used for creating and editing animated GIFs, but it does a TON of other stuff as well!</p></td>
-              </tr>
-              <tr>
-                <td class="table-center"><a href="https://cooltext.com" target="_new"><img alt="cooltext.com" src="images/cooltxt.gif" class="freezeframe"></a></td>
-                <td><p>A graphics generator where you can make your own logos! Haven't used it myself, but it's really cool.</p></td>
-              </tr>
-              <tr>
-                <td class="table-center"><a href="http://waifu2x.udp.jp/" target="_new">waifu2x</a></td>
-                <td><p>A site where you can take almost any image and upscale it up to 2x with little or no loss of quality.</p></td>
-              </tr>
-              <tr>
-                <td class="table-center"><a href="https://neonaut.neocities.org/brain/image-compression.html" target="_new">Become a Compression Sorcerer</a></td>
-                <td><p>Neonaut's guide for compressing images to optimize your site.</p></td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="table-basic" style="margin-bottom:20px">
-            <thead><tr><th class="table-center" colspan="2">Other</th></tr></thead>
-            <tbody>
-              <tr>
-                <td class="table-center"><a href="https://www.thistothat.com" target="_new">This to That</a></td>
-                <td><p>A site that tells how to glue different materials together! I'm sure this will come in handy for a cosplayer like myself lol</p></td>
-              </tr>
-              <tr>
-                <td class="table-center"><a href="https://mashable.com/article/how-to-blur-your-house-on-google-street-view" target="_new">How to blur your house on Google Street View (and why you should)</a></td>
-                <td><p>What it says on the tin!</p></td>
-              </tr>
-              <tr>
-                <td class="table-center"><a href="https://www.roboleary.net/vscode/2020/08/05/dont-need-extensions.html" target="_new">VS Code: You don't need that extension</a>(<a href="https://www.roboleary.net/2021/11/06/vscode-you-dont-need-that-extension2.html" target="_new">Part 2</a>, <a href="https://www.roboleary.net/tools/2022/05/18/vscode-you-dont-need-a-formatting-extension-prettier-and-friends.html" target="_new">Part 3</a>)</td>
-                <td><p>Helpful guides by Rob O'Leary that explain what VSCode can already do without needing to install extensions.</p></td>
-              </tr>
-            </tbody>
-          </table>
-          <hr>
-          <h2>Credits</h2>
-          <ul class="links-list">
-            <li>Layout inspiration: <a href="http://web.archive.org/web/20041206135411/rinacat.com/main.html" target="_new">Rina Cat's Domain</a></li>
-            <li>Layout template: <a href="https://sadgrl.online/projects/layout-builder/" target="_new">Sadgrl's Layout Builder</a></li>
-            <li>Web counter: <a href="https://www.websiteout.net/counter.php" target="_new">WebsiteOut</a></li>
-            <li>Graphics: <a href="https://anlucas.neocities.org/88x31Buttons.html" target="_new">A.N. Lucas</a>, <a href="https://foollovers.com/index.html" target="_new">Fool Lovers</a></li>
-            <li>Fonts: Verdana and <a href="https://opendyslexic.org/" target="_new">OpenDyslexic</a></li>
-            <li>Coding help: <a href="https://sadgrl.online/webmastery/html-css-help.html" target="_new">Sadgrl's HTML/CSS/JS Help</a>, <a href="https://www.w3schools.com/" target="_new">W3Schools</a></li>
-            <li>JS libraries used: <a href="https://github.com/ctrl-freaks/freezeframe.js/" target="_new">freezeframe.js</a>, <a href="https://prismjs.com/" target="_new">Prism</a></li>
-          </ul>
-        </div>
+          <section>
+            <h3>Pixels/Sozai:</h3>
+            <dl>
+              <dt class="flex-center-ver"><a href="https://cinni.net/directory/" target="_new"><img src="https://cinni.net/directory/img/88x31.png"></a></dt>
+              <dd>Quite possibly the largest catalog of adorable pixel sites I've seen!</dd>
+              <dt class="flex-center-ver"><a href="http://engrampixel.tumblr.com" target="_new"><img src="http://media.tumblr.com/tumblr_m5106aHKT11qid2nw.gif"></a></dt>
+              <dd>A collection of adorable pixels and emoji on Tumblr!</dd>
+            </dl>
+          </section>
+          <hr class="small">
+          <section>
+            <h3>CSS/HTML/JS:</h3>
+            <dl>
+              <dt class="flex-center-ver"><a href="https://sadgrl.online" target="_new"><img src="images/sadgrlonline.gif" class="freezeframe" alt="Working Toward a Better Internet"></a></dt>
+              <dd>Perhaps one of the most famous webmasters on Neocities, and for good reason! She has a ton of stuff to help new Neocities users get started on their sites.</dd>
+              <dt class="flex-center-ver"><a href="https://neothemes.neocities.org/" target="_new"><img src="images/neothemes.png" alt="Neothemes - Layouts and Themes for Neocities"></a></dt>
+              <dd>A Neocities site that provides free layouts! Responsive, and great for beginners!</dd>
+              <dt><a href="https://www.w3schools.com/howto/default.asp" target="_new">W3Schools How TO - Code snippets for HTML, CSS, and JavaScript</a></dt>
+              <dd>I've seen people recommend just W3Schools, but if you want specific examples, this is the site for you!</dd>
+              <dt><a href="https://terribleideas.neocities.org/" target="_new">Terribleideas" Site</a></dt>
+              <dd>A repository of neat(?) CSS effects you can add to text.</dd>
+              <dt><a href="https://www.htmlsymbols.xyz/" target="_new">HTML Symbol List</a></dt>
+              <dd>A huge list of HTML symbols with their respective numbers and names.</dd>
+              <dt><a href="http://kaomoji.ru/en/" target="_new">Kaomoji.ru</a></dt>
+              <dd>You like kaomojis? Of course you do! This is the largest database for kaomojis that I know of that you can copy and paste!</dd>
+            </dl>
+          </section>
+          <hr class="small">
+          <section>
+            <h3>Graphics</h3>
+            <dl>
+              <dt class="flex-center-ver"><a href="https://ezgif.com/" target="_new"><img src="images/ezgif.gif" class="freezeframe" alt="EZGif: Animated GIFs Made Easy"></a></dt>
+              <dd>A free toolset primarily used for creating and editing animated GIFs, but it does a TON of other stuff as well!</dd>
+              <dt class="flex-center-ver"><a href="https://cooltext.com" target="_new"><img alt="cooltext.com" src="images/cooltxt.gif" class="freezeframe"></a></dt>
+              <dd>A graphics generator where you can make your own logos! Haven't used it myself, but it's really cool.</dd>
+              <dt><a href="http://waifu2x.udp.jp/" target="_new">waifu2x</a></dt>
+              <dd>A site where you can take almost any image and upscale it up to 2x with little or no loss of quality.</dd>
+              <dt><a href="https://neonaut.neocities.org/brain/image-compression.html" target="_new">Become a Compression Sorcerer</a></dt>
+              <dd>Neonaut's guide for compressing images to optimize your site.</dd>
+            </dl>
+          </section>
+        </article>
       </main>
     </div>
-    <footer id="footer" style="display: block;"></footer>
+    <footer class="footer"></footer>
   </div>
 </body>
 </html>
