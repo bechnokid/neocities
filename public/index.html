@@ -9,7 +9,7 @@
   <title>Welcome to Bechno Kid's Hideout!</title>
   <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
   <style>
-    main{ min-height: 100vh; width: unset; margin: 0;} article{ width: 800px; height: 500px; padding: 20px; background-color: #fff; border: 2px solid var(--bold);} a{ text-decoration: underline;} h1{ font-size: 1.5em; font-variant: normal !important; color: var(--italic);} h1::before{ content: "❤"; margin-right: 10px;} h1::after{ content: "❤"; margin-left: 10px;} .splash-img{ width: 50%;} .splash-text{ display: flex; flex-direction: column; justify-content: center; margin-right: 20px; padding: 40px; text-align: center;}
+    main{ min-height: 100vh; width: unset; margin: 0;} article{ width: 800px; padding: 20px; background-color: #fff; border: 2px solid var(--bold);} a{ text-decoration: underline;} h1{ font-size: 1.5em; font-variant: normal !important; color: var(--italic);} h1::before{ content: "❤"; margin-right: 10px;} h1::after{ content: "❤"; margin-left: 10px;} .splash-img{ width: 50%;} .splash-text{ display: flex; flex-direction: column; justify-content: center; margin-right: 20px; padding: 40px; text-align: center;} @media only screen and (max-width:768px){ .splash-img{ order: 1; width: 100%;} .splash-img img{ width: 80%;} .splash-text{ order: 2; margin: 0; padding: 10px;}}
   </style>
 </head>
 <body>
@@ -26,7 +26,7 @@
         </div>
         <p><small>Last updated: <span id="lastupdate"></span></small></p>
       </section>
-      <section class="splash-img">
+      <section class="splash-img flex-center">
         <img src="/images/splash.jpg" alt="Warm...">
       </section>
   </main>

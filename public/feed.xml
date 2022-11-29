@@ -7,6 +7,19 @@
     <description>art, blog, resources, and more?!</description>
     <language>en-us</language>
     <item>
+      <title>November 29, 2022</title>
+      <pubDate>Tue, 29 Nov 2022 12:10:00 -0400</pubDate>
+      <link>https://bechnokid.neocities.org/home</link>
+      <description><![CDATA[
+        <br>- Optimized CSS in some areas
+        <br>- Added dream diary entry
+        <br>- Converted some quiz results into images
+        <br>- Fixed broken CSS link for webgarden
+        <br>- Added links
+      ]]>
+      </description>
+    </item>
+    <item>
       <title>November 26, 2022</title>
       <pubDate>Sat, 26 Nov 2022 7:50:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
@@ -16,7 +29,7 @@
         <br>- (Other) Optimized CSS
       ]]>
       </description>
-    <item>
+    </item>
     <item>
       <title>November 6, 2022</title>
       <pubDate>Sat, 6 Nov 2022 22:00:00 -0400</pubDate>
@@ -27,6 +40,7 @@
         <br>- (Other) Optimized CSS
       ]]>
       </description>
+    </item>
     <item>
       <title>October 31, 2022</title>
       <pubDate>Mon, 31 Oct 2022 13:40:00 -0400</pubDate>
