@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
 
   <title>Profile - Bechno Kid's Hideout</title>
-  <style>#tab-profile:checked~.profile, #tab-favorites:checked~.favorites, #tab-interests:checked~.interests, #tab-awards:checked~.awards, #tab-fanlistings:checked~.fanlistings{ display: block;} figure{ width: 200px; float: left; margin: 0 20px 30px 0;} figure div img:not(:last-child){ margin-right: 5px} figure div img:hover{ opacity: 0.50} hr{ margin-bottom: 10px} h2+p:not(.random){ margin-left: 20px;} h3 span{ font-size: 1.3em} section ul{ margin-bottom: 10px} section hr{ border-top: 1px solid var(--sidebar-border)} ul b{ color: var(--italic)} .favorites ul{ margin-left: 20px;} .grid{ grid-template-columns: repeat(auto-fit, minmax(200px, auto));} .awards img{ max-height: 150px; margin-right: 10px; margin-bottom: 10px;} .fanlistings h3{ font-size: medium;} .full-img{ max-height: none !important;} @media only screen and (max-width:768px){ figure{ float: none; margin: 0 auto;} .main-info{ display: flex; flex-direction: column; justify-content: center;} .main-info ul{ margin-top: 10px; padding-top: 20px; border-top: 2px dotted var(--sidebar-border);} .favorites .flex-grid{ width: 100%;}} </style>
+  <style>#tab-profile:checked~.profile, #tab-favorites:checked~.favorites, #tab-interests:checked~.interests, #tab-awards:checked~.awards, #tab-fanlistings:checked~.fanlistings{ display: block;} figure{ width: 200px; float: left; margin: 0 20px 30px 0;} figure div img:hover{ opacity: 0.50} hr{ margin-bottom: 10px} h2+p:not(.random){ margin-left: 20px;} h3 span{ font-size: 1.3em} section ul{ margin-bottom: 10px} section hr{ border-top: 1px solid var(--sidebar-border)} ul b{ color: var(--italic)} .favorites ul{ margin-left: 20px;} .grid{ grid-template-columns: repeat(auto-fit, minmax(200px, auto));} .awards img{ max-height: 150px; margin-right: 10px; margin-bottom: 10px;} .fanlistings h3{ font-size: medium;} .full-img{ max-height: none !important;} @media only screen and (max-width:768px){ figure{ float: none; margin: 0 auto;} .main-info{ display: flex; flex-direction: column; justify-content: center;} .main-info ul{ margin-top: 10px; padding-top: 20px; border-top: 2px dotted var(--sidebar-border);} .favorites .flex-grid{ width: 100%;}} </style>
 </head>
 <body>
   <div class="container">
@@ -48,7 +48,12 @@
                 <img src="images/profile/profile.jpg" alt="Bechno Kid profile image">
                 <figcaption style="margin-bottom:5px;text-align:center;font-size:x-small">"The ticket to the future is always open." -Rem Saverem, TRIGUN</figcaption>
                 <div class="flex-center">
-                  <a href="https://toyhou.se/9179110.f2u-pride-pixels/gallery"><img src="images/profile/asexual.png" title="Asexual" alt="Asexual pixel flag"><img src="images/profile/demigirl.png" title="Demigirl" alt="Demigirl pixel flag"><img src="images/profile/polyamorous.png" title="Polyamorous" alt="Polyamorous pixel flag"></a>
+                  <a href="https://toyhou.se/9179110.f2u-pride-pixels/gallery"><img src="images/profile/asexual.png" title="Asexual" alt="Asexual pixel flag"><img src="images/profile/demigirl.png" title="Demigirl" alt="Demigirl pixel flag" style="margin:0 7px"><img src="images/profile/polyamorous.png" title="Polyamorous" alt="Polyamorous pixel flag"></a>
+                </div>
+                <div class="flex-center" style="margin-top:10px">
+                  <a href="mailto:bechnokid@yahoo.com"><img src="images/profile/email.gif" alt="Email"></a>
+                  <a href="https://bechnokid.tumblr.com" target="_new" style="margin:0 5px"><img src="images/profile/tumblr.gif" alt="Tumblr"></a>
+                  <a href="https://twitter.com/bechnokid" target="_new"><img src="images/profile/twitter.gif" alt="Twitter"></a>
                 </div>
               </figure>
               <div>
@@ -71,15 +76,6 @@
               <h2>Random Fun Fact</h2>
               <p class="random" style="height:70px;padding:10px;margin-bottom:20px;border:1px solid var(--sidebar-border)">Click the button below for a random fun fact about me. :3</p>
               <button class="show-fact">Gimme!</button>
-            </section>
-            <hr>
-            <section class="contact">
-              <h2>Contact/Sites</h2>
-              <ul>
-                <li>Email: <a href="mailto: bechnokid@yahoo.com">bechnokid@yahoo.com</a></li>
-                <li>Twitter: <a href="https://twitter.com/bechnokid">bechnokid</a></li>
-                <li>Tumblr: <a href="https://bechnokid.tumblr.com">bechnokid</a></li>
-              </ul>
             </section>
           </article>
           <article class="tab-content favorites">
@@ -210,8 +206,8 @@
             </section>
           </article>
           <article class="tab-content fanlistings">
-            <h2>Fanlistings</h2>
             <section>
+              <h2>Fanlistings</h2>
               <h3>Joined</h3>
               <div class="flex-center randomize">
                 <div><a href="http://fanique.altervista.org/emoticons/" target="_new"><img src="images/fanlistings/emoticons.png" alt="Digital Expressions: Emoticons Fanlisting"></a></div>
