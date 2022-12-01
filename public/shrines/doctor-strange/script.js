@@ -1,5 +1,1 @@
-$(function(){
-  fetch("/shrines/doctor-strange/navigation.html").then((e=>e.text())).then((e=>{$("#navigation").html(e)}))
-  fetch("/shrines/doctor-strange/sidebar.html").then((e=>e.text())).then((e=>{$("#right-sidebar").html(e)}))
-  fetch("/shrines/doctor-strange/footer.html").then((e=>e.text())).then((e=>{$("#footer").html(e)}))
-})
+$((function(){if(fetch("/shrines/doctor-strange/navigation.html").then((t=>t.text())).then((t=>{$("#navigation").html(t)})),fetch("/shrines/doctor-strange/sidebar.html").then((t=>t.text())).then((t=>{$("#right-sidebar").html(t)})),fetch("/shrines/doctor-strange/footer.html").then((t=>t.text())).then((t=>{$("#footer").html(t),function(){const t=new Date;document.getElementById("currentYear").innerHTML=t.getFullYear()}()})),$(".freezeframe").length>0){const t=new Freezeframe({trigger:!1,responsive:!1});$("#play-gif").on("click",(function(){t.start()})),$("#stop-gif").on("click",(function(){t.stop()}))}}));
