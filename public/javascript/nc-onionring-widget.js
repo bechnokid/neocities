@@ -64,7 +64,7 @@ else {
       <td><a href='${sites[nextIndex]}'><img src="https://neocreatives.neocities.org/right1.gif"></a></td>
     </tr>
     <tr>
-      <td colspan=3 style='background-color:#ffffff00;text-align:center'><small>
+      <td colspan=3 style='background-color:var(--content);text-align:center'><small>
       ${randomText}
       ${indexText}
       </small></td>
