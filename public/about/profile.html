@@ -17,13 +17,14 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/javascript/script.js"></script>
+  <script src="https://koinuko.neocities.org/shipping/webring/webringminiscript.js"></script>
 
   <link rel="canonical" href="https://bechnokid.neocities.org">
   <link rel="preload" href="/css/main.css" as="style">
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
 
   <title>Profile - Bechno Kid's Hideout</title>
-  <style>#tab-profile:checked~.profile, #tab-favorites:checked~.favorites, #tab-interests:checked~.interests, #tab-awards:checked~.awards, #tab-fanlistings:checked~.fanlistings{ display: block;} figure{ width: 200px; float: left; margin: 0 20px 30px 0;} figure div img:hover{ opacity: 0.50} hr{ margin-bottom: 10px} h2+p:not(.random){ margin-left: 20px;} h3 span{ font-size: 1.3em} section ul{ margin-bottom: 10px} section hr{ border-top: 1px solid var(--sidebar-border)} ul b{ color: var(--italic)} .main-info ul{ list-style-position: outside; padding: 0 20px; margin-left: 17em;} .favorites ul{ margin-left: 20px;} .grid{ grid-template-columns: repeat(auto-fit, minmax(200px, auto));} .awards img{ max-height: 150px; margin-right: 10px; margin-bottom: 10px;} .fanlistings h3{ font-size: medium;} .full-img{ max-height: none !important;} @media only screen and (max-width:768px){ figure{ float: none; margin: 0 auto;} .main-info{ display: flex; flex-direction: column; justify-content: center;} .main-info ul{ margin-left: 0; margin-top: 10px; padding-top: 20px; border-top: 2px dotted var(--sidebar-border);} .favorites .flex-grid{ width: 100%;}} </style>
+  <style>#tab-profile:checked~.profile, #tab-favorites:checked~.favorites, #tab-interests:checked~.interests, #tab-awards:checked~.awards, #tab-fanlistings:checked~.fanlistings{ display: block;} figure{ width: 220px; float: left; margin: 0 20px 20px 0; padding: 10px; background-color: var(--sidebar); border: 2px solid var(--sidebar-border);} hr{ margin-bottom: 10px} h2+p:not(.random){ margin-left: 20px;} h3 span{ font-size: 1.3em} section ul{ margin-bottom: 10px} section hr{ border-top: 1px solid var(--sidebar-border)} ul b{ color: var(--italic)} .main-info ul{ list-style-position: outside; padding: 0 30px; margin-left: 17em;} p.random{ height: 70px; padding: 10px; margin-bottom: 20px; background-color: var(--sidebar); border: 1px solid var(--sidebar-border)} .favorites ul{ margin-left: 20px;} .grid{ grid-template-columns: repeat(auto-fit, minmax(200px, auto));} .cliques div:not(:last-child), .web:not(:last-child){ margin-bottom: 10px;} #ncring table{ background-color: unset;} #ncring td{ border: 0; padding: 0px;} #cuddler-webring a:not(:last-child){ margin-right: 5px;} #selfinsertwebringmini #templateWebring{ margin: 0 !important;} .awards img{ max-height: 150px; margin-right: 10px; margin-bottom: 10px;} .fanlistings h3{ font-size: medium;} .full-img{ max-height: none !important;} @media only screen and (max-width:768px){ figure{ float: none; margin: 0 auto;} .main-info{ display: flex; flex-direction: column; justify-content: center;} .main-info ul{ margin-left: 0; margin-top: 10px; padding-top: 20px; border-top: 2px dotted var(--sidebar-border);} .favorites .flex-grid{ width: 100%;}} </style>
 </head>
 <body>
   <div class="container">
@@ -48,7 +49,9 @@
                 <img src="images/profile/profile.jpg" alt="Bechno Kid profile image">
                 <figcaption style="margin-bottom:5px;text-align:center;font-size:x-small">"The ticket to the future is always open." -Rem Saverem, TRIGUN</figcaption>
                 <div class="flex-center">
-                  <a href="https://toyhou.se/9179110.f2u-pride-pixels/gallery"><img src="images/profile/asexual.png" title="Asexual" alt="Asexual pixel flag"><img src="images/profile/demigirl.png" title="Demigirl" alt="Demigirl pixel flag" style="margin:0 7px"><img src="images/profile/polyamorous.png" title="Polyamorous" alt="Polyamorous pixel flag"></a>
+                  <a href="https://toyhou.se/9179110.f2u-pride-pixels/gallery"><img src="images/profile/asexual.png" title="Asexual" alt="Asexual pixel flag"></a>
+                  <a href="https://toyhou.se/9179110.f2u-pride-pixels/gallery"><img src="images/profile/demigirl.png" title="Demigirl" alt="Demigirl pixel flag" style="margin:0 7px"></a>
+                  <a href="https://toyhou.se/9179110.f2u-pride-pixels/gallery"><img src="images/profile/polyamorous.png" title="Polyamorous" alt="Polyamorous pixel flag"></a>
                 </div>
                 <div class="flex-center" style="margin-top:10px">
                   <a href="mailto:bechnokid@yahoo.com"><img src="images/profile/email.gif" alt="Email"></a>
@@ -74,8 +77,36 @@
             <hr>
             <section class="random-facts">
               <h2>Random Fun Fact</h2>
-              <p class="random" style="height:70px;padding:10px;margin-bottom:20px;border:1px solid var(--sidebar-border)">Click the button below for a random fun fact about me. :3</p>
+              <p class="random">Click the button below for a random fun fact about me. :3</p>
               <button class="show-fact">Gimme!</button>
+            </section>
+            <hr>
+            <section class="webrings">
+              <h2>Webrings / Cliques</h2>
+              <div class="grid">
+                <section class="webring">
+                  <div id="ncring" class="web">
+                    <script type="text/javascript" src="https://neocreatives.neocities.org/onionring-variables.js"></script>
+                    <script type="text/javascript" src="/javascript/nc-onionring-widget.js"></script>
+                  </div>
+                  <div id="cuddler-webring" class="flex-center-ver web">
+                    <a href="https://cuddler-webring.netlify.app/bechnokid/previous"><img src="/images/webring_cuddler_left.gif" alt="Cuddler Webring: Prev"></a><a href="https://mincerafter42.github.io/cuddle/"><img src="/images/webring_cuddler.png" alt="Cuddler Webring"></a><a href="https://cuddler-webring.netlify.app/bechnokid/next"><img src="/images/webring_cuddler_right.gif" alt="Cuddler Webring: Next"></a>
+                  </div>
+                  <div class="flex-center-ver web">
+                    <a href="https://isaacfish.neocities.org/webring/22.html"><img src="https://isaacfish.neocities.org/webring/left.png" alt="left arrow"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/"><img src="https://isaacfish.neocities.org/webring/queercoded.png" alt="queer coded webring"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/24.html"><img src="https://isaacfish.neocities.org/webring/right.png" alt="right arrow"></a>
+                  </div>
+                  <div id="selfinsertwebringmini"><script>function setListNumber() { positionInList = 128 };</script></div>
+                </section>
+                <section class="cliques">
+                  <div><a href="https://dust.kuchiki.net/" target="_blank"><img src="images/cliques/aquarius.gif" title="celestial divine // aquarius"></a></div>
+                  <div class="flex-center-ver"><a href="http://cliqued.wings.nu/" target="_new">OTF</a>&nbsp;<img src="http://cliqued.wings.nu/otf/default.png">&nbsp;Doctor Strange</div>
+                  <div><a href="http://dearest.snow-heart.net/" target="_new">OTP</a> :: Stephen Strange & Cloak</div>
+                  <div class="flex-center-ver"><a href="http://cliqued.wings.nu/" target="_new">my jam!!</a>&nbsp;<img src="http://cliqued.wings.nu/jam/pink.png">&nbsp;"Chaotic Love Revolution"</div>
+                  <div><a href="http://aromatic.wings.nu/" target="_new">aromatic</a> // phở</div>
+                  <div><a href="https://ac.kuchiki.net/" target="new"><img src="images/cliques/ac-emerald.gif" title="pixel friends | Emerald"><img src="images/cliques/ac-coach.gif" title="pixel friends | Coach"><img src="images/cliques/ac-cornimer.gif" title="pixel friends | Cornimer"></a></div>
+                  <div style="display:flex;flex-direction:column;margin-top:-20px"><img src="images/cliques/magnemite.png" width="56px"><span><a href="http://pkmn.caelestis.nu" target="_new">I Choose You!</a> :: MAGNEMITE</span></div>
+                </section>
+              </div>
             </section>
           </article>
           <article class="tab-content favorites">
