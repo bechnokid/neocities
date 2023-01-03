@@ -7,6 +7,19 @@
     <description>art, blog, resources, and more?!</description>
     <language>en-us</language>
     <item>
+      <title>January 2, 2023</title>
+      <pubDate>Mon, 2 Jan 2022 22:30:00 -0400</pubDate>
+      <link>https://bechnokid.neocities.org/home</link>
+      <description><![CDATA[
+        <br>- New <a href="/blog/2023_01_03.html">blog post</a>
+        <br>- Added more <a href="/goodies/stickersheetclub.html">stickers</a>
+        <br>- New page: <a href="/goodies/archive.html">Layout archive</a>
+        <br>- Updated Play/Stop GIFs buttons to be sticky
+        <br>- Fixed other bugs
+      ]]>
+      </description>
+    </item>
+    <item>
       <title>December 28, 2022</title>
       <pubDate>Wed, 28 Dec 2022 18:30:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
