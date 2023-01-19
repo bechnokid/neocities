@@ -41,7 +41,7 @@ else {
   indexText = ""
   //if you've chosen to include an index, this builds the link to that
   if (useIndex) {
-    indexText = `<a href='${indexPage}'><img src="https://bechnokid.neocities.org/images/webring_mrgrizz.png" width="230"></a> `;
+    indexText = `<a href='${indexPage}'><img src="https://bechnokid.neocities.org/images/images/webrings/splatnet.png" width="230"></a> `;
   }
 
   randomText = ""
@@ -52,6 +52,6 @@ else {
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <table><tr><td class='webring-info'><img src="https://boothworldindustries.neocities.org/webrings/splatnet/Photos/logo.png" width="60"></br><span class='webring-links'>${indexText}<br><span class='webring-innerLinks'><span class='webring-prev'><a href='${sites[previousIndex]}'><--</a></span><span class='webring-mid'><img src="https://bechnokid.neocities.org/images/webring_mrgrizz_icon.png" width="35"></span><span class='webring-next'><a href='${sites[nextIndex]}'>--></a></span></span></span></tr></table>
+  <table><tr><td class='webring-info'><img src="https://boothworldindustries.neocities.org/webrings/splatnet/Photos/logo.png" width="60"></br><span class='webring-links'>${indexText}<br><span class='webring-innerLinks'><span class='webring-prev'><a href='${sites[previousIndex]}'><--</a></span><span class='webring-mid'><img src="https://bechnokid.neocities.org/images/webrings/splatnet_icon.png" width="35"></span><span class='webring-next'><a href='${sites[nextIndex]}'>--></a></span></span></span></tr></table>
   `);
 }
