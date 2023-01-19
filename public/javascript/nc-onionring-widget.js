@@ -7,7 +7,7 @@
 
 var tag = document.getElementById(ringID); //find the widget on the page
 
-thisSite = window.location.href; //get the url of the site we're currently on
+thisSite = "https://bechnokid.neocities.org/"; //get the url of the site we're currently on
 thisIndex = null;
 
 // go through the site list to see if this site is on it and find its position
@@ -27,13 +27,7 @@ function randomSite() {
 
 //if we didn't find the site in the list, the widget displays a warning instead
 if (thisIndex == null) {
-  tag.insertAdjacentHTML('afterbegin', `
-<table>
-  <tr>
-    <td><a href="https://neocreatives.neocities.org/"><img src="https://neocreatives.neocities.org/button.gif"></a></td>
-  </tr>
-</table>
-  `);
+  tag.insertAdjacentHTML('afterbegin', `<table><tr><td><a href="https://neocreatives.neocities.org/"><img src="https://neocreatives.neocities.org/button.gif"></a></td></tr></table>`);
 }
 else {
   //find the 'next' and 'previous' sites in the ring. this code looks complex
@@ -56,20 +50,5 @@ else {
 
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
-  tag.insertAdjacentHTML('afterbegin', `
-  <table style='width: unset'>
-    <tr>
-      <td><a href='${sites[previousIndex]}'><img src="https://neocreatives.neocities.org/left1.gif"></a></td>
-      <td style='padding:0 5px'><img src="https://neocreatives.neocities.org/button.gif"></td>
-      <td><a href='${sites[nextIndex]}'><img src="https://neocreatives.neocities.org/right1.gif"></a></td>
-    </tr>
-    <tr>
-      <td colspan=3 style='background-color:var(--content);text-align:center'><small>
-      ${randomText}
-      ${indexText}
-      </small></td>
-    </tr>
-  </table>
-  `);
-
+  tag.insertAdjacentHTML('afterbegin', `<table style='width: unset'><tr><td><a href='${sites[previousIndex]}'><img src="https://neocreatives.neocities.org/left1.gif"></a></td><td style='padding:0 5px'><img src="https://neocreatives.neocities.org/button.gif"></td><td><a href='${sites[nextIndex]}'><img src="https://neocreatives.neocities.org/right1.gif"></a></td></tr><tr><td colspan=3 style='background-color:var(--content);text-align:center'><small>${randomText}${indexText}</small></td></tr></table>`);
 }
