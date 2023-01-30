@@ -17,9 +17,11 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/javascript/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 
   <link rel="canonical" href="https://bechnokid.neocities.org">
   <link rel="preload" href="/css/main.css" as="style">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
   <style>.thumbs img {width: 50%;border: 1px solid var(--bold);}.lightbox img {max-width: 100%;max-height: 100%;}@media only screen and (max-width:1000px) {main img {width: 70%;}}@media only screen and (max-width:768px) {main img {width: 100%;}}</style>
 
@@ -37,17 +39,15 @@
           <section class="thumbs">
             <h2>July 2022, v1.0</h2>
             <p>The very first layout! There isn't much of a difference between this and the current one because I mostly focused on cleaning and optimizing my very, VERY messy CSS.</p>
-            <a href="#layout-2022-07"><img src="images/archive/2022-07.png"></a>
-          </section>
-          <section class="lightboxes">
-            <div class="lightbox" onclick="history.back()" id="layout-2022-07">
-              <img src="images/archive/2022-07.png">
-            </div>
+            <a href="images/archive/2022-07.png" class="glightbox"><img src="images/archive/2022-07.png"></a>
           </section>
         </article>
       </main>
     </div>
     <footer class="footer"></footer>
   </div>
+  <script type="text/javascript">
+    GLightbox({ selector: ".glightbox", openEffect: "none", closeEffect: "none", moreLength: 65, keyboardNavigation: !0, touchNavigation: !0 });
+  </script>
 </body>
 </html>
