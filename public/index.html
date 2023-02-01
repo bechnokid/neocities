@@ -37,4 +37,7 @@
       <section class="splash-img flex-center"><img src="/images/splash.png" alt="It's almost Valentine's Day!"></section>
   </main>
 </body>
+<script>
+  var e=new XMLHttpRequest(); (e.onreadystatechange=function (){ if (4==this.readyState && 200==this.status){ var e=JSON.parse(this.responseText), t=e.info.views.toString().split(""); for (l=0; l < t.length; l++){ (t.length - 1 - l) % 3==0 && t.length; var a=new Date(e.info.last_updated); $("#lastupdate").html(a.getMonth() + 1 + "-" + a.getDate() + "-" + a.getFullYear());}}}), e.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=bechnokid", !0), e.send(); var t=new XMLHttpRequest(); (t.onreadystatechange=function (){ if (4==this.readyState && 200==this.status){ var e=JSON.parse(this.responseText).info.views.toString().split(""), t=""; for (r=0; r < e.length; r++) t +='<img src="images/c_' + e[r] + '.gif"/>'; document.getElementById("hitcount").innerHTML=t;}}), t.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=bechnokid", !0), t.send();
+</script>
 </html>
