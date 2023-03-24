@@ -1,36 +1,21 @@
 <!DOCTYPE html>
 <html id="splash-html" lang="en">
-
 <head>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/javascript/script.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#d65da4">
-
-  <meta property="og:title" content="Bechno Kid's Hideout">
-  <meta property="og:description" content="Art, blog, resources, and more?!">
-  <meta property="og:image" content="https://bechnokid.neocities.org/images/og_image.png">
-  <meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities">
-  <meta property="og:locale" content="en_US">
-  <meta property="og_type" content="website">
-  <meta property="og:url" content="https://bechnokid.neocities.org">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:dnt" content="on">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#d65da4"><meta property="og:title" content="Bechno Kid's Hideout"><meta property="og:description" content="Art, blog, resources, and more?!"><meta property="og:image" content="https://bechnokid.neocities.org/images/og_image.png"><meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities"><meta property="og:locale" content="en_US"><meta property="og_type" content="website"><meta property="og:url" content="https://bechnokid.neocities.org"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on"><link href="/css/main.css" rel="stylesheet" type="text/css" media="all"><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="/javascript/script.js"></script>
   <title>Welcome to Bechno Kid's Hideout!</title>
-  <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
-  <style>main {min-height: 100vh;width: unset;margin: 0;}article {width: 800px;padding: 20px;background-color: var(--content);border: 2px solid var(--bold);}a {font-weight: bold;text-decoration: underline;}p {margin: 0.8em 0}h1 {font-size: 1.5em;font-variant: normal !important;color: var(--italic);}h1::before {content: "❤";margin-right: 10px;}h1::after {content: "❤";margin-left: 10px;}.splash-img {width: 50%;}.splash-text {display: flex;flex-direction: column;justify-content: center;margin-right: 20px;padding: 40px;text-align: center;}#hitcount img {margin: 10px -5px 0;}@media only screen and (max-width:768px) {.splash-img {order: 1;width: 100%;}.splash-img img {width: 80%;}.splash-text {order: 2;margin: 0;padding: 10px;}}</style>
+  <style>main {min-height: 100vh;width: unset;margin: 0;}article {width: 800px;padding: 20px;background-color: var(--content);border: 2px solid var(--bold);}a {font-weight: bold;text-decoration: underline;}h1 {font-size: 1.5em;font-variant: normal !important;color: var(--italic);}.splash-img {width: 50%;}.splash-text {flex-direction: column;margin-right: 20px;padding: 40px;text-align: center;}.splash-desc {flex-direction: column;}.splash-desc p {width: 270px;margin: 0.8em 0;}#hitcount img {margin: 10px -5px 0;}@media only screen and (max-width:768px) {.splash-img {order: 1;width: 100%;}.splash-img img {width: 80%;}.splash-text {order: 2;margin: 0;padding: 10px;}}</style>
 </head>
 <body>
   <main class="flex-center">
     <article class="flex-center">
-      <section class="splash-text">
-        <h1>Bechno Kid's Hideout!</h1>
+      <section class="splash-text flex-center-hor">
+        <h1>❤ Bechno Kid's Hideout! ❤</h1>
         <hr style="margin: 10px 0 0">
-        <p>Welcome!</p>
-        <p>This website is mobile-friendly, but is<br>best viewed on a desktop!</p>
-        <p><a href="/home.html">ENTER HERE</a></p>
+        <div class="splash-desc flex-center-ver">
+          <p>Welcome!</p>
+          <p>This website is mobile-friendly, but works best on a desktop at 1920 x 1080.</p>
+          <p><a href="/home.html">ENTER HERE</a></p>
+        </div>
         <span id="hitcount"></span>
         <p><small>Last updated: <span id="lastupdate"></span></small></p>
       </section>
