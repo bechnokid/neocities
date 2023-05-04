@@ -12,28 +12,3 @@
     </menu>
   </div>
 </div>
-<div class="player">
-  <div class="basic-box">
-    <h2><i class="fa-solid fa-music"></i> Now Playing <i class="fa-solid fa-music"></i></h2>
-    <div class="song-wrapper">
-      <marquee scrollamount=2 onmouseover="this.stop();" onmouseout="this.start();">
-        <p class="song" data-yt-role="song-name-display" style="margin: 5px"></p>
-      </marquee>
-    </div>
-    <div class="controls flex flex-center">
-      <div class="buttons" style="margin-bottom:5px">
-        <button class="previous-song" data-yt-role="prev"><i class="fa fa-step-backward"></i></button>
-        <button class="play-song" data-yt-role="playback"><i class="fa fa-play"></i></button>
-        <button class="next-song" data-yt-role="next"><i class="fa fa-step-forward"></i></button>
-      </div>
-      <div class="seekers flex flex-center">
-        <span data-yt-role="song-current-time">0:00</span>
-        <input type="range" data-yt-role="song-seeker">
-        <span data-yt-role="song-length">0:00</span>
-      </div>
-      <div class="volume-bar flex flex-center">
-        <i class="fas fa-volume-up"></i><input type="range" class="volume" min="0" max="100" value="100" data-yt-role="volume-bar" style="width:70%;margin-left:5px">
-      </div>
-    </div>
-  </div>
-</div>
