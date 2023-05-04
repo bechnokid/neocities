@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#d65da4">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:dnt" content="on">
-
-  <meta property="og:title" content="Bechno Kid's Hideout">
-  <meta property="og:description" content="Art, blog, resources, and more?!">
-  <meta property="og:image" content="/images/og_image.png">
-  <meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities">
-  <meta property="og:locale" content="en_US">
-  <meta property="og_type" content="website">
-  <meta property="og:url" content="https://bechnokid.neocities.org">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#d65da4"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on"><meta property="og:title" content="Bechno Kid's Hideout"><meta property="og:description" content="Art, blog, resources, and more?!"><meta property="og:image" content="/images/og_image.png"><meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities"><meta property="og:locale" content="en_US"><meta property="og_type" content="website"><meta property="og:url" content="https://bechnokid.neocities.org">
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/javascript/script.js"></script>
@@ -25,7 +13,7 @@
   <link rel="preload" href="/css/main.css" as="style">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
-  <style>.thumbs img {width: 50%;border: 1px solid var(--bold);}.lightbox img {max-width: 100%;max-height: 100%;}@media only screen and (max-width:1000px) {main img {width: 70%;}}@media only screen and (max-width:768px) {main img {width: 100%;}}</style>
+  <style>.thumb {width: 250px;height: 150px;overflow: hidden;border: 1px solid var(--bold);}.lightbox img {max-width: 100%;max-height: 100%;}section p {width: 100%;}@media only screen and (max-width: 768px) {section {display: flex;flex-wrap: wrap;justify-content: center;}}</style>
 
   <title>Layout Archive - Bechno Kid's Hideout</title>
 </head>
@@ -38,10 +26,15 @@
         <h1>Layout Archive</h1>
         <p>I've seen a few people do this and I thought it was a pretty neat idea! I don't know how much I'll change my layout, but we'll see how this goes!</p><hr>
         <article>
-          <section class="thumbs">
-            <h2>July 2022, v1.0</h2>
-            <p>The very first layout! There isn't much of a difference between this and the current one because I mostly focused on cleaning and optimizing my very, VERY messy CSS.</p>
-            <a href="images/archive/2022-07.png" class="glightbox"><img src="images/archive/2022-07.png"></a>
+          <h2>Nov 2022</h2>
+          <section>
+            <p>A minor upgrade! This one was mostly to clean up the previous layout's really messy CSS.</p>
+            <div class="thumb"><a href="images/archive/2022-11.png" class="glightbox"><img src="images/archive/2022-11.png"></a></div>
+          </section>
+          <h2>Jul 2022</h2>
+          <section>
+            <p>The very first layout! Inspired by <a href="http://web.archive.org/web/20041206135411/rinacat.com/main.html" target="_new">Rina Cat's Domain</a>.</p>
+            <div class="thumb"><a href="images/archive/2022-07.png" class="glightbox"><img src="images/archive/2022-07.png"></a></div>
           </section>
         </article>
         <div class="back">❤ <span onclick="history.back()">Go back</span> ❤</div>
@@ -49,8 +42,6 @@
     </div>
     <footer class="footer"></footer>
   </div>
-  <script type="text/javascript">
-    GLightbox({ selector: ".glightbox", openEffect: "none", closeEffect: "none", moreLength: 65, keyboardNavigation: !0, touchNavigation: !0 });
-  </script>
+  <script type="text/javascript">GLightbox({ selector: ".glightbox", openEffect: "none", closeEffect: "none", moreLength: 65, keyboardNavigation: !0, touchNavigation: !0 });</script>
 </body>
 </html>
