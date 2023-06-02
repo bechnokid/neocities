@@ -7,6 +7,20 @@
     <description>art, blog, resources, and more?!</description>
     <language>en-us</language>
     <item>
+      <title>June 2, 2023</title>
+      <pubDate>Fri, 2 Jun 2023 12:08:00 -0400</pubDate>
+      <link>https://bechnokid.neocities.org/home</link>
+      <description><![CDATA[
+        <br>- New page: <a href="goodies/crossword.html">Daily Crossword</a>
+        <br>- Added a <a href="about/profile.html">survey</a> to profile page
+        <br>- Added more <a href="goodies/graphics.html">graphics</a> and <a href="goodies/stamps.html">stamps</a>
+        <br>- Updated <a href="about/archive.html">layout archive</a> page
+        <br>- Updated <a href="about/manifesto.html">manifesto</a>
+        <br>- Some fixes
+      ]]>
+      </description>
+    </item>
+    <item>
       <title>May 25, 2023</title>
       <pubDate>Thu, 25 May 2023 14:45:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
