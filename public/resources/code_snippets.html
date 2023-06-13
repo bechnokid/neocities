@@ -12,8 +12,8 @@
   <link rel="preload" href="/css/main.css" as="style">
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
   <link rel="stylesheet" href="/css/prism.css">
-
-  <title>Resources | Code Snippets - Bechno Kid's Hideout</title>
+  <style>.code-block{max-height:300px;}.result * {color: initial;font-family: initial;font-size: initial;list-style-type: disc;padding: initial;}.result li::marker {content: initial !important;color: initial !important;}.result #sample-menu input {position: absolute;height: 0;opacity: 0;}.result #sample-menu label {cursor: pointer;}.result #sample-menu ul {display: none;transition: height .1s linear;}.result #sample-menu input:checked + .sub-menu {display: block;height: auto;margin-top: 0;}</style>
+  <title>Code Snippets - Bechno Kid's Hideout</title>
 </head>
 <body>
   <div class="container">
@@ -23,18 +23,102 @@
       <main>
         <h1>Code Snippets</h1>
         <p>Well, hi! Welcome. I'm sure you can tell from this site's layout that I am not the best at web design. However, I know that some people have trouble with Javascript/jQuery, and knowing that language is part of my job as a software developer.</p>
-        <p>So, I made this page to share whatever bits of code I managed to come up on my own time. They're not too fancy and I don't want to call myself an expert, but hey, if it works, it works! Please note that these will only work if you have jQuery installed.</p><p>To use JQuery for your site, you would just need to insert the JQuery script within your <b>&lt;head&lt;</b> block, as shown below:</p>
-        <pre><code class="language-html">&lt;head>
-&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">&lt;/script>
-&lt;/head></code></pre><br>
+        <p>So, I made this page to share whatever bits of code I managed to come up on my own time. They're not too fancy and I don't want to call myself an expert, but hey, if it works, it works! Please note that these will only work if you have jQuery installed.</p><p>To use JQuery for your site, you would just need to insert the JQuery script within your <b>&lt;head&gt;</b> block, as shown below:</p>
+        <div class="code-block">
+          <pre><code class="language-html">&lt;head>
+  &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">&lt;/script>
+&lt;/head></code></pre>
+        </div>
         <p>Please feel free to take whatever little bits you find here to use for your site. <b>No credit necessary!</b></p>
         <hr>
-        <section>
-          <h2>Automatically update your age</h2><p>Tired of having to update your profile all the time when your birthday comes around? If you use this, you won't have to anymore!</p><p><b>IMPORTANT</b>: Please be careful about sharing your age online, especially if you are a minor!</p><p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="LYdzBNR" data-user="bechnokid" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"><span>See the Pen <a href="https://codepen.io/bechnokid/pen/LYdzBNR">Have JS automatically update your age</a> by Bechno Kid (<a href="https://codepen.io/bechnokid">@bechnokid</a>)on <a href="https://codepen.io">CodePen</a>.</span></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-        </section>
-        <section>
-          <h2 style="text-align: left">Simple caret menu</h2><p>Simple menus that don't involve a lot of fancy CSS are something I don't see covered a lot in tutorials, so I thought I'd provide one!</p><p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="jOzGQZR" data-user="bechnokid" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"><span>See the Pen <a href="https://codepen.io/bechnokid/pen/jOzGQZR">Simple caret menu</a> by Bechno Kid (<a href="https://codepen.io/bechnokid">@bechnokid</a>)on <a href="https://codepen.io">CodePen</a>.</span></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-        </section>
+        <article>
+          <h2>Automatically update your age</h2>
+          <section>
+            <p>Tired of having to update your profile all the time when your birthday comes around? If you use this, you won't have to anymore!</p><p><b>IMPORTANT</b>: Please be careful about sharing your age online, especially if you are a minor!</p>
+            <h3>HTML</h3>
+            <div class="code-block">
+              <pre><code class="language-html">&lt;p>Sonic the Hedgehog is &lt;span id="age">&lt;/span> years old!&lt;p></code></pre>
+            </div>
+            <hr class="small">
+            <h3>JQuery</h3>
+            <div class="code-block">
+              <pre><code class="language-js">// Replace the date with your own birthdate WITHIN the double quotation marks ("").
+// Do NOT remove those quotation marks!
+
+var dob = new Date("06/23/1991");
+var month_diff = Date.now() - dob.getTime();
+var age_dt = new Date(month_diff);
+var year = age_dt.getUTCFullYear();
+var age = Math.abs(year - 1970);
+document.getElementById("age").innerHTML = age;</code></pre>
+            </div>
+            <hr class="small">
+            <h3>Result</h3>
+            <p>Sonic the Hedgehog is <span id="age"></span> years old!<p></p>
+            <script>var dob = new Date("06/23/1991");var month_diff = Date.now() - dob.getTime();var age_dt = new Date(month_diff);var year = age_dt.getUTCFullYear();var age = Math.abs(year - 1970);document.getElementById("age").innerHTML = age;</script>
+          </section>
+          <h2>Simple caret menu</h2>
+          <section>
+            <p>Simple menus that don't involve a lot of fancy CSS are something I don't see covered a lot in tutorials, so I thought I'd provide one!</p>
+            <h3>HTML</h3>
+            <div class="code-block" style="overflow-y:scroll">
+              <pre><code class="language-html">&lt;div id="sample-menu">
+  &lt;label for="main-menu">Menu &lt;span class="caret">&#9656;&lt;/span>&lt;/label>
+  &lt;input type="checkbox" id="main-menu">
+  &lt;ul class="sub-menu">
+    &lt;li>&lt;a href="#">Link 1&lt;/a>&lt;/li>
+    &lt;li>&lt;a href="#">Link 2&lt;/a>&lt;/li>
+  &lt;/ul>
+&lt;/div></code></pre>
+            </div>
+            <hr class="small">
+            <h3>CSS</h3>
+            <div class="code-block" style="overflow-y:scroll">
+              <pre><code class="language-css">/* === SINGULAR MENU CSS === */
+#sample-menu input {
+  position: absolute;
+  height: 0;
+  opacity: 0;
+}
+
+#sample-menu label {
+  cursor: pointer;
+}
+
+#sample-menu ul {
+  display: none;
+  transition: height .1s linear;
+}
+
+#sample-menu input:checked + .sub-menu {
+  display: block;
+  height: auto;
+  margin-top: 0;
+}</code></pre>
+            </div>
+            <hr class="small">
+            <h3>JQuery</h3>
+            <div class="code-block">
+              <pre><code class="language-js">$("input[type='checkbox']").on("change", function(){
+  caret = $(this).siblings("label").children("span");
+  caret.html() == "▸" ? caret.html("▾") : caret.html("▸");
+})</code></pre>
+            </div>
+            <hr class="small">
+            <h3>Result</h3>
+            <div class="result basic-box">
+              <div id="sample-menu">
+                <label for="main-menu">Menu <span class="caret">&#9656;</span></label>
+                <input type="checkbox" id="main-menu">
+                <ul class="sub-menu">
+                  <li><a href="#">Link 1</a></li>
+                  <li><a href="#">Link 2</a></li>
+                </ul>
+              </div>
+            </div>
+            <script>$("input[type='checkbox']").on("change", function(){caret = $(this).siblings("label").children("span");caret.html() == "▸" ? caret.html("▾") : caret.html("▸");})</script>
+          </section>
+        </article>
         <div class="back">❤ <span onclick="history.back()">Go back</span> ❤</div>
       </main>
     </div>

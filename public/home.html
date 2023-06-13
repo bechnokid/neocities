@@ -21,7 +21,7 @@
     <div class="content">
       <nav class="sidebar"></nav>
       <main>
-        <p style="margin-top:0">Hello and welcome to <b>Bechno Kid's Hideout!</b></p>
+        <p>Hello and welcome to <b>Bechno Kid's Hideout!</b></p>
         <p>This is a little nook where a software programmer can live her childhood dream as a webmaster. Not only do I post artwork, but I also post coding resources that I hope will help other webmasters out there.</p>
         <p>Feel free to check out the menu, or visit the <a href="/sitemap.html">sitemap</a>! Please enjoy your stay! :D</p>
         <ul class="intro-links"><li><a href="/feed.xml">RSS Feed</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="https://bechnokid.123guestbook.com">Guestbook</a></li></ul>
@@ -56,9 +56,6 @@
             <section class="webring flex-center-ver" style="flex-direction:column">
               <div id="ncring"><script type="text/javascript" src="https://neocreatives.neocities.org/onionring-variables.js"></script><script type="text/javascript" src="/javascript/nc-onionring-widget.js"></script></div><div id="cuddler-webring" class="flex-center-ver"><a href="https://cuddler-webring.netlify.app/bechnokid/previous"><img src="images/webrings/cuddler_left.gif" alt="Cuddler Webring: Prev"></a><a class="cuddler-webring-index" href="https://mincerafter42.github.io/cuddle/" style="margin: 0 5px"><img src="images/webrings/cuddler.png" alt="Cuddler Webring"></a><a href="https://cuddler-webring.netlify.app/bechnokid/next"><img src="images/webrings/cuddler_right.gif" alt="Cuddler Webring: Next"></a></div><div class="flex-center-ver"><a href="https://isaacfish.neocities.org/webring/22.html"><img src="https://isaacfish.neocities.org/webring/left.png" alt="left arrow"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/"><img src="https://isaacfish.neocities.org/webring/queercoded.png" alt="queer coded webring"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/24.html"><img src="https://isaacfish.neocities.org/webring/right.png" alt="right arrow"></a></div>
             </section>
-            <section class="flex-center-hor">
-              <div id="Splatnet"><script type="text/javascript" src="https://boothworldindustries.neocities.org/webrings/splatnet/onionring-variables.js"></script><script type="text/javascript" src="/javascript/splatnet_script.js"></script></div>
-            </section>
             <section>
               <div id="selfinsertwebring"><script src="/javascript/showWebring.js"></script></div>
             </section>
@@ -77,45 +74,10 @@
       <aside class="sidebar right">
         <div class="updates" style="margin-top:-5px">
           <h2 style="color:var(--bold)">❤ Updates ❤</h2>
-          <div class="basic-box">
-            <ul><b>June 2<sup>nd</sup>, 2023</b>
-              <li>New page: <a href="goodies/crossword.html">Daily Crossword</a></li>
-              <li>Added a <a href="about/profile.html">survey</a> to profile page</li>
-              <li>Added more <a href="goodies/graphics.html">graphics</a> and <a href="goodies/stamps.html">stamps</a></li>
-              <li>Updated <a href="about/archive.html">layout archive</a> page</li>
-              <li>Updated <a href="about/manifesto.html">manifesto</a></li>
-              <li>Some fixes</li>
-            </ul>
-            <hr class="small">
-            <ul><b>May 25<sup>th</sup>, 2023</b>
-              <li>Minor fixes</li>
-              <li>Added new Neocities <a href="links">links</a></li>
-            </ul>
-            <hr class="small">
-            <ul>
-              <b>May 15<sup>th</sup>, 2023</b>
-              <li>New art in <a href="artwork/game.html">Games</a></li>
-              <li>New strip in <a href="artwork/comics.html">Comics</a></li>
-            </ul>
-            <hr class="small">
-            <ul><b>May 4<sup>th</sup>, 2023</b>
-              <li>New <a href="artwork">art</a> uploaded</li>
-              <li>Created <a href="artwork/comics.html">comics</a> page</li>
-              <li>Slight layout update</li>
-              <li>Updated Self-Insert webring in accordance to <a href="https://webring.koinuko.pink/" target="_new">V2</a></li>
-              <li>Some fixes to the art pages</li>
-            </ul>
-            <hr class="small">
-            <ul><b>Apr. 17<sup>th</sup>, 2023</b>
-              <li>Created <a href="goodies/curses.html">curses</a> generator</li>
-              <li>Updated <a href="blog/dream_diary.html">dream diary</a></li>
-              <li>Surveys page is now a tab on profile page</li>
-              <li>Fixed some of the GLightbox code</li>
-            </ul>
-            <hr class="small">
-            <ul><b>Apr. 7<sup>th</sup>, 2023</b>
-              <li>New <a href="blog/2023_04_07.html">blog entry</a></li>
-            </ul>
+          <div class="basic-box" id="updates-feed">
+            <script>
+               const RSSUrl='/feed.xml'; fetch(RSSUrl) .then(response=>response.text()) .then(str=>new window.DOMParser().parseFromString(str, "text/xml")) .then(data=>{ const items=data.querySelectorAll("item"); let html=``; for (let i=0; i < 5; i++){ html +=` <b>${items[i].querySelector("title").innerHTML}</b>${items[i].querySelector("description").innerHTML.replace(']]>', '').replace('<![CDATA[', '')} `; if (i < 4){ html +=`<hr class="small">`;}} document.getElementById("updates-feed").innerHTML=html});
+            </script>
           </div>
         </div>
       </aside>
