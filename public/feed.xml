@@ -7,15 +7,19 @@
     <description>art, blog, resources, and more?!</description>
     <language>en-us</language>
     <item>
+      <title>June 26, 2023</title>
+      <pubDate>Mon, 26 Jun 2023 10:50:00 -0400</pubDate>
+      <link>https://bechnokid.neocities.org/home</link>
+      <description><![CDATA[
+        <ul><li>Added webring</li><li>Updated <a href=""https://bechnokid.neocities.org/links>links</a></li><li>Minor updates to site colors</li><li>Minor fixes</li></ul>]]>
+      </description>
+    </item>
+    <item>
       <title>June 15, 2023</title>
       <pubDate>Thu, 15 Jun 2023 15:35:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul>
-        <li>New <a href="https://bechnokid.neocities.org/writing/2023_06_15.html">blog entry</a></li>
-        <li>New page: <a href="https://bechnokid.neocities.org/writing/recipes.html">Recipes</a></li>
-        <li>Renamed "blog" to "writings"</li>
-      </ul>]]>
+        <ul><li>New <a href="https://bechnokid.neocities.org/writing/2023_06_15.html">blog entry</a></li><li>New page: <a href="https://bechnokid.neocities.org/writing/recipes.html">Recipes</a></li><li>Renamed "blog" to "writings"</li></ul>]]>
       </description>
     </item>
     <item>
@@ -23,11 +27,7 @@
       <pubDate>Tue, 13 Jun 2023 14:30:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul>
-          <li>Moved some art to the <a href="https://bechnokid.neocities.org/artwork/comics.html">comics</a> page</li>
-          <li>Small redesign to <a href="https://bechnokid.neocities.org/resources/">tutorials</a>, <a href="https://bechnokid.neocities.org/resources/code_snippets.html">code snippets</a>, and <a href="https://bechnokid.neocities.org/artwork/comics.html">comics</a> pages</li>
-          <li>Put an RSS feed reader here!</li>
-        </ul>]]>
+        <ul><li>Moved some art to the <a href="https://bechnokid.neocities.org/artwork/comics.html">comics</a> page</li><li>Small redesign to <a href="https://bechnokid.neocities.org/resources/">tutorials</a>, <a href="https://bechnokid.neocities.org/resources/code_snippets.html">code snippets</a>, and <a href="https://bechnokid.neocities.org/artwork/comics.html">comics</a> pages</li><li>Put an RSS feed reader here!</li></ul>]]>
       </description>
     </item>
     <item>
@@ -35,12 +35,7 @@
       <pubDate>Fri, 2 Jun 2023 12:08:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>New page: <a href=https://bechnokid.neocities.org/"goodies/crossword.html">Daily Crossword</a></li>
-        <li>Added a <a href="https://bechnokid.neocities.org/about/profile.html">survey</a> to profile page</li>
-        <li>Added more <a href="https://bechnokid.neocities.org/goodies/graphics.html">graphics</a> and <a href="https://bechnokid.neocities.org/goodies/stamps.html">stamps</a></li>
-        <li>Updated <a href="https://bechnokid.neocities.org/about/archive.html">layout archive</a> page</li>
-        <li>Updated <a href="https://bechnokid.neocities.org/about/manifesto.html">manifesto</a></li>
-        <li>Some fixes</li></ul>]]>
+        <ul><li>New page: <a href=https://bechnokid.neocities.org/"goodies/crossword.html">Daily Crossword</a></li><li>Added a <a href="https://bechnokid.neocities.org/about/profile.html">survey</a> to profile page</li><li>Added more <a href="https://bechnokid.neocities.org/goodies/graphics.html">graphics</a> and <a href="https://bechnokid.neocities.org/goodies/stamps.html">stamps</a></li><li>Updated <a href="https://bechnokid.neocities.org/about/archive.html">layout archive</a> page</li><li>Updated <a href="https://bechnokid.neocities.org/about/manifesto.html">manifesto</a></li><li>Some fixes</li></ul>]]>
       </description>
     </item>
     <item>
@@ -48,8 +43,7 @@
       <pubDate>Thu, 25 May 2023 14:45:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>Minor fixes</li>
-        <li>Added new Neocities <a href="https://bechnokid.neocities.org/links">links</a></li></ul>]]>
+        <ul><li>Minor fixes</li><li>Added new Neocities <a href="https://bechnokid.neocities.org/links">links</a></li></ul>]]>
       </description>
     </item>
     <item>
@@ -57,8 +51,7 @@
       <pubDate>Mon, 15 May 2023 12:00:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>New art in <a href="https://bechnokid.neocities.org/artwork/game.html">Games</a></li>
-        <li>New strip in <a href="https://bechnokid.neocities.org/artwork/comics.html">Comics</a></li></ul>]]>
+        <ul><li>New art in <a href="https://bechnokid.neocities.org/artwork/game.html">Games</a></li><li>New strip in <a href="https://bechnokid.neocities.org/artwork/comics.html">Comics</a></li></ul>]]>
       </description>
     </item>
     <item>
@@ -66,11 +59,7 @@
       <pubDate>Thu, 4 May 2023 12:05:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>New <a href="https://bechnokid.neocities.org/artwork">art</a> uploaded</li>
-        <li>Created <a href="https://bechnokid.neocities.org/artwork/comics.html">comics</a> page</li>
-        <li>Slight layout update</li>
-        <li>Updated Self-Insert webring in accordance to <a href="https://webring.</li>koinuko.pink/" target="_new">V2</a>
-        <li>Some fixes to the art pages</li></ul>]]>
+        <ul><li>New <a href="https://bechnokid.neocities.org/artwork">art</a> uploaded</li><li>Created <a href="https://bechnokid.neocities.org/artwork/comics.html">comics</a> page</li><li>Slight layout update</li><li>Updated Self-Insert webring in accordance to <a href="https://webring.</li>koinuko.pink/">V2</a><li>Some fixes to the art pages</li></ul>]]>
       </description>
     </item>
     <item>
@@ -78,10 +67,7 @@
       <pubDate>Mon, 17 Apr 2023 17:25:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>Created <a href="https://bechnokid.neocities.org/goodies/curses.html">curses</a> generator</li>
-        <li>Updated <a href="https://bechnokid.neocities.org/writing/dream_diary.html">dream diary</a></li>
-        <li>Surveys page is now a tab on profile page</li>
-        <li>Fixed some of the GLightbox code</li></ul>]]>
+        <ul><li>Created <a href="https://bechnokid.neocities.org/goodies/curses.html">curses</a> generator</li><li>Updated <a href="https://bechnokid.neocities.org/writing/dream_diary.html">dream diary</a></li><li>Surveys page is now a tab on profile page</li><li>Fixed some of the GLightbox code</li></ul>]]>
       </description>
     </item>
     <item>
@@ -97,9 +83,7 @@
       <pubDate>Fri, 24 Mar 2023 11:00:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>New <a href="https://bechnokid.neocities.org/artwork">art</a>, and added some 2016 art</li>
-        <li>Lots of updates for <a href="https://bechnokid.neocities.org/goodies">goodies</a></li>
-        <li>Layout changes</li></ul>]]>
+        <ul><li>New <a href="https://bechnokid.neocities.org/artwork">art</a>, and added some 2016 art</li><li>Lots of updates for <a href="https://bechnokid.neocities.org/goodies">goodies</a></li><li>Layout changes</li></ul>]]>
       </description>
     </item>
     <item>
@@ -107,10 +91,7 @@
       <pubDate>Wed, 8 Mar 2023 10:10:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>New <a href="https://bechnokid.neocities.org/artwork/game.html">artwork</a></li>
-        <li>New <a href="https://bechnokid.neocities.org/writing/2023_03_08.html">blog entry</a></li>
-        <li>Added <a href="https://bechnokid.neocities.org/links">links</a></li>
-        <li>Minor layout and page updates</li></ul>]]>
+        <ul><li>New <a href="https://bechnokid.neocities.org/artwork/game.html">artwork</a></li><li>New <a href="https://bechnokid.neocities.org/writing/2023_03_08.html">blog entry</a></li><li>Added <a href="https://bechnokid.neocities.org/links">links</a></li><li>Minor layout and page updates</li></ul>]]>
       </description>
     </item>
     <item>
@@ -118,12 +99,7 @@
       <pubDate>Wed, 15 Feb 2023 18:30:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>New <a href="https://bechnokid.neocities.org/artwork/ocs.html">artwork</a></li>
-        <li>New <a href="https://bechnokid.neocities.org/goodies/pets.html">virtual pets</a> page</li>
-        <li>New <a href="https://bechnokid.neocities.org/writing/microblog.html">microblog</a> page</li>
-        <li>Music player now live</li>
-        <li>Revamped blog page</li>
-        <li>Minor layout updates</li></ul>]]>
+        <ul><li>New <a href="https://bechnokid.neocities.org/artwork/ocs.html">artwork</a></li><li>New <a href="https://bechnokid.neocities.org/goodies/pets.html">virtual pets</a> page</li><li>New <a href="https://bechnokid.neocities.org/writing/microblog.html">microblog</a> page</li><li>Music player now live</li><li>Revamped blog page</li><li>Minor layout updates</li></ul>]]>
       </description>
     </item>
     <item>
@@ -131,9 +107,7 @@
       <pubDate>Mon, 6 Feb 2023 16:24:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>Added <a href="https://bechnokid.neocities.org/goodies/graphics.html">88x31 buttons</a> and <a href="https://bechnokid.neocities.org/about/profile.html">fanlistings</a>. I don't think I'll add anymore lol.</li>
-        <li>Updated <a href="https://bechnokid.neocities.org/writing/2023_02_01.html">recent blog post</a> and made it a mini-shrine for Valentine's Day. :3</li>
-        <li>Added another <a href="https://bechnokid.neocities.org/goodies/surveys.html">survey</a></li></ul>]]>
+        <ul><li>Added <a href="https://bechnokid.neocities.org/goodies/graphics.html">88x31 buttons</a> and <a href="https://bechnokid.neocities.org/about/profile.html">fanlistings</a>. I don't think I'll add anymore lol.</li><li>Updated <a href="https://bechnokid.neocities.org/writing/2023_02_01.html">recent blog post</a> and made it a mini-shrine for Valentine's Day. :3</li><li>Added another <a href="https://bechnokid.neocities.org/goodies/surveys.html">survey</a></li></ul>]]>
       </description>
     </item>
     <item>
@@ -141,8 +115,7 @@
       <pubDate>Wed, 1 Feb 2023 15:45:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>Added more <a href="https://bechnokid.neocities.org/about/profile.html">fanlistings</a></li>
-        <li>Added more <a href="https://bechnokid.neocities.org/links">links</a></li></ul>]]>
+        <ul><li>Added more <a href="https://bechnokid.neocities.org/about/profile.html">fanlistings</a></li><li>Added more <a href="https://bechnokid.neocities.org/links">links</a></li></ul>]]>
       </description>
     </item>
     <item>
@@ -150,9 +123,7 @@
       <pubDate>Mon, 30 Jan 2023 14:30:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>Added more <a href="https://bechnokid.neocities.org/about/profile.html">fanlistings</a></li>
-        <li>Added more <a href="https://bechnokid.neocities.org/links">links</a></li>
-        <li>Slowed down marquee in footer</li></ul>]]>
+        <ul><li>Added more <a href="https://bechnokid.neocities.org/about/profile.html">fanlistings</a></li><li>Added more <a href="https://bechnokid.neocities.org/links">links</a></li><li>Slowed down marquee in footer</li></ul>]]>
       </description>
     </item>
     <item>
@@ -160,9 +131,7 @@
       <pubDate>Fri, 27 Jan 2023 09:20:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li><a href="https://bechnokid.neocities.org/writing/dream_diary">Dream Diary 2.0</a> now live</li>
-        <li>Added status.cafe widget to home page</li>
-        <li>Some fixes here and there</li></ul>]]>
+        <ul><li><a href="https://bechnokid.neocities.org/writing/dream_diary">Dream Diary 2.0</a> now live</li><li>Added status.cafe widget to home page</li><li>Some fixes here and there</li></ul>]]>
       </description>
     </item>
     <item>
@@ -170,10 +139,7 @@
       <pubDate>Wed, 25 Jan 2023 16:05:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>New <a href="https://bechnokid.neocities.org/writing">blog post</a></li>
-        <li>Added new <a href="https://bechnokid.neocities.org/goodies/stamps.html">stamps</a></li>
-        <li>Added new <a href="https://bechnokid.neocities.org/goodies/graphics.html">blinkies</a></li>
-        <li>Removed dream diary for rehaul</li></ul>]]>
+        <ul><li>New <a href="https://bechnokid.neocities.org/writing">blog post</a></li><li>Added new <a href="https://bechnokid.neocities.org/goodies/stamps.html">stamps</a></li><li>Added new <a href="https://bechnokid.neocities.org/goodies/graphics.html">blinkies</a></li><li>Removed dream diary for rehaul</li></ul>]]>
       </description>
     </item>
     <item>
@@ -181,10 +147,7 @@
       <pubDate>Thu, 19 Jan 2023 18:30:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>New <a href="https://bechnokid.neocities.org/artwork">art</a>. Also uploaded art from 2017.</li>
-        <li>Added <a href="https://boothworldindustries.neocities.org/webrings/</li>splatnet/splatnethome" target="_new">Splatnet</a> webring
-        <li>Moved webrings and cliques to front page</li>
-        <li>Fixed some typos and bugs</li></ul>]]>
+        <ul><li>New <a href="https://bechnokid.neocities.org/artwork">art</a>. Also uploaded art from 2017.</li><li>Added <a href="https://boothworldindustries.neocities.org/webrings/</li>splatnet/splatnethome">Splatnet</a> webring<li>Moved webrings and cliques to front page</li><li>Fixed some typos and bugs</li></ul>]]>
       </description>
     </item>
     <item>
@@ -192,10 +155,7 @@
       <pubDate>Fri, 6 Jan 2023 20:30:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>New <a href="https://bechnokid.neocities.org/artwork">art</a></li>
-        <li>Updated <a href="https://bechnokid.neocities.org/writing">dream diary</a></li>
-        <li>Added <a href="https://bechnokid.neocities.org/goodies/graphics.html">blinkies and web badges</a></li>
-        <li>Made some other fixes</li></ul>]]>
+        <ul><li>New <a href="https://bechnokid.neocities.org/artwork">art</a></li><li>Updated <a href="https://bechnokid.neocities.org/writing">dream diary</a></li><li>Added <a href="https://bechnokid.neocities.org/goodies/graphics.html">blinkies and web badges</a></li><li>Made some other fixes</li></ul>]]>
       </description>
     </item>
     <item>
@@ -203,11 +163,7 @@
       <pubDate>Mon, 2 Jan 2023 22:30:00 -0400</pubDate>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[
-        <ul><li>New <a href="https://bechnokid.neocities.org/writing/2023_01_02.html">blog post</a></li>
-        <li>Added more <a href="https://bechnokid.neocities.org/goodies/stickersheetclub.html">stickers</a></li>
-        <li>New page: <a href="https://bechnokid.neocities.org/goodies/archive.html">Layout archive</a></li>
-        <li>Updated Play/Stop GIFs buttons to be sticky</li>
-        <li>Fixed other bugs</li></ul>]]>
+        <ul><li>New <a href="https://bechnokid.neocities.org/writing/2023_01_02.html">blog post</a></li><li>Added more <a href="https://bechnokid.neocities.org/goodies/stickersheetclub.html">stickers</a></li><li>New page: <a href="https://bechnokid.neocities.org/goodies/archive.html">Layout archive</a></li><li>Updated Play/Stop GIFs buttons to be sticky</li><li>Fixed other bugs</li></ul>]]>
       </description>
     </item>
   </channel>
