@@ -10,7 +10,7 @@
   <link rel="canonical" href="https://bechnokid.neocities.org">
   <link rel="preload" href="/css/main.css" as="style">
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
-  <style>li{ margin-bottom: 5px} ul ul{ margin: 5px 0 10px 20px;} ul ul li::marker{ color: #dcc5ec !important; font-size: smaller !important;} ul ul ul li::marker{ color: var(--sidebar-border) !important; font-size: x-small !important;} ul ul a{ color: var(--italic)} ul ul ul a{ color: var(--link)} </style>
+  <style>li {margin-bottom: 5px}.grid {grid-template-columns: repeat(auto-fit, minmax(350px, auto));grid-column-gap: 20px;}.grid div + div + div {margin-top: 20px;}a {color: var(--italic)}</style>
   <title>Sitemap - Bechno Kid's Hideout</title>
 </head>
 <body>
@@ -22,30 +22,44 @@
         <h1>Sitemap</h1>
         <p>Lost? Hopefully, this sitemap will help you navigate to where you want to go!</p>
         <hr>
-        <article class="sitemap">
-          <ul>
-            <li><b><a href="/index.html">Landing page</a></b></li>
-            <li><b><a href="/home.html">Home page</a></b>
+        <article>
+          <section class="grid">
+            <div>
+              <h2>Main</h2>
               <ul>
-                <li><a href="/faq.html">Frequently Asked Questions (FAQ)</a></li>
-                <li><a href="https://bechnokid.123guestbook.com">Guestbook</a></li>
-                <li><a href="">RSS Feed</a></li>
+                <li><a href="/index.html">Landing page</a></li>
+                <li><a href="/home.html">Home page</a>
+                  <ul>
+                    <li><a href="/faq.html">Frequently Asked Questions (FAQ)</a></li>
+                    <li><a href="https://bechnokid.123guestbook.com">Guestbook</a></li>
+                    <li><a href="">RSS Feed</a></li>
+                  </ul>
+                </li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/artwork">Artwork</a></li>
+                <li><a href="/writing">Writings</a></li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/goodies">Goodies</a></li>
+                <li><a href="/links">Links</a></li>
               </ul>
-            </li>
-            <li><b><a href="/about">About</a></b>
+            </div>
+            <div>
+              <h2>About</h2>
               <ul>
-                <li><a href="/about/archive.html">Layout Archive</a></li>
+                <li><a href="/about/me.html">About Me</a></li>
+                <li><a href="/about/now.html">Bech-NOW</a></li>
                 <li><a href="/about/manifesto.html">Manifesto</a></li>
-                <li><a href="about/me.html">About Me</a></li>
                 <li><a href="/shrines">Shrines</a>
                   <ul>
                     <li><a href="/shrines/avalypuff.html">Ava, 2009 - 2022</a></li>
                     <li><a href="/shrines/doctor-strange">Doctor Strange</a></li>
                   </ul>
                 </li>
+                <li><a href="/about/archive.html">Layout Archive</a></li>
               </ul>
-            </li>
-            <li><b><a href="/artwork">My Art</a></b>
+            </div>
+            <div>
+              <h2>Artwork</h2>
               <ul>
                 <li><a href="/artwork/game.html">Games</a></li>
                 <li><a href="/artwork/moviesmisc.html">Movies/Misc</a></li>
@@ -54,23 +68,26 @@
                 <li><a href="/artwork/tvanime.html">TV/Anime</a></li>
                 <li><a href="/artwork/comics.html">Comic pages</a></li>
               </ul>
-            </li>
-            <li><b><a href="/writing">Writings</a></b>
+            </div>
+            <div>
+              <h2>Writings</h2>
               <ul>
                 <li><a href="/writing/blog.html">Main Blog</a></li>
                 <li><a href="/writing/recipes.html">Recipes</a></li>
                 <li><a href="/writing/microblog.html">Microblog</a></li>
                 <li><a href="/writing/dream_diary">Dream Diary</a></li>
               </ul>
-            </li>
-            <li><b><a href="/resources">Resources</a></b>
+            </div>
+            <div>
+              <h2>Resources</h2>
               <ul>
                 <li><a href="/resources/tut_vscode.html">Using VSCode with Neocities</a></li>
                 <li><a href="/resources/tut_freezeframe.html">Implementing Freezeframe JS</a></li>
                 <li><a href="/resources/code_snippets.html">Code Snippets</a></li>
               </ul>
-            </li>
-            <li><b><a href="/goodies">Goodies</a></b>
+            </div>
+            <div>
+              <h2>Goodies</h2>
               <ul>
                 <li><a href="/goodies/graphics.html">Graphics</a></li>
                 <li><a href="/goodies/stamps.html">Stamps</a></li>
@@ -80,11 +97,10 @@
                 <li><a href="/goodies/curses.html">Curses Generator</a></li>
                 <li><a href="/goodies/crossword.html">Daily Crossword</a></li>
               </ul>
-            </li>
-            <li><b><a href="/links">Links</a></b></li>
-            <li><b>Sitemap</b> - <i>You're here!</i></li>
-          </ul>
+            </div>
+          </section>
         </article>
+        <div class="back">❤ <span onclick="history.back()">Go back</span> ❤</div>
       </main>
     </div>
     <footer class="footer"></footer>
