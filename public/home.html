@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Art, blog, resources, and more?!"><meta name="theme-color" content="#d65da4"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on"><meta property="og:title" content="Bechno Kid's Hideout"><meta property="og:description" content="Art, blog, resources, and more?!"><meta property="og:image" content="/images/og_header.png"><meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities"><meta property="og:locale" content="en_GB"><meta property="og:type" content="website"><meta property="og:url" content="https://bechnokid.neocities.org"> 
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/javascript/script.js"></script>
-  <script src="https://kit.fontawesome.com/2afcf0d7d7.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Art, blog, resources, and more?!"><meta name="theme-color" content="#d65da4"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on"><meta property="og:title" content="Bechno Kid's Hideout"><meta property="og:description" content="Art, blog, resources, and more?!"><meta property="og:image" content="/images/og_header.png"><meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities"><meta property="og:locale" content="en_GB"><meta property="og:type" content="website"><meta property="og:url" content="https://bechnokid.neocities.org">
 
   <link rel="canonical" href="https://bechnokid.neocities.org">
   <link rel="preload" href="/css/main.css" as="style">
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
   <link rel="stylesheet" href="/css/home_page.css" type="text/css" media="all">
   <link rel="stylesheet" href="/css/splatnet.css" type="text/css" media="all">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/js/script.js" type="text/javascript"></script>
+  <script src="https://kit.fontawesome.com/2afcf0d7d7.js" crossorigin="anonymous"></script>
 
   <title>Bechno Kid's Hideout</title>
 </head>
@@ -31,22 +31,22 @@
             <section>
               <h2>Latest Artwork</h2>
               <div class="new new-art basic-box">
-                <a href="artwork/game.html"><img src="artwork/fanart/2023/ganonbeck_boop.png" alt="Latest artwork"></a>
-                <a href="artwork/comics.html"><img src="artwork/comics/images/ganon-horf.png" alt="Latest artwork"></a>
+                <a href="/artwork/game.html"><img src="/artwork/fanart/2023/cuddles.png" alt="Thumbnail for latest artwork"></a>
               </div>
             </section>
             <section>
               <h2>Latest Status</h2>
               <div class="new status-cafe basic-box">
-                <div id="statuscafe-username"></div><div id="statuscafe-content"></div><script src="https://status.cafe/current-status.js?name=bechnokid" type="text/javascript" defer></script>
+                <div id="statuscafe-username"></div><div id="statuscafe-content"></div>
+                <script>document.writeln('<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div>');fetch("https://status.cafe/users/bechnokid/status.json").then( r => r.json() ).then( r => {if (!r.content.length) {document.getElementById("statuscafe-content").innerHTML = "No status yet.";return;}document.getElementById("statuscafe-username").innerHTML = '<a href="https://status.cafe/users/bechnokid" target="_blank">' + r.author + '</a> || Mood: ' + r.face;document.getElementById("statuscafe-content").innerHTML = r.content;})</script>
               </div>
             </section>
           </div>
           <section>
             <h2>Latest Blog Post</h2>
               <div class="blog basic-box">
-                <p>I recently attended my older sister's graduation from her residency (a stage of postgraduate education for medical students) and I had a lot of fun! I got to see my parents again and I got to meet some of my sister's friends from her residency...</p>
-                <p class="read-more"><a href="/writing/2023_06_15.html">Read More...</a></p>
+                <p>I learned that this month is  <b>Disability Pride Month</b>!</p><br><p>I'm very behind on events like these, but I'm always happy to learn about them, regardless! It especially means a lot as someone who is neurodivergent and taking medication for their anxiety. I've thought of getting a diagnosis to see if I'm autistic or have ADHD, but I've ultimately decided that...</p>
+                <p class="read-more"><a href="/writing/2023_07_21.html">Read More...</a></p>
               </div>
             <hr>
           </section>
@@ -56,21 +56,21 @@
           <div class="basic-box">
             <div class="grid">
               <div class="webring flex-center-ver flex-column">
-                <div id="ncring"><script type="text/javascript" src="https://neocreatives.neocities.org/onionring-variables.js"></script><script type="text/javascript" src="/javascript/nc-onionring-widget.js"></script></div><div id="cuddler-webring" class="flex-center-ver"><a href="https://cuddler-webring.netlify.app/bechnokid/previous"><img src="images/webrings/cuddler_left.gif" alt="Cuddler Webring: Prev"></a><a class="cuddler-webring-index" href="https://mincerafter42.github.io/cuddle/" style="margin: 0 5px"><img src="images/webrings/cuddler.png" alt="Cuddler Webring"></a><a href="https://cuddler-webring.netlify.app/bechnokid/next"><img src="images/webrings/cuddler_right.gif" alt="Cuddler Webring: Next"></a></div><div class="flex-center-ver"><a href="https://isaacfish.neocities.org/webring/22.html"><img src="https://isaacfish.neocities.org/webring/left.png" alt="left arrow"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/"><img src="https://isaacfish.neocities.org/webring/queercoded.png" alt="queer coded webring"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/24.html"><img src="https://isaacfish.neocities.org/webring/right.png" alt="right arrow"></a></div><div id="ladies-webring" class="flex-center ver"><a href="https://webri.ng/webring/ladiesofthelinks/previous?via=https://bechnokid.neocities.org"><img src="images/webrings/ladiesofthelink1.gif" alt="'Ladies of the Links' previous"></a>&nbsp;<a href="https://ladiesofthelinks.neocities.org/"><img src="images/webrings/ladiesofthelink.gif" alt="'Ladies of the Links' index"></a>&nbsp;<a href="https://webri.ng/webring/ladiesofthelinks/next?via=https://bechnokid.neocities.org"><img src="images/webrings/ladiesofthelink2.gif" alt="'Ladies of the Links' next"></a></div>
+                <div id="ncring"><script type="text/javascript" src="https://neocreatives.neocities.org/onionring-variables.js"></script><script type="text/javascript" src="/js/nc-onionring-widget.js"></script></div><div id="cuddler-webring" class="flex-center-ver"><a href="https://cuddler-webring.netlify.app/bechnokid/previous"><img src="images/webrings/cuddler_left.gif" alt="Cuddler Webring: Prev"></a><a class="cuddler-webring-index" href="https://mincerafter42.github.io/cuddle/" style="margin: 0 5px"><img src="images/webrings/cuddler.png" alt="Cuddler Webring: Index"></a><a href="https://cuddler-webring.netlify.app/bechnokid/next"><img src="images/webrings/cuddler_right.gif" alt="Cuddler Webring: Next"></a></div><div class="flex-center-ver"><a href="https://isaacfish.neocities.org/webring/22.html"><img src="https://isaacfish.neocities.org/webring/left.png" alt="Queer-Code Webring: Previous"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/"><img src="https://isaacfish.neocities.org/webring/queercoded.png" alt="Queer-Coded Webring: Index"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/24.html"><img src="https://isaacfish.neocities.org/webring/right.png" alt="Queer-Coded Webring: Next"></a></div><div id="ladies-webring" class="flex-center ver"><a href="https://webri.ng/webring/ladiesofthelinks/previous?via=https://bechnokid.neocities.org"><img src="images/webrings/ladiesofthelink1.gif" alt="Ladies of the Links: Previous"></a>&nbsp;<a href="https://ladiesofthelinks.neocities.org/"><img src="images/webrings/ladiesofthelink.gif" alt="Ladies of the Links: Index"></a>&nbsp;<a href="https://webri.ng/webring/ladiesofthelinks/next?via=https://bechnokid.neocities.org"><img src="images/webrings/ladiesofthelink2.gif" alt="Ladies of the Links: Next"></a></div>
               </div>
               <div class="flex-center-hor">
-                <div id="Splatnet"><script type="text/javascript" src="https://boothworldindustries.neocities.org/webrings/splatnet/onionring-variables.js"></script><script type="text/javascript" src="/javascript/splatnet_script.js"></script></div>
+                <div id="Splatnet"><script type="text/javascript" src="https://boothworldindustries.neocities.org/webrings/splatnet/onionring-variables.js"></script><script type="text/javascript" src="/js/splatnet_script.js"></script></div>
               </div>
               <div>
-                <div id="selfinsertwebring"><script src="/javascript/showWebring.js"></script></div>
+                <div id="selfinsertwebring"><script src="/js/showWebring.js"></script></div>
               </div>
             </div>
             <div class="grid grid-cliques">
               <div class="cliques flex-center-ver flex-column">
-                <div><a href="https://dust.kuchiki.net/" target="_blank"><img src="images/cliques/aquarius.gif" title="celestial divine // aquarius"></a></div><div class="flex-center-ver"><a href="https://cliqued.wings.nu/">OTF</a>&nbsp;<img src="https://cliqued.wings.nu/otf/default.png">&nbsp;Doctor Strange</div><div><a href="https://dearest.snow-heart.net/">OTP</a> :: Stephen Strange & Cloak</div><div class="flex-center-ver"><a href="https://cliqued.wings.nu/">my jam!!</a>&nbsp;<img src="https://cliqued.wings.nu/jam/pink.png">&nbsp;"Chaotic Love Revolution"</div><div><a href="https://aromatic.wings.nu/">aromatic</a> // phở</div><div style="display:flex;align-items:center"><img src="images/cliques/i-choose-you.gif" style="margin-right:10px"><span><a href="https://pkmn.caelestis.nu">I Choose You!</a> :: CHI-YU</span></div><div><a href="https://peachsoda.net/mine">Mine!</a> // Ganondorf</div>
+                <div><a href="https://dust.kuchiki.net/"><img src="images/cliques/aquarius.gif" title="celestial divine // aquarius" alt="Pixel banner for 'celestial divine' clique"></a></div><div><a href="https://aromatic.wings.nu/">aromatic</a> // phở</div><div class="flex-center-ver"><a href="https://cliqued.wings.nu/">OTF</a>&nbsp;<img src="https://cliqued.wings.nu/otf/default.png" alt="Pixel heart with infinity symbol for 'One True Fandom' clique">&nbsp;Doctor Strange</div><div>My Deadly Sin is <a href="http://daughter-of-anubis.pw/deadlysins">WRATH</a></div><div class="flex-center-ver"></div><div><a href="https://dearest.snow-heart.net/">OTP</a> :: Stephen Strange & Cloak</div><div class="flex-center-ver"><a href="https://cliqued.wings.nu/">my jam!!</a>&nbsp;<img src="https://cliqued.wings.nu/jam/pink.png" alt="Pixel image of a jar of pink jam">&nbsp;"Chaotic Love Revolution"</div><div><a href="https://cliqued.wings.nu/"><font style="color:#FF0000">r</font><font style="color:#FF8000">a</font><font style="color:#ffc400">i</font><font style="color:#008000">n</font><font style="color:#0000FF">b</font><font style="color:#8000FF">o</font><font style="color:#800080">w</font></a> &#x1F308; <font style="color:#07be91">Mint Green</font></div><div><a href="https://peachsoda.net/mine">Mine!</a> // Ganondorf</div><div class="pixel-friends"><a href="http://midnight-cloud.net/moogle"><img src="images/cliques/moogle.gif" title="I ♥ moogles // Kupo, kupo! Moogle Adoption Clique" alt="Image of a Moogle from Final Fantasy"></a><a href="https://pkmn.caelestis.nu"><img src="images/cliques/i-choose-you.gif" title="I choose you! :: CHI-YU" alt="Pixel of Chi-Yu"></a><a href="https://pixelrevival.xyz/boba/"><img src="images/cliques/boba.gif" alt="Sprite of a purple bubble tea" title="Taro Milk Tea :: Adopt a Boba"></a></div>
               </div>
               <section class="cliques flex-center-ver flex-column">
-                <div><a href="http://bulletproof.freeservers.com/"><img src="images/cliques/bulletproof.png"></a></div><div style="display: inline-block; text-align: center; font-size: 10px"><a href="https://exvius.aelysia.net" target="_blank" rel="noopener noreferrer" style="border: 0px none; background: transparent;"><img src="images/cliques/x_auron.png"></a><br/>Protected by Auron!</div>
+                <div><a href="http://bulletproof.freeservers.com/"><img src="images/cliques/bulletproof.png" alt="Banner for the 'Bulletproof' clique"></a></div><div style="text-align: center; font-size:0.8em"><a href="https://exvius.aelysia.net"><img src="images/cliques/x_auron.png" alt="Sprite of Auron from Final Fantasy X"></a><br/>Protected by Auron!</div>
               </section>
             </div>
           </div>

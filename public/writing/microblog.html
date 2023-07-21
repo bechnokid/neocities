@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#d65da4"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on"><meta property="og:title" content="Bechno Kid's Hideout"><meta property="og:description" content="Art, blog, resources, and more?!"><meta property="og:image" content="/images/og_image.png"><meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities"><meta property="og:locale" content="en_US"><meta property="og_type" content="website"><meta property="og:url" content="https://bechnokid.neocities.org">
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/javascript/script.js"></script>
-  <script src="https://kit.fontawesome.com/2afcf0d7d7.js" crossorigin="anonymous"></script>
-
   <link rel="canonical" href="https://bechnokid.neocities.org">
   <link rel="preload" href="/css/main.css" as="style">
+  <link rel="preload" href="/js/script.js" as="script">
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
-  <style>main iframe {width: 100%;height: 380px}</style>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="/js/script.js"></script>
+  <script src="https://kit.fontawesome.com/2afcf0d7d7.js" crossorigin="anonymous"></script>
+
+  <style>dt::before {content: none;}dd {margin: 0;margin-bottom: 30px;padding: 0 0 20px 20px;border-bottom: 1px solid var(--background);}dd:last-child{border: 0;}.basic-box {max-height: 500px;overflow-y: auto;padding-top: 20px;}.date {color: var(--italic)}</style>
   <title>Writings | Microblog - Bechno Kid's Hideout</title>
 </head>
 <body>
@@ -21,11 +23,12 @@
       <main>
         <h1>Microblog</h1>
         <p>Thoughts and ramblings that are otherwise too small to make into a blog post!</p><hr>
-        <iframe src="https://status.cafe/users/bechnokid" frameborder="0"></iframe>
+        <div id="microblog" class="basic-box"></div>
         <div class="back">❤ <span onclick="history.back()">Go back</span> ❤</div>
       </main>
     </div>
     <footer class="footer"></footer>
   </div>
+  <script>const feedURL = 'https://status.cafe/users/bechnokid.atom';fetch(feedURL).then(response => response.text()).then(str => new window.DOMParser().parseFromString(str, "text/xml")).then(data => {const entries = data.querySelectorAll("entry");let html = `<dl>`;entries.forEach(el => {let title = el.querySelector("title").innerHTML.slice(0,12).trim();let content = el.querySelector("content").textContent.trim();let dateString = el.querySelector("published").innerHTML.slice(0,10);html += `<dt><b>${title}</b> :: <span class='date'>${dateString}</span></dt><dd>${content}</dd>`;});html += `</dl>`;document.getElementById("microblog").innerHTML = html;})</script>
 </body>
 </html>
