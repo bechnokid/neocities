@@ -4,8 +4,9 @@
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#d65da4"><meta property="og:title" content="Bechno Kid's Hideout"><meta property="og:description" content="Art, blog, resources, and more?!"><meta property="og:image" content="https://bechnokid.neocities.org/images/og_image.png"><meta property="og:image:alt" content="Image of Bechno Kid's Hideout, a website on Neocities"><meta property="og:locale" content="en_US"><meta property="og_type" content="website"><meta property="og:url" content="https://bechnokid.neocities.org"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on">
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="/javascript/script.js"></script>
+  <script src="/js/script.js"></script>
   <script src="https://kit.fontawesome.com/2afcf0d7d7.js" crossorigin="anonymous"></script>
+  <!--<script src="/js/cassette.js"></script>-->
   <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
 
   <link rel="canonical" href="https://bechnokid.neocities.org">
@@ -104,7 +105,7 @@ $(function() {
   $("#stop-gif").on("click", function(){e.stop()});
 });</code></pre>
             </div>
-          <p>The functions that have "click" are what triggers the Freezeframe component to run a certain method, so clicking the button with the ID <i>#play-gif</i> will play the GIFs, while clicking the button with the ID <i>#stop-gif</i> will stop the GIFs.</p><p>So, you should have something like the following:</p><button id="play-gif">Play GIF</button><button id="stop-gif">Stop GIF</button><p><img src="/goodies/images/stamps/strange.gif" class="freezeframe"></p><p><img src="/shrines/doctor-strange/images/blinky-love-doctor-strange.gif" class="freezeframe"></p>
+          <p>The functions that have "click" are what triggers the Freezeframe component to run a certain method, so clicking the button with the ID <i>#play-gif</i> will play the GIFs, while clicking the button with the ID <i>#stop-gif</i> will stop the GIFs.</p><p>So, you should have something like the following:</p><button id="play-gif" class="button">Play GIF</button><button id="stop-gif" class="button">Stop GIF</button><p><img src="/goodies/images/stamps/strange.gif" class="freezeframe" alt="Doctor Strange stamp"></p><p><img src="/shrines/doctor-strange/images/blinky-love-doctor-strange.gif" alt="Doctor Strange blinky" class="freezeframe"></p>
           </section>
           <h2>Notable Limitations</h2>
           <section>
@@ -139,7 +140,7 @@ a:hover .ff-container.ff-inactive .ff-image {
           <div class="back">❤ <span onclick="history.back()">Go back</span> ❤</div>
         </article>
       </main>
-      <script src="/javascript/prism.js"></script>
+      <script src="/js/prism.js"></script>
     </div>
     <footer class="footer"></footer>
   </div>

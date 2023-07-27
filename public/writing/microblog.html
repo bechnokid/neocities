@@ -12,7 +12,7 @@
   <script src="/js/script.js"></script>
   <script src="https://kit.fontawesome.com/2afcf0d7d7.js" crossorigin="anonymous"></script>
 
-  <style>dt::before {content: none;}dd {margin: 0;margin-bottom: 30px;padding: 0 0 20px 20px;border-bottom: 1px solid var(--background);}dd:last-child{border: 0;}.basic-box {max-height: 500px;overflow-y: auto;padding-top: 20px;}.date {color: var(--italic)}</style>
+  <style>.link-statuscafe{margin:0;float:right;color:var(--background)}dt::before {content: none;}dd {margin: 0;margin-bottom: 30px;padding: 0 0 20px 20px;border-bottom: 1px solid var(--background);}dd:last-child{border: 0;}.basic-box {max-height: 500px;overflow-y: auto;padding-top: 20px;}.date {color: var(--italic)}</style>
   <title>Writings | Microblog - Bechno Kid's Hideout</title>
 </head>
 <body>
@@ -29,6 +29,6 @@
     </div>
     <footer class="footer"></footer>
   </div>
-  <script>const feedURL = 'https://status.cafe/users/bechnokid.atom';fetch(feedURL).then(response => response.text()).then(str => new window.DOMParser().parseFromString(str, "text/xml")).then(data => {const entries = data.querySelectorAll("entry");let html = `<dl>`;entries.forEach(el => {let title = el.querySelector("title").innerHTML.slice(0,12).trim();let content = el.querySelector("content").textContent.trim();let dateString = el.querySelector("published").innerHTML.slice(0,10);html += `<dt><b>${title}</b> :: <span class='date'>${dateString}</span></dt><dd>${content}</dd>`;});html += `</dl>`;document.getElementById("microblog").innerHTML = html;})</script>
+  <script>const feedURL = 'https://status.cafe/users/bechnokid.atom';fetch(feedURL).then(response => response.text()).then(str => new window.DOMParser().parseFromString(str, "text/xml")).then(data => {const entries = data.querySelectorAll("entry");let html = `<dl>`;entries.forEach(el => {let title = el.querySelector("title").innerHTML.slice(0,12).trim();let content = el.querySelector("content").textContent.trim();let dateString = el.querySelector("published").innerHTML.slice(0,10);html += `<dt><b>${title}</b> :: <span class='date'>${dateString}</span></dt><dd>${content}</dd>`;});html += `</dl><p class='link-statuscafe'>See more at <a href='https://status.cafe/users/bechnokid'>StatusCafe</a></p>`;document.getElementById("microblog").innerHTML = html;})</script>
 </body>
 </html>
