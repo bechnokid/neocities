@@ -12,7 +12,8 @@
   <link rel="preload" href="/css/main.css" as="style">
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
   <link rel="stylesheet" href="/css/prism.css">
-  <style>.code-block{max-height:300px;}.result * {color: initial;font-family: initial;font-size: initial;list-style-type: disc;padding: initial;}.result li::marker {content: initial !important;color: initial !important;}.result #sample-menu input {position: absolute;height: 0;opacity: 0;}.result #sample-menu label {cursor: pointer;}.result #sample-menu ul {display: none;transition: height .1s linear;}.result #sample-menu input:checked + .sub-menu {display: block;height: auto;margin-top: 0;}</style>
+  <style>.result * {color: initial;font-family: initial;font-size: initial;list-style-type: disc;padding: initial;}.result li::marker {content: initial !important;color: initial !important;}.result #sample-menu input {position: absolute;height: 0;opacity: 0;}.result #sample-menu label {cursor: pointer;}.result #sample-menu ul {display: none;transition: height .1s linear;}.result #sample-menu input:checked + .sub-menu {display: block;height: auto;margin-top: 0;}
+  </style>
   <title>Code Snippets - Bechno Kid's Hideout</title>
 </head>
 <body>
@@ -20,29 +21,28 @@
     <a href="/home.html"><header class="header"></header></a>
     <div class="content">
       <nav class="sidebar"></nav>
+      <div class="burger-menu">
+        <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+        <nav class="toc menu"><h2>❥ Contents</h2><div class="flex-center basic-box"><a href="/resources">Return</a><hr class="small"><menu><li><a href="#update-age">Automatically Update Your Age</a></li><li><a href="#simple-caret">Simple Caret Menu</a></li></menu></div></nav>
+      </div>
       <main>
         <h1>Code Snippets</h1>
         <p>Well, hi! Welcome. I'm sure you can tell from this site's layout that I am not the best at web design. However, I know that some people have trouble with Javascript/jQuery, and knowing that language is part of my job as a software developer.</p>
         <p>So, I made this page to share whatever bits of code I managed to come up on my own time. They're not too fancy and I don't want to call myself an expert, but hey, if it works, it works! Please note that these will only work if you have jQuery installed.</p><p>To use JQuery for your site, you would just need to insert the JQuery script within your <b>&lt;head&gt;</b> block, as shown below:</p>
-        <div class="code-block">
-          <pre><code class="language-html">&lt;head>
+        <pre><code class="language-html">&lt;head>
   &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">&lt;/script>
 &lt;/head></code></pre>
-        </div>
         <p>Please feel free to take whatever little bits you find here to use for your site. <b>No credit necessary!</b></p>
         <hr>
         <article>
-          <h2>Automatically update your age</h2>
+          <h2 id="update-age">Automatically Update Your Age</h2>
           <section>
             <p>Tired of having to update your profile all the time when your birthday comes around? If you use this, you won't have to anymore!</p><p><b>IMPORTANT</b>: Please be careful about sharing your age online, especially if you are a minor!</p>
             <h3>HTML</h3>
-            <div class="code-block">
-              <pre><code class="language-html">&lt;p>Sonic the Hedgehog is &lt;span id="age">&lt;/span> years old!&lt;p></code></pre>
-            </div>
+            <pre><code class="language-html">&lt;p>Sonic the Hedgehog is &lt;span id="age">&lt;/span> years old!&lt;p></code></pre>
             <hr class="small">
             <h3>JQuery</h3>
-            <div class="code-block">
-              <pre><code class="language-js">// Replace the date with your own birthdate WITHIN the double quotation marks ("").
+            <pre><code class="language-js">// Replace the date with your own birthdate WITHIN the double quotation marks ("").
 // Do NOT remove those quotation marks!
 
 var dob = new Date("06/23/1991");
@@ -51,18 +51,16 @@ var age_dt = new Date(month_diff);
 var year = age_dt.getUTCFullYear();
 var age = Math.abs(year - 1970);
 document.getElementById("age").innerHTML = age;</code></pre>
-            </div>
             <hr class="small">
             <h3>Result</h3>
-            <p>Sonic the Hedgehog is <span id="age"></span> years old!<p></p>
+            <p class="basic-box">Sonic the Hedgehog is <span id="age"></span> years old!<p></p>
             <script>var dob = new Date("06/23/1991");var month_diff = Date.now() - dob.getTime();var age_dt = new Date(month_diff);var year = age_dt.getUTCFullYear();var age = Math.abs(year - 1970);document.getElementById("age").innerHTML = age;</script>
           </section>
-          <h2>Simple caret menu</h2>
+          <h2 id="simple-caret">Simple Caret Menu</h2>
           <section>
             <p>Simple menus that don't involve a lot of fancy CSS are something I don't see covered a lot in tutorials, so I thought I'd provide one!</p>
             <h3>HTML</h3>
-            <div class="code-block" style="overflow-y:scroll">
-              <pre><code class="language-html">&lt;div id="sample-menu">
+            <pre><code class="language-html">&lt;div id="sample-menu">
   &lt;label for="main-menu">Menu &lt;span class="caret">&#9656;&lt;/span>&lt;/label>
   &lt;input type="checkbox" id="main-menu">
   &lt;ul class="sub-menu">
@@ -70,11 +68,9 @@ document.getElementById("age").innerHTML = age;</code></pre>
     &lt;li>&lt;a href="#">Link 2&lt;/a>&lt;/li>
   &lt;/ul>
 &lt;/div></code></pre>
-            </div>
             <hr class="small">
             <h3>CSS</h3>
-            <div class="code-block" style="overflow-y:scroll">
-              <pre><code class="language-css">/* === SINGULAR MENU CSS === */
+            <pre><code class="language-css">/* === SINGULAR MENU CSS === */
 #sample-menu input {
   position: absolute;
   height: 0;
@@ -95,15 +91,12 @@ document.getElementById("age").innerHTML = age;</code></pre>
   height: auto;
   margin-top: 0;
 }</code></pre>
-            </div>
             <hr class="small">
             <h3>JQuery</h3>
-            <div class="code-block">
-              <pre><code class="language-js">$("input[type='checkbox']").on("change", function(){
+            <pre><code class="language-js">$("input[type='checkbox']").on("change", function(){
   caret = $(this).siblings("label").children("span");
   caret.html() == "▸" ? caret.html("▾") : caret.html("▸");
 })</code></pre>
-            </div>
             <hr class="small">
             <h3>Result</h3>
             <div class="result basic-box">
@@ -119,7 +112,6 @@ document.getElementById("age").innerHTML = age;</code></pre>
             <script>$("input[type='checkbox']").on("change", function(){caret = $(this).siblings("label").children("span");caret.html() == "▸" ? caret.html("▾") : caret.html("▸");})</script>
           </section>
         </article>
-        <div class="back">❤ <span onclick="history.back()">Go back</span> ❤</div>
       </main>
     </div>
     <footer class="footer"></footer>

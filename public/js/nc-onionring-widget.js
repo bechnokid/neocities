@@ -50,5 +50,5 @@ else {
 
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
-  tag.insertAdjacentHTML('afterbegin', `<table style='width: unset'><tr><td><a href='${sites[previousIndex]}'><img src="https://neocreatives.neocities.org/left1.gif" alt="Neocreatives: Previous"></a></td><td style='padding:0 5px'><img src="https://neocreatives.neocities.org/button.gif" alt="Neocreatives: Index"></td><td><a href='${sites[nextIndex]}'><img src="https://neocreatives.neocities.org/right1.gif" alt="Neocreatives: Next"></a></td></tr><tr><td colspan=3 style='background-color:var(--content);text-align:center'><small>${randomText}${indexText}</small></td></tr></table>`);
+  tag.insertAdjacentHTML('afterbegin', `<table style='width:unset'><tr><td><a href='${sites[previousIndex]}'><img src="https://neocreatives.neocities.org/left1.gif" alt="Neocreatives previous button"></a></td><td style='padding:0 5px'><img src="https://neocreatives.neocities.org/button.gif" alt="Neocreatives index button"></td><td><a href='${sites[nextIndex]}'><img src="https://neocreatives.neocities.org/right1.gif" alt="Neocreatives next button"></a></td></tr><tr><td colspan=3 style='background-color:var(--sidebar);text-align:center'><small>${randomText}${indexText}</small></td></tr></table>`);
 }

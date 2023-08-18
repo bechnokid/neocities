@@ -11,7 +11,7 @@
   <link rel="canonical" href="https://bechnokid.neocities.org">
   <link rel="preload" href="/css/main.css" as="style">
   <link rel="stylesheet" href="/css/main.css" type="text/css" media="all">
-  <style>main ul { margin: 0 23px; } main .flex-center a, main .flex-center-ver a{ display: flex; align-items: center;} dl{ margin-bottom: 10px;margin-left: 10px;} dt{ margin-bottom: 0px;} dt.links div:not(:last-child){ margin-right: 5px;} dd{ margin-bottom: 10px;} .buttons .flex-center div:not(.ff-container){ margin: 2px; height: 31px;} .grid{ grid-template-columns: repeat(auto-fit, minmax(250px, auto));} </style>
+  <style>h2{scroll-margin-top:225px;} main ul { margin: 0 23px; } main .flex-center a, main .flex-center-ver a{ display: flex; align-items: center;} dl{ margin-bottom: 10px;margin-left: 10px;} dt{ margin-bottom: 0px;} dt.links div:not(:last-child){ margin-right: 5px;} dd{ margin-bottom: 10px;} .buttons .flex-center div:not(.ff-container){ margin: 2px; height: 31px;} .grid{ grid-template-columns: repeat(auto-fit, minmax(250px, auto));} </style>
   <title>Links - Bechno Kid's Hideout</title>
 </head>
 <body>
@@ -19,14 +19,18 @@
     <a href="/home.html"><header class="header"></header></a>
     <div class="content">
       <nav class="sidebar"></nav>
+      <div class="burger-menu">
+        <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+        <nav class="toc menu"><h2>❥ Contents</h2><div class="flex-center basic-box"><menu><li><a href="#link-back">Link Back?</a></li><li><a href="#neocities">Neocities Neighbors</a></li><li><a href="#outward">Out-of-Town Sites</a></li><li><a href="#res">Resources</a></li><li><a href="#credits">Credits</a></li></menu></div></nav>
+      </div>
       <main>
         <h1>Links</h1><p>Thank you for stopping by my page! Listed below are a few websites that I believe are super cool, super helpful, or both!</p><div class="freezeframe-btns"><button id="play-gif" class="button">Play GIFs</button><button id="stop-gif" class="button">Stop GIFs</button></div><hr>
         <article>
-          <h2>Link back?</h2>
+          <h2 id="link-back">Link back?</h2>
           <section class="link-back">
             <img src="/images/button.jpg" alt="Button to Bechno Kid's site"><p>Please remember to save this image and upload to your server, this helps prevent bandwidth from being used! Thank you for understanding!</p>
           </section>
-          <h2>Neocities Neighbors</h2>
+          <h2 id="neocities">Neocities Neighbors</h2>
           <section class="neocities-links">
             <p>If you've already added me, please let me know! :D</p>
             <div class="buttons" style="margin-bottom:20px;padding-top:0">
@@ -36,7 +40,7 @@
             </div>
             <p>You should check out more cool sites over <a href="https://neocities.org/site/bechnokid/follows">here</a>!
           </section>
-          <h2>Out-of-Town Sites</h2>
+          <h2 id="outward">Out-of-Town Sites</h2>
           <section class="other-sites">
             <p>Favorite sites found outside Neocities!</p>
             <h3>Memory Lane</h3>
@@ -56,7 +60,7 @@
               <li><a href="https://zombo.com">Zombo.com</a> - Trust me on this ;)</li><li><a href="https://benedictcumberbatchgenerator.tumblr.com/">Benedict Cumberbatch Name Generator</a> - Exactly what it says on the tin.</li><li><a href="https://www.justtherecipe.com/">JustTheRecipe</a> - A website that lets you override popups, ads, and long intros and shows "just the recipe".</li><li><a href="https://www.thiswebsitewillselfdestruct.com/">This Website Will Self-Destruct</a> - A website that will self-destruct if it hasn't received a message in 24 hours. A perfect place to write your own thoughts and feelings.</li><li><a href="http://www.pronouns.failedslacker.com/">Pronoun Dressing Room</a> - Ever wanted to use different pronouns but aren't sure if it suits you? Try them on first!</li>
             </ul>
           </section>
-          <h2>Resources</h2>
+          <h2 id="res">Resources</h2>
           <section class="resources">
             <h3>Pixels/Sozai:</h3>
             <dl>
@@ -79,14 +83,13 @@
               <li><a href="http://waifu2x.udp.jp/">waifu2x</a> - Site that can upscale any image up to 2x with little to no quality loss.</li><li><a href="https://neonaut.neocities.org/brain/image-compression.html">Become a Compression Sorcerer</a> - Neonaut's guide for compressing images to optimize your site.</li><li><a href="http://torcado.com/cleanEdge/">cleanEdge</a> - A pixel art upscaling algorithm that ensures pixel art will look nice even after rotating and upscaling it.</li>
             </ul>
           </section>
-          <h2>Credits</h2>
+          <h2 id="credits">Credits</h2>
           <section class="credits">
             <ul>
               <li>Layout inspiration: <a href="http://web.archive.org/web/20041206135411/rinacat.com/main.html">Rina Cat's Domain</a></li><li>Layout template: <a href="https://sadgrl.online/projects/layout-builder/">Sadgrl's Layout Builder</a></li><li>Graphics: <a href="https://anlucas.neocities.org/88x31Buttons.html">A.N. Lucas</a>, <a href="https://foollovers.com/index.html">Fool Lovers</a></li><li>Fonts: Verdana and <a href="https://opendyslexic.org/">OpenDyslexic</a></li><li>Coding help: <a href="https://sadgrl.online/webmastery/html-css-help.html">Sadgrl's HTML/CSS/JS Help</a>, <a href="https://www.w3schools.com/">W3Schools</a></li><li>JS libraries used: <a href="https://github.com/ctrl-freaks/freezeframe.js/">freezeframe.js</a>, <a href="https://prismjs.com/">Prism</a>, <a href="https://biati-digital.github.io/glightbox/">GLightbox</a></li><li>Icons used: <a href="https://fontawesome.com/">Font Awesome</a></li>
             </ul>
           </section>
         </article>
-        <div class="back">❤ <span onclick="history.back()">Go back</span> ❤</div>
       </main>
     </div>
     <footer class="footer"></footer>

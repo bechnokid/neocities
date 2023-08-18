@@ -21,17 +21,21 @@
     <a href="/home.html"><header class="header"></header></a>
     <div class="content">
       <nav class="sidebar"></nav>
+      <div class="burger-menu">
+        <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+        <nav class="toc menu"><h2>❥ Contents</h2><div class="flex-center basic-box"><a href="/resources">Return</a><hr class="small"><menu><li><a href="#step-1">1) Setting Up Visual Studio Code</a></li><li><a href="#step-2">2) Configuring Visual Studio Code</a></li><li><a href="#step-3">3) Saving Files From Neocities to Hard Drive</a></li><li><a href="#step-4">4) Opening Neocities Pages in VSCode</a></li><li><a href="#step-5">5) Previewing Neocities Page Locally</a></li><li><a href="#step-6">6) Closing Thoughts</a></li></menu></div></nav>
+      </div>
       <main>
         <h1>How to Use Visual Studio Code with Neocities</h1><hr>
         <article class="flex-center-hor">
           <section>
             <p>Up until recently, I had mostly edited my code in <a href="https://codepen.io">CodePen</a> and Notepad++, the former mostly being used for debugging while looking at its live preview and such. CodePen is great, don't get me wrong, but I wasn't really keen on logging in every time and working in a relatively cramped workspace. Notepad++ is fine and provides lots of space, it doesn't provide a live preview of the page I'm editing.</p><p>I remember following <a href="http://web.archive.org/web/20220918162237/https://gutz.neocities.org/neocities.html">gutz's tutorial on editing HTML files locally</a>. It was super great and easy to follow, but there were many parts of it that didn't work out for me. That included:</p><p><ul><li>Links to CSS and JS files must be hardcoded with the full URL from our Neocities site, which limits users to only being able to edit their HTML files locally</li><li>Some of these full URLS will not even show up when opening the HTML file directly from your hard drive because of the Cross-Origin Requests that are only available for Supporters, or paying users.</li><li>It's possible to use CSS and JS files locally using only links like "/images/filename.png", but that requires all files to be in the hard drive, which can quickly become cluttered.</li><li>If you are using a script that puts the same elements/text on every page, that script will not load those elements if the HTML file calling the script is located in a different folder.</li></ul></p><p>All of the above issues can be remedied by typing in a bunch of JS functions that covers each issue, but I found there is an easier way: using Visual Studio Code, or VSCode for short.</p><p>I would link the entire documentation for VSCode, but I imagine it would be overwhelming for new users. So, I'll provide a small tutorial on setting up VSCode to help new users get started.</p>
           </section>
-          <h2>Setting Up Visual Studio Code</h2>
+          <h2 id="step-1">1) Setting Up Visual Studio Code</h2>
           <section>
             <ol><li>Go to <a href="https://code.visualstudio.com/">the Visual Studio Code site</a>, and download the latest version of VSCode.</li><li>Open up VSCode and locate the Extensions button on the left side of the screen (it should look like a set of building blocks).</li><li>Click on the "Search Extensions in Marketplace" search bar.</li><li>Type in "Live Preview". The extension should be near the top and say it was developed by Microsoft.</li><li>Select the small "Install" box to install the extension. You can also click on the the extension itself to see how it functions.</li></ol>
           </section>
-          <h2>Configuring Visual Studio Code</h2>
+          <h2 id="step-2">2) Configuring Visual Studio Code</h2>
           <section>
             <ol><li>You can configure the settings for VSCode by going into File > Preferences > Settings, pressing "Ctrl + ," (comma key), or pressing "Ctrl + Shift + P" and typing "Open User Settings".</li><li>A new tab will open for settings, which will be where you can configure the editor however you'd like.</li><li><b>(Recommended for new users) </b>VSCode allows users to save their settings into a JSON file. To open the JSON file, press "Ctrl + Shift + P", and type "Open Settings (JSON)". This will open settings.json. The JSON file that I will provide below allows HTML tags to be automatically renamed and closed, changes the tab size to 2 spaces, and trims any trailing whitespace:
               <div class="code-block">
@@ -45,23 +49,22 @@
             </li></ol>
 
           </section>
-          <h2>Saving Files from Neocities to Hard Drive</h2>
+          <h2 id="step-3">3) Saving Files from Neocities to Hard Drive</h2>
           <section>
             <p>This follows steps 1 through 3 from <a href="http://web.archive.org/web/20220918162237/https://gutz.neocities.org/neocities.html">gutz's tutorial</a>. If you already have all of your Neocities files saved in your hard drive, you can skip this section.</p><ol><li>Create a folder in your hard drive where you will store the files to your Neocities site. I named mine <i>"neocities"</i> for convenience. Create subfolders as needed.</li><li>Select <i>"Edit Site"</i> to go to your Neocities dashboard where all of your files are located. Hover over each .html, .css., or .js file you want to save and right-click. Select <i>"Save link as..."</i> and save your file in your hard drive folder. Be sure to name your files exactly like in your Neocities dashboard and that they all retain their file types. Since folders cannot be saved, every file in each subfolder must be saved individually.</li><li>Organize all files in the same file structure as your Neocities dashboard. This means every file must be in its original folder, etc.</li></ol>
           </section>
-          <h2>Opening Neocities Pages in VSCode</h2>
+          <h2 id="step-4">4) Opening Neocities Pages in VSCode</h2>
           <section>
             <ol><li>From VSCode, select File > Open Folder</li><li>Locate the folder where your files are located. For example, if all of your files are located in a folder called "neocities", find the "neocities" folder, click on it once, and click on "Select Folder".</li><li>Your files will appear on the Explorer sidebar on the left side of the screen. The layout should look identical to your Neocities dashboard.</li></ol>
           </section>
-          <h2>Previewing Neocities Page Locally</h2>
+          <h2 id="step-5">5) Previewing Neocities Page Locally</h2>
           <section>
             <ol><li>We will be using the "Live Preview" extension that I mentioned earlier. To start using it, open any HTML file from the Explorer sidebar by double-clicking on it.</li><li>Right-click anywhere in the HTML file, and select "Show Preview".</li><li>VSCode will open a new tab on the right side that will show a live preview of your site using a local server. The "browser" it uses is similar to Chrome.</li><li>If Chrome is not your default browser and you would like to open it in your default browser, select the icon with four horizontal lines on the right side of the screen, then select "Open in Browser".</li><li>VSCode will then open your site in your default browser and a terminal window within the software's UI.</li><li>Close the browser by simply closing the window, and then close the terminal window by clicking on the trash can icon, or pressing "Ctrl + C" within the terminal.</li></ol>
           </section>
-          <h2>Final Thoughts</h2>
+          <h2 id="step-6">6) Closing Thoughts</h2>
           <section>
             <p>I hope this tutorial was able to help, even a little bit. I understand that learning a new software can be pretty overwhelming, even if you read a hundred tutorials. The last thing I want is to force people to do something they don't like, so if it turns out that VSCode isn't for you, then that's ok! :3</p><p>If some of you end up interested in VSCode and would like to use it some more, stay tuned! I have another tutorial planned that will help users update their Neocities sites through GitHub. It does require some knowledge of Git, but I'll try my absolute best to explain the very basics of it.</p><p>Until then, see you later!</p>
           </section>
-          <div class="back">❤ <span onclick="history.back()">Go back</span> ❤</div>
         </article>
       </main>
     </div>
