@@ -1,15 +1,14 @@
 // onionring.js is made up of four files - onionring-widget.js (this one!), onionring-index.js, onionring-variables.js and onionring.css
 // it's licensed under the cooperative non-violent license (CNPL) v4+ (https://thufie.lain.haus/NPL.html)
-// it was originally made by joey + mord of allium house, last updated 2020-11-24
+// it was originally made by joey + mord of allium (ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“) house, last updated 2020-11-24
 
 // === ONIONRING-WIDGET ===
 //this file contains the code which builds the widget shown on each page in the ring. ctrl+f 'EDIT THIS' if you're looking to change the actual html of the widget
 
 var tag = document.getElementById(ringID); //find the widget on the page
 
-thisSite = "https://bechnokid.neocities.org"; //get the url of the site we're currently on
+thisSite = 'https://bechnokid.neocities.org/home'; //get the url of the site we're currently on
 thisIndex = null;
-console.log('testing')
 
 // go through the site list to see if this site is on it and find its position
 for (i = 0; i < sites.length; i++) {
@@ -29,7 +28,11 @@ function randomSite() {
 //if we didn't find the site in the list, the widget displays a warning instead
 if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
-<table><tr><td>This site isn't part of the ${ringName} webring yet. Talk to Beau to get fresh!</td></tr></table>
+<table>
+  <tr>
+    <td>This site isn't part of the ${ringName} webring yet. Talk to Beau to get fresh!</td>
+  </tr>
+</table>
   `);
 }
 else {
@@ -42,7 +45,7 @@ else {
   indexText = ""
   //if you've chosen to include an index, this builds the link to that
   if (useIndex) {
-    indexText = `<a href='${indexPage}'><img src="https://bechnokid.neocities.org/images/webrings/splatnet.png" width="230" alt="Splatnet: Index"></a> `;
+    indexText = `<a href='${indexPage}'><img src="https://boothworldindustries.neocities.org/WR/Splatnet/Styles/Base/BASEINKLING.png" id="chara"></a> `;
   }
 
   randomText = ""
@@ -53,6 +56,18 @@ else {
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <table><tr><td class='webring-info'><img src="https://boothworldindustries.neocities.org/webrings/splatnet/Photos/logo.png" width="60" alt="Splatnet logo"></br><span class='webring-links'>${indexText}<br><span class='webring-innerLinks'><span class='webring-prev'><a href='${sites[previousIndex]}'><--</a></span><span class='webring-mid'><img src="https://bechnokid.neocities.org/images/webrings/splatnet_icon.png" width="35" alt="Splatnet icon"></span><span class='webring-next'><a href='${sites[nextIndex]}'>--></a></span></span></span></tr></table>
+  <table>
+    <tr>
+
+      <td class='webring-info'><img src="https://boothworldindustries.neocities.org/WR/Splatnet/Styles/Base/BASELOGO.png" id="splatlogo"></br>
+
+      <span class='webring-links'>
+        ${indexText}<br>
+
+      <span class='webring-prev'><a href='${sites[previousIndex]}'> <img src="https://boothworldindustries.neocities.org/WR/Splatnet/Styles/Base/BASEARROWLEFT.png" width="30" id="leftarrow"> </a></span>
+      <span> <img src="https://boothworldindustries.neocities.org/WR/Splatnet/Styles/Base/BASECHIBI.png" id="chibi"> </span>
+      <span class='webring-next'><a href='${sites[nextIndex]}'> <img src="https://boothworldindustries.neocities.org/WR/Splatnet/Styles/Base/BASEARROWRIGHT.png" width="30" id="rightarrow"> </a></span>
+    </tr>
+  </table>
   `);
 }
