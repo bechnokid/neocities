@@ -1,0 +1,82 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#d65da4"><meta property="og:title" content="Bechno Kid&#39;s Hideout"><meta property="og:description" content="Art, blog, resources, and more?!"><meta property="og:image" content="https://bechnokid.neocities.org/images/og_image.png"><meta property="og:image:alt" content="Image of Bechno Kid&#39;s Hideout, a website on Neocities"><meta property="og:locale" content="en_US"><meta property="og_type" content="website"><meta property="og:url" content="https://bechnokid.neocities.org"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:dnt" content="on"><link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon"><link rel="canonical" href="https://bechnokid.neocities.org"><link rel="alternate" type="application/rss+xml" href="https://bechnokid.neocities.org/feed.xml"><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="/assets/javascript/prism.js"></script><link rel="stylesheet" href="/assets/css/prism.css"><script src="https://kit.fontawesome.com/2afcf0d7d7.js" crossorigin="anonymous"></script><link rel="stylesheet" href="/assets/css/basic.css" type="text/css" media="all"><title>Bechno Kid&#39;s Hideout - Implementing FreezeframeJS</title></head><body><details class="burger"><summary class="py-2 text-background">Menu</summary><nav><div class="sidebar"><ul><li><a href="#main-content" class="skip-link">Main Content</a></li><li><a href="#footer" class="skip-link">Footer</a></li></ul><ul class="nav-links"><li><div class="px-2 py-1 h2">Main</div><ul class="ms-4 my-1"><li><a href="/home/">Home</a></li><li><a href="/about/">About Me</a></li><li><a href="/faq/">F.A.Q</a></li><li><a href="/manifesto/">Manifesto</a></li><li><a href="/layout-archive/">Layout Archive</a></li><li><a href="/sitemap/">Sitemap</a></li></ul></li><li><div class="px-2 py-1 h2">Content</div><ul class="ms-4 my-1"><li class="text-muted">Artwork (WIP)</li><li><a href="/writing/">Writing</a></li><li><a href="/shrines/">Shrines</a></li></ul></li><li><div class="px-2 py-1 h2">Odds &amp; Ends</div><ul class="ms-4 my-1"><li><a href="/goodies/">Goodies</a></li><li><a href="/fun/">Fun</a></li><li><a href="/tutorials/">Tutorials</a></li></ul></li><li><div class="px-2 py-1 h2">Outgoing</div><ul class="ms-4 my-1"><li><a href="/outgoing/links/">Links</a></li><li><a href="/outgoing/webrings/">Webrings</a></li></ul></li></ul></div></nav></details><div class="container-fluid d-flex justify-content-center"><details class="burger"><summary class="d-flex align-items-center px-2 py-3">Menu</summary><nav><div class="sidebar"><ul><li><a href="#main-content" class="skip-link">Main Content</a></li><li><a href="#footer" class="skip-link">Footer</a></li></ul><ul class="nav-links"><li><div class="px-2 py-1 h2">Main</div><ul class="ms-4 my-1"><li><a href="/home/">Home</a></li><li><a href="/about/">About Me</a></li><li><a href="/faq/">F.A.Q</a></li><li><a href="/manifesto/">Manifesto</a></li><li><a href="/layout-archive/">Layout Archive</a></li><li><a href="/sitemap/">Sitemap</a></li></ul></li><li><div class="px-2 py-1 h2">Content</div><ul class="ms-4 my-1"><li class="text-muted">Artwork (WIP)</li><li><a href="/writing/">Writing</a></li><li><a href="/shrines/">Shrines</a></li></ul></li><li><div class="px-2 py-1 h2">Odds &amp; Ends</div><ul class="ms-4 my-1"><li><a href="/goodies/">Goodies</a></li><li><a href="/fun/">Fun</a></li><li><a href="/tutorials/">Tutorials</a></li></ul></li><li><div class="px-2 py-1 h2">Outgoing</div><ul class="ms-4 my-1"><li><a href="/outgoing/links/">Links</a></li><li><a href="/outgoing/webrings/">Webrings</a></li></ul></li></ul></div></nav></details><div class="page bg-body"><a href="/home/"><header class="bg-body"></header></a><div class="bg-body main"><div class="row g-0"><nav id="nav-main" class="col-lg-2"><div class="sidebar"><ul><li><a href="#main-content" class="skip-link">Main Content</a></li><li><a href="#footer" class="skip-link">Footer</a></li></ul><ul class="nav-links"><li><div class="px-2 py-1 h2">Main</div><ul class="ms-4 my-1"><li><a href="/home/">Home</a></li><li><a href="/about/">About Me</a></li><li><a href="/faq/">F.A.Q</a></li><li><a href="/manifesto/">Manifesto</a></li><li><a href="/layout-archive/">Layout Archive</a></li><li><a href="/sitemap/">Sitemap</a></li></ul></li><li><div class="px-2 py-1 h2">Content</div><ul class="ms-4 my-1"><li class="text-muted">Artwork (WIP)</li><li><a href="/writing/">Writing</a></li><li><a href="/shrines/">Shrines</a></li></ul></li><li><div class="px-2 py-1 h2">Odds &amp; Ends</div><ul class="ms-4 my-1"><li><a href="/goodies/">Goodies</a></li><li><a href="/fun/">Fun</a></li><li><a href="/tutorials/">Tutorials</a></li></ul></li><li><div class="px-2 py-1 h2">Outgoing</div><ul class="ms-4 my-1"><li><a href="/outgoing/links/">Links</a></li><li><a href="/outgoing/webrings/">Webrings</a></li></ul></li></ul></div></nav><main class="col py-3 px-4" tabindex="-1"><article><h1>Implementing FreezeframeJS</h1><p></p><hr><script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script><section><h2>0) Introduction</h2><p>One of the greatest challenges for a web designer is creating a site that is accessible to those with disabilities. It’s one thing to create responsive sites and provide alt text for screen readers, but I noticed a lot of Neocities users’ sites are lacking one of the most important aspects: <strong>avoiding seizure-inducing images</strong>.</p><p>As much as I do enjoy flashing images (blinkies, pixels, rainbow backgrounds, etc.), I’ve seen a lot of sites with so much blinking and flashing that I can’t browse their site for very long without my eyes hurting. If my eyes hurt from browsing some sites, then I can’t imagine what it must be like for those who are prone to seizures.</p><p>So, I started my journey to find out methods on allow others to enjoy these colorful GIFs but without the eyestrain, and that was when I found a magnificent JS library called <a href="https://github.com/ctrl-freaks/freezeframe.js/">Freezeframe.js</a> (demo page <a href="http://ctrl-freaks.github.io/freezeframe.js/">here</a>).</p><p>With this library, animated GIFs are paused and can be enabled again by clicking/hovering the image or manually through a button and such.</p><p>It’s an amazing library and it’s saved me from a lot of eyestrain while debugging the graphics page. The instructions are pretty easy to follow, but I’d like to share my method of implementing this library to my Neocities site. I hope you find this helpful!</p></section><section><h2>1) Installation</h2><p>There are a few ways of installing freezeframe.js, but my preferred method is adding the following to your <code>&lt;head&gt;</code> tag on every page that would use this library, preferably any that contain a large amount of animated graphics.</p><pre><code class="language-html">&lt;script src=&quot;https://unpkg.com/freezeframe/dist/freezeframe.min.js&quot;&gt;&lt;/script&gt;
+</code></pre><p>If there comes a need that you need to customize the script, the code can be found on the library’s GitHub page, where you can download it and save it to the same folder you would keep your other scripts.</p></section><section><h2>2) Setup</h2><p>There are two ways of setting up freezeframe.js in HTML. You can set it up for each individual <code>&lt;img&gt;</code> tag, or you can set it up as a class for a <code>&lt;div&gt;</code> tag that holds several <code>&lt;img&gt;</code> elements inside, as shown below:</p><pre><code class="language-html">&lt;img class=&quot;freezeframe&quot; src=&quot;image.gif&quot;&gt;
+
+/* OR */
+
+&lt;div class=&quot;freezeframe&quot;&gt;
+  &lt;img src=&quot;image1.gif&quot;&gt;
+  &lt;img src=&quot;image2.gif&quot;&gt;
+  &lt;img src=&quot;image3.gif&quot;&gt;
+&lt;/div&gt;
+</code></pre><p>For me, if I know all images in a <code>&lt;div&gt;</code> element will be animated (such as blinkies), then I place the freezeframe class into <code>&lt;div&gt;</code> element. Otherwise, if a <code>&lt;div&gt;</code> element has both static and animated images (like for links), then I place the freezeframe class into the <code>&lt;img&gt;</code> element.</p><p>This is only because I’m cautious about saving as much space as possible, since adding the freezeframe class to an element will automatically create a “loading” image, whether the original image is animated or not.</p></section><section><h2>3) Implementation</h2><p>One thing to note about the library is, like most scripts, it will not work properly until the entire page has been loaded. You can put the script in your HTML file, or you can put it in a separate JS file if you intend on using this script in multiple HTML files.</p><section><h3>3.1) Single File</h3><p>If you intend on using this library in a HTML file, then you can place the following code in one of two places:</p><ul class="lvl-0"><li class="lvl-2"><p>Right above the ending <code>&lt;/body&gt;</code> tag, or…</p></li><li class="lvl-2"><p>As an onload event in the <code>&lt;body&gt;</code> tag, as shown below.</p></li></ul><pre><code class="language-html">&lt;body&gt;
+  //...
+  &lt;script&gt;new Freezeframe();&lt;/script&gt;
+&lt;/body&gt;
+
+/* OR */
+
+&lt;body onload=&quot;new Freezeframe();&quot;&gt;
+  //...
+&lt;/body&gt;
+</code></pre></section><section><h3>3.2) Multiple Files</h3><p>If you intend on using the script in multiple HTML files, then you can put <code>new Freezeframe();</code> in a separate JS file. However, you will need to make sure the script will run <em>after</em> the entire page has been loaded.</p><p>For example, the following code would likely go into your <code>index.js</code> file.</p><pre><code class="language-js">// Javascript
+document.addEventListener(&quot;DOMContentLoaded&quot;, function(event) {
+  new Freezeframe();
+});
+
+/* OR */
+
+//JQuery
+$(function() {
+  new Freezeframe();
+});
+</code></pre><p>Once <code>new Freezeframe();</code> has been implemented, all images with the freezeframe class will pause upon loading the page and will only play when the mouse hovers above them.</p></section></section><section><h2>4) Customization</h2><p>There are multiple ways to customize the script depending on how you want the animated GIFs to start playing, as shown in the demo page. For me, I wanted to create buttons that would play or pause <em>all</em> animated images in a page, which is unfortunately not covered in the demo page, so here’s how I did it.</p><p>In HTML, create the buttons and label them appropriately so the script can locate them.</p><pre><code class="language-html">&lt;button id=&quot;play-gif&quot; type='button'&gt;Play GIFs&lt;/button&gt;
+&lt;button id=&quot;stop-gif&quot; type='button'&gt;Stop GIFs&lt;/button&gt;
+</code></pre><p>Then, go to the script you put <code>new Freezeframe();</code> and change it into the following:</p><pre><code class="language-js">//Javascript
+document.addEventListener(&quot;DOMContentLoaded&quot;, function(event) {
+  const e = new Freezeframe();
+  document.getElementById(&quot;#play-gif&quot;).addEventListener(&quot;click&quot;, function(){e.start()});
+  document.getElementById(&quot;#stop-gif&quot;).addEventListener(&quot;click&quot;, function(){e.stop()});
+});
+
+/* OR */
+
+// JQuery
+$(function() {
+  const e = new Freezeframe();
+  $(&quot;#play-gif&quot;).on(&quot;click&quot;, function(){e.start()});
+  $(&quot;#stop-gif&quot;).on(&quot;click&quot;, function(){e.stop()});
+});
+</code></pre><p>The functions that have “click” are what triggers the Freezeframe component to run a certain method, so clicking the button with the ID <code>#play-gif</code> will play the GIFs, while clicking the button with the ID <code>#stop-gif</code> will stop the GIFs.</p><p>So, you should have something like the following:</p><p><button id="play-gif" class="button" type="button">Play GIFs</button> <button id="stop-gif" class="button" type="button">Stop GIFs</button></p><div class="freezeframe mb-4"><p><img src="/assets/images/goodies/stamps/strange.gif" alt="Stamp of Doctor Strange activating his magic"> <img src="/assets/images/goodies/stamps/strange_headturn.gif" alt="Stamp of Doctor Strange turning his head"></p><figure><img src="/assets/images/goodies/blinkies/blinkie-strange-sprite.gif" alt="Blinkie of Doctor Strange"></figure></div><script>$(function() {
+    const e = new Freezeframe({ trigger: !1, responsive: !1 });
+    $("#play-gif").on("click", function(){e.start()});
+    $("#stop-gif").on("click", function(){e.stop()});
+  });</script></section><section><h2>5) Troubleshooting</h2><p>Of course, not every library is perfect, and Freezeframe.js is no exception. Here are some issues I encountered and some workarounds, if any, that I managed to figure out.</p><section><h3>5.1) Does not work in tabbed menus.</h3><p>The library does not currently work in tabbed menus that use CSS. My guess is because of the clashing CSS styles somehow, but I haven’t figured out a workaround for this, yet.</p></section><section><h3>5.2) Hover CSS styling does not work</h3><p>There are instances of the library not working properly with other images that already change when hovering the cursor over it. This is because the styling for classes generated by Freezeframe.js more often than not clashes with whatever style you have already configured for your images.</p><p>To prevent this, you can put this block of code in your CSS stylesheet.</p><pre><code class="language-css">/* Remove all transitions from Freezeframe elements */
+a .ff-image,
+a .ff-canvas.ff-canvas-ready {
+  transition: none !important;
+  -o-transition: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+}
+
+/* Add the selectors for Freezeframe elements to wherever the image changes when hovered */
+a:hover img,
+a:hover .ff-image,
+a:hover .ff-canvas.ff-canvas-ready {
+  opacity: .5 !important;
+}
+
+/* This is only required if images become transparent when hovered*/
+a:hover .ff-image {
+  opacity: 0 !important;
+}
+</code></pre></section><section><h3>5.3) Inconsistent sizes for 88x31 buttons</h3><p>For whatever reason, Freezeframe.js likes to resize <code>&lt;a&gt;</code> elements so that any 88x31 button that links to another site is 32 pixels. For this issue, I would suggest just styling the CSS as needed.</p><p>In this example, let’s say you have a link like so: <code>&lt;a class=&quot;buttonLink&quot; href='https://SOMESITE.com'&gt;&lt;img src='BUTTON.png'&gt;&lt;/a&gt;</code>. Notice that the <code>&lt;/a&gt;</code> element has the class called <strong>buttonLink</strong>.</p><pre><code class="language-css">.button-link,
+.button-link &gt; div,
+.button-link img {
+  height: 31px;
+  width: 88px;
+}
+</code></pre><p>I’ve also had a couple of people point out that the images can get really stretched. I would also suggest adjusting the height of the <code>&lt;a&gt;</code> element to mitigate this issue.</p><p>I also recommend having this code in your main stylesheet.</p><pre><code class="language-css">.ff-image {
+  vertical-align: unset !important;
+}
+</code></pre><p>I sadly have no explanation for this block of code except, “-shrugs- it works!”</p></section></section><section><h2>6) Closing Thoughts</h2><p>Hopefully this tutorial helps anyone who wishes to make their site a little more accessible. If you have any questions, don’t be afraid to send an email to <a href="mailto:bechnokid@yahoo.com">bechnokid@yahoo.com</a>. I’ll do my best to answer any questions you might have!</p></section></article></main></div></div><footer class="bg-footer text-center py-1"><p class="m-0">Powered by Neocities, 11ty, and Github. Maintained by <b>Bechno Kid</b> since 2022.<br>Please do not edit or reupload any artwork from this site.</p></footer></div></div></body></html>
