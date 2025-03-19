@@ -8,6 +8,13 @@
     <language>en-us</language>
     
     <item>
+      <title>19th of March 2025</title>
+      <link>https://bechnokid.neocities.org/home</link>
+      <description><![CDATA[New &lt;a href=&#39;/blog/20250318/&#39;&gt;journal entry&lt;/a&gt;,Updated navigation,Moved pages around,Reverted &quot;Curses List&quot; back to &quot;Curses Generator&quot;,Updated 404 page]]></description>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
       <title>7th of March 2025</title>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[Fixed some errors in FreezeframeJS tutorial,Removed PrismJS and made all code blocks pure CSS]]></description>
