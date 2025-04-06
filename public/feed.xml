@@ -8,6 +8,13 @@
     <language>en-us</language>
     
     <item>
+      <title>6th of April 2025</title>
+      <link>https://bechnokid.neocities.org/home</link>
+      <description><![CDATA[<ul><li>New journal entry</li><li>New guestbook once again lol</li><li>Cleaned up some pages</li><li>Added credits to links page</li></ul>]]></description>
+      <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
       <title>31st of March 2025</title>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[<ul><li>Cleaned up webrings page</li><li>Moved fanlistings to links page</li><li>New guestbook</li><li>Link button is now hot-linkable</li></ul>]]></description>
@@ -33,41 +40,6 @@
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[<ul><li>New <a href='/writing/blog/'>journal entry</a></li><li>Updated navigation</li><li>Moved pages around</li><li>Reverted "Curses List" back to "Curses Generator"</li><li>Updated 404 page</li></ul>]]></description>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>7th of March 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[<ul><li>Fixed some errors in FreezeframeJS tutorial</li><li>Removed PrismJS and made all code blocks pure CSS</li></ul>]]></description>
-      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>16th of January 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[Revamped sitemap]]></description>
-      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>28th of December 2024</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[<ul><li>Moved webrings to its own page</li><li>Updated shrines</li></ul>]]></description>
-      <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>3rd of November 2024</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[Did a rehaul on navigation]]></description>
-      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>9th of October 2023</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[Started using Eleventy to help code this site!]]></description>
-      <pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
     </item>
     
   </channel>
