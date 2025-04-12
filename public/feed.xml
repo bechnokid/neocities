@@ -8,6 +8,13 @@
     <language>en-us</language>
     
     <item>
+      <title>12th of April 2025</title>
+      <link>https://bechnokid.neocities.org/home</link>
+      <description><![CDATA[<ul><li>Added dark mode</li><li>Updated header</li><li>Added new link, webring, and some cliques</li><li>Fixed some broken links</li></ul>]]></description>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
       <title>6th of April 2025</title>
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[<ul><li>New journal entry</li><li>New guestbook once again lol</li><li>Cleaned up some pages</li><li>Added credits to links page</li></ul>]]></description>
@@ -33,13 +40,6 @@
       <link>https://bechnokid.neocities.org/home</link>
       <description><![CDATA[<ul><li>New <a href='/writing/blog/'>journal entry</a></li><li>Updated <a href='/about'>about</a> page.</li><li>Added two cliques</li><li>Added a <a href='/goodies/greenhouse/'>webgarden</a></li><li>Added a couple of <a href='/goodies/adopts'>adopts</a></li><li>Added a <a href='/outgoing/links'>link</a></li><li>Added two <a href='/outgoing/webrings'>webrings</a></li></ul>]]></description>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>19th of March 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[<ul><li>New <a href='/writing/blog/'>journal entry</a></li><li>Updated navigation</li><li>Moved pages around</li><li>Reverted "Curses List" back to "Curses Generator"</li><li>Updated 404 page</li></ul>]]></description>
-      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     
   </channel>
