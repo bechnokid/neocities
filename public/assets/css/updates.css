@@ -1,1 +1,38 @@
-aside b{color:var(--text-secondary);text-align:center;display:block}aside li{margin-left:1em;padding:.25rem 1em;line-height:1.5em}aside li::marker{content:"✦";color:var(--text-secondary)}aside .h2{font-size:1.25em}aside hr{margin:.5rem 0!important}aside .update-content{max-height:400px;font-size:.8em;overflow-y:auto}@media screen and (max-width:999px){aside .update-content hr,aside .update-content b:not(:first-of-type),aside .update-content ul:not(:first-of-type){display:none}}
+aside b {
+  display: block;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+aside li {
+  padding: .25rem 1em;
+  margin-left: 1em;
+  line-height: 1.5em;
+}
+
+aside li::marker {
+  content: "✦";
+  color: var(--text-secondary);
+}
+
+aside .h2 {
+  font-size: 1.25em;
+}
+
+aside hr {
+  margin: .5rem 0 !important;
+}
+
+aside .update-content {
+  max-height: 400px;
+  overflow-y: auto;
+  font-size: .8em;
+}
+
+@media screen and (max-width: 999px) {
+  aside .update-content hr,
+  aside .update-content b:not(:first-of-type),
+  aside .update-content ul:not(:first-of-type) {
+    display: none;
+  }
+}
