@@ -2,51 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latest Updates at Bechno Kid&#39;s Hideout</title>
-    <link>https://bechnokid.neocities.org</link>
-    <atom:link href="feed.xml" rel="self" type="application/rss+xml" />
-    <description>Art, blog, resources, and more?!</description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <description></description>
     <language>en-us</language>
     
     <item>
+      <title>30th of April 2025</title>
+      <link>/home</link>
+      <description><![CDATA[<ul><li>Brought back <a href="/now">/now</a> page</li><li>Added <a href="/accessibility">accessibility statement</a></li><li>Other minor updates to site. If you don't notice them, that's a good thing!</li></ul>]]></description>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
       <title>20th of April 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
+      <link>/home</link>
       <description><![CDATA[<ul><li>New journal entry</li><li>Made some of my own adopts</li><li>Added some cliques</li><li>Added some links</li><li>Fixed example code for StatusFeed reader tutorial</li></ul>]]></description>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>12th of April 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
+      <link>/home</link>
       <description><![CDATA[<ul><li>Added dark mode</li><li>Updated header</li><li>Added new link, webring, and some cliques</li><li>Fixed some broken links</li></ul>]]></description>
       <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>6th of April 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[<ul><li>New journal entry</li><li>New guestbook once again lol</li><li>Cleaned up some pages</li><li>Added credits to links page</li></ul>]]></description>
-      <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>31st of March 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[<ul><li>Cleaned up webrings page</li><li>Moved fanlistings to links page</li><li>New guestbook</li><li>Link button is now hot-linkable</li></ul>]]></description>
-      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>24th of March 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[<ul><li>New splash image</li><li>Added 5 <a href='/outgoing/webrings'>webrings</a></li><li>Fixed RSS feed</li></ul>]]></description>
-      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>22nd of March 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <description><![CDATA[<ul><li>New <a href='/writing/blog/'>journal entry</a></li><li>Updated <a href='/about'>about</a> page.</li><li>Added two cliques</li><li>Added a <a href='/goodies/greenhouse/'>webgarden</a></li><li>Added a couple of <a href='/goodies/adopts'>adopts</a></li><li>Added a <a href='/outgoing/links'>link</a></li><li>Added two <a href='/outgoing/webrings'>webrings</a></li></ul>]]></description>
-      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     
   </channel>

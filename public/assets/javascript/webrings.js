@@ -97,7 +97,7 @@ function updateWidgetText(webring, data = null) {
     }
   } else {
     let webringLink = webring.links.main.url;
-    let webringName = webring.name
+    let webringName = webring.name;
     newWidget = webring.widget.error.replace('MAIN_INDEX', webringLink);
     newWidget = newWidget.replace('WEBRING_NAME', webringName);
   }

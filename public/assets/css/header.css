@@ -1,16 +1,1 @@
-header {
-  height: 150px;
-  background-image: var(--header-img);
-  background-size:cover;
-  background-position: center;
-}
-
-a header:hover {
-  border-bottom: 5px solid var(--text-primary);
-}
-
-@media only screen and (max-width:1000px) {
-  header {
-    height: 80px;
-  }
-}
+header{background-image:var(--header-img);background-position:50%;background-size:cover;height:150px}a header:hover{border-bottom:5px solid var(--text-primary)}@media only screen and (max-width:1000px){header{height:83px}}

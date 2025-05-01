@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
   let form = $("#guestbooks___guestbook-form");
 
   form.on('submit', async function(e){
@@ -27,7 +27,6 @@ $(function(){
     $.ajax({
       method: 'GET',
       url: 'https://guestbooks.meadow.cafe/api/v1/get-guestbook-messages/484',
-      dataType: 'json',
       success: function(response) {
         let msgDivArr = []
         for (let idx = 0; idx < response.length; idx++) {
@@ -62,7 +61,7 @@ $(function(){
         let content = (msgDivArr.length > 0) ? msgDivArr.join('') : `<p>There are no messages, yet.</p>`
         $(".guestbook-msg-container .content").html(content);
       },
-      error: function(){
+      fail: function(){
         let errorMsg = 'Unable to obtain guestbook messages.'
         $(".guestbook-msg-container .content").html(`<p>${errorMsg}</p>`);
       }
