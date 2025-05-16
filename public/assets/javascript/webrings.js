@@ -84,6 +84,7 @@ function renderWebring(params, outdated = false) {
   document.currentScript.outerHTML = finalHtml;
 }
 
+// helper methods
 function updateWidgetText(webring, data = null) {
   let newWidget;
   if (data) {

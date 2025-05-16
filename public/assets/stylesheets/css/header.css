@@ -1,0 +1,1 @@
+.page header{background-image:var(--header-img);background-position:50%;background-size:cover;height:150px}.page a header:hover{border-bottom:5px solid var(--text-primary)}@media only screen and (max-width:1000px){.page header{height:83px}}

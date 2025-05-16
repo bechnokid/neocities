@@ -40,8 +40,8 @@ $(document).ready(function(){
           let msgArr = [
             `<div class='guestbook-msg-div'>`,
               `<div class="guestbook-msg-header">`,
-                `<p><b>Name: </b>${message.Name}</p>`,
-                `<p><b>Sent: </b>${formattedDate}</p>`,
+                `<p><strong>Name: </strong>${message.Name}</p>`,
+                `<p><strong>Sent: </strong>${formattedDate}</p>`,
               `</div>`,
               `<div class="guestbook-msg-body">`,
                 `<p>${message.Text}</p>`,
@@ -50,7 +50,7 @@ $(document).ready(function(){
           ];
 
           if (message.Website){
-            msgArr.splice(3, 0, `<p><b>Website: </b><a href='${message.Website}'>${message.Website}</a></p>`)
+            msgArr.splice(3, 0, `<p><strong>Website: </strong><a href='${message.Website}'>${message.Website}</a></p>`)
           }
           if (idx > 0) {
             msgArr.splice(msgArr.length - 1, 0, "<hr class='small'>");
