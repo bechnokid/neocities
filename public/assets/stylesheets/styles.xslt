@@ -18,15 +18,14 @@
             <header>
               <h1 class="d-flex align-items-center mt-3"><img src="/assets/images/rss.svg" aria-hidden="true" class="img-svg me-2"/><xsl:value-of select="/atom:feed/atom:title"/></h1>
               <p class="subtitle"><xsl:value-of select="/atom:feed/atom:subtitle"/></p>
+              <div class="d-flex align-items-center mb-4"><span class="text-lg me-2">&#x2190;</span><a class="head-link"><xsl:attribute name="href">/home</xsl:attribute>go back home?</a></div>
               <div class="about-feed mx-3 my-4 px-3 py-1"><p>Hi! <strong>This is a web feed,</strong> also known as an RSS or Atom feed. You can <strong>subscribe</strong> by copying the below URL into your newsreader.</p>
 <p><code>https://bechnokid.neocities.org/feed.xml</code></p>
 <p>Visit <a href="https://aboutfeeds.com">About Feeds</a> to learn more about feeds and to get started with newsreaders and subscribing. It's completely free!</p>
 </div>
-              <div class="d-flex align-items-center"><span class="text-lg me-2">&#x2190;</span><a class="head_link"><xsl:attribute name="href">/home</xsl:attribute>go back home?</a></div>
             </header>
-            <hr/>
-            <h3>Recent Updates</h3>
-            <xsl:for-each select="/atom:feed/atom:entry[position() &lt; 4]">
+            <h2>Recent Updates</h2>
+            <xsl:for-each select="/atom:feed/atom:entry[position() &lt; 6]">
               <div class="ps-2 mb-0">
                 <p class="mb-2">
                   <a>
@@ -40,6 +39,9 @@
                   <xsl:apply-templates select="atom:content"/>
                 </xsl:if>
               </div>
+              <xsl:if test="position() != 5">
+                <hr class="small"/>
+              </xsl:if>
             </xsl:for-each>
           </div>
           <p>© Bechno Kid 2023 - 20XX</p>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <?xml-stylesheet href="/assets/stylesheets/styles.xslt" type="text/xml"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <title>Bechno Kid&#39;s Hideout - Web Feed</title>
   <link href="https://bechnokid.neocities.org/feed.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a software engineer.</subtitle>
-  <updated>2025-05-16T04:00:00Z</updated>
+  <updated>2025-04-12T00:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feed.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
@@ -12,55 +13,68 @@
   </author>
   
   <entry>
+    <title>May 22, 2025 </title>
+    <link href="https://bechnokid.neocities.org/home"/>
+    <updated>2025-05-22T00:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Hello! I hope everyone is doing alright! It&#39;s almost the weekend!&lt;/p&gt;
+&lt;p&gt;For this update, I added some more &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt;, and I changed the URL for all blog entries. The dates being all bunched up confused me more than anything lol...&lt;/p&gt;
+&lt;p&gt;I&#39;m also biting the bullet and added some &lt;a href=&quot;/joined&quot;&gt;webrings&lt;/a&gt; despite not having officially joined them yet! Here I was worred about looking like a desperate fool, and yet I have I added a special widget to the &lt;a href=&quot;/home&quot;&gt;home page&lt;/a&gt; to count the days I&#39;m pulling for a cookie in Cookie Run: Kingdom lol.&lt;/p&gt;
+&lt;p&gt;Burning Spice Cookie, please come to my kingdom!!!&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>May 16, 2025 </title>
     <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-05-16T04:00:00Z</updated>
+    <updated>2025-05-16T00:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Lots of new updates this time around!&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Major updates:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Added a brand new &lt;a href=&quot;/shrines/gilgamesh&quot;&gt;shrine&lt;/a&gt; dedicated to one of my favorite Final Fantasy characters!&lt;/li&gt;&lt;li&gt;New button! There are also buttons available in 32x32 and 200x40.&lt;/li&gt;&lt;li&gt;My RSS feed now looks super fancy, making it easier to read without a feed reader. It looks a little weird in Firefox, but that&#39;s a problem for another day lol&lt;/li&gt;&lt;li&gt;Microblog and &amp;quot;Latest Status&amp;quot; widget have now been placed by StatusCafe to allow myself to make quick status updates without misleading others into thinking I made a huge update on the site. XD;;&lt;/li&gt;&lt;li&gt;Added a button that allows users to scroll to the top of the page. Yes, it is pure CSS. :3&lt;/li&gt;&lt;li&gt;Added a &lt;a href=&quot;/goodies/pixel_clubs&quot;&gt;pixel club&lt;/a&gt; and some &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt;!&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Minor updates:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Changed the RSS feed icon to its original orange&lt;/li&gt;&lt;li&gt;Updated the example code in Status Cafe feed reader tutorial to be a bit more robust&lt;/li&gt;&lt;li&gt;Moved fanlistings and webrings into one page called &amp;quot;Joined&amp;quot;&lt;/li&gt;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;Lots of new updates this time around!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Major updates:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added a brand new &lt;a href=&quot;/shrines/gilgamesh&quot;&gt;shrine&lt;/a&gt; dedicated to one of my favorite Final Fantasy characters!&lt;/li&gt;
+&lt;li&gt;New button! There are also buttons available in 32x32 and 200x40.&lt;/li&gt;
+&lt;li&gt;My RSS feed now looks super fancy, making it easier to read without a feed reader.&lt;/li&gt;
+&lt;li&gt;Microblog and &amp;quot;Latest Status&amp;quot; widget have now been placed by StatusCafe to allow myself to make quick status updates without misleading others into thinking I made a huge update on the site. XD;;&lt;/li&gt;
+&lt;li&gt;Added a button that allows users to scroll to the top of the page. Yes, it is pure CSS. :3&lt;/li&gt;
+&lt;li&gt;Added a &lt;a href=&quot;/goodies/pixel_clubs&quot;&gt;pixel club&lt;/a&gt; and some &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Minor updates:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changed the RSS feed icon to its original orange&lt;/li&gt;
+&lt;li&gt;Updated the example code in Status Cafe feed reader tutorial to be a bit more robust&lt;/li&gt;
+&lt;li&gt;Moved fanlistings and webrings into one page called &amp;quot;Joined&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
   </entry>
   
   <entry>
     <title>Apr 30, 2025 </title>
     <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-04-30T04:00:00Z</updated>
+    <updated>2025-04-30T00:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">Hi there! I decided to bring back the &lt;a href=&quot;/now&quot;&gt;/now&lt;/a&gt; page.&lt;br /&gt;
-&lt;br /&gt;
-There is also an &lt;a href=&quot;/accessibility&quot;&gt;accessibility statement&lt;/a&gt;! I really want to make it clear that I&#39;m trying to make my website as accessible as possible! It won&#39;t be perfect, but at least my site works on mobile!</content>
+    <content type="html">&lt;p&gt;Hi there! I decided to bring back the &lt;a href=&quot;/now&quot;&gt;/now&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;There is also an &lt;a href=&quot;/accessibility&quot;&gt;accessibility statement&lt;/a&gt;! I really want to make it clear that I&#39;m trying to make my website as accessible as possible! It won&#39;t be perfect, but at least my site works on mobile!&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Apr 20, 2025 </title>
     <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-04-20T04:00:00Z</updated>
+    <updated>2025-04-20T00:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">Tons of new stuff and fixes this time around! There were also several big mistakes in the example code in the StatusFeed reader tutorial but are now fixed thanks to an email I got :)</content>
+    <content type="html">&lt;p&gt;Tons of new stuff and fixes this time around! There were also several big mistakes in the example code in the StatusFeed reader tutorial but are now fixed thanks to an email I got :)&lt;/p&gt;
+</content>
   </entry>
   
   <entry>
     <title>Apr 12, 2025 </title>
     <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-04-12T04:00:00Z</updated>
+    <updated>2025-04-12T00:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">Bechno Kid&#39;s Hideout has finally joined the dark side and implemented a toggle for dark mode! It&#39;s unfortunately not available if Javascript is disabled...&lt;br /&gt;
-&lt;br /&gt;
-Perhaps one day, I&#39;ll figure out a CSS-only light/dark toggle!</content>
-  </entry>
-  
-  <entry>
-    <title>Apr 6, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-04-06T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html"></content>
-  </entry>
-  
-  <entry>
-    <title>Mar 31, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-03-31T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html"></content>
+    <content type="html">&lt;p&gt;Bechno Kid&#39;s Hideout has finally joined the dark side and implemented a toggle for dark mode! It&#39;s unfortunately not available if Javascript is disabled...&lt;/p&gt;
+&lt;p&gt;Perhaps one day, I&#39;ll figure out a CSS-only light/dark toggle!&lt;/p&gt;
+</content>
   </entry>
   
 </feed>

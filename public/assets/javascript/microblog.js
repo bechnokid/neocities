@@ -3,7 +3,7 @@ const findEmoticon = (obj, fn) =>
   Object.keys(obj).find(key => fn(obj[key], key, obj));
 const emojiHash = {
   'normal': ['🙂'],
-  'happy': ['😛', '🥳'],
+  'happy': ['😀','😛', '🥳'],
   'calm': ['😌'],
   'excited': ['😄'],
   'love': ['🥰', '❤️', '😍'],
@@ -13,11 +13,15 @@ const emojiHash = {
   'embarrassed': [ '😂', '😅' ],
   'confused': ['❓'],
   'surprised': ['😮','😦','😧','😱'],
-  'annoyed': ['😑','😒','🫤'],
-  'angry': ['😠','💀'],
+  'annoyed': ['😒','🫤'],
+  'angry': ['😠'],
   'furious': ['😡','🤬'],
   'thinking': ['🤔'],
-  'skeptical': ['🤨','🙄']
+  'skeptical': ['🤨','🙄'],
+  'dead': ['💀'],
+  'hehe': ['😏'],
+  'lol': ['😆','🤣','😂'],
+  'sigh': ['😑']
 }
 
 $(document).ready(function(){
@@ -46,7 +50,7 @@ $(document).ready(function(){
     if (isHome) {
       html = `
       <div class="flex-shrink-0 p-3 m-auto">${emoticonElement}</div>
-      <div class="p-2 ps-0">
+      <div class="pt-1 pe-3 pb-2">
         <p class='my-1 status-date'><strong>${ dateString }</strong></p>
         <p class='m-0 status-text'>${content}</p>
       </div>
