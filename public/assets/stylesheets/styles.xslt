@@ -16,7 +16,7 @@
         <div class="container-wrapper d-flex flex-column justify-content-center align-items-center">
           <div class="container bg-body p-4 pt-2">
             <header>
-              <h1 class="d-flex align-items-center mt-3"><img src="/assets/images/rss.svg" aria-hidden="true" class="img-svg me-2"/><xsl:value-of select="/atom:feed/atom:title"/></h1>
+              <h1 class="d-flex align-items-center mt-3"><img src="/assets/images/rss.svg" aria-hidden="true" class="img-svg me-2" alt="" /><xsl:value-of select="/atom:feed/atom:title"/></h1>
               <p class="subtitle"><xsl:value-of select="/atom:feed/atom:subtitle"/></p>
               <div class="d-flex align-items-center mb-4"><span class="text-lg me-2">&#x2190;</span><a class="head-link"><xsl:attribute name="href">/home</xsl:attribute>go back home?</a></div>
               <div class="about-feed mx-3 my-4 px-3 py-1"><p>Hi! <strong>This is a web feed,</strong> also known as an RSS or Atom feed. You can <strong>subscribe</strong> by copying the below URL into your newsreader.</p>

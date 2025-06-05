@@ -447,7 +447,7 @@ a.hidden-link {
 }
 
 .inline-img {
-  vertical-align: top;
+  vertical-align: baseline;
 }
 
 .back-to-top {

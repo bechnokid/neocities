@@ -24,13 +24,9 @@ aside hr {
 }
 
 aside .update-content {
-  max-height: 400px;
+  max-height: 450px;
   overflow-y: auto;
   font-size: .8em;
-}
-
-#timer .timer-img {
-  width: 100px;
 }
 
 @media screen and (max-width: 999px) {

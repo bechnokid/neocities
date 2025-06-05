@@ -69,29 +69,27 @@ $(document).ready(function(){
     return html;
   };
 
-  fetch(feedURL)
-    .then((response) => response.text())
-    .then((str) => new window.DOMParser().parseFromString(str, "text/xml"))
-    .then((data) => {
-      const entries = data.querySelectorAll("entry");
+  $.ajax({
+    method: 'GET',
+    url: 'https://status.cafe/users/bechnokid.atom',
+    success: function(response) {
+      const data = new window.DOMParser().parseFromString(response, "text/xml")
+      const entries = data.querySelectorAll('entry');
       let html = ``;
-      let statusContainerId = 'microblog';
+      let statusContainerId = 'status-cafe';
       let statusLimit = 5 // Default: 0
-      if (window.location.pathname.includes('/home')) {
-        statusLimit = 1;
-        statusContainerId = 'latest-status';
-      }
       if (entries.length < 1){
         html = `<p>No statuses yet.</p>`;
       } else if (window.location.pathname.includes('/home')){
         html = generateStatusHtml(entries[0], true);
       } else {
         if (statusLimit < 1) statusLimit = entries.length;
-        for (i = 0; i < entries.length; i++) {
+        for (i = 0; i < statusLimit; i++) {
           html += generateStatusHtml(entries[i]);
-          if (i < entries.length - 1) html += `<hr class='small my-2'>`;
+          if (i < statusLimit - 1) html += `<hr class='small my-2'>`;
         }
       }
-      document.getElementById(statusContainerId).innerHTML = html;
-    });
+      $(`#${statusContainerId}`).html(html);
+    }
+  })
 });
