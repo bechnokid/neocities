@@ -22,10 +22,6 @@ figcaption {
   font-size: .8em;
 }
 
-.about-info img.meat{
-  width: 1.75rem;
-}
-
 .faq .question > p {
   color: var(--text-primary);
   font-weight: bold;
