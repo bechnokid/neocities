@@ -52,11 +52,11 @@ $(document).ready(function(){
           if (message.Website){
             msgArr.splice(3, 0, `<p><strong>Website: </strong><a href='${message.Website}'>${message.Website}</a></p>`)
           }
-          if (idx > 0) {
+          if (idx < response.length - 1 ) {
             msgArr.splice(msgArr.length - 1, 0, "<hr class='small'>");
           }
 
-          msgDivArr.unshift(msgArr.join(''))
+          msgDivArr.push(msgArr.join(''))
         }
         let content = (msgDivArr.length > 0) ? msgDivArr.join('') : `<p>There are no messages, yet.</p>`
         $(".guestbook-msg-container .content").html(content);
