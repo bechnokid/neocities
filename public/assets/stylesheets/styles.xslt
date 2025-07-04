@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
+
   <xsl:output method="html" encoding="utf-8" doctype-system="about:legacy-compat"/>
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" data-theme="light">
@@ -25,7 +26,7 @@
 </div>
             </header>
             <h2>Recent Updates</h2>
-            <xsl:for-each select="/atom:feed/atom:entry[position() &lt; 6]">
+            <xsl:for-each select="/atom:feed/atom:entry[position() &lt; 4]">
               <div class="ps-2 mb-0">
                 <p class="mb-2">
                   <a>
@@ -39,7 +40,7 @@
                   <xsl:apply-templates select="atom:content"/>
                 </xsl:if>
               </div>
-              <xsl:if test="position() != 5">
+              <xsl:if test="position() != 3">
                 <hr class="small"/>
               </xsl:if>
             </xsl:for-each>

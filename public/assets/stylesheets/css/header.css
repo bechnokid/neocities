@@ -1,16 +1,22 @@
 .page header {
+  position: fixed;
+  width: 1000px;
+  z-index: 100;
   height: 150px;
   background-image: var(--header-img);
-  background-size:cover;
+  background-size: cover;
   background-position: center;
+  border: 5px solid var(--bg-body);
 }
 
 .page a header:hover {
-  border-bottom: 5px solid var(--text-primary);
+  border-color: var(--text-primary);
 }
 
 @media only screen and (max-width:1000px) {
   .page header {
+    position: static;
+    width: revert;
     height: 83px;
   }
 }

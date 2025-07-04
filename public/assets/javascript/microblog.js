@@ -42,6 +42,8 @@ $(document).ready(function(){
       day = `${day}th`
     } else if (dayDigit == '2') {
       day = `${day}nd`
+    } else if (dayDigit == '3') {
+      day = `${day}rd`
     } else {
       day = `${day}st`
     }

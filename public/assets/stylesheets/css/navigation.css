@@ -1,3 +1,8 @@
+#nav-main {
+  position: fixed;
+  width: 165px;
+}
+
 nav ul.section-list li.nav-link-item::marker {
   content: "✦";
   color: var(--text-secondary);

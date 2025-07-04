@@ -55,6 +55,11 @@ main ul li ul li::marker {
   font-size: 1.25em;
 }
 
+.about-figure {
+  padding: 0 !important;
+  height: 204px;
+}
+
 .fanlistings {
   max-height: 400px;
   overflow: auto;
@@ -83,6 +88,11 @@ noscript .sidebar.curses {
   height: 120px;
 }
 
+.netizens.content {
+  max-height: 280px;
+  overflow-y: auto;
+}
+
 .no-button-container {
   display: flex;
   justify-content: center;
@@ -103,11 +113,11 @@ noscript .sidebar.curses {
   left: 3rem;
 }
 
-.objets.row-1{
+.objets.row-1 {
   top: 2rem;
 }
 
-.objets.row-2{
+.objets.row-2 {
   top: 7rem;
 }
 

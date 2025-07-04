@@ -154,6 +154,7 @@ hr.small::after {
 
 footer {
   font-size: .8em;
+  border: 5px solid var(--bg-body);
 }
 
 footer .rss-link svg {
@@ -308,12 +309,16 @@ textarea::placeholder {
 
 .page {
   width: 1000px;
-  border: 5px solid var(--bg-body);
 }
 
 .main {
-  border-top: 5px solid var(--bg-body);
-  border-bottom: 5px solid var(--bg-body);
+  margin-top: 9.5rem;
+  border-left: 5px solid var(--bg-body);
+  border-right: 5px solid var(--bg-body);
+}
+
+.main.desktop {
+  min-height: 500px;
 }
 
 .sidebar h1,
@@ -492,6 +497,14 @@ a.hidden-link {
 
   .page {
     max-width: calc(100% - 10px);
+  }
+
+  .main {
+    margin-top: 0;
+  }
+
+  .main.desktop {
+    min-height: auto;
   }
 
   dd {
