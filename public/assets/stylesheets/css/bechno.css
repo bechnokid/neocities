@@ -318,7 +318,7 @@ textarea::placeholder {
 }
 
 .main.desktop {
-  min-height: 500px;
+  min-height: 504px;
 }
 
 .sidebar h1,
@@ -442,7 +442,7 @@ a.hidden-link {
 
 .freezeframe-btns {
   position: sticky;
-  top: 0;
+  top: 145px;
   background-color: var(--bg-body);
   z-index: 99;
 }
@@ -475,6 +475,10 @@ a.hidden-link {
   font-size: 2em;
   text-decoration: none;
   background-color: var(--bg-sidebar);
+}
+
+.link-border {
+  border-right: 1px solid var(--text-body);
 }
 
 .mobile-only {

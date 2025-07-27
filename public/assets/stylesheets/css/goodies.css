@@ -22,19 +22,6 @@
   margin: .25rem
 }
 
-.greenhouse iframe,
-iframe.webgarden-pot {
-  width: 250px;
-    height: 250px;
-    border: 0;
-    margin: 1em;
-}
-
-.sidebar.greenhouse {
-  max-height: 500px;
-  overflow-y: auto;
-}
-
 .cliques.content > * {
   margin: 0 .25rem;
 }
