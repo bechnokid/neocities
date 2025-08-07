@@ -227,6 +227,11 @@ ul {
   text-align: right !important;
 }
 
+.img-50 > img,
+img.img-50 {
+  width: 50% !important;
+}
+
 .font-weight-bold {
   font-weight: bold !important;
 }

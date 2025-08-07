@@ -25,6 +25,10 @@ nav details summary:hover {
   text-decoration: underline;
 }
 
+nav details .nav-link-item {
+  margin-left: 1rem;
+}
+
 nav .h2 {
   font-size: 1.25em;
 }

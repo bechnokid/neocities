@@ -7,7 +7,7 @@ h2,
   margin-bottom: .5rem;
 }
 
-section {
+article > section {
   padding-left: .5rem;
 }
 
@@ -65,21 +65,6 @@ main ul li ul li::marker {
   overflow: auto;
 }
 
-.resources td {
-  padding: 1em;
-}
-
-#feed-reader {
-  max-height: 300px;
-  overflow-y: auto;
-  border: 1px solid var(--bg-primary);
-}
-
-#feed-reader2 {
-  border: 1px solid var(--bg-primary);
-  margin-top: 1em
-}
-
 #web-feed .img-svg {
   width: 1.25em;
 }
@@ -89,7 +74,7 @@ noscript .sidebar.curses {
 }
 
 .netizens.content {
-  max-height: 280px;
+  max-height: 350px;
   overflow-y: auto;
 }
 
@@ -151,4 +136,11 @@ iframe.webgarden-pot {
   border-radius: 1rem;
   border: 1px solid #715796;
   background-color: #d998d7;
+}
+
+img.preview-img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top center;
 }

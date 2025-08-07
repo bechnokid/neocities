@@ -1,0 +1,44 @@
+@import "basic.css";
+
+.resources td {
+  padding: 1em;
+}
+
+#feed-reader {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid var(--bg-primary);
+}
+
+#feed-reader2 {
+  border: 1px solid var(--bg-primary);
+  margin-top: 1em
+}
+
+figure.theme-preview {
+  width: 400px;
+  padding: .5rem;
+}
+
+figure.theme-preview img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: top center;
+}
+
+section.theme-link {
+  border: 1px solid var(--border-sidebar);
+  padding: 0;
+}
+
+section.theme-link h2 {
+  margin: 0;
+}
+
+section.theme-link img {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}

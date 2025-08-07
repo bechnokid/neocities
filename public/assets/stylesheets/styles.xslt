@@ -26,7 +26,7 @@
 </div>
             </header>
             <h2>Recent Updates</h2>
-            <xsl:for-each select="/atom:feed/atom:entry[position() &lt; 4]">
+            <xsl:for-each select="/atom:feed/atom:entry[position() &lt; 5]">
               <div class="ps-2 mb-0">
                 <p class="mb-2">
                   <a>
@@ -40,7 +40,7 @@
                   <xsl:apply-templates select="atom:content"/>
                 </xsl:if>
               </div>
-              <xsl:if test="position() != 3">
+              <xsl:if test="position() != 4">
                 <hr class="small"/>
               </xsl:if>
             </xsl:for-each>

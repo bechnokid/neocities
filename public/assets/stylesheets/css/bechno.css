@@ -25,6 +25,10 @@ body {
   background-color: var(--scroll-tab);
 }
 
+:target {
+  scroll-margin: 150px;
+}
+
 body {
   line-height: 1.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -150,6 +154,12 @@ hr.small {
 
 hr.small::after {
   content: none;
+}
+
+figure {
+  border: 2px solid var(--border-sidebar);
+  text-align: center;
+  background-color: var(--bg-sidebar);
 }
 
 footer {
@@ -343,6 +353,10 @@ summary.details.h2 {
   padding: .75rem;
 }
 
+summary.details.h3 {
+  margin-left: .5rem;
+}
+
 summary.details:focus-visible {
   padding: .5rem;
 }
@@ -452,7 +466,7 @@ a.hidden-link {
 }
 
 .inline-img {
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .back-to-top {
@@ -481,11 +495,21 @@ a.hidden-link {
   border-right: 1px solid var(--text-body);
 }
 
+.table-list {
+  max-height: 150px;
+  overflow-y: auto;
+  background: var(--bg-body);
+}
+
 .mobile-only {
   display: none;
 }
 
 @media screen and (max-width: 999px) {
+  :target {
+    scroll-margin: 80px;
+  }
+
   body {
     font-size: 1em;
     line-height: 1.7em;

@@ -34,6 +34,19 @@ hr {
   border-top: 2px dotted #75496a;
 }
 
+figure {
+  max-width: 300px;
+  padding: .5rem;
+  border: 2px solid #75496a;
+  background: #ffeefb;
+  text-align: center;
+  font-size: .8em;
+}
+
+:target {
+  scroll-margin: 10px;
+}
+
 .toc {
   text-align: center;
   padding: 0 .75rem 0 .75rem;
@@ -235,6 +248,12 @@ main a:hover img {
     margin-bottom: 3rem;
   }
 
+  figure {
+    float: none !important;
+    max-width: unset;
+    margin-bottom: 1rem;
+  }
+
   .mobile-nav {
     display: block;
   }
@@ -254,6 +273,11 @@ main a:hover img {
 
   .row {
     margin-top: 0 !important;
+  }
+
+  .siduri-img {
+    width: auto !important;
+    margin: 0 auto 1rem !important;
   }
 
   .gallery {
