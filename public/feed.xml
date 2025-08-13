@@ -11,6 +11,21 @@
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
+  <entry>
+    <title>Aug 13, 2025 </title>
+    <link href="https://bechnokid.neocities.org/home"/>
+    <updated>2025-08-13T04:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Hello, everyone! I hope you&#39;ve all been doing well! It hasn&#39;t been too bad, temperature-wise, but that&#39;s because I mostly stay inside. I need to get out more...&lt;/p&gt;
+&lt;p&gt;The newest updates have a lot to do with webrings!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added &lt;a href=&quot;/joined&quot;&gt;PersonaRing&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;All webrings can be viewed even with JavaScript disabled! This involved me making the buttons myself lol.&lt;/li&gt;
+&lt;li&gt;Webring widgets where I&#39;m a pending member will also have more consistent styling.&lt;/li&gt;
+&lt;li&gt;Other backend fixes for optimization...at least I hope so!&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   
   <entry>
     <title>Aug 6, 2025 </title>

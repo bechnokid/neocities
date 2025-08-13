@@ -179,6 +179,10 @@ ul {
   border-radius: 50rem !important;
 }
 
+.border-0 {
+  border: 0 !important;
+}
+
 .border {
   border: 1px solid red;
 }

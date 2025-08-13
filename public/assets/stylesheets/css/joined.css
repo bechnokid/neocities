@@ -1,8 +1,14 @@
 @import 'basic.css';
 
 /* Reset table styles*/
-table {
+table,
+#trb.waiting {
   font-size: .8em;
+}
+
+table,
+table * {
+  border: 0;
 }
 
 tr {
@@ -13,9 +19,42 @@ tr {
   max-height: 600px
 }
 
-/* Jelly World */
+.webrings .js-required .col-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 .5rem;
+}
 
-#jelly-world {
+.webrings .js-required .col-12 > *:not(:last-child) {
+  margin-bottom: .25rem;
+}
+
+.webrings .webring {
+  display: flex;
+  align-items: center;
+}
+
+.webrings .webring img.ms-1 {
+  transform: scaleX(-1);
+}
+
+wii-ring {
+  max-width: 150px;
+}
+
+div.waiting {
+  border: 1px solid var(--border-sidebar);
+  padding: .5rem;
+}
+
+div.waiting > p {
+  font-size: .8em;
+  margin: 0;
+}
+
+/* Jelly World */
+.jelly-world {
   text-align: center;
   font-family: Arial;
   width: 150px;
@@ -23,31 +62,30 @@ tr {
   background: url('/assets/images/webrings/jw_bg.png');
 }
 
-#jelly-world * {
+.jelly-world * {
   color: initial;
 }
 
-#jelly-world a {
+.jelly-world a {
   color: #da6200;
   font-weight: bold;
 }
 
-#jelly-world .row>* {
+.jelly-world .row>* {
   padding: 0;
 }
 
-#jelly-world .img {
+.jelly-world .img {
   background: #fff;
   height: 80px;
   width: 80px;
 }
 
-#jelly-world img {
+.jelly-world img {
   object-fit: contain;
 }
 
 /* Kingdom Hearts Webring */
-
 #khwr table {
   background-image: url('/assets/images/webrings/kh_auronbg.png');
   margin: 0 auto;
@@ -78,8 +116,8 @@ tr {
   --webring-text: #452134;
 }
 
-#self-insert-webring,
-#self-insert-webring * {
+.self-insert-webring,
+.self-insert-webring * {
   margin: 0;
   padding: 0;
   line-height: 1.25em;
@@ -98,7 +136,7 @@ tr {
   padding: .25rem !important;
 }
 
-#self-insert-webring {
+.self-insert-webring {
   width: 160px;
   padding: .5rem;
   background-image: url("https://koinuko.neocities.org/shipping/webring/bg.png");
@@ -109,34 +147,42 @@ tr {
   font-size: 0.8em;
 }
 
-#self-insert-webring a {
+.self-insert-webring a {
   color: var(--webring-link);
   font-weight: bold;
 }
 
-#self-insert-webring a:hover {
+.self-insert-webring a:hover {
   color: var(--webring-link-hover);
 }
 
-#self-insert-webring #webring-icon {
+.self-insert-webring .webring-icon {
   height: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-#self-insert-webring #webring-icon img {
+.self-insert-webring .webring-icon img {
   width: 100px;
   height: 100px;
   object-fit: cover;
 }
 
-#self-insert-webring #webring-text {
+.self-insert-webring .webring-text {
   margin: .5rem 0;
 }
 
-#self-insert-webring strong {
+.self-insert-webring strong {
   color: unset;
+}
+
+#webring-btn-container > * {
+  margin: .25rem;
+}
+
+#webring-btn-container img[src*="amiga"] {
+  width: 88px;
 }
 
 #amiga table,
@@ -156,4 +202,80 @@ tr {
 #doodlering.waiting {
   height: unset;
   font-family: unset !important;
+}
+
+/* personaring */
+#p-ring {
+  margin-top: .5rem;
+}
+
+#p-ring .ring-container {
+  position: relative;
+  text-align: center;
+}
+
+#p-ring .sona {
+  position: absolute;
+  left: -5.5rem;
+  top: .5rem;
+  max-width: 110px;
+  z-index: 99 !important;
+}
+
+#p-ring .persona-ring {
+  font-family: "Shantell Sans", cursive;
+  width: 170px;
+  margin-right: -4rem;
+}
+
+#p-ring .name-tag {
+  border: 2px solid #000;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: .25rem;
+}
+
+#p-ring .name-tag .head,
+#p-ring .name-tag .webring-info {
+  background: #e84e8f;
+  color: #fff;
+}
+
+#p-ring .name-tag .head {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: .5rem 0 .25rem;
+}
+
+#p-ring .namediv {
+  padding: .75rem;
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #000;
+  background: #fff;
+}
+
+#p-ring .webring-info {
+  font-size: .8em;
+  padding: .1rem .5rem .25rem;
+}
+
+#p-ring .webring-info a {
+  color: #000;
+}
+
+#p-ring .direct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#p-ring .direct > * {
+  max-width: 30px;
+  margin: 0 .25rem;
+}
+
+/* Cookie Run Webring */
+#ckwr {
+  margin: 0 !important;
 }
