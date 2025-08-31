@@ -211,6 +211,7 @@ button,
   border-radius: 5px;
   padding: .5rem;
   font-weight: bold;
+  text-decoration: none;
 }
 
 button:hover,
@@ -328,7 +329,7 @@ textarea::placeholder {
 }
 
 .main.desktop {
-  min-height: 504px;
+  min-height: 510px;
 }
 
 .sidebar h1,
@@ -470,6 +471,7 @@ a.hidden-link {
 }
 
 .back-to-top {
+  z-index: 99;
   position: absolute;
   top: 100vh;
   right: .5rem;
@@ -503,6 +505,10 @@ a.hidden-link {
 
 .mobile-only {
   display: none;
+}
+
+.side-img {
+  max-height: 300px;
 }
 
 @media screen and (max-width: 999px) {

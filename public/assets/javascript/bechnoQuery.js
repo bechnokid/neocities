@@ -122,6 +122,7 @@ class jQuery extends Array {
 		return this;
 	}
 }
+
 const $ = function (el) {
 	return new jQuery(el);
 }

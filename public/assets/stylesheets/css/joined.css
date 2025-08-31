@@ -19,6 +19,10 @@ tr {
   max-height: 600px
 }
 
+.webrings .small-webrings > * {
+  margin: 0 .5rem;
+}
+
 .webrings .js-required .col-12 {
   display: flex;
   flex-direction: column;
@@ -27,7 +31,7 @@ tr {
 }
 
 .webrings .js-required .col-12 > *:not(:last-child) {
-  margin-bottom: .25rem;
+  margin-bottom: .5rem;
 }
 
 .webrings .webring {
@@ -48,7 +52,12 @@ div.waiting {
   padding: .5rem;
 }
 
-div.waiting > p {
+div.waiting * {
+  padding: 0;
+}
+
+div.waiting > p,
+div.waiting > div {
   font-size: .8em;
   margin: 0;
 }
@@ -57,13 +66,14 @@ div.waiting > p {
 .jelly-world {
   text-align: center;
   font-family: Arial;
-  width: 150px;
+  width: 225px;
   border: 3px dotted orange;
   background: url('/assets/images/webrings/jw_bg.png');
 }
 
 .jelly-world * {
   color: initial;
+  margin: 0;
 }
 
 .jelly-world a {
@@ -71,14 +81,8 @@ div.waiting > p {
   font-weight: bold;
 }
 
-.jelly-world .row>* {
-  padding: 0;
-}
-
-.jelly-world .img {
+.jelly-world-img {
   background: #fff;
-  height: 80px;
-  width: 80px;
 }
 
 .jelly-world img {
@@ -109,73 +113,42 @@ div.waiting > p {
 }
 
 /* Self-Insert Webring */
-:root {
-  --webring-border: #dd28a7;
-  --webring-link: #bf3c8e;
-  --webring-link-hover: #a43379;
-  --webring-text: #452134;
-}
-
-.self-insert-webring,
-.self-insert-webring * {
-  margin: 0;
-  padding: 0;
-  line-height: 1.25em;
-  box-sizing: border-box;
-}
-
-.webring-border {
-  border: solid 2px var(--webring-border);
-}
-
-.webring-dashed-border {
-  border: dashed 1px var(--webring-border);
-}
-
-.webring-textbox {
-  padding: .25rem !important;
-}
-
 .self-insert-webring {
-  width: 160px;
-  padding: .5rem;
+  width: 225px;
   background-image: url("https://koinuko.neocities.org/shipping/webring/bg.png");
   background-size: cover;
-  text-align: center;
-  color: var(--webring-text);
-  font-family: Verdana;
-  font-size: 0.8em;
+  border: 2px solid #DD28A7;
+  font-size: .85em;
+  line-height: 1.25em
+}
+
+.self-insert-webring p {
+  margin: 0;
 }
 
 .self-insert-webring a {
-  color: var(--webring-link);
+  color: #BF3C8E;
   font-weight: bold;
 }
 
-.self-insert-webring a:hover {
-  color: var(--webring-link-hover);
+.self-insert-webring strong,
+.self-insert-webring {
+  color: #452134;
 }
 
-.self-insert-webring .webring-icon {
-  height: 100px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.self-insert-img img {
+  border: 2px solid #DD28A7;
 }
 
-.self-insert-webring .webring-icon img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+.self-insert-text {
+  border: 1px dashed #DD28A7;
 }
 
-.self-insert-webring .webring-text {
-  margin: .5rem 0;
+.self-insert-nav {
+  border: 1px dashed #DD28A7;
 }
 
-.self-insert-webring strong {
-  color: unset;
-}
+/* AMIGA webring */
 
 #webring-btn-container > * {
   margin: .25rem;
@@ -278,4 +251,85 @@ div.waiting > p {
 /* Cookie Run Webring */
 #ckwr {
   margin: 0 !important;
+  background-image: url(/assets/images/webrings/crwr_bg.png) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  border-color: #641c1c !important;
+}
+
+#ckwr .webring-flex {
+  position: static !important;
+}
+
+/* Tropical Rice Bowl */
+
+#TRB img {
+  max-height: 31px !important;
+  width: auto !important;
+}
+
+/* WOL Webring */
+#wolwebring p {
+  margin: 0;
+}
+
+#wolwebring img {
+  margin: 0 .25rem;
+}
+
+/* Egg webring */
+#eggring.waiting a {
+  font-weight: bold;
+}
+
+#eggring {
+  background-color: white;
+  border-radius: 5px;
+  border: 4px double #b08cdc;
+  color: #b08cdc;
+}
+
+#eggring a {
+  color: #7a58a4;
+  text-decoration: none;
+}
+
+#eggring a:hover {
+  text-decoration: underline;
+}
+
+#eggring .eggringName {
+  font-weight: bold;
+}
+
+/* GitGud ring */
+#gitgudring {
+  max-width: 150px;
+}
+
+.gitgudlock{
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+#gitgudring br + a > img {
+  width: 75px;
+}
+
+@media screen and (max-width: 768px) {
+  .self-insert-webring {
+    width: 300px;
+  }
+
+  #p-ring .persona-ring {
+    width: 225px;
+  }
+
+  #resourceRing img {
+    margin-bottom: -7px;
+  }
+
 }

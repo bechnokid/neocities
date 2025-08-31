@@ -26,8 +26,8 @@ figcaption {
   padding-left: .5rem;
 }
 
-section.sitemap {
-  margin: 1rem 0 1.25rem !important
+.sitemap-section {
+  margin: 1rem 1rem 1.25rem !important
 }
 
 @media screen and (max-width: 999px) {
