@@ -29,7 +29,7 @@ aside .update-content {
   font-size: .8em;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 992px) {
   aside .update-content hr,
   aside .update-content strong:not(:first-of-type),
   aside .update-content ul:not(:first-of-type) {

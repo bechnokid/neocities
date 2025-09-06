@@ -24,6 +24,10 @@
   max-height: 720px;
 }
 
+.art-desc > ul {
+  margin-left: 1rem;
+}
+
 .art-desc > ul > li {
   margin: .5rem 0;
 }

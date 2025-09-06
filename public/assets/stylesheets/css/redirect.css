@@ -28,7 +28,7 @@ img {
   margin-left: -4rem;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 992px) {
   .container-fluid {
     padding: 0;
   }

@@ -5,12 +5,31 @@
   <title>Bechno Kid&#39;s Hideout - Web Feed</title>
   <link href="https://bechnokid.neocities.org/feed.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a software engineer.</subtitle>
-  <updated>2025-04-12T04:00:00Z</updated>
+  <updated>2025-07-03T04:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feed.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
+  <entry>
+    <title>Sep 6, 2025 </title>
+    <link href="https://bechnokid.neocities.org/home"/>
+    <updated>2025-09-06T04:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;I&#39;ve been starting to see more shops selling pumpkin spice-flavored snacks, so that means Fall is officially here (I think)!&lt;/p&gt;
+&lt;p&gt;Here&#39;s the spice in today&#39;s update!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Brought back the &lt;a href=&quot;/quiz_results&quot;&gt;Quiz Results&lt;/a&gt; page! Since I have a lot of space for more images, I thought it&#39;d be nice to bring it back!&lt;/li&gt;
+&lt;li&gt;Fixed up the installation guide for the &lt;a href=&quot;/resources/status-cafe/themes/dA2006&quot;&gt;deviantART Status Cafe theme&lt;/a&gt;! The tables disappeared in the previous update, so I brought them back!&lt;/li&gt;
+&lt;li&gt;Added two cliques to the home page: &lt;a href=&quot;https://lockheart.love/collections/cliques&quot;&gt;Cutie Connections&lt;/a&gt; and &lt;a href=&quot;https://ac.kuchiki.net/&quot;&gt;pixel friends&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added &lt;a href=&quot;/goodies/adopts&quot;&gt;one adopt&lt;/a&gt; for others to adopt! Admittedly, I didn&#39;t make it. I just revised the colors and other parts of it, but I still love it enough to share!&lt;/li&gt;
+&lt;li&gt;There is now a secret page in the site! Can you find it? :3&lt;/li&gt;
+&lt;li&gt;Various updates and fixes to help make the site a little bit better, such as adding navigation buttons in some pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! See you later!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Aug 30, 2025 </title>
     <link href="https://bechnokid.neocities.org/home"/>
@@ -74,104 +93,6 @@
 &lt;li&gt;Updated the &lt;a href=&quot;/now&quot;&gt;now&lt;/a&gt; page&lt;/li&gt;
 &lt;li&gt;Made some fixes and cosmetic changes throughout the site, including making the header and navigation sidebar fixed in place in desktop mode! Viewing them on mobile should have no effect, or at least I hope not!! &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_embarrassed.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Jun 21, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-06-21T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;It is summer, or...it has been summer already--nevermind! To anyone who recently had their graduation (high school, college, etc.), congratulations to you all! You all worked super hard, unless you used generative AI at any point, but I digress!&lt;/p&gt;
-&lt;p&gt;Here&#39;s what&#39;s in this update!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Wrote a &lt;a href=&quot;/writing/blog/2025-06-21&quot;&gt;journal entry on my trip to my wife&#39;s home state, Washington&lt;/a&gt;!&lt;/li&gt;
-&lt;li&gt;Added some more &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt;!&lt;/li&gt;
-&lt;li&gt;Added some interactive pets in the &lt;a href=&quot;/goodies/adopts&quot;&gt;adopts&lt;/a&gt; page! Specifically, they are pets from TamaNOTchi and Wobble Town. I hope you&#39;ll help me in taking care of them!&lt;/li&gt;
-&lt;li&gt;Updated the &lt;a href=&quot;/now&quot;&gt;now&lt;/a&gt; page!&lt;/li&gt;
-&lt;li&gt;Some minor fixes including fixing the order of the &lt;a href=&quot;/guestbook&quot;&gt;guestbook&lt;/a&gt; pages!&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Jun 4, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-06-04T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Hi, everyone! Happy Pride Month! ✨🏳️‍🌈🏳️‍⚧️✨&lt;/p&gt;
-&lt;p&gt;Several things for this update!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I wrote a &lt;a href=&quot;/writing/blog/2025-06-04&quot;&gt;rather unhinged review&lt;/a&gt; on my thoughts about the Monster Hunter Wilds x Street Fighter collaboration event quest. Spoilers: I didn&#39;t like it at all... &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_worried.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
-&lt;li&gt;I added a new pixel club &amp;quot;&lt;a href=&quot;/goodies/pixel_clubs/#objets&quot;&gt;Objets&lt;/a&gt;&amp;quot;!&lt;/li&gt;
-&lt;li&gt;I&#39;m attempting to get my HTML verified, which is embarrassing that I have the &amp;quot;HTML verified&amp;quot; button up, but there are a few errors. It might take a couple more tries, but hey, I&#39;m always learning!&lt;/li&gt;
-&lt;li&gt;I finally got Burning Spice Cookie to join my kingdom, yay!! So, I removed the little widget that was keeping track of how long I&#39;ve been trying to pull him. &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_happy.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>May 22, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-05-22T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Hello! I hope everyone is doing alright! It&#39;s almost the weekend!&lt;/p&gt;
-&lt;p&gt;For this update, I added some more &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt;, and I changed the URL for all blog entries. The dates being all bunched up confused me more than anything lol...&lt;/p&gt;
-&lt;p&gt;I&#39;m also biting the bullet and added some &lt;a href=&quot;/joined&quot;&gt;webrings&lt;/a&gt; despite not having officially joined them yet! Here I was worred about looking like a desperate fool, and yet I have I added a special widget to the &lt;a href=&quot;/home&quot;&gt;home page&lt;/a&gt; to count the days I&#39;m pulling for a cookie in Cookie Run: Kingdom lol.&lt;/p&gt;
-&lt;p&gt;Burning Spice Cookie, please come to my kingdom!!!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>May 16, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-05-16T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Lots of new updates this time around!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Major updates:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Added a brand new &lt;a href=&quot;/shrines/gilgamesh&quot;&gt;shrine&lt;/a&gt; dedicated to one of my favorite Final Fantasy characters!&lt;/li&gt;
-&lt;li&gt;New button! There are also buttons available in 32x32 and 200x40.&lt;/li&gt;
-&lt;li&gt;My RSS feed now looks super fancy, making it easier to read without a feed reader.&lt;/li&gt;
-&lt;li&gt;Microblog and &amp;quot;Latest Status&amp;quot; widget have now been placed by StatusCafe to allow myself to make quick status updates without misleading others into thinking I made a huge update on the site. XD;;&lt;/li&gt;
-&lt;li&gt;Added a button that allows users to scroll to the top of the page. Yes, it is pure CSS. :3&lt;/li&gt;
-&lt;li&gt;Added a &lt;a href=&quot;/goodies/pixel_clubs&quot;&gt;pixel club&lt;/a&gt; and some &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt;!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Minor updates:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Changed the RSS feed icon to its original orange&lt;/li&gt;
-&lt;li&gt;Updated the example code in Status Cafe feed reader tutorial to be a bit more robust&lt;/li&gt;
-&lt;li&gt;Moved fanlistings and webrings into one page called &amp;quot;Joined&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Apr 30, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-04-30T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Hi there! I decided to bring back the &lt;a href=&quot;/now&quot;&gt;/now&lt;/a&gt; page.&lt;/p&gt;
-&lt;p&gt;There is also an &lt;a href=&quot;/accessibility&quot;&gt;accessibility statement&lt;/a&gt;! I really want to make it clear that I&#39;m trying to make my website as accessible as possible! It won&#39;t be perfect, but at least my site works on mobile!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Apr 20, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-04-20T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Tons of new stuff and fixes this time around! There were also several big mistakes in the example code in the StatusFeed reader tutorial but are now fixed thanks to an email I got :)&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Apr 12, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-04-12T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Bechno Kid&#39;s Hideout has finally joined the dark side and implemented a toggle for dark mode! It&#39;s unfortunately not available if JavaScript is disabled...&lt;/p&gt;
-&lt;p&gt;Perhaps one day, I&#39;ll figure out a CSS-only light/dark toggle!&lt;/p&gt;
 </content>
   </entry>
   

@@ -1,7 +1,7 @@
 @import "bechno.css";
 
 .content {
-  max-width: 800px;
+  max-width: 850px;
   border: 2px solid var(--bg-primary);
 }
 
@@ -13,7 +13,7 @@
   height: 100%
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 992px) {
   .container-fluid {
     height: revert;
   }

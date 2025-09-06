@@ -1,20 +1,67 @@
 @import 'basic.css';
 
+input::placeholder,
+textarea::placeholder {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--text-body);
+  opacity: .5;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 1em;
+}
+
+input,
+textarea {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--text-body);
+  font-size: 1em;
+}
+
 .guestbook-input-field {
   border: 1px solid var(--bg-primary);
 }
 
 .guestbook-msg-field {
   resize: vertical;
-  height: 150px;
+  height: 80px;
 }
 
 .guestbook-msg-container {
   font-size: .85em;
-  max-height: 400px;
-  overflow-y: auto;
 }
 
 .guestbook-msg-header p {
   margin: 0;
+}
+
+#guestbook-pagination button {
+  margin: 0 .5rem;
+  height: 35px;
+  width: 35px;
+}
+
+.pagination-num:not(.active),
+.pagination-btn {
+  border: 0;
+  background: none;
+}
+
+.pagination-num:not(.active):hover,
+.pagination-btn:hover {
+  background: var(--bg-footer);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .guestbook-msg-field {
+    height: 150px;
+  }
+
+  #guestbook-pagination button {
+    margin: 0 .5rem;
+    height: 45px;
+    width: 45px;
+  }
 }

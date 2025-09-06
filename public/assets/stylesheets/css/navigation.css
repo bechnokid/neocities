@@ -13,8 +13,9 @@ nav ul.section-list li ul li.mobile::marker {
 }
 
 nav li.nav-link-item {
+  line-height: 1.25em;
   padding-left: .25rem;
-  margin-left: .5rem;
+  margin: .25rem 0 .1rem .5rem;
 }
 
 nav details summary::marker {
@@ -93,6 +94,10 @@ details.burger nav {
   overflow-y: auto;
 }
 
+li.desktop > details > ul {
+  margin-top: -.25rem;
+}
+
 li.mobile {
   display: none;
 }
@@ -101,7 +106,7 @@ li.mobile {
   margin-left: 1rem;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 992px) {
   #nav-main {
     display: none;
   }

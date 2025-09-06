@@ -72,7 +72,7 @@ ul li:not(:last-child) {
   background-color: var(--base);
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 992px) {
   body {
     font-size: 1em;
     line-height: 1.7em;

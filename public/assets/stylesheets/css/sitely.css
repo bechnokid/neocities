@@ -30,7 +30,7 @@ figcaption {
   margin: 1rem 1rem 1.25rem !important
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 992px) {
   figure {
     float: unset;
     margin: 0 auto;

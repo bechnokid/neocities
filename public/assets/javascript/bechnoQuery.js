@@ -61,7 +61,7 @@ class jQuery extends Array {
 
 	attr(attr, value = null) {
 		let getattr = this;
-		if (value) {
+		if (value !== null) {
 			this.each(el => el.setAttribute(attr, value));
 		} else {
 			getattr = this[0].getAttribute(attr);
@@ -70,7 +70,7 @@ class jQuery extends Array {
 	}
 
 	html(data) {
-		if (data) {
+		if (data !== undefined) {
 			this.each(el => el.innerHTML = data)
 		} else {
 			return this[0].innerHTML;
@@ -96,6 +96,15 @@ class jQuery extends Array {
 	show() {
 		this.each(el => el.style.display = "block");
 		return this;
+	}
+
+	val(data) {
+		if(data !== undefined) {
+			this.each (el => el.value = data)
+		} else {
+			return this[0].value;
+		}
+		return this
 	}
 
 	on(event, child, callback = null, state = null) {

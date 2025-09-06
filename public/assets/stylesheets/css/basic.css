@@ -33,28 +33,6 @@ section li>p {
   margin: 0
 }
 
-main ul li,
-main ol li {
-  margin: .25rem .75rem;
-  padding-left: .5rem;
-}
-
-main ol li::marker {
-  font-weight: bold;
-  color: var(--text-primary);
-}
-
-main ul li::marker {
-  content: "✦";
-  color: var(--text-secondary);
-}
-
-main ul li ul li::marker {
-  content: "✧";
-  color: var(--text-secondary);
-  font-size: 1.25em;
-}
-
 .about-figure {
   padding: 0 !important;
   height: 204px;
@@ -143,4 +121,38 @@ img.preview-img {
   height: 200px;
   object-fit: cover;
   object-position: top center;
+}
+
+.quiz-results > * {
+  margin: .25rem;
+}
+
+.quiz-widget {
+  line-height: 1.2em;
+}
+
+.quiz-widget.columns {
+  max-width: 400px;
+}
+
+.quiz-widget.rows {
+  max-width: 500px;
+}
+
+.quiz-color {
+  background-color: #fff;
+  border: 2px solid #6495ED;
+}
+
+.quiz-color * {
+  color: #000;
+}
+
+.quiz-color-header,
+.quiz-color-footer {
+  background-color: #6495ED;
+}
+
+.quiz-color-header * {
+  margin: 0;
 }
