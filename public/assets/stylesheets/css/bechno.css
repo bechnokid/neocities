@@ -2,11 +2,6 @@
 @import "navigation.css";
 @import "header.css";
 
-*:focus-visible {
-  border: 0 !important;
-  border: 2px solid var(--text-primary) !important;
-}
-
 html,
 body {
   height: 100vh;
@@ -112,10 +107,13 @@ article > ul { /* For page-landing.html */
   margin-left: 1rem;
 }
 
+dl:not(:last-of-type) {
+  margin-bottom: 1.75rem;
+}
+
 dt {
   color: var(--text-primary);
   font-weight: bold;
-  margin-bottom: .5em;
 }
 
 dt::before {
@@ -125,7 +123,7 @@ dt::before {
 }
 
 dd {
-  margin: 0 0 2em 3em;
+  margin-left: 2.5rem;
 }
 
 dd > p {
@@ -139,8 +137,8 @@ dd ol li::marker {
 hr {
   margin: 1em 0;
   border: none;
-  border-top: 2px solid var(--border-sidebar);
-  color: var(--bg-primary);
+  border-top: 2px solid var(--line-color);
+  color: var(--line-color);
   overflow: visible;
   text-align: center;
   height: 5px;
@@ -157,7 +155,7 @@ hr::after {
 hr.small {
   margin: 1em 0;
   border: none;
-  border-top: 1px solid var(--border-sidebar)
+  border-top: 1px solid var(--line-color);
 }
 
 hr.small::after {
@@ -258,6 +256,11 @@ th, td {
   padding: .25rem .5rem;
 }
 
+main a:focus-visible {
+  border: 0 !important;
+  border: 2px solid var(--text-primary) !important;
+}
+
 main ul li,
 main ol li {
   margin: .25rem .75rem;
@@ -277,7 +280,6 @@ main ul li::marker {
 main ul li ul li::marker {
   content: "✧";
   color: var(--text-secondary);
-  font-size: 1.25em;
 }
 
 .bg-primary {
@@ -351,7 +353,7 @@ main ul li ul li::marker {
 }
 
 .main.desktop {
-  min-height: 555px;
+  min-height: var(--body-height);
 }
 
 .sidebar h1,
@@ -536,6 +538,13 @@ a.hidden-link {
 .uwu:hover img {
   opacity: 1 !important;
   cursor: default;
+}
+
+.hidden {
+  display: inline-block;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 992px) {

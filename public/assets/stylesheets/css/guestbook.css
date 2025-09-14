@@ -1,22 +1,19 @@
 @import 'basic.css';
 
-input::placeholder,
-textarea::placeholder {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--text-body);
-  opacity: .5;
-}
-
-input::placeholder,
-textarea::placeholder {
-  font-size: 1em;
-}
-
 input,
 textarea {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--text-body);
   font-size: 1em;
+}
+
+fieldset {
+  border: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: .25rem;
 }
 
 .guestbook-input-field {
@@ -54,7 +51,15 @@ textarea {
   cursor: pointer;
 }
 
+.wide-field {
+  width: 500px;
+}
+
 @media screen and (max-width: 992px) {
+  .wide-field {
+    width: 100%;
+  }
+
   .guestbook-msg-field {
     height: 150px;
   }

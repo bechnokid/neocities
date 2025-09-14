@@ -7,6 +7,14 @@
   margin-bottom: 1rem;
 }
 
+.blog ol {
+  margin-left: 1rem;
+}
+
+.blog ol > li > ul li {
+  margin-bottom: .5rem;
+}
+
 .blog-list li {
   margin: .5rem 0;
 }

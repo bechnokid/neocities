@@ -6,6 +6,10 @@
   src: url(/assets/fonts/OpenDyslexic-Regular.otf)
 }
 
+:root {
+  --body-height: 480px;
+}
+
 [data-theme="light"] {
   --bg-img: url(/assets/images/bg.jpg);
   --header-img: url(/assets/images/header.jpg);
@@ -28,6 +32,7 @@
   --text-link: #d60076;
   --text-shadow: #a50e5a6c;
   --text-selection: #ffffff;
+  --line-color: var(--bg-primary);
 }
 
 [data-theme="dark"] {
@@ -52,6 +57,7 @@
   --text-link: #ffb5d7;
   --text-shadow: #FDCDD96c;
   --text-selection: #ffffff;
+  --line-color: var(--text-link);
 }
 
 *,

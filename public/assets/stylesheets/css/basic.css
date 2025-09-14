@@ -156,3 +156,26 @@ img.preview-img {
 .quiz-color-header * {
   margin: 0;
 }
+
+.bishies-collection > * {
+  margin: .25rem .5rem;
+}
+
+#bishie-quiz {
+  height: 450px;
+  width: 100%;
+  border: 1px solid var(--border-sidebar);
+}
+
+#bishie-quiz-nav {
+  max-height: 250px;
+}
+
+#bishie-quiz-nav > ul {
+  margin-right: .5rem;
+}
+
+#bishie-quiz-nav > ul:nth-child(odd) {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}

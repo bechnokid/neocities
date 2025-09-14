@@ -102,9 +102,11 @@ class jQuery extends Array {
 		if(data !== undefined) {
 			this.each (el => el.value = data)
 		} else {
-			return this[0].value;
+			let valuesArr = [];
+			this.forEach((item) => valuesArr.push(item.value));
+			return valuesArr;
 		}
-		return this
+		return this;
 	}
 
 	on(event, child, callback = null, state = null) {

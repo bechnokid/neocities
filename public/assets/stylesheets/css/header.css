@@ -9,7 +9,12 @@
   border: 5px solid var(--bg-body);
 }
 
-.page a header:hover {
+.page > a:focus-visible {
+  border: 0;
+}
+
+.page > a:hover header,
+.page > a:focus-visible header {
   border-color: var(--text-primary);
 }
 

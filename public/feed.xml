@@ -5,12 +5,42 @@
   <title>Bechno Kid&#39;s Hideout - Web Feed</title>
   <link href="https://bechnokid.neocities.org/feed.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a software engineer.</subtitle>
-  <updated>2025-07-03T04:00:00Z</updated>
+  <updated>2025-08-06T04:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feed.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
+  <entry>
+    <title>Sep 14, 2025 </title>
+    <link href="https://bechnokid.neocities.org/home"/>
+    <updated>2025-09-14T04:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;It&#39;s finally gotten a little cooler!&lt;/p&gt;
+&lt;p&gt;You know, I can never decide if I like fall or winter better. I always seem to flip-flop between the two. I just like colder weather in general! Not that I can tolerate the cold, but rather, I like to bundle up and wear lots of layers since I never like to show my skin much.&lt;/p&gt;
+&lt;p&gt;Here&#39;s what&#39;s in this update!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New page: &lt;a href=&quot;/pocket_bishies&quot;&gt;Pocket Bishies&lt;/a&gt;!
+&lt;ul&gt;
+&lt;li&gt;I&#39;ve seen it around, but I never really made a page until now! The collection might stay small since I&#39;m not a huge nerd and the original sites have long stopped working/updating. It is what it is!&lt;/li&gt;
+&lt;li&gt;If you have JavaScript enabled, you can take a few quizzes to nab some bishies of your own! I won&#39;t be taking submissions like the original sites did, but I still hope you enjoy them!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;New art in the &lt;a href=&quot;/art/ff&quot;&gt;Final Fantasy&lt;/a&gt; and &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; sections!&lt;/li&gt;
+&lt;li&gt;Added 4 &lt;a href=&quot;/goodies/adopts&quot;&gt;adopts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Some front-end and back-end fixes, including:
+&lt;ul&gt;
+&lt;li&gt;Made the guestbook form more accessible&lt;/li&gt;
+&lt;li&gt;Updated the main page to resize itself automatically if certain parts of the navigation are opened. It isn&#39;t perfect since I want to avoid using JavaScript in the navigation, but it looks pretty good!&lt;/li&gt;
+&lt;li&gt;Shortened the links for art, changing them from &amp;quot;artwork&amp;quot; to &amp;quot;art&amp;quot;&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=&quot;/joined&quot;&gt;Webrings&lt;/a&gt; to use less JavaScript in general. Not sure if I succeeded, but it&#39;s something!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now, see you all next update!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Sep 6, 2025 </title>
     <link href="https://bechnokid.neocities.org/home"/>
@@ -78,20 +108,6 @@
 &lt;li&gt;Added two new cliques to the front page: &lt;a href=&quot;https://fan.sanguineroyal.com/cli/barbieland/&quot;&gt;Barbieland&lt;/a&gt; and &lt;a href=&quot;https://miasma.dual-weekend.com/&quot;&gt;Miasma&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;New journal entry, &lt;a href=&quot;/writing/blog/2025-08-06&quot;&gt;&amp;quot;I&#39;m Not an Ideal Asian&amp;quot;&lt;/a&gt;, where I discuss my desire for a single crumb of representation as a &amp;quot;non-ideal&amp;quot; Asian American.&lt;/li&gt;
 &lt;li&gt;So many backend fixes, including fixing broken links and other things!&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Jul 3, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-07-03T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Small update this time around, but I hope everyone has been doing ok! The dreadful heat (and other horrors) persist, but so do I!&lt;/p&gt;
-&lt;p&gt;Here&#39;s what&#39;s in this update!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Updated the &lt;a href=&quot;/now&quot;&gt;now&lt;/a&gt; page&lt;/li&gt;
-&lt;li&gt;Made some fixes and cosmetic changes throughout the site, including making the header and navigation sidebar fixed in place in desktop mode! Viewing them on mobile should have no effect, or at least I hope not!! &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_embarrassed.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>

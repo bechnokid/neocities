@@ -1,0 +1,75 @@
+@import "reset.css";
+
+body {
+  background-image: none;
+  background-color: var(--bg-body);
+  color: var(--text-body);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .8rem;
+}
+
+h1 {
+  font-family: 'Dyslexic', Georgia, serif;
+  font-weight: 400;
+  margin: 1rem 0;
+  color: var(--text-primary);
+}
+
+b,
+strong {
+  color: var(--text-primary);
+}
+
+button {
+  background-color: var(--bg-footer);
+  color: var(--text-link);
+  border: 1px solid var(--text-link);
+  border-radius: 5px;
+  padding: .5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+}
+
+fieldset {
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.quiz-img-container > img:not(:last-child){
+  margin-right: .5rem;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-img: url(/assets/images/bg_dark.jpg);
+    --header-img: url(/assets/images/header_dark.jpg);
+    --bg-img-color: #391b3d;
+    --bg-overlay: #391b3dcc;
+    --bg-primary: #28162b;
+    --bg-body: #4D2F51;
+    --bg-sidebar: #6f476a;
+    --bg-footer: #38213c;
+    --bg-code: var(--bg-footer);
+    --bg-selection: #28162b;
+    --border-body: var(--bg-body);
+    --border-sidebar: var(--bg-primary);
+    --scroll-bg: var(--bg-footer);
+    --scroll-tab: var(--bg-body);
+    --text-body: #fff;
+    --text-muted: #805f6f;
+    --text-primary: #FDCDD9;
+    --text-secondary: var(--text-body);
+    --text-link: #ffb5d7;
+    --text-shadow: #FDCDD96c;
+    --text-selection: #ffffff;
+  }
+}

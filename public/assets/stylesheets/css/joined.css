@@ -39,7 +39,7 @@ tr {
   align-items: center;
 }
 
-.webrings .webring img.ms-1 {
+.img-next {
   transform: scaleX(-1);
 }
 
@@ -100,6 +100,10 @@ div.waiting > div {
 #khwr table tr td {
   padding: 15px;
   /* creates some space between the links and text inside the widget */
+}
+
+#khwr div {
+  text-align: center;
 }
 
 #khwr a {
@@ -262,7 +266,6 @@ div.waiting > div {
 }
 
 /* Tropical Rice Bowl */
-
 #TRB img {
   max-height: 31px !important;
   width: auto !important;
@@ -317,6 +320,27 @@ div.waiting > div {
 
 #gitgudring br + a > img {
   width: 75px;
+}
+
+/* GFDKWTFAW Ring */
+.gfdkris-nav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: .5rem;
+}
+
+.gfdkris-nav-btn {
+  background: black;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.gfdkris-nav-btn:hover {
+  border-color: #fb7f26;
+}
+
+.gfdkris-nav-btn:hover img {
+  opacity: 1;
 }
 
 @media screen and (max-width: 768px) {

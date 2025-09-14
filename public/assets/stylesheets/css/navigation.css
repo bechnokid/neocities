@@ -106,6 +106,26 @@ li.mobile {
   margin-left: 1rem;
 }
 
+.main.desktop:has(#nav-main details[data-num-of-items="1"]:open) {
+  min-height: calc(var(--body-height) + 1.1rem);
+}
+
+.main.desktop:has(#nav-main details[data-num-of-items="2"]:open) {
+  min-height: calc(var(--body-height) + 2.25rem);
+}
+
+.main.desktop:has(#nav-main details[data-num-of-items="3"]:open) {
+  min-height: calc(var(--body-height) + 3.47rem);
+}
+
+.main.desktop:has(#nav-main details[data-num-of-items="4"]:open) {
+  min-height: calc(var(--body-height) + 4.9rem);
+}
+
+.main.desktop:has(#nav-main details[data-num-of-items="5"]:open) {
+  min-height: calc(var(--body-height) + 6rem);
+}
+
 @media screen and (max-width: 992px) {
   #nav-main {
     display: none;
