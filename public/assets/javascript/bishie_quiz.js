@@ -13,9 +13,9 @@ $(document).ready(function() {
         })
         imgContent += "</div>"
       } else {
-        imgContent = `<img src="${imgPath}/${imgInfo[0]}" alt="${imgInfo[1]}">`
+        imgContent = `<img class="mt-2" src="${imgPath}/${imgInfo[0]}" alt="${imgInfo[1]}">`
       }
-      let content = `<h1>Congratulations!</h1><p>You got all the questions correct!</p><p>${images.length > 0 ? "Pick any badge from below" : "This badge is yours"}!</p>${imgContent}<p class='text-xs'>(Please save ${images.length > 0 ? "these images" : "this image"} on your own server!)</p>`;
+      let content = `<div id='bishie-results'><h1>Congratulations!</h1><p>You got all the questions correct!</p><p>${images.length > 0 ? "Pick any badge from below" : "This badge is yours"}!</p>${imgContent}<p class='text-xs'>(Please save ${images.length > 0 ? "these images" : "this image"} on your own server!)</p></div>`;
       $('#bishie-content').html(content);
     } else {
       $('#bishie-results').html("<p>You failed to snag the bishie! Try again!</p>");

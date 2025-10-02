@@ -41,9 +41,9 @@
   --bg-img-color: #391b3d;
   --bg-overlay: #391b3dcc;
   --bg-primary: #28162b;
-  --bg-body: #4D2F51;
-  --bg-sidebar: #6f476a;
-  --bg-footer: #38213c;
+  --bg-body: #47224D;
+  --bg-sidebar: #69416c;
+  --bg-footer: #331639;
   --bg-code: var(--bg-footer);
   --bg-selection: #28162b;
   --border-body: var(--bg-body);
@@ -72,9 +72,16 @@
   scrollbar-width: thin
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
 html,
 body {
   scrollbar-width: thin;
+  line-height: 1.5;
 }
 
 ::-webkit-scrollbar {
@@ -94,7 +101,15 @@ picture,
 video,
 canvas,
 svg {
+  display: inline-block;
   max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
 }
 
 p,
@@ -107,8 +122,21 @@ h6, .h6 {
   overflow-wrap: break-word;
 }
 
-p {
-  margin: 1em 0;
+p:only-child {
+  margin: 1rem 0;
+}
+
+p + p {
+  margin-top: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
 }
 
 a {
@@ -193,7 +221,7 @@ ul {
   border: 0 !important;
 }
 
-.border {
+.border-debug {
   border: 1px solid red;
 }
 
@@ -267,6 +295,14 @@ img.img-50 {
 .figure-center {
   margin-right: auto;
   margin-left: auto;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
 }
 
 .position-relative {

@@ -199,11 +199,11 @@ h3,
 
 h4,
 .h4 {
-  font-size: 1.15em;
+  font-size: 1.25em;
 }
 
 blockquote {
-  margin: 1rem 0 0 1.5rem;
+  margin: 1rem 0 1rem 1.5rem;
   padding-left: 1rem;
   border-left: 4px solid var(--bg-primary);
   color: var(--text-secondary);
@@ -378,7 +378,10 @@ summary.details.h2 {
   padding: .75rem;
 }
 
-summary.details.h3 {
+summary.details.h3,
+summary.details.h4,
+summary.details.h5,
+summary.details.h6 {
   margin-left: .5rem;
 }
 

@@ -24,9 +24,9 @@ aside hr {
 }
 
 aside .update-content {
+  font-size: .8em;
   max-height: 450px;
   overflow-y: auto;
-  font-size: .8em;
 }
 
 @media screen and (max-width: 992px) {

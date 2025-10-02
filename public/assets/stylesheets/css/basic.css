@@ -26,7 +26,7 @@ section>ol {
 }
 
 section>ul ul {
-  margin: .25rem 0 .75rem;
+  margin: .25rem 0;
 }
 
 section li>p {
@@ -38,22 +38,12 @@ section li>p {
   height: 204px;
 }
 
-.fanlistings {
-  max-height: 400px;
-  overflow: auto;
-}
-
 #web-feed .img-svg {
   width: 1.25em;
 }
 
 noscript .sidebar.curses {
   height: 120px;
-}
-
-.netizens.content {
-  max-height: 350px;
-  overflow-y: auto;
 }
 
 .link-btn {
@@ -80,14 +70,9 @@ noscript .sidebar.curses {
 .greenhouse iframe,
 iframe.webgarden-pot {
   width: 250px;
-    height: 250px;
-    border: 0;
-    margin: 1em;
-}
-
-.sidebar.greenhouse {
-  max-height: 500px;
-  overflow-y: auto;
+  height: 250px;
+  border: 0;
+  margin: 1em;
 }
 
 .objets {
@@ -162,7 +147,7 @@ img.preview-img {
 }
 
 #bishie-quiz {
-  height: 450px;
+  height: 475px;
   width: 100%;
   border: 1px solid var(--border-sidebar);
 }
@@ -178,4 +163,14 @@ img.preview-img {
 #bishie-quiz-nav > ul:nth-child(odd) {
   margin-top: .5rem;
   margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 992px) {
+  #bishie-quiz-nav {
+    max-height: unset;
+  }
+
+  #bishie-quiz {
+    height: 625px;
+  }
 }

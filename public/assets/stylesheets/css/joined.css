@@ -1,6 +1,6 @@
 @import 'basic.css';
 
-/* Reset table styles*/
+/* General styles*/
 table,
 #trb.waiting {
   font-size: .8em;
@@ -15,23 +15,16 @@ tr {
   background-color: initial !important;
 }
 
-.webrings {
-  max-height: 600px
-}
-
 .webrings .small-webrings > * {
   margin: 0 .5rem;
 }
 
-.webrings .js-required .col-12 {
+.webrings .row.js-required > * {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 .5rem;
-}
-
-.webrings .js-required .col-12 > *:not(:last-child) {
-  margin-bottom: .5rem;
+  gap: 1rem;
 }
 
 .webrings .webring {
@@ -43,9 +36,6 @@ tr {
   transform: scaleX(-1);
 }
 
-wii-ring {
-  max-width: 150px;
-}
 
 div.waiting {
   border: 1px solid var(--border-sidebar);
@@ -62,18 +52,104 @@ div.waiting > div {
   margin: 0;
 }
 
+.fake-webrings > p {
+  margin: 0;
+}
+
+.fake-webrings > p + p {
+  margin: 1rem 0;
+}
+
+/* AMIGA webring */
+#webring-btn-container > * {
+  margin: .25rem;
+}
+
+#webring-btn-container img[src*="amiga"] {
+  width: 88px;
+}
+
+#amiga table,
+#amiga table * {
+  border: 0 !important;
+}
+
+#amiga .webring-info {
+  text-align: center;
+}
+
+#amiga br {
+  display: none;
+}
+
+/* Cookie Run Webring */
+#ckwr {
+  margin: 0 !important;
+  background: url(/assets/images/webrings/crwr_bg.png) #748091 !important;
+  background-size: cover !important;
+  background-position: center !important;
+  border-color: #0d0f11 !important;
+}
+
+#ckwr .webring-flex {
+  position: static !important;
+  align-items: center;
+}
+
+#ckwr .webring-image {
+  height: unset !important;
+  position: static !important;
+  margin-top: 0 !important;
+}
+
+#ckwr .ckwr-tooltip {
+  height: 64px;
+  width: 64px;
+  margin-top: 2rem;
+}
+
+#ckwr:has(.ckwr-tooltip:hover) .ckwr-tooltip-content{
+  display: block;
+  z-index: 1;
+}
+
+#ckwr .ckwr-tooltip-content {
+  display: none;
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  width: 50vw;
+  border: 1px solid #0d0f11;
+  border-radius: .25rem;
+  background: #d6e4ec;
+  color: #0d0f11;
+  line-height: 1rem;
+  font-size: .7rem;
+  padding: .25rem .5rem;
+}
+
+#ckwr .ckwr-tooltip-content > * {
+  margin: 0;
+}
+
+/* doodlering */
+#doodlering {
+  margin: 0 !important;
+}
+
 /* Jelly World */
 .jelly-world {
   text-align: center;
   font-family: Arial;
-  width: 225px;
+  width: 180px;
   border: 3px dotted orange;
   background: url('/assets/images/webrings/jw_bg.png');
+  line-height: 1rem;
 }
 
 .jelly-world * {
   color: initial;
-  margin: 0;
 }
 
 .jelly-world a {
@@ -81,12 +157,27 @@ div.waiting > div {
   font-weight: bold;
 }
 
-.jelly-world-img {
+.jelly-world img {
   background: #fff;
+  object-fit: contain;
+  width: 80px;
 }
 
-.jelly-world img {
-  object-fit: contain;
+.jelly-world-desc {
+  font-style: italic;
+}
+
+.jelly-world .button {
+  border: 1px solid #8F8F9D;
+  padding: .25rem;
+  background-color: #E9E9ED;
+  color: #000;
+  font-weight: normal;
+}
+
+.jelly-world .button:hover {
+  border-color: #676774;
+  background-color: #D0D0D7;
 }
 
 /* Kingdom Hearts Webring */
@@ -109,76 +200,6 @@ div.waiting > div {
 #khwr a {
   color: black;
   text-shadow: 1px 1px 0 white;
-}
-
-/* Re:source Ring */
-#resourceRing img {
-  margin-bottom: -5px;
-}
-
-/* Self-Insert Webring */
-.self-insert-webring {
-  width: 225px;
-  background-image: url("https://koinuko.neocities.org/shipping/webring/bg.png");
-  background-size: cover;
-  border: 2px solid #DD28A7;
-  font-size: .85em;
-  line-height: 1.25em
-}
-
-.self-insert-webring p {
-  margin: 0;
-}
-
-.self-insert-webring a {
-  color: #BF3C8E;
-  font-weight: bold;
-}
-
-.self-insert-webring strong,
-.self-insert-webring {
-  color: #452134;
-}
-
-.self-insert-img img {
-  border: 2px solid #DD28A7;
-}
-
-.self-insert-text {
-  border: 1px dashed #DD28A7;
-}
-
-.self-insert-nav {
-  border: 1px dashed #DD28A7;
-}
-
-/* AMIGA webring */
-
-#webring-btn-container > * {
-  margin: .25rem;
-}
-
-#webring-btn-container img[src*="amiga"] {
-  width: 88px;
-}
-
-#amiga table,
-#amiga table * {
-  border: 0 !important;
-}
-
-#amiga .webring-info {
-  text-align: center;
-}
-
-#amiga br {
-  display: none;
-}
-
-/* doodlering */
-#doodlering.waiting {
-  height: unset;
-  font-family: unset !important;
 }
 
 /* personaring */
@@ -252,17 +273,49 @@ div.waiting > div {
   margin: 0 .25rem;
 }
 
-/* Cookie Run Webring */
-#ckwr {
-  margin: 0 !important;
-  background-image: url(/assets/images/webrings/crwr_bg.png) !important;
-  background-size: cover !important;
-  background-position: center !important;
-  border-color: #641c1c !important;
+/* Re:source Ring */
+.resource-ring > * {
+  height: 31px;
 }
 
-#ckwr .webring-flex {
-  position: static !important;
+.resource-ring-nav > a {
+  display: inline-block;
+}
+
+/* Self-Insert Webring */
+.self-insert-webring {
+  width: 225px;
+  background-image: url("https://koinuko.neocities.org/shipping/webring/bg.png");
+  background-size: cover;
+  border: 2px solid #DD28A7;
+  font-size: .85em;
+  line-height: 1.25em
+}
+
+.self-insert-webring p {
+  margin: 0;
+}
+
+.self-insert-webring a {
+  color: #BF3C8E;
+  font-weight: bold;
+}
+
+.self-insert-webring strong,
+.self-insert-webring {
+  color: #452134;
+}
+
+.self-insert-img img {
+  border: 2px solid #DD28A7;
+}
+
+.self-insert-text {
+  border: 1px dashed #DD28A7;
+}
+
+.self-insert-nav {
+  border: 1px dashed #DD28A7;
 }
 
 /* Tropical Rice Bowl */
@@ -278,48 +331,6 @@ div.waiting > div {
 
 #wolwebring img {
   margin: 0 .25rem;
-}
-
-/* Egg webring */
-#eggring.waiting a {
-  font-weight: bold;
-}
-
-#eggring {
-  background-color: white;
-  border-radius: 5px;
-  border: 4px double #b08cdc;
-  color: #b08cdc;
-}
-
-#eggring a {
-  color: #7a58a4;
-  text-decoration: none;
-}
-
-#eggring a:hover {
-  text-decoration: underline;
-}
-
-#eggring .eggringName {
-  font-weight: bold;
-}
-
-/* GitGud ring */
-#gitgudring {
-  max-width: 150px;
-}
-
-.gitgudlock{
-  width: 100%;
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  align-items: center;
-}
-
-#gitgudring br + a > img {
-  width: 75px;
 }
 
 /* GFDKWTFAW Ring */
@@ -343,17 +354,89 @@ div.waiting > div {
   opacity: 1;
 }
 
-@media screen and (max-width: 768px) {
-  .self-insert-webring {
-    width: 300px;
-  }
+/* Pokering */
+.pokering-walker {
+  z-index: 1;
+}
 
+#pokering-info {
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+#pokering-info-label {
+  top: 72px;
+  left: 88px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.pokering-info-box {
+  height: 46px;
+  width: 117px;
+  background: transparent url(https://dokodemo.neocities.org/pokering/box_overlay.png) no-repeat right top;
+  top: 91px;
+  left: 49px;
+  z-index: 2;
+  display: none;
+  color: #000;
+  font-family: "MS UI Gothic", Tahoma;
+  align-items: center;
+  font-size: .7rem;
+  line-height: .7rem;
+}
+
+.pokering:has(#pokering-info:checked) .pokering-info-box {
+  display: flex;
+}
+
+.pokering-bg {
+  top: 57px;
+  left: 48px;
+}
+
+/* WiiRing */
+#wii-ring {
+  max-width: 150px;
+  padding: .75rem .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border: 4px solid #d3bfbf;
+  border-radius: 8px;
+}
+
+#wii-ring img.wr-img {
+  width: calc(100% - 50px);
+  padding-bottom: .5rem;
+}
+
+#wii-ring .wii-ring-nav {
+  display: flex;
+  align-items: center;
+}
+
+#wii-ring .wr-main img,
+#wii-ring .wr-rand img {
+  height: 20px;
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 962px) {
   #p-ring .persona-ring {
     width: 225px;
   }
 
-  #resourceRing img {
-    margin-bottom: -7px;
+  .self-insert-webring {
+    width: 300px;
   }
 
+  .jelly-world {
+    width: 210px;
+    line-height: 1.25rem;
+  }
 }

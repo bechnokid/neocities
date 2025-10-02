@@ -52,8 +52,8 @@ $(document).ready(function(){
     if (isHome) {
       html = `
       <div class="flex-shrink-0 p-3 m-auto">${emoticonElement}</div>
-      <div class="pt-1 pe-3 pb-2">
-        <p class='my-1 status-date'><strong>${ dateString }</strong></p>
+      <div class="d-flex flex-column justify-content-center pe-3 pb-2">
+        <p class='my-0 mb-1 status-date'><strong>${ dateString }</strong></p>
         <p class='m-0 status-text'>${content}</p>
       </div>
       `;

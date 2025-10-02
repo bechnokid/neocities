@@ -1,5 +1,13 @@
 @import "basic.css";
 
+.back-to-top {
+  display: none;
+}
+
+#main-content:has(.collected details:not(.web-badges):open) .back-to-top {
+  display: block;
+}
+
 .adopts.mine p {
   margin: 0;
 }
@@ -13,19 +21,59 @@
   max-width: 300px;
 }
 
-.graphics.content {
-  max-height: 400px;
-  overflow-y: auto;
-}
-
-.graphics.content > * {
-  margin: .25rem
-}
-
 .cliques.content > * {
   margin: 0 .25rem;
 }
 
 .yys-table {
   font-size: .85em;
+}
+
+.tea-section {
+  width: 120px;
+}
+
+.tea-img {
+  min-height: 75px;
+  margin-bottom: .25rem;
+  display: flex;
+  align-items: end;
+}
+
+.tea-img a {
+  display: flex;
+}
+
+.tea-taste summary:hover {
+  text-decoration: underline;
+}
+
+.web-badges .content > * {
+  height: 15px;
+}
+
+.btn-88x31 .content > * {
+  height: 31px;
+}
+
+.blinkies .content > * {
+  height: 20px;
+}
+
+.stamps .content > * {
+  min-height: 56px;
+  display: flex;
+  align-items: center
+}
+
+.comb-row {
+  margin-left: 1rem;
+}
+
+.comb-row:nth-child(even) {
+  margin-top: -30px;
+}
+
+.comb-row > *:nth-child(odd) {
+  margin: 30px -10px 0;
 }

@@ -41,11 +41,12 @@ fieldset {
   margin-bottom: 1rem;
 }
 
-.quiz-img-container > img:not(:last-child){
-  margin-right: .5rem;
+#bishie-content .question {
+  margin-bottom: .5rem;
 }
 
-@media screen and (max-width: 992px) {
+.quiz-img-container > img:not(:last-child){
+  margin-right: .5rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,5 +72,15 @@ fieldset {
     --text-link: #ffb5d7;
     --text-shadow: #FDCDD96c;
     --text-selection: #ffffff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 1rem;
+  }
+
+  #bishie-results {
+    text-align: center;
   }
 }
