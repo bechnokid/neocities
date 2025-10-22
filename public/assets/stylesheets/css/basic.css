@@ -75,32 +75,6 @@ iframe.webgarden-pot {
   margin: 1em;
 }
 
-.objets {
-  left: 3rem;
-}
-
-.objets.row-1 {
-  top: 2rem;
-}
-
-.objets.row-2 {
-  top: 7rem;
-}
-
-.objets-collect-text {
-  color: #fff;
-  background-color: #3e8ac6;
-  border: 1px solid #715796;
-  border-radius: .25rem;
-  letter-spacing: 1px;
-}
-
-.objets-collect-container {
-  border-radius: 1rem;
-  border: 1px solid #715796;
-  background-color: #d998d7;
-}
-
 img.preview-img {
   width: 400px;
   height: 200px;
@@ -163,6 +137,10 @@ img.preview-img {
 #bishie-quiz-nav > ul:nth-child(odd) {
   margin-top: .5rem;
   margin-bottom: .5rem;
+}
+
+.sitemap li > p {
+  margin: 0;
 }
 
 @media screen and (max-width: 992px) {

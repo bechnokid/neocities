@@ -1,9 +1,5 @@
 @import "basic.css";
 
-.back-to-top {
-  display: none;
-}
-
 #main-content:has(.collected details:not(.web-badges):open) .back-to-top {
   display: block;
 }
@@ -21,15 +17,57 @@
   max-width: 300px;
 }
 
-.cliques.content > * {
-  margin: 0 .25rem;
+.kindnessrocks .d-flex a,
+.jarjam .d-flex a {
+  display: flex;
+  align-items: baseline;
 }
 
-.yys-table {
+.kindnessrocks .d-flex {
+  align-items: baseline;
+}
+
+.sticker-box {
+  width: 300px;
+  border: 1px solid #fdc2ce;
+  background-color: #fdc2ce;
+  color: #e55a76;
+}
+
+.sticker-header {
+  height: 76px;
+  background-image: url(/assets/images/goodies/cliques/stickers/header.png);
+  background-position: top;
+  background-repeat: repeat-x;
+  font-weight: bold;
+}
+
+.sticker-body {
+  border: 1px solid #fdc2ce;
+  border-right: 0;
+  border-left: 0;
+}
+
+.sticker-footer {
+  background-color: #fff;
+  text-align: center;
+}
+
+.cdw figcaption {
+  margin: 1rem 0;
+}
+
+.cdw .playlist.button {
+  border-radius: .8rem;
+  font-size: .7rem;
+}
+
+.yys table {
   font-size: .85em;
+  max-width: 400px;
 }
 
-.tea-section {
+.teacup {
   width: 120px;
 }
 
@@ -40,8 +78,12 @@
   align-items: end;
 }
 
-.tea-img a {
-  display: flex;
+.tea-img > * {
+  margin: 0 auto;
+}
+
+.tea-taste {
+  line-height: 1rem;
 }
 
 .tea-taste summary:hover {
@@ -76,4 +118,23 @@
 
 .comb-row > *:nth-child(odd) {
   margin: 30px -10px 0;
+}
+
+@media screen and (max-width: 992px) {
+  .jarjam img,
+  .jarjam .ff-canvas,
+  .kindnessrocks img,
+  .kindnessrocks .ff-canvas {
+    transform: scale(2);
+    image-rendering: pixelated;
+  }
+
+  .kindnessrocks .d-flex,
+  .jarjam .d-flex {
+    padding: 2rem 0 !important;
+  }
+
+  .cdw .playlist.button {
+    font-size: 1rem;
+  }
 }

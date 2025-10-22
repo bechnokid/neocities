@@ -1,3 +1,11 @@
 .js-required {
   display: none !important;
 }
+
+.position-relative:has(> .js-required) {
+  height: unset !important;
+}
+
+.ft-alert-triangle {
+  display: inline !important;
+}

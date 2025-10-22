@@ -3,9 +3,10 @@
   width: 1000px;
   z-index: 100;
   height: 150px;
+  background-color: var(--bg-footer) !important;
   background-image: var(--header-img);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   border: 5px solid var(--bg-body);
 }
 

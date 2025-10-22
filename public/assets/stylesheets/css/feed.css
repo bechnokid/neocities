@@ -27,6 +27,7 @@ h3 {
   letter-spacing: .1rem;
   font-weight: normal;
   color: var(--pink);
+  margin-bottom: 1rem;
 }
 
 a {
@@ -42,11 +43,15 @@ hr {
 
 ul {
   list-style-type: disc;
-  margin-left: 1.5rem;
+  margin: 1rem 0 1rem 1.5rem;
 }
 
 ul li:not(:last-child) {
   margin-bottom: .5rem;
+}
+
+ul li > ul {
+  margin-top: .5rem;
 }
 
 .bg-body {

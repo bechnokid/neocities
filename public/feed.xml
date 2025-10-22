@@ -5,12 +5,37 @@
   <title>Bechno Kid&#39;s Hideout - Web Feed</title>
   <link href="https://bechnokid.neocities.org/feed.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a software engineer.</subtitle>
-  <updated>2025-08-06T04:00:00Z</updated>
+  <updated>2025-08-13T04:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feed.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
+  <entry>
+    <title>Oct 21, 2025 </title>
+    <link href="https://bechnokid.neocities.org/home"/>
+    <updated>2025-10-21T04:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Happy &lt;a href=&quot;https://blog.playstation.com/2025/10/20/festival-of-accord-dreamspell-comes-to-monster-hunter-wilds-starting-october-22/&quot;&gt;Dreamspell Festival&lt;/a&gt; Eve! I honestly wish I would make more of a habit uploading my art here as soon as I finish drawing it, but I love making updates to the site as well! &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_happy.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/p&gt;
+&lt;p&gt;Here are the spooky changes for this update:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in the &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; section&lt;/li&gt;
+&lt;li&gt;Added a new &lt;a href=&quot;/links&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added back the &lt;a href=&quot;/resources/code-snippets&quot;&gt;code snippets&lt;/a&gt; page! The old snippets are no longer there, but there are some new ones! Check them out if you&#39;d like! I&#39;m hoping to update this a little more frequently!&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&quot;/goodies/pixel_clubs&quot;&gt;pixel club&lt;/a&gt; page got a revamp for easier viewing, and I added the Bottlecaps pixel club!&lt;/li&gt;
+&lt;li&gt;Added some &lt;a href=&quot;/goodies/graphics&quot;&gt;honeycomb stamp&lt;/a&gt; graphics! I had been meaning to add them for a while, but making the CSS took a little bit of work!&lt;/li&gt;
+&lt;li&gt;Cosmetic updates and other fixes, including:
+&lt;ul&gt;
+&lt;li&gt;Added a loading screen to graphic-heavy pages&lt;/li&gt;
+&lt;li&gt;I removed most of the &lt;i class=&#39;ft-alert-triangle index&#39;&gt;&lt;/i&gt; icons as a result, but only if JS is enabled! They are still there if JS is disabled!&lt;/li&gt;
+&lt;li&gt;Added &lt;a href=&quot;/sitemap&quot;&gt;sitemap&lt;/a&gt; to the navigation sidebar for easier access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! See you later, and I hope everyone has a great Halloween in 10 days!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Oct 2, 2025 </title>
     <link href="https://bechnokid.neocities.org/home"/>
@@ -112,27 +137,6 @@
 &lt;li&gt;All webrings can be viewed even with JavaScript disabled! This involved me making the buttons myself lol.&lt;/li&gt;
 &lt;li&gt;Webring widgets where I&#39;m a pending member will also have more consistent styling.&lt;/li&gt;
 &lt;li&gt;Other backend fixes for optimization...at least I hope so!&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Aug 6, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-08-06T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Hi, everyone! It&#39;s almost back to school for some of you! I wish you the best in the school period, whether it&#39;s a year, semester, quarter. You can do it! &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_happy.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/p&gt;
-&lt;p&gt;Still progressing through getting my art gallery ready. I managed to get to 2012! It&#39;s...not great, but progress is progress!&lt;/p&gt;
-&lt;p&gt;Here are the updates for this site!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Created a new section, &lt;a href=&quot;/resources/status-cafe/themes&quot;&gt;Status Cafe Themes&lt;/a&gt;! Not sure if I&#39;ll be able to make more themes or just have the one, but we&#39;ll see!
-&lt;ul&gt;
-&lt;li&gt;The Status Cafe Feed Tutorial has also been moved into the same section as the themes. The old links should still work!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Added two new cliques to the front page: &lt;a href=&quot;https://fan.sanguineroyal.com/cli/barbieland/&quot;&gt;Barbieland&lt;/a&gt; and &lt;a href=&quot;https://miasma.dual-weekend.com/&quot;&gt;Miasma&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;New journal entry, &lt;a href=&quot;/writing/blog/2025-08-06&quot;&gt;&amp;quot;I&#39;m Not an Ideal Asian&amp;quot;&lt;/a&gt;, where I discuss my desire for a single crumb of representation as a &amp;quot;non-ideal&amp;quot; Asian American.&lt;/li&gt;
-&lt;li&gt;So many backend fixes, including fixing broken links and other things!&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>

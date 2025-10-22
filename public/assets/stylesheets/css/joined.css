@@ -145,6 +145,7 @@ div.waiting > div {
   width: 180px;
   border: 3px dotted orange;
   background: url('/assets/images/webrings/jw_bg.png');
+  background-color: #fcee95;
   line-height: 1rem;
 }
 
@@ -183,9 +184,10 @@ div.waiting > div {
 /* Kingdom Hearts Webring */
 #khwr table {
   background-image: url('/assets/images/webrings/kh_auronbg.png');
+  border: 2px ridge #fc8476;
+  background-color: #ffeded;
   margin: 0 auto;
   /* centers the widget */
-  border: 2px ridge #fc8476;
 }
 
 #khwr table tr td {
@@ -217,7 +219,7 @@ div.waiting > div {
   left: -5.5rem;
   top: .5rem;
   max-width: 110px;
-  z-index: 99 !important;
+  z-index: 10 !important;
 }
 
 #p-ring .persona-ring {
@@ -285,6 +287,7 @@ div.waiting > div {
 /* Self-Insert Webring */
 .self-insert-webring {
   width: 225px;
+  background-color: #ffe3f1;
   background-image: url("https://koinuko.neocities.org/shipping/webring/bg.png");
   background-size: cover;
   border: 2px solid #DD28A7;

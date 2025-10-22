@@ -45,7 +45,7 @@
   --bg-sidebar: #69416c;
   --bg-footer: #331639;
   --bg-code: var(--bg-footer);
-  --bg-selection: #28162b;
+  --bg-selection: #ffffff;
   --border-body: var(--bg-body);
   --border-sidebar: var(--bg-primary);
   --scroll-bg: var(--bg-footer);
@@ -56,7 +56,7 @@
   --text-secondary: var(--text-body);
   --text-link: #ffb5d7;
   --text-shadow: #FDCDD96c;
-  --text-selection: #ffffff;
+  --text-selection: #28162b;
   --line-color: var(--text-link);
 }
 
@@ -363,4 +363,18 @@ img.img-50 {
 .img-svg {
   width: 1.25em;
   vertical-align: middle;
+}
+
+.d-flex > img,
+.d-flex > a img {
+  display: flex;
+  align-self: center;
+}
+
+.ft-alert-triangle:not(.index) {
+  display: none;
+}
+
+.ft-alert-triangle.show {
+  display: inline !important;
 }

@@ -35,6 +35,7 @@ body {
   font-size: .8em;
   background-color: var(--bg-primary);
   background-image: var(--bg-img);
+  background-attachment: fixed;
   color: var(--text-body);
 }
 
@@ -197,6 +198,11 @@ h3,
   font-size: 1.4em;
 }
 
+h3.underline {
+  padding-bottom: .25rem;
+  border-bottom: 1px solid var(--line-color);
+}
+
 h4,
 .h4 {
   font-size: 1.25em;
@@ -239,13 +245,10 @@ summary:hover {
   cursor: pointer;
 }
 
-table, th, td {
+table {
+  background-color: var(--bg-sidebar);
   border: 1px solid var(--border-sidebar);
   border-collapse: collapse;
-}
-
-tr {
-  background-color: var(--bg-sidebar);
 }
 
 th {
@@ -254,6 +257,7 @@ th {
 
 th, td {
   padding: .25rem .5rem;
+  border: 1px solid var(--border-sidebar);
 }
 
 main a:focus-visible {
@@ -312,6 +316,10 @@ main ul li ul li::marker {
 
 .border-2 {
   border-width: 2px !important;
+}
+
+.bg-none {
+  background: transparent !important;
 }
 
 .text-img-bg {
@@ -415,6 +423,13 @@ a.hidden-link {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+}
+
+.loading-sidebar {
+  background: var(--bg-body);
+  z-index: 99;
+  top: 0;
+  letter-spacing: 1px;
 }
 
 #theme-switcher-container {
@@ -547,6 +562,15 @@ a.hidden-link {
   display: inline-block;
   height: 1px;
   width: 1px;
+  overflow: hidden;
+}
+
+main:has(.position-relative > .loading-sidebar:not(.d-none)) .back-to-top {
+  display: none;
+}
+
+.position-relative:has(> .loading-sidebar:not(.d-none)) {
+  height: 200px;
   overflow: hidden;
 }
 

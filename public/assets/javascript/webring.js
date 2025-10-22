@@ -100,3 +100,27 @@ const resourceRingMembers = [
   'https://dyingsignals.love',
   'https://rentryresource.neocities.org/links'
 ]
+
+const pendingWebrings = []
+
+$(document).ready(function() {
+    if (pendingWebrings.length > 0) {
+      for (let w of pendingWebrings) {
+        let ring = $(`#${w.id}`);
+        let ringId = w.id;
+        let ringName = w.name;
+        let ringUrl = w.url;
+
+        if (ringId == 'resourceRing') {
+          let oldText = (ringId == 'resourceRing') ? '<br>' : 'the The';
+          let newText = (ringId == 'resourceRing') ? ' ' : 'the';
+          ring.html(ring.html().replace(oldText, newText));
+        }
+
+        if (ring.html().includes('waiting') || ring.html().includes('yet') || ring.html().includes("isn't")) {
+          ring.html(ring.html().replace(ringName, `<a href='${ringUrl}'>${ringName}</a>`));
+          ring.toggleClass('waiting');
+        }
+      }
+    };
+  });

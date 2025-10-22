@@ -19,8 +19,8 @@
             <header>
               <h1 class="d-flex align-items-center mt-3"><img src="/assets/images/rss.svg" aria-hidden="true" class="img-svg me-2" alt="" /><xsl:value-of select="/atom:feed/atom:title"/></h1>
               <p class="subtitle"><xsl:value-of select="/atom:feed/atom:subtitle"/></p>
-              <div class="d-flex align-items-center mb-4"><span class="text-lg me-2">&#x2190;</span><a class="head-link"><xsl:attribute name="href">/home</xsl:attribute>go back home?</a></div>
-              <div class="about-feed mx-3 my-4 px-3 py-1"><p>Hi! <strong>This is a web feed,</strong> also known as an RSS or Atom feed. You can <strong>subscribe</strong> by copying the below URL into your newsreader.</p>
+              <div class="d-flex align-items-center my-4"><span class="text-lg me-2">&#x2190;</span><a class="head-link"><xsl:attribute name="href">/home</xsl:attribute>go back home?</a></div>
+              <div class="about-feed mx-3 my-4 px-3 py-1p-3"><p>Hi! <strong>This is a web feed,</strong> also known as an RSS or Atom feed. You can <strong>subscribe</strong> by copying the below URL into your newsreader.</p>
 <p><code>https://bechnokid.neocities.org/feed.xml</code></p>
 <p>Visit <a href="https://aboutfeeds.com">About Feeds</a> to learn more about feeds and to get started with newsreaders and subscribing. It's completely free!</p>
 </div>
