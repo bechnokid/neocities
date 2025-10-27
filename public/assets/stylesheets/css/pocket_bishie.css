@@ -1,5 +1,10 @@
 @import "reset.css";
 
+::selection {
+  background: var(--bg-selection);
+  color: var(--text-selection);
+}
+
 body {
   background-image: none;
   background-color: var(--bg-body);
@@ -51,27 +56,15 @@ fieldset {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-img: url(/assets/images/bg_dark.jpg);
-    --header-img: url(/assets/images/header_dark.jpg);
-    --bg-img-color: #391b3d;
-    --bg-overlay: #391b3dcc;
-    --bg-primary: #28162b;
-    --bg-body: #4D2F51;
-    --bg-sidebar: #6f476a;
-    --bg-footer: #38213c;
-    --bg-code: var(--bg-footer);
-    --bg-selection: #28162b;
-    --border-body: var(--bg-body);
-    --border-sidebar: var(--bg-primary);
+    --bg-body: #47224D;
+    --bg-footer: #331639;
+    --bg-selection: #ffffff;
     --scroll-bg: var(--bg-footer);
     --scroll-tab: var(--bg-body);
     --text-body: #fff;
-    --text-muted: #805f6f;
     --text-primary: #FDCDD9;
-    --text-secondary: var(--text-body);
     --text-link: #ffb5d7;
-    --text-shadow: #FDCDD96c;
-    --text-selection: #ffffff;
+    --text-selection: #28162b;
   }
 }
 

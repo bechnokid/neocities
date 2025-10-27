@@ -12,9 +12,8 @@
   max-width: 150px;
 }
 
-.awards > * {
-  margin: .25rem;
-  max-width: 300px;
+.awards {
+  gap: .5rem;
 }
 
 .kindnessrocks .d-flex a,

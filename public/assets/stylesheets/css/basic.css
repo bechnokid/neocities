@@ -4,14 +4,14 @@ h2,
 .h2 {
   background: var(--bg-footer);
   padding: .5rem;
-  margin-bottom: .5rem;
 }
 
-article > section {
+article > section,
+article > .position-relative > section {
   padding-left: .5rem;
 }
 
-section>h2 {
+section > h2 {
   margin-left: -.5rem;
 }
 
@@ -19,17 +19,17 @@ section+section {
   margin-bottom: 1rem;
 }
 
-section>ul,
-section>ol {
+section > ul,
+section > ol {
   margin: .75rem 0 1em;
   padding-left: 1rem;
 }
 
-section>ul ul {
-  margin: .25rem 0;
+section > ul ul {
+  margin: .25rem 0 .5rem;
 }
 
-section li>p {
+section li > p {
   margin: 0
 }
 
@@ -82,7 +82,7 @@ img.preview-img {
   object-position: top center;
 }
 
-.quiz-results > * {
+div.quiz-results > * {
   margin: .25rem;
 }
 

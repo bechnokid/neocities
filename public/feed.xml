@@ -5,12 +5,32 @@
   <title>Bechno Kid&#39;s Hideout - Web Feed</title>
   <link href="https://bechnokid.neocities.org/feed.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a software engineer.</subtitle>
-  <updated>2025-08-13T04:00:00Z</updated>
+  <updated>2025-08-30T00:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feed.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
+  <entry>
+    <title>Oct 27, 2025 </title>
+    <link href="https://bechnokid.neocities.org/home"/>
+    <updated>2025-10-27T16:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;It&#39;s almost Halloween!! I don&#39;t even have any special plans! I just love the holiday that much!!!&lt;/p&gt;
+&lt;p&gt;The list of updates is small this time. :3&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added three &lt;a href=&quot;/quiz-results&quot;&gt;quiz results&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=&quot;/now&quot;&gt;/now&lt;/a&gt; and also added a section for older entries! Huge thanks to &lt;a href=&quot;https://mavisdeluna.art&quot;&gt;Mavis&lt;/a&gt; for the idea!&lt;/li&gt;
+&lt;li&gt;Other fixes and updates including:
+&lt;ul&gt;
+&lt;li&gt;Adding a loading screen to the &lt;a href=&quot;/outgoing/webgarden&quot;&gt;Webgarden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated the styling for &amp;lt;h3&amp;gt; tags to be underlined in almost every page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Oct 21, 2025 </title>
     <link href="https://bechnokid.neocities.org/home"/>
@@ -121,22 +141,6 @@
 &lt;li&gt;The &lt;a href=&quot;/artwork&quot;&gt;art gallery&lt;/a&gt; is finally up! I&#39;ll work on adding more before I reach the limit even with a Supporter account!&lt;/li&gt;
 &lt;li&gt;Had to remove a few broken fanlistings. &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_worried.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
 &lt;li&gt;Rearranged a few webrings as well as &lt;a href=&quot;/joined&quot;&gt;added some new ones&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Aug 13, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-08-13T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Hello, everyone! I hope you&#39;ve all been doing well! It hasn&#39;t been too bad, temperature-wise, but that&#39;s because I mostly stay inside. I need to get out more...&lt;/p&gt;
-&lt;p&gt;The newest updates have a lot to do with webrings!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Added &lt;a href=&quot;/joined&quot;&gt;PersonaRing&lt;/a&gt;!&lt;/li&gt;
-&lt;li&gt;All webrings can be viewed even with JavaScript disabled! This involved me making the buttons myself lol.&lt;/li&gt;
-&lt;li&gt;Webring widgets where I&#39;m a pending member will also have more consistent styling.&lt;/li&gt;
-&lt;li&gt;Other backend fixes for optimization...at least I hope so!&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>

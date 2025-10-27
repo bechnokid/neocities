@@ -198,7 +198,8 @@ h3,
   font-size: 1.4em;
 }
 
-h3.underline {
+article:not(.graphics):not(.landing-page):not(.sitemap) h3,
+article:not(.graphics):not(.landing-page):not(.sitemap) .h3 {
   padding-bottom: .25rem;
   border-bottom: 1px solid var(--line-color);
 }
@@ -383,7 +384,7 @@ summary.details.h2 {
 
 .sidebar h2,
 summary.details.h2 {
-  padding: .75rem;
+  padding: .5rem;
 }
 
 summary.details.h3,

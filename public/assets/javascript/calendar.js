@@ -20,11 +20,9 @@ let todayDate = new Date();
 let thisDay = todayDate.getDay();
 let thisMonth = todayDate.getMonth();
 let thisDate = todayDate.getDate();
-let thisYear = todayDate.getYear() % 100;
-thisYear = ((thisYear < 50) ? (2000 + thisYear) : (1900 + thisYear));
-if (((thisYear % 4 == 0) && (thisYear % 100 != 0)) || (thisYear % 400 == 0)) {
-   monthData[1].numOfDays = 29;
-}
+let thisYear = todayDate.getFullYear();
+if (thisYear % 4 == 0) monthData[1].numOfDays = 29;
+
 let startSpaces = thisDate;
 while (startSpaces > 7) startSpaces -= 7;
 startSpaces = thisDay - startSpaces + 1;

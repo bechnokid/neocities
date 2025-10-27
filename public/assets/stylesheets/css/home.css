@@ -2,6 +2,7 @@
 @import "updates.css";
 
 .intro-links {
+  font-size: 1.1rem;
   font-family: 'Dyslexic';
   color: var(--text-primary);
   margin-bottom: 2rem !important;

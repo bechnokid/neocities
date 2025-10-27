@@ -30,6 +30,10 @@ figcaption {
   margin: 1rem 1rem 1.25rem !important
 }
 
+.older-entries section {
+  padding-left: .5rem;
+}
+
 @media screen and (max-width: 992px) {
   figure {
     float: unset;
