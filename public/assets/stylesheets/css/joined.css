@@ -85,21 +85,22 @@ div.waiting > div {
 /* Cookie Run Webring */
 #ckwr {
   margin: 0 !important;
-  background: url(/assets/images/webrings/crwr_bg.png) #748091 !important;
+  /* #### Silent Salt Cookie colors */
+  /* background: url(/assets/images/webrings/crwr_bg.png) #748091 !important;
   background-size: cover !important;
   background-position: center !important;
-  border-color: #0d0f11 !important;
+  border-color: #0d0f11 !important; */
+}
+
+#ckwr .webring-title:hover,
+#ckwr .webring-title:hover img {
+  opacity: 1;
+  filter: unset;
 }
 
 #ckwr .webring-flex {
   position: static !important;
   align-items: center;
-}
-
-#ckwr .webring-image {
-  height: unset !important;
-  position: static !important;
-  margin-top: 0 !important;
 }
 
 #ckwr .ckwr-tooltip {
@@ -120,10 +121,10 @@ div.waiting > div {
   top: 0;
   left: -1rem;
   width: 50vw;
-  border: 1px solid #0d0f11;
+  border: 1px solid var(--ckborder);
   border-radius: .25rem;
-  background: #d6e4ec;
-  color: #0d0f11;
+  background: #fff;
+  color: var(--ckborder);
   line-height: 1rem;
   font-size: .7rem;
   padding: .25rem .5rem;
