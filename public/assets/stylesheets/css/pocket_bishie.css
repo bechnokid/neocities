@@ -56,14 +56,14 @@ fieldset {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-body: #47224D;
-    --bg-footer: #331639;
+    --bg-body: #47284D;
+    --bg-footer: #2f1933;
     --bg-selection: #ffffff;
-    --scroll-bg: var(--bg-footer);
+    --scroll-bg: var(--bg-heading);
     --scroll-tab: var(--bg-body);
     --text-body: #fff;
     --text-primary: #FDCDD9;
-    --text-link: #ffb5d7;
+    --text-link: #ff71c1;
     --text-selection: #28162b;
   }
 }

@@ -1,7 +1,7 @@
 @import 'bechno.css';
 
 body {
-  background-image: var(--bg-img);
+  background-image: var(--img-bg);
   background-color: var(--bg-body);
   color: var(--text-body);
 }

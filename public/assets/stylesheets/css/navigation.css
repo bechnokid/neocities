@@ -135,6 +135,13 @@ li.mobile {
     text-decoration: underline;
   }
 
+  .nav-link-item img {
+    transform: scale(2);
+    image-rendering: pixelated;
+    margin-left: 1rem;
+    vertical-align: middle;
+  }
+
   li.desktop {
     display: none;
   }

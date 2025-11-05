@@ -8,17 +8,19 @@
 
 :root {
   --body-height: 480px;
+  --img-link: url(/assets/images/link.svg);
 }
 
 [data-theme="light"] {
-  --bg-img: url(/assets/images/bg.jpg);
-  --header-img: url(/assets/images/header.jpg);
+  --img-bg: url(/assets/images/bg.jpg);
+  --img-header: url(/assets/images/header.jpg);
   --bg-img-color: #DE9DB1;
   --bg-overlay: #de9db1cc;
   --bg-primary: #e48aa7;
   --bg-body: #ffe8ec;
   --bg-sidebar: #fff6f9;
   --bg-footer: #fccdd7;
+  --bg-heading: var(--bg-footer);
   --bg-code: var(--bg-footer);
   --bg-selection: #a50e5a;
   --border-body: var(--bg-body);
@@ -33,31 +35,34 @@
   --text-shadow: #a50e5a6c;
   --text-selection: #ffffff;
   --line-color: var(--bg-primary);
+  --svg-color: brightness(0) saturate(100%) invert(12%) sepia(94%) saturate(4450%) hue-rotate(316deg) brightness(99%) contrast(110%);
 }
 
 [data-theme="dark"] {
-  --bg-img: url(/assets/images/bg_dark.jpg);
-  --header-img: url(/assets/images/header_dark.jpg);
+  --img-bg: url(/assets/images/bg_dark.jpg);
+  --img-header: url(/assets/images/header_dark.jpg);
   --bg-img-color: #391b3d;
   --bg-overlay: #391b3dcc;
   --bg-primary: #28162b;
-  --bg-body: #47224D;
-  --bg-sidebar: #69416c;
-  --bg-footer: #331639;
+  --bg-body: #47284D;
+  --bg-sidebar: var(--bg-footer);
+  --bg-footer: #2f1933;
+  --bg-heading: #180c1a;
   --bg-code: var(--bg-footer);
   --bg-selection: #ffffff;
   --border-body: var(--bg-body);
-  --border-sidebar: var(--bg-primary);
-  --scroll-bg: var(--bg-footer);
+  --border-sidebar: var(--bg-heading);
+  --scroll-bg: var(--bg-heading);
   --scroll-tab: var(--bg-body);
   --text-body: #fff;
   --text-muted: #805f6f;
   --text-primary: #FDCDD9;
   --text-secondary: var(--text-body);
-  --text-link: #ffb5d7;
+  --text-link: #ff95d1;
   --text-shadow: #FDCDD96c;
   --text-selection: #28162b;
   --line-color: var(--text-link);
+  --svg-color: brightness(0) saturate(100%) invert(72%) sepia(77%) saturate(1588%) hue-rotate(288deg) brightness(103%) contrast(101%);
 }
 
 *,
@@ -76,6 +81,14 @@
   html {
     interpolate-size: allow-keywords;
   }
+}
+
+[data-theme="dark"] .black-text {
+  filter: brightness(0) saturate(100%) invert(98%) sepia(0%) saturate(1%) hue-rotate(118deg) brightness(110%) contrast(101%);
+}
+
+[data-theme="dark"] .outline {
+  filter: drop-shadow(1px 0 0 #fff) drop-shadow(-1px 0 0 #fff) drop-shadow(0 -1px 0 #fff) drop-shadow(0 1px 0 #fff) drop-shadow(0 0 1px #fff);
 }
 
 html,

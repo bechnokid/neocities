@@ -4,7 +4,7 @@
   z-index: 100;
   height: 150px;
   background-color: var(--bg-footer) !important;
-  background-image: var(--header-img);
+  background-image: var(--img-header);
   background-position: center;
   background-size: cover;
   border: 5px solid var(--bg-body);

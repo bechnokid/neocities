@@ -63,6 +63,28 @@ figure {
 a,
 details summary {
   color: #9a0045;
+  text-decoration: underline;
+}
+
+a[href*="http"] {
+  text-decoration: none;
+  border-bottom: 1px solid #9a0045;
+}
+
+a[href*="http"]:hover {
+  border-bottom-color: transparent;
+}
+
+a[href*="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(/assets/images/link.svg);
+  background-size: cover;
+  filter: brightness(0) saturate(100%) invert(10%) sepia(73%) saturate(5949%) hue-rotate(324deg) brightness(82%) contrast(105%);
+  margin-left: .25rem;
+  margin-bottom: -.1rem;
 }
 
 .desktop-nav .toc a,

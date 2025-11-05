@@ -43,35 +43,6 @@ section.theme-link img {
   object-position: top center;
 }
 
-#widget-calendar table {
-  border: 1px solid #000;
-  border-collapse: collapse;
-  color: #000;
-  background-color: #fff;
-}
-
-#widget-calendar td {
-  padding: 0 .25rem;
-  border: 1px solid #000;
-}
-
-#widget-calendar .month {
-  font-weight: bold;
-  text-align: center;
-}
-
-#widget-calendar .days {
-  font-weight: bold;
-}
-
-#widget-calendar .today {
-  font-weight: bold;
-}
-
-#widget-calendar .blank {
-  background-color: #dedede;
-}
-
 @keyframes marquee {
   0% { transform: translateX(100%); }
   100% { transform: translateX(-150%); }

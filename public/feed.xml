@@ -5,16 +5,43 @@
   <title>Bechno Kid&#39;s Hideout - Web Feed</title>
   <link href="https://bechnokid.neocities.org/feed.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a software engineer.</subtitle>
-  <updated>2025-08-30T00:00:00Z</updated>
+  <updated>2025-09-06T00:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feed.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
   <entry>
+    <title>Nov 5, 2025 </title>
+    <link href="https://bechnokid.neocities.org/home"/>
+    <updated>2025-11-05T16:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Hello, everyone! I hope all of you are doing alright and that seasonal depression has passed for you. If not, then you can do it! I believe in you!&lt;/p&gt;
+&lt;p&gt;It&#39;s gotten colder, but thankfully I like colder weather! It means I can bundle up, wear my longer coats, and look like a real anime protagonist! Ok, not really...&lt;/p&gt;
+&lt;p&gt;Here are the changes for this update!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in the &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; and &lt;a href=&quot;/art/anime&quot;&gt;Anime&lt;/a&gt; sections&lt;/li&gt;
+&lt;li&gt;Added a section with my currently active social media accounts in &lt;a href=&quot;/links&quot;&gt;Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;a href=&quot;/blog&quot;&gt;blog&lt;/a&gt; entry where I talk about my grievances with sites that repost graphics without giving credit to the original artists&lt;/li&gt;
+&lt;li&gt;Finally decided to join more &lt;a href=&quot;/joined&quot;&gt;fanlistings&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Cosmetic updates including:
+&lt;ul&gt;
+&lt;li&gt;Updating the dark mode colors&lt;/li&gt;
+&lt;li&gt;Adding an icon after external links as well as changing the text color&lt;/li&gt;
+&lt;li&gt;Figuring out how to add line numbers to code blocks for future snippets. This will help in pointing specific lines in any code I share!&lt;/li&gt;
+&lt;li&gt;Moving the Play/Stop GIFs buttons to the navigation bar for easier access&lt;/li&gt;
+&lt;li&gt;Creating a section dedicated to links that don&#39;t have buttons. I encourage others to visit those links!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now. See you all next time!&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Oct 27, 2025 </title>
     <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-10-27T16:00:00Z</updated>
+    <updated>2025-10-27T04:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
     <content type="html">&lt;p&gt;It&#39;s almost Halloween!! I don&#39;t even have any special plans! I just love the holiday that much!!!&lt;/p&gt;
 &lt;p&gt;The list of updates is small this time. :3&lt;/p&gt;
@@ -127,21 +154,6 @@
 &lt;li&gt;Various updates and fixes to help make the site a little bit better, such as adding navigation buttons in some pages.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now! See you later!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Aug 30, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-08-30T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Hi everyone! It&#39;s almost September, and while the summer weather is still ever-present, I&#39;m looking forward to the cooler weather that Fall brings!&lt;/p&gt;
-&lt;p&gt;Here&#39;s what&#39;s in today&#39;s update!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The &lt;a href=&quot;/artwork&quot;&gt;art gallery&lt;/a&gt; is finally up! I&#39;ll work on adding more before I reach the limit even with a Supporter account!&lt;/li&gt;
-&lt;li&gt;Had to remove a few broken fanlistings. &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_worried.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
-&lt;li&gt;Rearranged a few webrings as well as &lt;a href=&quot;/joined&quot;&gt;added some new ones&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
   

@@ -33,6 +33,12 @@ section li > p {
   margin: 0
 }
 
+a[href*="footnote"],
+span[id*="footnote"] {
+  font-size: .8em;
+  vertical-align: super;
+}
+
 .about-figure {
   padding: 0 !important;
   height: 204px;
@@ -49,22 +55,6 @@ noscript .sidebar.curses {
 .link-btn {
   height: 31px !important;
   width: 88px !important;
-}
-
-.no-button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 88px;
-  height: 31px;
-  background-color: var(--bg-footer);
-  border: 1px dashed var(--text-link);
-  text-decoration: none;
-}
-
-.no-button-container:hover {
-  border-style: solid;
-  text-decoration: underline;
 }
 
 .greenhouse iframe,
@@ -91,11 +81,11 @@ div.quiz-results > * {
 }
 
 .quiz-widget.columns {
-  max-width: 400px;
+  max-width: 375px;
 }
 
 .quiz-widget.rows {
-  max-width: 500px;
+  max-width: 350px;
 }
 
 .quiz-color {

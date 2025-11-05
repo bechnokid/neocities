@@ -34,7 +34,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: .8em;
   background-color: var(--bg-primary);
-  background-image: var(--bg-img);
+  background-image: var(--img-bg);
   background-attachment: fixed;
   color: var(--text-body);
 }
@@ -102,6 +102,10 @@ b, strong {
 
 em {
   color: var(--text-secondary);
+}
+
+article > h1 {
+  margin-top: .5rem;
 }
 
 article > ul { /* For page-landing.html */
@@ -246,6 +250,11 @@ summary:hover {
   cursor: pointer;
 }
 
+iframe[title*="Demo"] {
+  margin-top: .5rem;
+  border: 1px solid var(--border-sidebar);
+}
+
 table {
   background-color: var(--bg-sidebar);
   border: 1px solid var(--border-sidebar);
@@ -285,6 +294,20 @@ main ul li::marker {
 main ul li ul li::marker {
   content: "✧";
   color: var(--text-secondary);
+}
+
+.inline-list {
+  margin: 0;
+}
+
+.inline-list li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.inline-list li::marker {
+  content: none;
 }
 
 .bg-primary {
@@ -369,7 +392,7 @@ main ul li ul li::marker {
 .sidebar .h1,
 .sidebar h2,
 .sidebar .h2 {
-  background-color: var(--bg-footer);
+  background-color: var(--bg-heading);
   margin: 0 !important;
 }
 
@@ -412,9 +435,29 @@ summary.details:focus-visible {
 
 a.hidden-link {
   color: unset !important;
-  text-decoration: none !important;
   font-weight: normal !important;
   cursor: default !important;
+}
+
+article:not(.joined) a[href*="http"]:not(:has(img)) {
+  text-decoration: none;
+  border-bottom: 1px solid var(--text-link);
+}
+
+article:not(.joined) a[href*="http"]:not(:has(img), .button):hover {
+  border-bottom-color: transparent;
+}
+
+article:not(.joined) a[href*="http"]:not(:has(img))::after {
+  content: "";
+  display: inline-block;
+  width: .8rem;
+  height: .8rem;
+  margin-left: .25rem;
+  margin-bottom: -.1rem;
+  background-image: var(--img-link);
+  background-size: cover;
+  filter: var(--svg-color);
 }
 
 .figure-div {
@@ -505,6 +548,15 @@ a.hidden-link {
   z-index: 99;
 }
 
+.freeze-btns {
+  text-align: center;
+}
+
+.freeze-btns button {
+  padding: .1rem .25rem;
+  font-weight: normal;
+}
+
 .emoticon {
   width: 3.5em;
 }
@@ -532,7 +584,6 @@ a.hidden-link {
   border: 1px solid var(--text-link);
   border-radius: .5rem;
   font-size: 2em;
-  text-decoration: none;
   background-color: var(--bg-sidebar);
 }
 
@@ -566,8 +617,9 @@ a.hidden-link {
   overflow: hidden;
 }
 
-main:has(.position-relative > .loading-sidebar:not(.d-none)) .back-to-top {
-  display: none;
+.main:has(.position-relative > .loading-sidebar:not(.d-none)) nav .freeze-btns,
+.main:has(.position-relative > .loading-sidebar:not(.d-none)) .back-to-top {
+  display: none !important;
 }
 
 .position-relative:has(> .loading-sidebar:not(.d-none)) {

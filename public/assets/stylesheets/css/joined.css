@@ -328,6 +328,10 @@ div.waiting > div {
   width: auto !important;
 }
 
+#TRB #centerTRB img {
+  background-color: #fff;
+}
+
 /* WOL Webring */
 #wolwebring p {
   margin: 0;
@@ -352,6 +356,14 @@ div.waiting > div {
 
 .gfdkris-nav-btn:hover {
   border-color: #fb7f26;
+}
+
+[data-theme="dark"] .gfdkris-nav-btn {
+  border-color: #fb7f26;
+}
+
+[data-theme="dark"] .gfdkris-nav-btn:hover {
+  border-color: yellow;
 }
 
 .gfdkris-nav-btn:hover img {
