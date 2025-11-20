@@ -32,6 +32,8 @@
   --text-primary: #a50e5a;
   --text-secondary: #7122aa;
   --text-link: #d60076;
+  --text-link-visited: #6e2e99;
+  --text-link-visited-nav: #ce268c;
   --text-shadow: #a50e5a6c;
   --text-selection: #ffffff;
   --line-color: var(--bg-primary);
@@ -59,6 +61,8 @@
   --text-primary: #FDCDD9;
   --text-secondary: var(--text-body);
   --text-link: #ff95d1;
+  --text-link-visited: #b785ff;
+  --text-link-visited-nav: var(--text-primary);
   --text-shadow: #FDCDD96c;
   --text-selection: #28162b;
   --line-color: var(--text-link);
@@ -88,7 +92,7 @@
 }
 
 [data-theme="dark"] .outline {
-  filter: drop-shadow(1px 0 0 #fff) drop-shadow(-1px 0 0 #fff) drop-shadow(0 -1px 0 #fff) drop-shadow(0 1px 0 #fff) drop-shadow(0 0 1px #fff);
+  filter: drop-shadow(1px 0 0 #fff) drop-shadow(0 1px 0 #fff) drop-shadow(-1px 0 0 #fff) drop-shadow(0 -1px 0 #fff)
 }
 
 html,

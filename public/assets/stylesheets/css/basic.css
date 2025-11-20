@@ -2,7 +2,7 @@
 
 h2,
 .h2 {
-  background: var(--bg-footer);
+  background: var(--bg-heading);
   padding: .5rem;
 }
 
@@ -95,6 +95,11 @@ div.quiz-results > * {
 
 .quiz-color * {
   color: #000;
+  border-bottom-color: #000 !important;
+}
+
+.quiz-color a:after {
+  filter: unset !important;
 }
 
 .quiz-color-header,
@@ -133,12 +138,57 @@ div.quiz-results > * {
   margin: 0;
 }
 
-@media screen and (max-width: 992px) {
+.curse-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.curses .tail {
+  position: absolute;
+  bottom: -.75rem;
+  right: -.25rem;
+  font-size: 3rem;
+  color: var(--bg-footer);
+  transform: rotate(60deg);
+}
+
+.curses .tail-right {
+  font-size: 3rem;
+  color: var(--bg-footer);
+  position: absolute;
+  right: -2rem;
+  bottom: 9rem;
+}
+
+.go-to-heck.new-curse:hover {
+  filter: drop-shadow(0 0 .5rem var(--text-link));
+  cursor: pointer;
+}
+
+.go-to-heck.new-curse:active {
+  filter: none;
+  transform: translateY(.25rem);
+}
+
+@media screen and (max-width: 767px) {
   #bishie-quiz-nav {
     max-height: unset;
   }
 
   #bishie-quiz {
     height: 625px;
+  }
+
+  .curse-list {
+    max-height: unset;
+  }
+
+  .curses .tail,
+  .curses .tail-right {
+    top: -1.5rem;
+    bottom: unset;
+    left: 50%;
+    right: unset;
+    transform: rotate(-90deg);
   }
 }

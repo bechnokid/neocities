@@ -50,9 +50,6 @@ figure {
 .toc {
   text-align: center;
   padding: 0 .75rem 0 .75rem;
-}
-
-.toc ol {
   list-style-type: none;
 }
 
@@ -63,7 +60,6 @@ figure {
 a,
 details summary {
   color: #9a0045;
-  text-decoration: underline;
 }
 
 a[href*="http"] {
@@ -264,17 +260,48 @@ main a:hover img {
   background-color: #fdf5fb;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
+  header {
+    background-color: unset;
+    margin-bottom: unset;
+  }
+
+  .desktop-nav .toc {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: #f6dff0;
+    border-radius: 1rem;
+    border: 1px solid #3B2F55;
+    margin-bottom: 1rem;
+    align-items: center;
+  }
+
+  .desktop-nav .toc a {
+    background-color: unset;
+    border: 0;
+    padding: 1rem .5rem;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
   header {
     height: unset;
     background-color: unset;
-    margin-bottom: 3rem;
+    margin: 0;
+  }
+
+  header img {
+    margin: 0;
+    object-fit: cover;
+    height: 320px;
   }
 
   figure {
     float: none !important;
     max-width: unset;
-    margin-bottom: 1rem;
+    margin: 0 0 1rem 0 !important;
   }
 
   .mobile-nav {
@@ -290,8 +317,9 @@ main a:hover img {
     font-size: 2em;
     font-style: unset;
     text-align: center;
-    line-height: .8em;
+    line-height: 1.6em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2rem;
   }
 
   .row {
@@ -300,7 +328,7 @@ main a:hover img {
 
   .siduri-img {
     width: auto !important;
-    margin: 0 auto 1rem !important;
+    margin: 1rem 0 !important;
   }
 
   .gallery {

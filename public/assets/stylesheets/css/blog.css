@@ -11,6 +11,10 @@
   margin-left: 1rem;
 }
 
+.blog p + ol {
+  margin-top: 1rem;
+}
+
 .blog ol > li > ul li {
   margin-bottom: .5rem;
 }

@@ -11,6 +11,7 @@
   --blue: #8aadf4;
   --pink: #f5bde6;
   --teal: #8bd5ca;
+  --mauve-filter: brightness(0) saturate(100%) invert(66%) sepia(11%) saturate(1531%) hue-rotate(222deg) brightness(103%) contrast(93%);
 }
 
 body {
@@ -33,6 +34,27 @@ h3 {
 a {
   color: var(--mauve);
   font-weight: bold;
+}
+
+a[href*="http"] {
+  text-decoration: none;
+  border-bottom: 1px solid var(--mauve);
+}
+
+a[href*="http"]:hover {
+  border-bottom-color: transparent;
+}
+
+a[href*="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-left: .25rem;
+  margin-bottom: -.1rem;
+  background-image: var(--img-link);
+  background-size: cover;
+  filter: var(--mauve-filter);
 }
 
 hr {
@@ -77,7 +99,7 @@ ul li > ul {
   background-color: var(--base);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
   body {
     font-size: 1em;
     line-height: 1.7em;

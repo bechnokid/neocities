@@ -119,7 +119,7 @@
   margin: 30px -10px 0;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
   .jarjam img,
   .jarjam .ff-canvas,
   .kindnessrocks img,

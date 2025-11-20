@@ -43,8 +43,12 @@ nav a {
   color: var(--text-secondary);
 }
 
+nav a:not([href="/home/"]):visited {
+  color: var(--text-link-visited-nav);
+}
+
 nav a:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 nav .skip-link {
@@ -126,7 +130,13 @@ li.mobile {
   min-height: calc(var(--body-height) + 6rem);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
+  #nav-main {
+    width: 16.66666667%;
+  }
+}
+
+@media screen and (max-width: 767px) {
   #nav-main {
     display: none;
   }

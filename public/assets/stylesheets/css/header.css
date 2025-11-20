@@ -19,10 +19,16 @@
   border-color: var(--text-primary);
 }
 
-@media only screen and (max-width:1000px) {
+@media screen and (max-width: 991px) {
+  .page header {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .page header {
     position: static;
     width: revert;
-    height: 83px;
+    height: 170px;
   }
 }

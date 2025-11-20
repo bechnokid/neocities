@@ -40,10 +40,3 @@
   font-size: .8rem;
   line-height: 1.5em;
 }
-
-@media screen and (max-width: 992px) {
-  .cliques .content {
-    font-size: .8rem;
-    line-height: 1.5rem;
-  }
-}

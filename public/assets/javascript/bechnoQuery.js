@@ -98,6 +98,11 @@ class jQuery extends Array {
 		return this;
 	}
 
+	remove() {
+		this.each(el => el.remove());
+		return this;
+	}
+
 	val(data) {
 		if(data !== undefined) {
 			this.each (el => el.value = data)

@@ -47,7 +47,7 @@ h1 {
   background-color: #fff;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
   .container-fluid {
     height: revert;
   }

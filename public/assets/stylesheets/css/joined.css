@@ -60,6 +60,10 @@ div.waiting > div {
   margin: 1rem 0;
 }
 
+.webrings a[href*="http"]::after {
+  display: none !important;
+}
+
 /* AMIGA webring */
 #webring-btn-container > * {
   margin: .25rem;
@@ -82,11 +86,15 @@ div.waiting > div {
   display: none;
 }
 
+#amiga a {
+  text-decoration: underline;
+}
+
 /* Cookie Run Webring */
 #ckwr {
   margin: 0 !important;
   /* #### Silent Salt Cookie colors */
-  /* background: url(/assets/images/webrings/crwr_bg.png) #748091 !important;
+  /* background: url(/assets/images/joined/webrings/crwr_bg.png) #748091 !important;
   background-size: cover !important;
   background-position: center !important;
   border-color: #0d0f11 !important; */
@@ -139,13 +147,17 @@ div.waiting > div {
   margin: 0 !important;
 }
 
+#doodlering a {
+  border-bottom-color: transparent;
+}
+
 /* Jelly World */
 .jelly-world {
   text-align: center;
   font-family: Arial;
   width: 180px;
   border: 3px dotted orange;
-  background: url('/assets/images/webrings/jw_bg.png');
+  background: url('/assets/images/joined/webrings/jw_bg.png');
   background-color: #fcee95;
   line-height: 1rem;
 }
@@ -184,7 +196,7 @@ div.waiting > div {
 
 /* Kingdom Hearts Webring */
 #khwr table {
-  background-image: url('/assets/images/webrings/kh_auronbg.png');
+  background-image: url('/assets/images/joined/webrings/kh_auronbg.png');
   border: 2px ridge #fc8476;
   background-color: #ffeded;
   margin: 0 auto;
@@ -263,6 +275,7 @@ div.waiting > div {
 
 #p-ring .webring-info a {
   color: #000;
+  border-bottom-color: transparent;
 }
 
 #p-ring .direct {

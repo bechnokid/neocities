@@ -96,6 +96,15 @@ a:hover .ff-container.ff-inactive .ff-image {
   opacity: 0 !important;
 }
 
+a:not([href="/home/"], [href="#"]):visited {
+  color: var(--text-link-visited);
+  border-bottom-color: var(--text-link-visited) !important;
+}
+
+.align-img-baseline .ff-container {
+  align-self: baseline;
+}
+
 b, strong {
   color: var(--text-primary);
 }
@@ -253,6 +262,7 @@ summary:hover {
 iframe[title*="Demo"] {
   margin-top: .5rem;
   border: 1px solid var(--border-sidebar);
+  background-color: #fff;
 }
 
 table {
@@ -439,16 +449,16 @@ a.hidden-link {
   cursor: default !important;
 }
 
-article:not(.joined) a[href*="http"]:not(:has(img)) {
+a[href*="http"]:not(:has(img)) {
   text-decoration: none;
   border-bottom: 1px solid var(--text-link);
 }
 
-article:not(.joined) a[href*="http"]:not(:has(img), .button):hover {
+a[href*="http"]:not(:has(img), .button):hover {
   border-bottom-color: transparent;
 }
 
-article:not(.joined) a[href*="http"]:not(:has(img))::after {
+a[href*="http"]:not(:has(img))::after {
   content: "";
   display: inline-block;
   width: .8rem;
@@ -585,6 +595,7 @@ article:not(.joined) a[href*="http"]:not(:has(img))::after {
   border-radius: .5rem;
   font-size: 2em;
   background-color: var(--bg-sidebar);
+  margin-bottom: -2rem;
 }
 
 .link-border {
@@ -627,7 +638,11 @@ article:not(.joined) a[href*="http"]:not(:has(img))::after {
   overflow: hidden;
 }
 
-@media screen and (max-width: 992px) {
+.img-shadow {
+  filter: drop-shadow(0 0 .1rem #0000001f);
+}
+
+@media screen and (max-width: 767px) {
   :target {
     scroll-margin: 80px;
   }
@@ -671,5 +686,10 @@ article:not(.joined) a[href*="http"]:not(:has(img))::after {
 
   .mobile-only {
     display: revert;
+  }
+
+  .cliques .content {
+    font-size: .8rem;
+    line-height: 1.5rem;
   }
 }

@@ -1,11 +1,22 @@
 @import "basic.css";
 
-.favs .sidebar {
-  padding: .5rem;
+
+.fav-box {
+  max-width: 132px;
+  padding: .5rem 1rem;
 }
 
-.favs p {
+.fav-box p {
   margin: 0;
+}
+
+.fav-box p:nth-child(3) {
+  line-height: .8rem;
+}
+
+.monsters img {
+  height: 53px;
+  object-fit: none;
 }
 
 figure {
@@ -17,12 +28,7 @@ figcaption {
   font-size: .8em;
 }
 
-.faq .question > p {
-  color: var(--text-primary);
-  font-weight: bold;
-}
-
-.faq ul {
+.f-a-q ul {
   padding-left: .5rem;
 }
 
@@ -34,7 +40,7 @@ figcaption {
   padding-left: .5rem;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 767px) {
   figure {
     float: unset;
     margin: 0 auto;
