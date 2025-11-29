@@ -55,12 +55,13 @@ section.theme-link img {
 }
 
 .marquee-content {
-  display: inline-block;
+  display: inline-flex;
+  gap: .5rem;
   animation: marquee 30s steps(400, end) infinite;
 }
 
-.marquee-content > * {
-  margin: 0 .25rem;
+.marquee-content:hover {
+  animation-play-state: paused;
 }
 
 .marquee-content img {

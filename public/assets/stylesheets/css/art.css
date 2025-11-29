@@ -13,11 +13,16 @@
   height: 100px;
   object-fit: cover;
   object-position: top;
-  margin: .10rem .25rem;
 }
 
-.art-nav button {
-  margin: 0 .25rem !important;
+.art-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.img-container img {
+  align-self: center;
 }
 
 .art-desc > ul {

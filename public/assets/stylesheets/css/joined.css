@@ -15,10 +15,6 @@ tr {
   background-color: initial !important;
 }
 
-.webrings .small-webrings > * {
-  margin: 0 .5rem;
-}
-
 .webrings .row.js-required > * {
   display: flex;
   flex-direction: column;
@@ -52,22 +48,11 @@ div.waiting > div {
   margin: 0;
 }
 
-.fake-webrings > p {
-  margin: 0;
-}
-
-.fake-webrings > p + p {
-  margin: 1rem 0;
-}
-
 .webrings a[href*="http"]::after {
   display: none !important;
 }
 
 /* AMIGA webring */
-#webring-btn-container > * {
-  margin: .25rem;
-}
 
 #webring-btn-container img[src*="amiga"] {
   width: 88px;
@@ -175,6 +160,7 @@ div.waiting > div {
   background: #fff;
   object-fit: contain;
   width: 80px;
+  margin: 0 auto;
 }
 
 .jelly-world-desc {
@@ -218,10 +204,6 @@ div.waiting > div {
 }
 
 /* personaring */
-#p-ring {
-  margin-top: .5rem;
-}
-
 #p-ring .ring-container {
   position: relative;
   text-align: center;
@@ -245,7 +227,6 @@ div.waiting > div {
   border: 2px solid #000;
   border-radius: 8px;
   overflow: hidden;
-  margin-bottom: .25rem;
 }
 
 #p-ring .name-tag .head,
@@ -286,7 +267,6 @@ div.waiting > div {
 
 #p-ring .direct > * {
   max-width: 30px;
-  margin: 0 .25rem;
 }
 
 /* Re:source Ring */
@@ -348,10 +328,6 @@ div.waiting > div {
 /* WOL Webring */
 #wolwebring p {
   margin: 0;
-}
-
-#wolwebring img {
-  margin: 0 .25rem;
 }
 
 /* GFDKWTFAW Ring */

@@ -52,17 +52,11 @@ noscript .sidebar.curses {
   height: 120px;
 }
 
-.link-btn {
-  height: 31px !important;
-  width: 88px !important;
-}
-
 .greenhouse iframe,
 iframe.webgarden-pot {
   width: 250px;
   height: 250px;
   border: 0;
-  margin: 1em;
 }
 
 img.preview-img {
@@ -70,10 +64,6 @@ img.preview-img {
   height: 200px;
   object-fit: cover;
   object-position: top center;
-}
-
-div.quiz-results > * {
-  margin: .25rem;
 }
 
 .quiz-widget {

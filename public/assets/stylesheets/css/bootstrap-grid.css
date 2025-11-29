@@ -1516,10 +1516,6 @@
   justify-content: space-evenly !important;
 }
 
-.align-img-baseline img {
-  align-self: baseline !important;
-}
-
 .align-items-start {
   align-items: flex-start !important;
 }

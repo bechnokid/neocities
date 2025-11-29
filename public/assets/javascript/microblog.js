@@ -51,19 +51,19 @@ $(document).ready(function(){
 
     if (isHome) {
       html = `
-      <div class="flex-shrink-0 p-3 m-auto">${emoticonElement}</div>
-      <div class="d-flex flex-column justify-content-center pe-3 pb-2">
-        <p class='my-0 mb-1 status-date'><strong>${ dateString }</strong></p>
-        <p class='m-0 status-text'>${content}</p>
+      <div class="flex-shrink-0 d-flex align-items-center">${emoticonElement}</div>
+      <div class="d-flex flex-column justify-content-center flex-gap-1">
+        <p class='status-date'><strong>${ dateString }</strong></p>
+        <p class='status-text'>${content}</p>
       </div>
       `;
     } else {
       html = `
-      <div class='d-flex row'>
-        <div class='col-md-1 col-4 m-auto'>${emoticonElement}</div>
-        <div class='col-md-11 col-8 p-2 ps-0'>
-          <p class='my-1 status-date'><strong>${dateString}</strong></p>
-          <p class='m-0 status-text'>${content}</p>
+      <div class='d-flex row g-3'>
+        <div class='col-md-1 col-4 d-flex justify-content-center'>${emoticonElement}</div>
+        <div class='col-md-11 col-8 d-flex flex-column flex-gap-1 py-2'>
+          <p class='status-date'><strong>${dateString}</strong></p>
+          <p class='status-text'>${content}</p>
         </div>
       </div>
       `;
@@ -88,7 +88,7 @@ $(document).ready(function(){
         if (statusLimit < 1) statusLimit = entries.length;
         for (i = 0; i < statusLimit; i++) {
           html += generateStatusHtml(entries[i]);
-          if (i < statusLimit - 1) html += `<hr class='small my-2'>`;
+          if (i < statusLimit - 1) html += `<hr class='small'>`;
         }
       }
       $(`#${statusContainerId}`).html(html);

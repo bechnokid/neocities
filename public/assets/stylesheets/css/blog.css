@@ -19,10 +19,6 @@
   margin-bottom: .5rem;
 }
 
-.blog-list li {
-  margin: .5rem 0;
-}
-
 figure {
   max-width: 200px;
   padding: .5rem;
@@ -56,11 +52,8 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: .25rem;
   margin: 1rem 0;
-}
-
-.blog-gallery > * {
-  margin: .25rem;
 }
 
 .blog-gallery > figure {
@@ -139,8 +132,8 @@ textarea.key-map {
   margin-right: 20px
 }
 
-#microblog .emoticon {
-  margin-right: .5rem;
+#status-cafe hr {
+  margin: 0 !important;
 }
 
 noscript .sidebar {

@@ -2,15 +2,16 @@
 
 
 .fav-box {
-  max-width: 132px;
-  padding: .5rem 1rem;
+  width: 100px;
+  text-align: center;
+  font-size: .8em;
 }
 
 .fav-box p {
   margin: 0;
 }
 
-.fav-box p:nth-child(3) {
+.fav-box .series {
   line-height: .8rem;
 }
 
