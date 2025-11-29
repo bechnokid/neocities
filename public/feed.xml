@@ -4,17 +4,76 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <title>Bechno Kid&#39;s Hideout - Web Feed</title>
   <link href="https://bechnokid.neocities.org/feed.xml" rel="self" type="application/atom+xml" />
-  <subtitle>The latest (and greatest?) from a beet disguised as a software engineer.</subtitle>
-  <updated>2025-09-06T00:00:00Z</updated>
+  <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
+  <updated>2025-09-14T00:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feed.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
   <entry>
-    <title>Nov 20, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-11-20T16:00:00Z</updated>
+    <title>Nov 28, 2025 </title>
+    <link href="/home"/>
+    <updated>2025-11-28T16:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Hi everyone! I had a great Thanksgiving and a peaceful Black Friday. Looking forward to the winter holidays now!&lt;/p&gt;
+&lt;p&gt;Here&#39;s what&#39;s in this joyous update!&lt;/p&gt;
+&lt;section&gt;
+&lt;h3 id=&quot;major-updates&quot; tabindex=&quot;-1&quot;&gt;Major Updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/resources/tutorials/freezeframe&quot;&gt;FreezeframeJS tutorial&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;Created a new script&lt;/li&gt;
+&lt;li&gt;Completely rewrote the tutorial on how to use the new script&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/outgoing/webgarden&quot;&gt;Webgarden&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;Added more pots&lt;/li&gt;
+&lt;li&gt;Slightly updated the layout so I can fit more pots&lt;/li&gt;
+&lt;li&gt;Minor revamp of my own web garden pot. I noticed the spacing would look off in some other&#39;s sites, oops.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/links&quot;&gt;Links&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;Added more links&lt;/li&gt;
+&lt;li&gt;Added some sections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Removed FreezeframeJS script and added my own&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h3 id=&quot;minor-updates&quot; tabindex=&quot;-1&quot;&gt;Minor Updates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/about&quot;&gt;About Me&lt;/a&gt; page:
+&lt;ul&gt;
+&lt;li&gt;Added more favorite Digimon&lt;/li&gt;
+&lt;li&gt;Replaced static Digimon images with moving ones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/resources/code-snippets&quot;&gt;Code Snippets&lt;/a&gt; page:
+&lt;ul&gt;
+&lt;li&gt;Added some CSS to allow users to pause the marquee&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fixed the &lt;a href=&quot;/guestbook&quot;&gt;Guestbook&lt;/a&gt;. I didn&#39;t realize it wasn&#39;t displaying all of the messages, which I deeply apologize for!&lt;/li&gt;
+&lt;li&gt;Other updates and fixes such as:
+&lt;ul&gt;
+&lt;li&gt;Removed the reliance on margins between items (as much as I can) and replacing them with the &lt;code&gt;gap&lt;/code&gt; property used in grids and flex boxes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! I hope the holidays don&#39;t become stressful to you! You can do it!&lt;/p&gt;
+&lt;/section&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Nov 19, 2025 </title>
+    <link href="/home"/>
+    <updated>2025-11-20T04:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
     <content type="html">&lt;p&gt;Hello, everyone! It&#39;s almost the end of November, which for a lot of you, means the beginning of winter holidays! I live in the US, so we have Thanksgiving coming up next week. I&#39;m not sure what my family and I will be doing on that day, but I know that we don&#39;t usually have turkey!&lt;/p&gt;
 &lt;p&gt;It&#39;s gotten even colder for us here in the Northern Hemisphere. For those in the Southern Hemisphere, I hope you&#39;re all enjoying some warm weather! I wonder what it&#39;s like to celebrate Christmas in the Southern Hemisphere...&lt;/p&gt;
@@ -55,7 +114,7 @@
   
   <entry>
     <title>Nov 4, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
+    <link href="/home"/>
     <updated>2025-11-05T04:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
     <content type="html">&lt;p&gt;Hello, everyone! I hope all of you are doing alright and that seasonal depression has passed for you. If not, then you can do it! I believe in you!&lt;/p&gt;
@@ -82,7 +141,7 @@
   
   <entry>
     <title>Oct 27, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
+    <link href="/home"/>
     <updated>2025-10-27T04:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
     <content type="html">&lt;p&gt;It&#39;s almost Halloween!! I don&#39;t even have any special plans! I just love the holiday that much!!!&lt;/p&gt;
@@ -102,7 +161,7 @@
   
   <entry>
     <title>Oct 21, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
+    <link href="/home"/>
     <updated>2025-10-21T04:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
     <content type="html">&lt;p&gt;Happy &lt;a href=&quot;https://blog.playstation.com/2025/10/20/festival-of-accord-dreamspell-comes-to-monster-hunter-wilds-starting-october-22/&quot;&gt;Dreamspell Festival&lt;/a&gt; Eve! I honestly wish I would make more of a habit uploading my art here as soon as I finish drawing it, but I love making updates to the site as well! &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_happy.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/p&gt;
@@ -127,7 +186,7 @@
   
   <entry>
     <title>Oct 2, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
+    <link href="/home"/>
     <updated>2025-10-02T04:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
     <content type="html">&lt;p&gt;It is the Spooky Month!! Halloween is upon us!&lt;/p&gt;
@@ -152,7 +211,7 @@
   
   <entry>
     <title>Sep 14, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
+    <link href="/home"/>
     <updated>2025-09-14T04:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
     <content type="html">&lt;p&gt;It&#39;s finally gotten a little cooler!&lt;/p&gt;
@@ -177,25 +236,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now, see you all next update!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Sep 6, 2025 </title>
-    <link href="https://bechnokid.neocities.org/home"/>
-    <updated>2025-09-06T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;I&#39;ve been starting to see more shops selling pumpkin spice-flavored snacks, so that means Fall is officially here (I think)!&lt;/p&gt;
-&lt;p&gt;Here&#39;s the spice in today&#39;s update!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Brought back the &lt;a href=&quot;/quiz_results&quot;&gt;Quiz Results&lt;/a&gt; page! Since I have a lot of space for more images, I thought it&#39;d be nice to bring it back!&lt;/li&gt;
-&lt;li&gt;Fixed up the installation guide for the &lt;a href=&quot;/resources/status-cafe/themes/dA2006&quot;&gt;deviantART Status Cafe theme&lt;/a&gt;! The tables disappeared in the previous update, so I brought them back!&lt;/li&gt;
-&lt;li&gt;Added two cliques to the home page: &lt;a href=&quot;https://lockheart.love/collections/cliques&quot;&gt;Cutie Connections&lt;/a&gt; and &lt;a href=&quot;https://ac.kuchiki.net/&quot;&gt;pixel friends&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Added &lt;a href=&quot;/goodies/adopts&quot;&gt;one adopt&lt;/a&gt; for others to adopt! Admittedly, I didn&#39;t make it. I just revised the colors and other parts of it, but I still love it enough to share!&lt;/li&gt;
-&lt;li&gt;There is now a secret page in the site! Can you find it? :3&lt;/li&gt;
-&lt;li&gt;Various updates and fixes to help make the site a little bit better, such as adding navigation buttons in some pages.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now! See you later!&lt;/p&gt;
 </content>
   </entry>
   

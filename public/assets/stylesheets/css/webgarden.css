@@ -1,22 +1,160 @@
-@import 'bechno.css';
-
-.garden-pot {
-  height: 218px;
+@font-face {
+  font-family: 'Dyslexic';
+  src: url(/assets/fonts/OpenDyslexic-Regular.otf)
 }
 
-.garden-pot p {
-  font-size: .8em;
-  text-align: center;
+[data-theme="light"] {
+  --img-bg: url(/assets/images/bg.jpg);
+  --img-header: url(/assets/images/header.jpg);
+  --bg-img-color: #DE9DB1;
+  --bg-overlay: #de9db1cc;
+  --bg-primary: #e48aa7;
+  --bg-body: #ffe8ec;
+  --bg-sidebar: #fff6f9;
+  --bg-footer: #fccdd7;
+  --bg-heading: var(--bg-footer);
+  --bg-code: var(--bg-footer);
+  --bg-selection: #a50e5a;
+  --border-body: var(--bg-body);
+  --border-sidebar: var(--bg-primary);
+  --scroll-bg: var(--bg-footer);
+  --scroll-tab: var(--bg-primary);
+  --text-body: #460827;
+  --text-muted: #805f6f;
+  --text-primary: #a50e5a;
+  --text-secondary: #7122aa;
+  --text-link: #d60076;
+  --text-link-visited: #6e2e99;
+  --text-link-visited-nav: #ce268c;
+  --text-shadow: #a50e5a6c;
+  --text-selection: #ffffff;
+  --line-color: var(--bg-primary);
+  --svg-color: brightness(0) saturate(100%) invert(12%) sepia(94%) saturate(4450%) hue-rotate(316deg) brightness(99%) contrast(110%);
+}
+
+[data-theme="dark"] {
+  --img-bg: url(/assets/images/bg_dark.jpg);
+  --img-header: url(/assets/images/header_dark.jpg);
+  --bg-img-color: #391b3d;
+  --bg-overlay: #391b3dcc;
+  --bg-primary: #28162b;
+  --bg-body: #47284D;
+  --bg-sidebar: var(--bg-footer);
+  --bg-footer: #2f1933;
+  --bg-heading: #180c1a;
+  --bg-code: var(--bg-footer);
+  --bg-selection: #ffffff;
+  --border-body: var(--bg-body);
+  --border-sidebar: var(--bg-heading);
+  --scroll-bg: var(--bg-heading);
+  --scroll-tab: var(--bg-body);
+  --text-body: #fff;
+  --text-muted: #805f6f;
+  --text-primary: #FDCDD9;
+  --text-secondary: var(--text-body);
+  --text-link: #ff95d1;
+  --text-link-visited: #b785ff;
+  --text-link-visited-nav: var(--text-primary);
+  --text-shadow: #FDCDD96c;
+  --text-selection: #28162b;
+  --line-color: var(--text-link);
+  --svg-color: brightness(0) saturate(100%) invert(72%) sepia(77%) saturate(1588%) hue-rotate(288deg) brightness(103%) contrast(101%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
   margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
 }
 
-.garden-pot img {
-  width: 60%;
-  animation: becDefault 2s steps(2) infinite;
+img {
+  display: inline-block;
+  max-width: 100%;
 }
 
-.garden-pot img:hover {
-  animation: becSpin .8s linear infinite normal
+.plant-bechno {
+  display: flex;
+  padding: 1rem;
+  width: 250px;
+  height: 250px;
+  font-family: 'Verdana';
+  text-align: center;
+  background: var(--bg-primary) var(--img-bg);
+  color: var(--text-body);
+  position: relative;
+  overflow: hidden;
+
+  & h1 {
+    font-family: 'Dyslexic';
+    font-weight: normal;
+    font-size: 1rem;
+    color: var(--text-secondary);
+  }
+
+  & hr {
+    border: none;
+    border-top: 2px solid var(--line-color);
+    color: var(--line-color);
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
+
+  & hr::after {
+    background-color: var(--bg-body);
+    content: '❤ ❤ ❤';
+    padding: 0 1em;
+    position: relative;
+    top: -.9em;
+  }
+
+  & p,
+  & hr {
+    font-size: .65rem;
+  }
+
+  & .content {
+    background: var(--bg-body);
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+
+    & img {
+      width: 125px;
+      animation: becDefault 2s steps(2) 0.5s infinite;
+    }
+
+    & img:hover {
+      animation: becSpin .8s linear infinite normal;
+    }
+  }
+
+  & .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .8rem;
+  }
+
+  & .last-updated {
+    color: var(--text-muted);
+  }
+
+  & .nume {
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    animation: numeWalk 40s steps(40, end) 10s infinite;
+  }
 }
 
 @keyframes becDefault {
@@ -34,5 +172,15 @@
   }
   to {
     transform: rotate(360deg)
+  }
+}
+
+@keyframes numeWalk {
+  from {
+    right: -50px;
+  }
+
+  to {
+    right: 500px;
   }
 }

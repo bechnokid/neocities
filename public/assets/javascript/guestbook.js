@@ -67,7 +67,7 @@ function loadMessages() {
     url: 'https://guestbooks.meadow.cafe/api/v1/get-guestbook-messages/484',
     success: function(response) {
       let messagesArr = [];
-      for (let idx = 1; idx < response.length; idx++) {
+      for (let idx = 0; idx < response.length; idx++) {
         const hidden = idx > msgLimit;
         const hideLine = idx > msgLimit - 1;
         const msgContent = loadMsgContent(response[idx], hidden, hideLine);
@@ -106,7 +106,8 @@ function loadMsgContent(message, hidden) {
   const dateObj = new Date(message.CreatedAt);
   const formattedDate = dateObj.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
   const website = (message.Website) ? `<p><strong>Website: </strong><a href='${message.Website}'>${message.Website}</a></p>` : '';
-  return `<div class='guestbook-msg-div sidebar p-3 pb-2 mb-2${hidden ? " d-none" : ''}'><div class="guestbook-msg-header"><p><strong>Name: </strong>${message.Name}</p><p><strong>Sent: </strong>${formattedDate}</p>${website}</div><div class="guestbook-msg-body"><p>${message.Text}</p></div></div>`;
+  const msg = message.Text.replaceAll(/(\r\n)/g, "<br>");
+  return `<div class='guestbook-msg-div sidebar p-3 pb-2 ${hidden ? "d-none" : ''}'><div class="guestbook-msg-header"><p><strong>Name: </strong>${message.Name}</p><p><strong>Sent: </strong>${formattedDate}</p>${website}</div><div class="guestbook-msg-body"><p>${msg}</p></div></div>`;
 };
 
 function loadPageNumbers(msgList) {

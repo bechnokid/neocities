@@ -87,22 +87,17 @@ a:hover img {
 }
 
 a:hover .figure-div,
-a:hover .ff-container.ff-active .ff-image,
-a:hover .ff-container.ff-inactive .ff-canvas.ff-canvas-ready {
+a:hover .ff-container *:not(.ff-inactive) {
   opacity: .5 !important;
 }
 
-a:hover .ff-container.ff-inactive .ff-image {
+a:hover .ff-container .ff-inactive {
   opacity: 0 !important;
 }
 
 a:not([href="/home/"], [href="#"]):visited {
   color: var(--text-link-visited);
   border-bottom-color: var(--text-link-visited) !important;
-}
-
-.align-img-baseline .ff-container {
-  align-self: baseline;
 }
 
 b, strong {
@@ -425,6 +420,15 @@ summary.details.h4,
 summary.details.h5,
 summary.details.h6 {
   margin-left: .5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+summary.details.h3:hover,
+summary.details.h4:hover,
+summary.details.h5:hover,
+summary.details.h6:hover {
+  text-decoration: none;
 }
 
 summary.details:focus-visible {
@@ -433,10 +437,6 @@ summary.details:focus-visible {
 
 summary.details.h2:hover {
   text-decoration: underline var(--text-primary) 2px;
-}
-
-summary.details.h3:hover {
-  text-decoration: underline var(--text-secondary) 2px;
 }
 
 summary.details:focus-visible {
@@ -640,6 +640,10 @@ a[href*="http"]:not(:has(img))::after {
 
 .img-shadow {
   filter: drop-shadow(0 0 .1rem #0000001f);
+}
+
+.status-container p {
+  margin: 0;
 }
 
 @media screen and (max-width: 767px) {
