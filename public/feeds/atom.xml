@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<?xml-stylesheet href="/assets/stylesheets/styles.xslt" type="text/xml"?>
+<?xml-stylesheet href="/assets/styles.xslt" type="text/xml"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
-  <title>Bechno Kid&#39;s Hideout - Web Feed</title>
-  <link href="https://bechnokid.neocities.org/feed.xml" rel="self" type="application/atom+xml" />
+  <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
+  <link href="https://bechnokid.neocities.org/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2025-09-14T00:00:00Z</updated>
-  <id>https://bechnokid.neocities.org/feed.xml</id>
+  <updated>2025-10-02T00:00:00Z</updated>
+  <id>https://bechnokid.neocities.org/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
   <entry>
-    <title>Nov 28, 2025 </title>
+    <title>Dec 8, 2025 </title>
     <link href="/home"/>
-    <updated>2025-11-28T16:00:00Z</updated>
+    <updated>2025-12-08T08:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Hi everyone! It&#39;s another cold day in December. We actually had one snow day here! We sadly haven&#39;t had snow since then, but I&#39;m holding out hop that it will snow on Christmas!&lt;/p&gt;
+&lt;p&gt;This update seems pretty small, but that&#39;s because most of the updates were on the back end! However, an update is still an update!&lt;/p&gt;
+&lt;p&gt;Here are the latest changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added new clique: &lt;a href=&quot;https://crystallizing.neocities.org&quot;&gt;Crystallizing&lt;/a&gt;. Yes, I chose that gem specifically because of that one animanga, teehee.&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=&quot;/feeds&quot;&gt;RSS&lt;/a&gt; and made into page that holds other feeds&lt;/li&gt;
+&lt;li&gt;Cosmetic updates including:
+&lt;ul&gt;
+&lt;li&gt;Unifying colors, especially colors for links&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=&quot;/not_found&quot;&gt;404 page&lt;/a&gt; image to better match my current look&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Backend updates and fixes including:
+&lt;ul&gt;
+&lt;li&gt;Minifying and bundling CSS for optimization (hopefully the CSS is still readable to use as reference!)&lt;/li&gt;
+&lt;li&gt;Updated CSS and JS code for Freezeframe script thanks to &lt;a href=&quot;https://friendshaped.garden&quot;&gt;FriendShapedPlant&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! See you next time!&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Nov 27, 2025 </title>
+    <link href="/home"/>
+    <updated>2025-11-28T04:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
     <content type="html">&lt;p&gt;Hi everyone! I had a great Thanksgiving and a peaceful Black Friday. Looking forward to the winter holidays now!&lt;/p&gt;
 &lt;p&gt;Here&#39;s what&#39;s in this joyous update!&lt;/p&gt;
 &lt;section&gt;
-&lt;h3 id=&quot;major-updates&quot; tabindex=&quot;-1&quot;&gt;Major Updates&lt;/h3&gt;
+&lt;h4 id=&quot;major-updates&quot; tabindex=&quot;-1&quot;&gt;Major Updates&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;New artwork in &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/resources/tutorials/freezeframe&quot;&gt;FreezeframeJS tutorial&lt;/a&gt;:
@@ -45,7 +73,7 @@
 &lt;/ul&gt;
 &lt;/section&gt;
 &lt;section&gt;
-&lt;h3 id=&quot;minor-updates&quot; tabindex=&quot;-1&quot;&gt;Minor Updates&lt;/h3&gt;
+&lt;h4 id=&quot;minor-updates&quot; tabindex=&quot;-1&quot;&gt;Minor Updates&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;/about&quot;&gt;About Me&lt;/a&gt; page:
 &lt;ul&gt;
@@ -206,36 +234,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now! See you later!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Sep 14, 2025 </title>
-    <link href="/home"/>
-    <updated>2025-09-14T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;It&#39;s finally gotten a little cooler!&lt;/p&gt;
-&lt;p&gt;You know, I can never decide if I like fall or winter better. I always seem to flip-flop between the two. I just like colder weather in general! Not that I can tolerate the cold, but rather, I like to bundle up and wear lots of layers since I never like to show my skin much.&lt;/p&gt;
-&lt;p&gt;Here&#39;s what&#39;s in this update!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;New page: &lt;a href=&quot;/pocket_bishies&quot;&gt;Pocket Bishies&lt;/a&gt;!
-&lt;ul&gt;
-&lt;li&gt;I&#39;ve seen it around, but I never really made a page until now! The collection might stay small since I&#39;m not a huge nerd and the original sites have long stopped working/updating. It is what it is!&lt;/li&gt;
-&lt;li&gt;If you have JavaScript enabled, you can take a few quizzes to nab some bishies of your own! I won&#39;t be taking submissions like the original sites did, but I still hope you enjoy them!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;New art in the &lt;a href=&quot;/art/ff&quot;&gt;Final Fantasy&lt;/a&gt; and &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; sections!&lt;/li&gt;
-&lt;li&gt;Added 4 &lt;a href=&quot;/goodies/adopts&quot;&gt;adopts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Some front-end and back-end fixes, including:
-&lt;ul&gt;
-&lt;li&gt;Made the guestbook form more accessible&lt;/li&gt;
-&lt;li&gt;Updated the main page to resize itself automatically if certain parts of the navigation are opened. It isn&#39;t perfect since I want to avoid using JavaScript in the navigation, but it looks pretty good!&lt;/li&gt;
-&lt;li&gt;Shortened the links for art, changing them from &amp;quot;artwork&amp;quot; to &amp;quot;art&amp;quot;&lt;/li&gt;
-&lt;li&gt;Updated &lt;a href=&quot;/joined&quot;&gt;Webrings&lt;/a&gt; to use less JavaScript in general. Not sure if I succeeded, but it&#39;s something!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now, see you all next update!&lt;/p&gt;
 </content>
   </entry>
   

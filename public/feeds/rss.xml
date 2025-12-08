@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet href="/assets/styles.xslt" type="text/xml"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="https://bechnokid.neocities.org/feeds/rss.xml" rel="self" type="application/rss+xml" />
+    <title>Bechno Kid&#39;s Hideout - RSS Feed</title>
+    <link>https://bechnokid.neocities.org</link>
+    <description>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</description>
+    <language>en-us</language>
+    <lastBuildDate>2025-10-02T08:00:00Z</lastBuildDate>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Dec 8, 2025</title>
+      <link>/home</link>
+      <guid isPermaLink="false">update-Mon Dec 08 2025 11:00:00 GMT-0500 (Eastern Standard Time)</guid>
+      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <description><![CDATA[
+        <p>Hi everyone! It's another cold day in December. We actually had one snow day here! We sadly haven't had snow since then, but I'm holding out hop that it will snow on Christmas!</p>
+<p>This update seems pretty small, but that's because most of the updates were on the back end! However, an update is still an update!</p>
+<p>Here are the latest changes:</p>
+<ul>
+<li>Added new clique: <a href="https://crystallizing.neocities.org">Crystallizing</a>. Yes, I chose that gem specifically because of that one animanga, teehee.</li>
+<li>Updated <a href="/feeds">RSS</a> and made into page that holds other feeds</li>
+<li>Cosmetic updates including:
+<ul>
+<li>Unifying colors, especially colors for links</li>
+<li>Updated <a href="/not_found">404 page</a> image to better match my current look</li>
+</ul>
+</li>
+<li>Backend updates and fixes including:
+<ul>
+<li>Minifying and bundling CSS for optimization (hopefully the CSS is still readable to use as reference!)</li>
+<li>Updated CSS and JS code for Freezeframe script thanks to <a href="https://friendshaped.garden">FriendShapedPlant</a>!</li>
+</ul>
+</li>
+</ul>
+<p>That's it for now! See you next time!</p>
+        ]]></description>
+      <content:encoded><![CDATA[
+        &lt;p&gt;Hi everyone! It&#39;s another cold day in December. We actually had one snow day here! We sadly haven&#39;t had snow since then, but I&#39;m holding out hop that it will snow on Christmas!&lt;/p&gt;
+&lt;p&gt;This update seems pretty small, but that&#39;s because most of the updates were on the back end! However, an update is still an update!&lt;/p&gt;
+&lt;p&gt;Here are the latest changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added new clique: &lt;a href=&quot;https://crystallizing.neocities.org&quot;&gt;Crystallizing&lt;/a&gt;. Yes, I chose that gem specifically because of that one animanga, teehee.&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=&quot;/feeds&quot;&gt;RSS&lt;/a&gt; and made into page that holds other feeds&lt;/li&gt;
+&lt;li&gt;Cosmetic updates including:
+&lt;ul&gt;
+&lt;li&gt;Unifying colors, especially colors for links&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=&quot;/not_found&quot;&gt;404 page&lt;/a&gt; image to better match my current look&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Backend updates and fixes including:
+&lt;ul&gt;
+&lt;li&gt;Minifying and bundling CSS for optimization (hopefully the CSS is still readable to use as reference!)&lt;/li&gt;
+&lt;li&gt;Updated CSS and JS code for Freezeframe script thanks to &lt;a href=&quot;https://friendshaped.garden&quot;&gt;FriendShapedPlant&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! See you next time!&lt;/p&gt;
+        ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Nov 28, 2025</title>
+      <link>/home</link>
+      <guid isPermaLink="false">update-Fri Nov 28 2025 07:00:00 GMT-0500 (Eastern Standard Time)</guid>
+      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <description><![CDATA[
+        <p>Hi everyone! I had a great Thanksgiving and a peaceful Black Friday. Looking forward to the winter holidays now!</p>
+<p>Here's what's in this joyous update!</p>
+<section>
+<h4 id="major-updates" tabindex="-1">Major Updates</h4>
+<ul>
+<li>New artwork in <a href="/art/digimon">Digimon</a></li>
+<li><a href="/resources/tutorials/freezeframe">FreezeframeJS tutorial</a>:
+<ul>
+<li>Created a new script</li>
+<li>Completely rewrote the tutorial on how to use the new script</li>
+</ul>
+</li>
+<li><a href="/outgoing/webgarden">Webgarden</a>:
+<ul>
+<li>Added more pots</li>
+<li>Slightly updated the layout so I can fit more pots</li>
+<li>Minor revamp of my own web garden pot. I noticed the spacing would look off in some other's sites, oops.</li>
+</ul>
+</li>
+<li><a href="/links">Links</a>:
+<ul>
+<li>Added more links</li>
+<li>Added some sections</li>
+</ul>
+</li>
+<li>Removed FreezeframeJS script and added my own</li>
+</ul>
+</section>
+<section>
+<h4 id="minor-updates" tabindex="-1">Minor Updates</h4>
+<ul>
+<li><a href="/about">About Me</a> page:
+<ul>
+<li>Added more favorite Digimon</li>
+<li>Replaced static Digimon images with moving ones</li>
+</ul>
+</li>
+<li><a href="/resources/code-snippets">Code Snippets</a> page:
+<ul>
+<li>Added some CSS to allow users to pause the marquee</li>
+</ul>
+</li>
+<li>Fixed the <a href="/guestbook">Guestbook</a>. I didn't realize it wasn't displaying all of the messages, which I deeply apologize for!</li>
+<li>Other updates and fixes such as:
+<ul>
+<li>Removed the reliance on margins between items (as much as I can) and replacing them with the <code>gap</code> property used in grids and flex boxes.</li>
+</ul>
+</li>
+</ul>
+<p>That's it for now! I hope the holidays don't become stressful to you! You can do it!</p>
+</section>
+        ]]></description>
+      <content:encoded><![CDATA[
+        &lt;p&gt;Hi everyone! I had a great Thanksgiving and a peaceful Black Friday. Looking forward to the winter holidays now!&lt;/p&gt;
+&lt;p&gt;Here&#39;s what&#39;s in this joyous update!&lt;/p&gt;
+&lt;section&gt;
+&lt;h4 id=&quot;major-updates&quot; tabindex=&quot;-1&quot;&gt;Major Updates&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/resources/tutorials/freezeframe&quot;&gt;FreezeframeJS tutorial&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;Created a new script&lt;/li&gt;
+&lt;li&gt;Completely rewrote the tutorial on how to use the new script&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/outgoing/webgarden&quot;&gt;Webgarden&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;Added more pots&lt;/li&gt;
+&lt;li&gt;Slightly updated the layout so I can fit more pots&lt;/li&gt;
+&lt;li&gt;Minor revamp of my own web garden pot. I noticed the spacing would look off in some other&#39;s sites, oops.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/links&quot;&gt;Links&lt;/a&gt;:
+&lt;ul&gt;
+&lt;li&gt;Added more links&lt;/li&gt;
+&lt;li&gt;Added some sections&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Removed FreezeframeJS script and added my own&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section&gt;
+&lt;h4 id=&quot;minor-updates&quot; tabindex=&quot;-1&quot;&gt;Minor Updates&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/about&quot;&gt;About Me&lt;/a&gt; page:
+&lt;ul&gt;
+&lt;li&gt;Added more favorite Digimon&lt;/li&gt;
+&lt;li&gt;Replaced static Digimon images with moving ones&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/resources/code-snippets&quot;&gt;Code Snippets&lt;/a&gt; page:
+&lt;ul&gt;
+&lt;li&gt;Added some CSS to allow users to pause the marquee&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Fixed the &lt;a href=&quot;/guestbook&quot;&gt;Guestbook&lt;/a&gt;. I didn&#39;t realize it wasn&#39;t displaying all of the messages, which I deeply apologize for!&lt;/li&gt;
+&lt;li&gt;Other updates and fixes such as:
+&lt;ul&gt;
+&lt;li&gt;Removed the reliance on margins between items (as much as I can) and replacing them with the &lt;code&gt;gap&lt;/code&gt; property used in grids and flex boxes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! I hope the holidays don&#39;t become stressful to you! You can do it!&lt;/p&gt;
+&lt;/section&gt;
+        ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Nov 20, 2025</title>
+      <link>/home</link>
+      <guid isPermaLink="false">update-Thu Nov 20 2025 07:00:00 GMT-0500 (Eastern Standard Time)</guid>
+      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <description><![CDATA[
+        <p>Hello, everyone! It's almost the end of November, which for a lot of you, means the beginning of winter holidays! I live in the US, so we have Thanksgiving coming up next week. I'm not sure what my family and I will be doing on that day, but I know that we don't usually have turkey!</p>
+<p>It's gotten even colder for us here in the Northern Hemisphere. For those in the Southern Hemisphere, I hope you're all enjoying some warm weather! I wonder what it's like to celebrate Christmas in the Southern Hemisphere...</p>
+<p>Here are the changes for this update!</p>
+<ul>
+<li>Completed a <a href="/writing/blog/2025-11-20">100-question survey for webmasters</a>!</li>
+<li>Added some more <a href="/goodies/adopts">adopts</a> as well as some that are orphaned.
+<ul>
+<li>I browsed through a lot of old pixel sites thanks to <a href="https://kawaiiattic.arunyi.art/">Kawaii Attic</a>, and I noticed that there were special adopts that webmasters had that people can sign up or pay to adopt. Since the sites that adopted them went down or the adopts never went up for sale, I took it upon myself to collect some of them and put them up for adoption here!</li>
+</ul>
+</li>
+<li>Added more <a href="/quiz-results">quiz results</a>.</li>
+<li>Added some <a href="/links">links</a> as well as removed some that are dead/inactive.</li>
+<li>Added a ton of web cliques on home and in <a href="/joined">/joined</a>. They're so much fun!</li>
+<li>Updated the layout for the <a href="/curses">curses generator</a>. I don't have any new ones, yet, but I'm hoping to add more! <img class='inline-img' src='/assets/images/blog/emoticon/emote_wink.png' aria-hidden='true' alt=''></li>
+<li>Updated my <a href="/about">/about</a> page to talk less about my job. I realize I've been saying, &quot;Yeah, I'm a <em>software developer</em>&quot; a lot, which I imagine makes me sound pretty pretentious. <img class='inline-img' src='/assets/images/blog/emoticon/emote_embarrassed.png' aria-hidden='true' alt=''></li>
+<li>Responsiveness changes including:
+<ul>
+<li>Making the site look better on tablets, such as iPads, Kindles, etc.</li>
+</ul>
+</li>
+<li>Cosmetic changes including:
+<ul>
+<li>Adding colors for links that have been visited. This should make it a bit easier for users to tell which links they have already visited. If you're someone like me who cleans up her history every week, this might not be entirely useful to you, but still!</li>
+<li>Changing the images for my favorite characters in my <a href="/about">/about</a> page.</li>
+</ul>
+</li>
+<li>Bug fixes including:
+<ul>
+<li>Fixing broken links in sitemap</li>
+<li>Fixed spacing issues in a lot of pages</li>
+</ul>
+</li>
+</ul>
+<p>That's it for now. Stay warm (or stay cool if in the Southern Hemisphere)!</p>
+        ]]></description>
+      <content:encoded><![CDATA[
+        &lt;p&gt;Hello, everyone! It&#39;s almost the end of November, which for a lot of you, means the beginning of winter holidays! I live in the US, so we have Thanksgiving coming up next week. I&#39;m not sure what my family and I will be doing on that day, but I know that we don&#39;t usually have turkey!&lt;/p&gt;
+&lt;p&gt;It&#39;s gotten even colder for us here in the Northern Hemisphere. For those in the Southern Hemisphere, I hope you&#39;re all enjoying some warm weather! I wonder what it&#39;s like to celebrate Christmas in the Southern Hemisphere...&lt;/p&gt;
+&lt;p&gt;Here are the changes for this update!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Completed a &lt;a href=&quot;/writing/blog/2025-11-20&quot;&gt;100-question survey for webmasters&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Added some more &lt;a href=&quot;/goodies/adopts&quot;&gt;adopts&lt;/a&gt; as well as some that are orphaned.
+&lt;ul&gt;
+&lt;li&gt;I browsed through a lot of old pixel sites thanks to &lt;a href=&quot;https://kawaiiattic.arunyi.art/&quot;&gt;Kawaii Attic&lt;/a&gt;, and I noticed that there were special adopts that webmasters had that people can sign up or pay to adopt. Since the sites that adopted them went down or the adopts never went up for sale, I took it upon myself to collect some of them and put them up for adoption here!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Added more &lt;a href=&quot;/quiz-results&quot;&gt;quiz results&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Added some &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt; as well as removed some that are dead/inactive.&lt;/li&gt;
+&lt;li&gt;Added a ton of web cliques on home and in &lt;a href=&quot;/joined&quot;&gt;/joined&lt;/a&gt;. They&#39;re so much fun!&lt;/li&gt;
+&lt;li&gt;Updated the layout for the &lt;a href=&quot;/curses&quot;&gt;curses generator&lt;/a&gt;. I don&#39;t have any new ones, yet, but I&#39;m hoping to add more! &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_wink.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
+&lt;li&gt;Updated my &lt;a href=&quot;/about&quot;&gt;/about&lt;/a&gt; page to talk less about my job. I realize I&#39;ve been saying, &amp;quot;Yeah, I&#39;m a &lt;em&gt;software developer&lt;/em&gt;&amp;quot; a lot, which I imagine makes me sound pretty pretentious. &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_embarrassed.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
+&lt;li&gt;Responsiveness changes including:
+&lt;ul&gt;
+&lt;li&gt;Making the site look better on tablets, such as iPads, Kindles, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Cosmetic changes including:
+&lt;ul&gt;
+&lt;li&gt;Adding colors for links that have been visited. This should make it a bit easier for users to tell which links they have already visited. If you&#39;re someone like me who cleans up her history every week, this might not be entirely useful to you, but still!&lt;/li&gt;
+&lt;li&gt;Changing the images for my favorite characters in my &lt;a href=&quot;/about&quot;&gt;/about&lt;/a&gt; page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Bug fixes including:
+&lt;ul&gt;
+&lt;li&gt;Fixing broken links in sitemap&lt;/li&gt;
+&lt;li&gt;Fixed spacing issues in a lot of pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now. Stay warm (or stay cool if in the Southern Hemisphere)!&lt;/p&gt;
+        ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Nov 5, 2025</title>
+      <link>/home</link>
+      <guid isPermaLink="false">update-Wed Nov 05 2025 07:00:00 GMT-0500 (Eastern Standard Time)</guid>
+      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <description><![CDATA[
+        <p>Hello, everyone! I hope all of you are doing alright and that seasonal depression has passed for you. If not, then you can do it! I believe in you!</p>
+<p>It's gotten colder, but thankfully I like colder weather! It means I can bundle up, wear my longer coats, and look like a real anime protagonist! Ok, not really...</p>
+<p>Here are the changes for this update!</p>
+<ul>
+<li>New artwork in the <a href="/art/digimon">Digimon</a> and <a href="/art/anime">Anime</a> sections</li>
+<li>Added a section with my currently active social media accounts in <a href="/links">Links</a></li>
+<li>New <a href="/blog">blog</a> entry where I talk about my grievances with sites that repost graphics without giving credit to the original artists</li>
+<li>Finally decided to join more <a href="/joined">fanlistings</a>!</li>
+<li>Cosmetic updates including:
+<ul>
+<li>Updating the dark mode colors</li>
+<li>Adding an icon after external links as well as changing the text color</li>
+<li>Figuring out how to add line numbers to code blocks for future snippets. This will help in pointing specific lines in any code I share!</li>
+<li>Moving the Play/Stop GIFs buttons to the navigation bar for easier access</li>
+<li>Creating a section dedicated to links that don't have buttons. I encourage others to visit those links!!</li>
+</ul>
+</li>
+</ul>
+<p>That's it for now. See you all next time!</p>
+        ]]></description>
+      <content:encoded><![CDATA[
+        &lt;p&gt;Hello, everyone! I hope all of you are doing alright and that seasonal depression has passed for you. If not, then you can do it! I believe in you!&lt;/p&gt;
+&lt;p&gt;It&#39;s gotten colder, but thankfully I like colder weather! It means I can bundle up, wear my longer coats, and look like a real anime protagonist! Ok, not really...&lt;/p&gt;
+&lt;p&gt;Here are the changes for this update!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in the &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; and &lt;a href=&quot;/art/anime&quot;&gt;Anime&lt;/a&gt; sections&lt;/li&gt;
+&lt;li&gt;Added a section with my currently active social media accounts in &lt;a href=&quot;/links&quot;&gt;Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New &lt;a href=&quot;/blog&quot;&gt;blog&lt;/a&gt; entry where I talk about my grievances with sites that repost graphics without giving credit to the original artists&lt;/li&gt;
+&lt;li&gt;Finally decided to join more &lt;a href=&quot;/joined&quot;&gt;fanlistings&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Cosmetic updates including:
+&lt;ul&gt;
+&lt;li&gt;Updating the dark mode colors&lt;/li&gt;
+&lt;li&gt;Adding an icon after external links as well as changing the text color&lt;/li&gt;
+&lt;li&gt;Figuring out how to add line numbers to code blocks for future snippets. This will help in pointing specific lines in any code I share!&lt;/li&gt;
+&lt;li&gt;Moving the Play/Stop GIFs buttons to the navigation bar for easier access&lt;/li&gt;
+&lt;li&gt;Creating a section dedicated to links that don&#39;t have buttons. I encourage others to visit those links!!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now. See you all next time!&lt;/p&gt;
+        ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Oct 27, 2025</title>
+      <link>/home</link>
+      <guid isPermaLink="false">update-Mon Oct 27 2025 08:00:00 GMT-0400 (Eastern Daylight Time)</guid>
+      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <description><![CDATA[
+        <p>It's almost Halloween!! I don't even have any special plans! I just love the holiday that much!!!</p>
+<p>The list of updates is small this time. :3</p>
+<ul>
+<li>Added three <a href="/quiz-results">quiz results</a></li>
+<li>Updated <a href="/now">/now</a> and also added a section for older entries! Huge thanks to <a href="https://mavisdeluna.art">Mavis</a> for the idea!</li>
+<li>Other fixes and updates including:
+<ul>
+<li>Adding a loading screen to the <a href="/outgoing/webgarden">Webgarden</a></li>
+<li>Updated the styling for &lt;h3&gt; tags to be underlined in almost every page</li>
+</ul>
+</li>
+</ul>
+        ]]></description>
+      <content:encoded><![CDATA[
+        &lt;p&gt;It&#39;s almost Halloween!! I don&#39;t even have any special plans! I just love the holiday that much!!!&lt;/p&gt;
+&lt;p&gt;The list of updates is small this time. :3&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Added three &lt;a href=&quot;/quiz-results&quot;&gt;quiz results&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=&quot;/now&quot;&gt;/now&lt;/a&gt; and also added a section for older entries! Huge thanks to &lt;a href=&quot;https://mavisdeluna.art&quot;&gt;Mavis&lt;/a&gt; for the idea!&lt;/li&gt;
+&lt;li&gt;Other fixes and updates including:
+&lt;ul&gt;
+&lt;li&gt;Adding a loading screen to the &lt;a href=&quot;/outgoing/webgarden&quot;&gt;Webgarden&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updated the styling for &amp;lt;h3&amp;gt; tags to be underlined in almost every page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+        ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Oct 21, 2025</title>
+      <link>/home</link>
+      <guid isPermaLink="false">update-Tue Oct 21 2025 08:00:00 GMT-0400 (Eastern Daylight Time)</guid>
+      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <description><![CDATA[
+        <p>Happy <a href="https://blog.playstation.com/2025/10/20/festival-of-accord-dreamspell-comes-to-monster-hunter-wilds-starting-october-22/">Dreamspell Festival</a> Eve! I honestly wish I would make more of a habit uploading my art here as soon as I finish drawing it, but I love making updates to the site as well! <img class='inline-img' src='/assets/images/blog/emoticon/emote_happy.png' aria-hidden='true' alt=''></p>
+<p>Here are the spooky changes for this update:</p>
+<ul>
+<li>New artwork in the <a href="/art/digimon">Digimon</a> section</li>
+<li>Added a new <a href="/links">link</a></li>
+<li>Added back the <a href="/resources/code-snippets">code snippets</a> page! The old snippets are no longer there, but there are some new ones! Check them out if you'd like! I'm hoping to update this a little more frequently!</li>
+<li>The <a href="/goodies/pixel_clubs">pixel club</a> page got a revamp for easier viewing, and I added the Bottlecaps pixel club!</li>
+<li>Added some <a href="/goodies/graphics">honeycomb stamp</a> graphics! I had been meaning to add them for a while, but making the CSS took a little bit of work!</li>
+<li>Cosmetic updates and other fixes, including:
+<ul>
+<li>Added a loading screen to graphic-heavy pages</li>
+<li>I removed most of the <i class='ft-alert-triangle index'></i> icons as a result, but only if JS is enabled! They are still there if JS is disabled!</li>
+<li>Added <a href="/sitemap">sitemap</a> to the navigation sidebar for easier access</li>
+</ul>
+</li>
+</ul>
+<p>That's it for now! See you later, and I hope everyone has a great Halloween in 10 days!</p>
+        ]]></description>
+      <content:encoded><![CDATA[
+        &lt;p&gt;Happy &lt;a href=&quot;https://blog.playstation.com/2025/10/20/festival-of-accord-dreamspell-comes-to-monster-hunter-wilds-starting-october-22/&quot;&gt;Dreamspell Festival&lt;/a&gt; Eve! I honestly wish I would make more of a habit uploading my art here as soon as I finish drawing it, but I love making updates to the site as well! &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_happy.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/p&gt;
+&lt;p&gt;Here are the spooky changes for this update:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in the &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; section&lt;/li&gt;
+&lt;li&gt;Added a new &lt;a href=&quot;/links&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Added back the &lt;a href=&quot;/resources/code-snippets&quot;&gt;code snippets&lt;/a&gt; page! The old snippets are no longer there, but there are some new ones! Check them out if you&#39;d like! I&#39;m hoping to update this a little more frequently!&lt;/li&gt;
+&lt;li&gt;The &lt;a href=&quot;/goodies/pixel_clubs&quot;&gt;pixel club&lt;/a&gt; page got a revamp for easier viewing, and I added the Bottlecaps pixel club!&lt;/li&gt;
+&lt;li&gt;Added some &lt;a href=&quot;/goodies/graphics&quot;&gt;honeycomb stamp&lt;/a&gt; graphics! I had been meaning to add them for a while, but making the CSS took a little bit of work!&lt;/li&gt;
+&lt;li&gt;Cosmetic updates and other fixes, including:
+&lt;ul&gt;
+&lt;li&gt;Added a loading screen to graphic-heavy pages&lt;/li&gt;
+&lt;li&gt;I removed most of the &lt;i class=&#39;ft-alert-triangle index&#39;&gt;&lt;/i&gt; icons as a result, but only if JS is enabled! They are still there if JS is disabled!&lt;/li&gt;
+&lt;li&gt;Added &lt;a href=&quot;/sitemap&quot;&gt;sitemap&lt;/a&gt; to the navigation sidebar for easier access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! See you later, and I hope everyone has a great Halloween in 10 days!&lt;/p&gt;
+        ]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Oct 2, 2025</title>
+      <link>/home</link>
+      <guid isPermaLink="false">update-Thu Oct 02 2025 08:00:00 GMT-0400 (Eastern Daylight Time)</guid>
+      <pubDate>2025-10-02T12:00:00Z</pubDate>
+      <description><![CDATA[
+        <p>It is the Spooky Month!! Halloween is upon us!</p>
+<p>Here are some creepy changes for this update:</p>
+<ul>
+<li>New artwork in the <a href="/art/digimon">Digimon</a> section</li>
+<li>New <a href="/writing/blog">blog</a> entry</li>
+<li>Added a clique and <a href="/links">link</a></li>
+<li>New items in all <a href="/goodies">Goodies</a> pages (except for Pocket Bishies) and <a href="/quiz_results">Quiz Results</a></li>
+<li>Made some updates to the <a href="/joined">webrings</a> as well as the <a href="/about">About</a> page</li>
+<li>Other updates and fixes including cosmetic and backend changes, such as:
+<ul>
+<li>There should be few to no boxes that have a scroll bar now that I have a &quot;Back to Top&quot; button</li>
+<li>Fixed spacing in a lot of elements</li>
+<li>Overall, if you don't notice a lot of differences, that's a good thing!</li>
+</ul>
+</li>
+</ul>
+<p>That's it for now! See you later!</p>
+        ]]></description>
+      <content:encoded><![CDATA[
+        &lt;p&gt;It is the Spooky Month!! Halloween is upon us!&lt;/p&gt;
+&lt;p&gt;Here are some creepy changes for this update:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in the &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; section&lt;/li&gt;
+&lt;li&gt;New &lt;a href=&quot;/writing/blog&quot;&gt;blog&lt;/a&gt; entry&lt;/li&gt;
+&lt;li&gt;Added a clique and &lt;a href=&quot;/links&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New items in all &lt;a href=&quot;/goodies&quot;&gt;Goodies&lt;/a&gt; pages (except for Pocket Bishies) and &lt;a href=&quot;/quiz_results&quot;&gt;Quiz Results&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Made some updates to the &lt;a href=&quot;/joined&quot;&gt;webrings&lt;/a&gt; as well as the &lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt; page&lt;/li&gt;
+&lt;li&gt;Other updates and fixes including cosmetic and backend changes, such as:
+&lt;ul&gt;
+&lt;li&gt;There should be few to no boxes that have a scroll bar now that I have a &amp;quot;Back to Top&amp;quot; button&lt;/li&gt;
+&lt;li&gt;Fixed spacing in a lot of elements&lt;/li&gt;
+&lt;li&gt;Overall, if you don&#39;t notice a lot of differences, that&#39;s a good thing!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! See you later!&lt;/p&gt;
+        ]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>

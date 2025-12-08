@@ -60,8 +60,8 @@ $(document).ready(function(){
     } else {
       html = `
       <div class='d-flex row g-3'>
-        <div class='col-md-1 col-4 d-flex justify-content-center'>${emoticonElement}</div>
-        <div class='col-md-11 col-8 d-flex flex-column flex-gap-1 py-2'>
+        <div class='col-md-1 col-3 d-flex justify-content-center'>${emoticonElement}</div>
+        <div class='col-md-11 col-9 d-flex flex-column flex-gap-1 py-2'>
           <p class='status-date'><strong>${dateString}</strong></p>
           <p class='status-text'>${content}</p>
         </div>

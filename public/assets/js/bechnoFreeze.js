@@ -6,6 +6,7 @@ class FreezeImages {
     this.canvasCls = "ff-canvas";
     this.hover = (options.hover === true || options.hover === "true") ? true : false;
     this.noCSS = (options.no_css === true || options.hover === "true") ? true : false;
+    this.smoothing = (options.smoothing === false) ? false : true;
 
     // Finds all images with selector class and within elements with the selected class
     //  and creates list
@@ -17,8 +18,13 @@ class FreezeImages {
       const style = document.createElement('style');
       style.textContent = `
         .ff-container {
-          display: inline-block;
+          display: flex;
           position: relative;
+        }
+
+        .ff-container img,
+        .ff-container canvas {
+          align-self: end;
         }
 
         .ff-container.ff-hover:hover .ff-active {
@@ -49,6 +55,7 @@ class FreezeImages {
       canvas.width = img.width;
       canvas.height = img.height;
       canvas.className = `${this.canvasCls} ff-active`;
+      canvas.getContext('2d').imageSmoothingEnabled = this.smoothing;
       canvas.getContext('2d').drawImage(img, 0, 0, img.width, img.height);
 
       // Creates container that will hold both <img> and <canvas>
