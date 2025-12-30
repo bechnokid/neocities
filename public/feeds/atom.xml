@@ -5,16 +5,39 @@
   <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
   <link href="https://bechnokid.neocities.org/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2025-10-02T00:00:00Z</updated>
+  <updated>2025-10-21T00:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
   <entry>
-    <title>Dec 8, 2025 </title>
+    <title>Dec 29, 2025 </title>
     <link href="/home"/>
-    <updated>2025-12-08T08:00:00Z</updated>
+    <updated>2025-12-30T04:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Hi everyone! I hope everyone has had a good time during the winter holidays. This will be the last update for the year. :D&lt;/p&gt;
+&lt;p&gt;There are so many changes in this update that I&#39;m not sure if I can put them all in this single entry without it being too overwhelming. XD&lt;/p&gt;
+&lt;p&gt;So, I&#39;ll list the most important ones (to me)!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in the &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; section&lt;/li&gt;
+&lt;li&gt;Made a &lt;a href=&quot;/to-do&quot;&gt;to-do&lt;/a&gt; list for the site&lt;/li&gt;
+&lt;li&gt;Added two &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meadow&#39;s guestbook service is currently down, so I linked to my &lt;a href=&quot;https://bechnokid.atabook.org/&quot;&gt;atabook&lt;/a&gt; instead. Hopefully it gets fixed soon!&lt;/li&gt;
+&lt;li&gt;Optimization updates (hopefully):
+&lt;ul&gt;
+&lt;li&gt;Consolidated most of my JS files into one&lt;/li&gt;
+&lt;li&gt;Fixed up JS for webrings page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Dec 7, 2025 </title>
+    <link href="/home"/>
+    <updated>2025-12-08T04:00:00Z</updated>
     <id>https://bechnokid.neocities.org/home</id>
     <content type="html">&lt;p&gt;Hi everyone! It&#39;s another cold day in December. We actually had one snow day here! We sadly haven&#39;t had snow since then, but I&#39;m holding out hop that it will snow on Christmas!&lt;/p&gt;
 &lt;p&gt;This update seems pretty small, but that&#39;s because most of the updates were on the back end! However, an update is still an update!&lt;/p&gt;
@@ -209,31 +232,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now! See you later, and I hope everyone has a great Halloween in 10 days!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Oct 2, 2025 </title>
-    <link href="/home"/>
-    <updated>2025-10-02T04:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;It is the Spooky Month!! Halloween is upon us!&lt;/p&gt;
-&lt;p&gt;Here are some creepy changes for this update:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;New artwork in the &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; section&lt;/li&gt;
-&lt;li&gt;New &lt;a href=&quot;/writing/blog&quot;&gt;blog&lt;/a&gt; entry&lt;/li&gt;
-&lt;li&gt;Added a clique and &lt;a href=&quot;/links&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;New items in all &lt;a href=&quot;/goodies&quot;&gt;Goodies&lt;/a&gt; pages (except for Pocket Bishies) and &lt;a href=&quot;/quiz_results&quot;&gt;Quiz Results&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Made some updates to the &lt;a href=&quot;/joined&quot;&gt;webrings&lt;/a&gt; as well as the &lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt; page&lt;/li&gt;
-&lt;li&gt;Other updates and fixes including cosmetic and backend changes, such as:
-&lt;ul&gt;
-&lt;li&gt;There should be few to no boxes that have a scroll bar now that I have a &amp;quot;Back to Top&amp;quot; button&lt;/li&gt;
-&lt;li&gt;Fixed spacing in a lot of elements&lt;/li&gt;
-&lt;li&gt;Overall, if you don&#39;t notice a lot of differences, that&#39;s a good thing!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now! See you later!&lt;/p&gt;
 </content>
   </entry>
   

@@ -13,11 +13,19 @@
   "items": [
     
       {
-        "id": "bechnokid-12/8/2025",
+        "id": "bechnokid-12/29/2025",
+        "url": "https://bechnokid.neocities.org",
+        "title": "Dec 30, 2025",
+        "content_html": "<p>Hi everyone! I hope everyone has had a good time during the winter holidays. This will be the last update for the year. :D</p>\n<p>There are so many changes in this update that I'm not sure if I can put them all in this single entry without it being too overwhelming. XD</p>\n<p>So, I'll list the most important ones (to me)!</p>\n<ul>\n<li>New artwork in the <a href=\"/art/digimon\">Digimon</a> section</li>\n<li>Made a <a href=\"/to-do\">to-do</a> list for the site</li>\n<li>Added two <a href=\"/links\">links</a></li>\n<li>Meadow's guestbook service is currently down, so I linked to my <a href=\"https://bechnokid.atabook.org/\">atabook</a> instead. Hopefully it gets fixed soon!</li>\n<li>Optimization updates (hopefully):\n<ul>\n<li>Consolidated most of my JS files into one</li>\n<li>Fixed up JS for webrings page</li>\n</ul>\n</li>\n</ul>\n",
+        "date_published": "2025-12-30T08:00:00Z"
+      },
+    
+      {
+        "id": "bechnokid-12/7/2025",
         "url": "https://bechnokid.neocities.org",
         "title": "Dec 8, 2025",
         "content_html": "<p>Hi everyone! It's another cold day in December. We actually had one snow day here! We sadly haven't had snow since then, but I'm holding out hop that it will snow on Christmas!</p>\n<p>This update seems pretty small, but that's because most of the updates were on the back end! However, an update is still an update!</p>\n<p>Here are the latest changes:</p>\n<ul>\n<li>Added new clique: <a href=\"https://crystallizing.neocities.org\">Crystallizing</a>. Yes, I chose that gem specifically because of that one animanga, teehee.</li>\n<li>Updated <a href=\"/feeds\">RSS</a> and made into page that holds other feeds</li>\n<li>Cosmetic updates including:\n<ul>\n<li>Unifying colors, especially colors for links</li>\n<li>Updated <a href=\"/not_found\">404 page</a> image to better match my current look</li>\n</ul>\n</li>\n<li>Backend updates and fixes including:\n<ul>\n<li>Minifying and bundling CSS for optimization (hopefully the CSS is still readable to use as reference!)</li>\n<li>Updated CSS and JS code for Freezeframe script thanks to <a href=\"https://friendshaped.garden\">FriendShapedPlant</a>!</li>\n</ul>\n</li>\n</ul>\n<p>That's it for now! See you next time!</p>\n",
-        "date_published": "2025-12-08T12:00:00Z"
+        "date_published": "2025-12-08T08:00:00Z"
       },
     
       {
@@ -58,14 +66,6 @@
         "title": "Oct 21, 2025",
         "content_html": "<p>Happy <a href=\"https://blog.playstation.com/2025/10/20/festival-of-accord-dreamspell-comes-to-monster-hunter-wilds-starting-october-22/\">Dreamspell Festival</a> Eve! I honestly wish I would make more of a habit uploading my art here as soon as I finish drawing it, but I love making updates to the site as well! <img class='inline-img' src='/assets/images/blog/emoticon/emote_happy.png' aria-hidden='true' alt=''></p>\n<p>Here are the spooky changes for this update:</p>\n<ul>\n<li>New artwork in the <a href=\"/art/digimon\">Digimon</a> section</li>\n<li>Added a new <a href=\"/links\">link</a></li>\n<li>Added back the <a href=\"/resources/code-snippets\">code snippets</a> page! The old snippets are no longer there, but there are some new ones! Check them out if you'd like! I'm hoping to update this a little more frequently!</li>\n<li>The <a href=\"/goodies/pixel_clubs\">pixel club</a> page got a revamp for easier viewing, and I added the Bottlecaps pixel club!</li>\n<li>Added some <a href=\"/goodies/graphics\">honeycomb stamp</a> graphics! I had been meaning to add them for a while, but making the CSS took a little bit of work!</li>\n<li>Cosmetic updates and other fixes, including:\n<ul>\n<li>Added a loading screen to graphic-heavy pages</li>\n<li>I removed most of the <i class='ft-alert-triangle index'></i> icons as a result, but only if JS is enabled! They are still there if JS is disabled!</li>\n<li>Added <a href=\"/sitemap\">sitemap</a> to the navigation sidebar for easier access</li>\n</ul>\n</li>\n</ul>\n<p>That's it for now! See you later, and I hope everyone has a great Halloween in 10 days!</p>\n",
         "date_published": "2025-10-21T08:00:00Z"
-      },
-    
-      {
-        "id": "bechnokid-10/2/2025",
-        "url": "https://bechnokid.neocities.org",
-        "title": "Oct 2, 2025",
-        "content_html": "<p>It is the Spooky Month!! Halloween is upon us!</p>\n<p>Here are some creepy changes for this update:</p>\n<ul>\n<li>New artwork in the <a href=\"/art/digimon\">Digimon</a> section</li>\n<li>New <a href=\"/writing/blog\">blog</a> entry</li>\n<li>Added a clique and <a href=\"/links\">link</a></li>\n<li>New items in all <a href=\"/goodies\">Goodies</a> pages (except for Pocket Bishies) and <a href=\"/quiz_results\">Quiz Results</a></li>\n<li>Made some updates to the <a href=\"/joined\">webrings</a> as well as the <a href=\"/about\">About</a> page</li>\n<li>Other updates and fixes including cosmetic and backend changes, such as:\n<ul>\n<li>There should be few to no boxes that have a scroll bar now that I have a &quot;Back to Top&quot; button</li>\n<li>Fixed spacing in a lot of elements</li>\n<li>Overall, if you don't notice a lot of differences, that's a good thing!</li>\n</ul>\n</li>\n</ul>\n<p>That's it for now! See you later!</p>\n",
-        "date_published": "2025-10-02T08:00:00Z"
       }
     
   ]

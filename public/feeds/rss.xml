@@ -8,13 +8,54 @@
     <link>https://bechnokid.neocities.org</link>
     <description>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</description>
     <language>en-us</language>
-    <lastBuildDate>2025-10-02T08:00:00Z</lastBuildDate>
+    <lastBuildDate>2025-10-21T08:00:00Z</lastBuildDate>
     <docs>https://www.rssboard.org/rss-specification</docs>
+    <item>
+      <title>Dec 30, 2025</title>
+      <link>/home</link>
+      <guid isPermaLink="false">update-Tue Dec 30 2025 07:00:00 GMT-0500 (Eastern Standard Time)</guid>
+      <pubDate>2025-10-21T08:00:00Z</pubDate>
+      <description><![CDATA[
+        <p>Hi everyone! I hope everyone has had a good time during the winter holidays. This will be the last update for the year. :D</p>
+<p>There are so many changes in this update that I'm not sure if I can put them all in this single entry without it being too overwhelming. XD</p>
+<p>So, I'll list the most important ones (to me)!</p>
+<ul>
+<li>New artwork in the <a href="/art/digimon">Digimon</a> section</li>
+<li>Made a <a href="/to-do">to-do</a> list for the site</li>
+<li>Added two <a href="/links">links</a></li>
+<li>Meadow's guestbook service is currently down, so I linked to my <a href="https://bechnokid.atabook.org/">atabook</a> instead. Hopefully it gets fixed soon!</li>
+<li>Optimization updates (hopefully):
+<ul>
+<li>Consolidated most of my JS files into one</li>
+<li>Fixed up JS for webrings page</li>
+</ul>
+</li>
+</ul>
+        ]]></description>
+      <content:encoded><![CDATA[
+        &lt;p&gt;Hi everyone! I hope everyone has had a good time during the winter holidays. This will be the last update for the year. :D&lt;/p&gt;
+&lt;p&gt;There are so many changes in this update that I&#39;m not sure if I can put them all in this single entry without it being too overwhelming. XD&lt;/p&gt;
+&lt;p&gt;So, I&#39;ll list the most important ones (to me)!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in the &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; section&lt;/li&gt;
+&lt;li&gt;Made a &lt;a href=&quot;/to-do&quot;&gt;to-do&lt;/a&gt; list for the site&lt;/li&gt;
+&lt;li&gt;Added two &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Meadow&#39;s guestbook service is currently down, so I linked to my &lt;a href=&quot;https://bechnokid.atabook.org/&quot;&gt;atabook&lt;/a&gt; instead. Hopefully it gets fixed soon!&lt;/li&gt;
+&lt;li&gt;Optimization updates (hopefully):
+&lt;ul&gt;
+&lt;li&gt;Consolidated most of my JS files into one&lt;/li&gt;
+&lt;li&gt;Fixed up JS for webrings page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+        ]]></content:encoded>
+    </item>
+    
     <item>
       <title>Dec 8, 2025</title>
       <link>/home</link>
-      <guid isPermaLink="false">update-Mon Dec 08 2025 11:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <guid isPermaLink="false">update-Mon Dec 08 2025 07:00:00 GMT-0500 (Eastern Standard Time)</guid>
+      <pubDate>2025-10-21T08:00:00Z</pubDate>
       <description><![CDATA[
         <p>Hi everyone! It's another cold day in December. We actually had one snow day here! We sadly haven't had snow since then, but I'm holding out hop that it will snow on Christmas!</p>
 <p>This update seems pretty small, but that's because most of the updates were on the back end! However, an update is still an update!</p>
@@ -65,7 +106,7 @@
       <title>Nov 28, 2025</title>
       <link>/home</link>
       <guid isPermaLink="false">update-Fri Nov 28 2025 07:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <pubDate>2025-10-21T08:00:00Z</pubDate>
       <description><![CDATA[
         <p>Hi everyone! I had a great Thanksgiving and a peaceful Black Friday. Looking forward to the winter holidays now!</p>
 <p>Here's what's in this joyous update!</p>
@@ -178,7 +219,7 @@
       <title>Nov 20, 2025</title>
       <link>/home</link>
       <guid isPermaLink="false">update-Thu Nov 20 2025 07:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <pubDate>2025-10-21T08:00:00Z</pubDate>
       <description><![CDATA[
         <p>Hello, everyone! It's almost the end of November, which for a lot of you, means the beginning of winter holidays! I live in the US, so we have Thanksgiving coming up next week. I'm not sure what my family and I will be doing on that day, but I know that we don't usually have turkey!</p>
 <p>It's gotten even colder for us here in the Northern Hemisphere. For those in the Southern Hemisphere, I hope you're all enjoying some warm weather! I wonder what it's like to celebrate Christmas in the Southern Hemisphere...</p>
@@ -257,7 +298,7 @@
       <title>Nov 5, 2025</title>
       <link>/home</link>
       <guid isPermaLink="false">update-Wed Nov 05 2025 07:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <pubDate>2025-10-21T08:00:00Z</pubDate>
       <description><![CDATA[
         <p>Hello, everyone! I hope all of you are doing alright and that seasonal depression has passed for you. If not, then you can do it! I believe in you!</p>
 <p>It's gotten colder, but thankfully I like colder weather! It means I can bundle up, wear my longer coats, and look like a real anime protagonist! Ok, not really...</p>
@@ -306,7 +347,7 @@
       <title>Oct 27, 2025</title>
       <link>/home</link>
       <guid isPermaLink="false">update-Mon Oct 27 2025 08:00:00 GMT-0400 (Eastern Daylight Time)</guid>
-      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <pubDate>2025-10-21T08:00:00Z</pubDate>
       <description><![CDATA[
         <p>It's almost Halloween!! I don't even have any special plans! I just love the holiday that much!!!</p>
 <p>The list of updates is small this time. :3</p>
@@ -341,7 +382,7 @@
       <title>Oct 21, 2025</title>
       <link>/home</link>
       <guid isPermaLink="false">update-Tue Oct 21 2025 08:00:00 GMT-0400 (Eastern Daylight Time)</guid>
-      <pubDate>2025-10-02T08:00:00Z</pubDate>
+      <pubDate>2025-10-21T12:00:00Z</pubDate>
       <description><![CDATA[
         <p>Happy <a href="https://blog.playstation.com/2025/10/20/festival-of-accord-dreamspell-comes-to-monster-hunter-wilds-starting-october-22/">Dreamspell Festival</a> Eve! I honestly wish I would make more of a habit uploading my art here as soon as I finish drawing it, but I love making updates to the site as well! <img class='inline-img' src='/assets/images/blog/emoticon/emote_happy.png' aria-hidden='true' alt=''></p>
 <p>Here are the spooky changes for this update:</p>
@@ -379,51 +420,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now! See you later, and I hope everyone has a great Halloween in 10 days!&lt;/p&gt;
-        ]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Oct 2, 2025</title>
-      <link>/home</link>
-      <guid isPermaLink="false">update-Thu Oct 02 2025 08:00:00 GMT-0400 (Eastern Daylight Time)</guid>
-      <pubDate>2025-10-02T12:00:00Z</pubDate>
-      <description><![CDATA[
-        <p>It is the Spooky Month!! Halloween is upon us!</p>
-<p>Here are some creepy changes for this update:</p>
-<ul>
-<li>New artwork in the <a href="/art/digimon">Digimon</a> section</li>
-<li>New <a href="/writing/blog">blog</a> entry</li>
-<li>Added a clique and <a href="/links">link</a></li>
-<li>New items in all <a href="/goodies">Goodies</a> pages (except for Pocket Bishies) and <a href="/quiz_results">Quiz Results</a></li>
-<li>Made some updates to the <a href="/joined">webrings</a> as well as the <a href="/about">About</a> page</li>
-<li>Other updates and fixes including cosmetic and backend changes, such as:
-<ul>
-<li>There should be few to no boxes that have a scroll bar now that I have a &quot;Back to Top&quot; button</li>
-<li>Fixed spacing in a lot of elements</li>
-<li>Overall, if you don't notice a lot of differences, that's a good thing!</li>
-</ul>
-</li>
-</ul>
-<p>That's it for now! See you later!</p>
-        ]]></description>
-      <content:encoded><![CDATA[
-        &lt;p&gt;It is the Spooky Month!! Halloween is upon us!&lt;/p&gt;
-&lt;p&gt;Here are some creepy changes for this update:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;New artwork in the &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; section&lt;/li&gt;
-&lt;li&gt;New &lt;a href=&quot;/writing/blog&quot;&gt;blog&lt;/a&gt; entry&lt;/li&gt;
-&lt;li&gt;Added a clique and &lt;a href=&quot;/links&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;New items in all &lt;a href=&quot;/goodies&quot;&gt;Goodies&lt;/a&gt; pages (except for Pocket Bishies) and &lt;a href=&quot;/quiz_results&quot;&gt;Quiz Results&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Made some updates to the &lt;a href=&quot;/joined&quot;&gt;webrings&lt;/a&gt; as well as the &lt;a href=&quot;/about&quot;&gt;About&lt;/a&gt; page&lt;/li&gt;
-&lt;li&gt;Other updates and fixes including cosmetic and backend changes, such as:
-&lt;ul&gt;
-&lt;li&gt;There should be few to no boxes that have a scroll bar now that I have a &amp;quot;Back to Top&amp;quot; button&lt;/li&gt;
-&lt;li&gt;Fixed spacing in a lot of elements&lt;/li&gt;
-&lt;li&gt;Overall, if you don&#39;t notice a lot of differences, that&#39;s a good thing!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now! See you later!&lt;/p&gt;
         ]]></content:encoded>
     </item>
     
