@@ -1,0 +1,373 @@
+&#10;<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>bechnokid - Status Cafe</title><meta name="description" content="your friends' updates"><link rel="stylesheet" href="https://status.cafe/assets/style.css" type="text/css" media="all"></head><body><header><nav><a href="/">status.cafe</a> <a href="https://forum.status.cafe">forum</a> <a href="/settings">settings</a> <a href="/users/bechnokid">bechnokid</a> (<a href="/logout">logout</a>)</nav></header><main><div class="cols"><section><h2 id="bechnokid">bechnokid</h2><img src="https://placehold.co/500x500" class="profile-picture"><p><a href="/users/bechnokid.atom">Subscribe via Atom</a></p><dl><dt class="homepage">Homepage</dt><dd class="homepage"><a href="https://bechnokid.neocities.org/" target="_blank">https://bechnokid.neocities.org/</a></dd><dt class="email">Email</dt><dd class="email"><a href="mailto:bechnokid@yahoo.com" target="_blank">bechnokid@yahoo.com</a></dd><dt class="about">About</dt><dd class="about"><div class="deviant-banner"><div class="deviant-container"><div class="deviant-header"><img class="pfp" src="https://placehold.co/50x50" alt="profile picture"><h2 class="username" id="username-symbol-username">[USERNAME_SYMBOL][USERNAME]</h2><p>[USER_TAGLINE]</p></div><div class="deviant-cols"><section class="attributes"><ul><li>is a <strong>[NOUN]</strong></li><li>is <strong>[GENDER]</strong></li><li>is a deviant since <strong>[ACCOUNT_CREATION_DATE]</strong></li><li>is subscribed until <strong>[SUBSCRIPTION_DEADLINE]</strong></li><li>has <a href="https://status.cafe" class="font-weight-normal">[NUM_OF_PAGEVIEWS] pageviews</a></li><li>is located in <strong>[COUNTRY]</strong></li><li>is currently <img src="https://e.deviantart.net/emoticons/s/smile.gif" alt="Happy"></li><li>is a [IM_MESSENGER] user; [IM_MESSENGER_USERNAME]</li></ul></section><section class="site-btns"><a href="#"><img src="https://placehold.co/88x32" alt="Website button"></a><p>[<a href="#">Website</a>]</p></section><section class="stats"><ul><li>Status: <strong class="deviant-status">[DEVIANT_USER_TYPE]</strong></li><li>Deviations: <strong>0</strong></li><li>Scraps: <strong>0</strong></li><li>Deviation Comments: <strong>0</strong></li><li>Deviant Comments: <strong>0</strong></li><li>Deviant Comments Received: <strong>0</strong></li><li>News Comments: <strong>0</strong></li><li>Forum Posts: <strong>0</strong></li><li>Journal Entries: <strong>0</strong></li><li>Shouts: <strong>0</strong></li><li>Favourites: <strong>0</strong></li></ul><p><a href="https://status.cafe">View Full Gallery Stats</a></p></section></div></div></div><div class="deviant-about-col"><div class="deviant-container"><div class="deviant-header"><h2 id="devious-information"><span><img src="https://i.ibb.co/V0gdKc4j/general.gif'" alt=""></span>Devious Information</h2></div><div class="id-image"><img src="https://placehold.co/300x300" alt="ID image"></div><ul class="deviant-info"><li><strong>Current Age: </strong>foo</li><li><strong>Current Residence: </strong>bar</li><li><strong>Interests: </strong>foo</li><li><strong>Favourite movie: </strong>bar</li><li><strong>Favourite band or musician: </strong>foo</li><li><strong>Favourite photographer: </strong>bar</li><li><strong>Favourite genre of music: </strong>foo</li><li><strong>Favourite poet or writer: </strong>bar</li><li><strong>Favourite style or digital art: </strong>foo</li><li><strong>Operating System: </strong>bar</li><li><strong>MP3 player of choice: </strong>foo</li><li><strong>Shell of choice: </strong>bar</li><li><strong>Skin of choice: </strong>foo</li><li><strong>Wallpaper of choice: </strong>bar</li><li><strong>Favourite game: </strong>foo</li><li><strong>Favourite gaming platform: </strong>bar</li><li><strong>Favourite cartoon character: </strong>foo</li><li><strong>Tools of the Trade: </strong>bar</li></ul></div><div class="credits deviant-container"><div class="deviant-header"><h2 id="credits"><span><img src="https://i.ibb.co/Zpg6zT8K/faq.gif" alt=""></span>Credits</h2></div><ul class="deviant-info"><li><strong>Theme: </strong><a href="https://bechnokid.neocities.org" class="font-weight-normal">*Bechno Kid</a></li><li><strong>Tiny coffee cup: </strong><a class="font-weight-normal" href="https://www.deviantart.com/dri-bee/art/Tiny-Coffee-472320286">~Dri-Bee</a></li><li><strong>Other icons and original layout: </strong><a class="font-weight-normal" href="https://www.webdesignmuseum.org/gallery/deviantart-in-2005">DeviantART</a></li></ul></div></div><style>:root {
+    --bg-primary: #a7afa7;
+    --border-box: #4a584a;
+    --bg-box: #BBC2BB;
+    --bg-nav: #88938D;
+    --bg-header-box: #88938D;
+    --link-primary: #3B4A4A;
+    --link-nav: #DAE4DA;
+    --text-nav: #B6C0B6;
+  }
+
+  .cols > section:first-child > h2,
+  .cols > section:first-child > p,
+  dt.about,
+  .email,
+  .homepage,
+  a[href$=".atom"],
+  .profile-picture,
+  .status:nth-child(n+9) {
+    display: none;
+  }
+
+  body {
+    max-width: 1028px;
+    background-color: var(--bg-primary);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .7em;
+    color: #000;
+    letter-spacing: -.25px;
+  }
+
+  body::before {
+    content: url(https://i.ibb.co/Gf7F6LqQ/da-logo.png);
+  }
+
+  * {
+    margin: 0;
+    padding: 0
+  }
+
+  .cols {
+    grid-template-columns: 1fr 1.2fr;
+    grid-gap: 1em;
+  }
+
+  header {
+    padding: .25rem;
+    margin-top: -2px;
+    margin-bottom: .5rem;
+    color: var(--text-nav);
+    background: var(--bg-nav);
+    border: 1px solid var(--border-box);
+    border-radius: .4em;
+    letter-spacing: .1em;
+
+    a {
+      color: var(--link-nav);
+      font-weight: normal;
+      text-transform: capitalize;
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+
+    & > a {
+      display: inline-flex;
+      align-items: center;
+
+      &:first-child {
+        font-weight: bold;
+      }
+
+      &[href="/"]:before {
+        content: url(https://i.ibb.co/bRmhWwm0/cafe.png);
+        margin-right: .25rem;
+        display: inline-flex;
+        align-items: center;
+      }
+
+      &[href="https://forum.status.cafe"]:before {
+        content: url(https://i.ibb.co/pjsFD1j6/forum.gif);
+        margin-right: .25rem;
+      }
+
+      &[href*="/users"] {
+        color: #2B3A3A;
+        margin: 0 .5rem 0 .25rem;
+        text-transform: none;
+      }
+
+      &[href="/register"] {
+        margin: 0 .5rem 0 .25rem;
+      }
+
+      &[href="/settings"]:before {
+        content: url(https://i.ibb.co/VWP7LZX5/services.gif);
+        margin-right: .25rem;
+      }
+    }
+
+    & > *:not(:last-child) {
+      border-right: 1px solid var(--text-nav);
+      padding: 0 .5rem 0 .25rem;
+    }
+  }
+
+  h2 {
+    font-family: "Trebuchet MS", "Arial", "Verdana", sans-serif;
+    font-size: 1.7em;
+    letter-spacing: .15em;
+  }
+
+  a {
+    color: var(--link-primary);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .font-weight-normal {
+    font-weight: normal !important;
+  }
+
+  .about {
+    position: relative;
+  }
+
+  .deviant-banner {
+    max-width: 1028px;
+    position: absolute;
+    width: calc(100vw - 2em);
+
+    .deviant-header p {
+      margin: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .deviant-container {
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-box);
+    background: var(--bg-box);
+
+    .deviant-header {
+      background: var(--bg-header-box);
+      padding: .5rem;
+      border-bottom: 1px solid var(--border-box);
+
+      h2 {
+        margin: 0;
+
+        &:not(.username) {
+          text-align: center;
+        }
+
+        span:has(img) {
+          margin-right: .25rem;
+        }
+      }
+    }
+
+    .deviant-content {
+      padding: .25rem;
+    }
+  }
+
+
+  .deviant-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: .5rem .25rem;
+
+    .attributes {
+      ul {
+        padding-left: 1rem;
+        list-style-type: circle;
+
+        img {
+          vertical-align: middle
+        }
+      }
+    }
+
+    .site-btns {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        font-weight: normal;
+      }
+    }
+
+    .stats {
+      text-align: right;
+
+      ul {
+        list-style-type: none;
+
+        strong {
+          display: inline-block;
+          min-width: 6ex;
+          white-space: nowrap;
+        }
+      }
+
+      p {
+        margin-top: .5rem;
+      }
+    }
+  }
+
+  .pageviews {
+    color: var(--link-primary);
+  }
+
+  .fake-stats {
+    color: var(--link-primary);
+  }
+
+  .deviant-about-col {
+    position: absolute;
+    top: 265px;
+    width: 100%;
+  }
+
+  .pfp {
+    float: right;
+  }
+
+  .id-image {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--border-box);
+    padding: .5rem;
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+
+  .deviant-info {
+    list-style-type: none;
+
+    li {
+      padding: .25rem;
+
+      &:nth-child(even) {
+        background: #B0B6B0;
+      }
+    }
+  }
+
+  .cols > section:last-child {
+    margin-top: 276px;
+
+    h2 {
+      margin-bottom: 1rem;
+      padding: .25rem;
+      background: var(--bg-header-box);
+      border: 1px solid var(--border-box);
+      text-align: center;
+
+      &:before {
+        content: url(https://i.ibb.co/0RQVDNw1/comment.gif);
+        margin-right: .25rem;
+      }
+    }
+  }
+
+  .status {
+    border: 1px solid var(--border-box);
+    background: var(--bg-box);
+  }
+
+  .status-username {
+    border-bottom: 1px solid var(--border-box);
+    background: var(--bg-header-box);
+    padding: .5rem;
+    letter-spacing: .1em;
+    margin: 0;
+    font-size: 1.02em;
+
+    &:before {
+      content: "Deviant: ";
+      font-weight: bold;
+    }
+
+    a {
+      font-weight: normal;
+
+      &:after {
+        white-space: pre-wrap;
+        content: "\ATime:";
+        font-weight: bold;
+        color: #000;
+        text-decoration: none !important;
+      }
+
+      &:before {
+        content: "[USERNAME_SYMBOL]";
+        color: #000;
+        text-decoration: none !important;
+      }
+
+      &:hover {
+        &::before,
+        &::after {
+          text-decoration: none !important;
+        }
+      }
+    }
+  }
+
+  .status-content {
+    margin: 0;
+    padding: .5rem;
+
+    &:after {
+      content: "\A\A--\A[SIGNATURE]";
+      white-space: pre-wrap;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .cols {
+      display: block;
+    }
+
+    .about,
+    .deviant-banner,
+    .deviant-about-col {
+      position: static;
+    }
+
+    .cols > section:last-child {
+      margin-top: 0;
+    }
+
+    .deviant-cols {
+      display: flex;
+      flex-direction: column;
+
+      .attributes {
+        order: 0;
+      }
+
+      .stats {
+        order: 1;
+        text-align: left;
+
+        ul {
+          list-style-type: circle;
+          margin-left: 1rem;
+        }
+      }
+
+      .site-btns {
+        order: 2;
+      }
+    }
+  }</style></dd></dl></section><section><h2 id="statuses">Statuses</h2><article class="status"><div class="status-username"><a href="https://status.cafe/users/bechnokid">bechnokid</a> ⭐ 1 hour ago</div><p class="status-content">This is a preview for a Status Cafe theme!</p></article><article class="status"><div class="status-username"><a href="https://status.cafe/users/bechnokid">bechnokid</a> 👀 5 days ago</div><p class="status-content">If the preview in this frame is too small, you can take the page's URL and replace "themes" with "preview" to view the theme in full resolution.</p></article><article class="status"><div class="status-username"><a href="https://status.cafe/users/bechnokid">bechnokid</a> 💡 2 days ago</div><p class="status-content">Please note that most of the links in the navigation do not work since this is just a preview. Clicking on them will lead to broken pages!</p></article><article class="status"><div class="status-username"><a href="https://status.cafe/users/bechnokid">bechnokid</a> ✏️ 3 days ago</div><p class="status-content">If anything looks off, feel free to shoot me an email to the email address listed to the left!</p></article><p><a href="bechnokid?page=1">Older statuses</a></p></section></div></main><footer></footer></body></html>

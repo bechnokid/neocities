@@ -1,60 +1,3 @@
-/* Constants */
-const FEED_URL = 'https://status.cafe/users/bechnokid.atom';
-const STATUS_CONTAINER = "status-cafe-widget";
-const EMOJI_HASH = {
-  'normal': ['🙂'],
-  'happy': ['😀','😛', '🥳'],
-  'calm': ['😌'],
-  'excited': ['😄'],
-  'love': ['🥰', '❤️', '😍'],
-  'sad': ['😢','😔', '😩'],
-  'sobbing': ['😭'],
-  'worried': ['😟', '😰', '🥺'],
-  'embarrassed': [ '😂', '😅' ],
-  'confused': ['❓'],
-  'surprised': ['😮','😦','😧','😱'],
-  'annoyed': ['😒','🫤'],
-  'angry': ['😠'],
-  'furious': ['😡','🤬'],
-  'thinking': ['🤔'],
-  'skeptical': ['🤨','🙄'],
-  'dead': ['💀'],
-  'hehe': ['😏'],
-  'lol': ['😆','🤣','😂'],
-  'sigh': ['😑']
-};
-const GUESTBOOK_MSG_LIMIT = 4;
-const RESOURCERINGLIST = [
-  'https://pixelsafari.neocities.org/',
-  'https://www.thefrugalgamer.net/resources.php',
-  'https://y2kstardust.neocities.org/resources',
-  'https://foreverliketh.is/',
-  'https://favicons.neocities.org/',
-  'https://bechnokid.neocities.org/',
-  'https://jasm1nii.xyz/',
-  'https://pixelglade.net/misc/links.html',
-  'https://shinyexe.neocities.org/',
-  'https://trinityexe.neocities.org/homepage',
-  'https://thecozy.cat/',
-  'https://vesselvindicate.neocities.org/',
-  'https://salvaged.nu/',
-  'https://brisray.com/utils/webrings.htm',
-  'https://crisis.city',
-  'https://oerrorpage.neocities.org',
-  'https://bettysgraphics.neocities.org/',
-  'https://baccyflap.com/rsp/',
-  'https://xxhalfemptyxx.neocities.org/',
-  'https://emocowboy.neocities.org/',
-  'https://caitsith.neocities.org/',
-  'https://petrapixel.neocities.org/',
-  'https://graphixbox.neocities.org/',
-  'https://re-nata.neocities.org/themes',
-  'https://chanteryuutai.neocities.org/ItsFreeRealState',
-  'https://beaus-silly-folder.nekoweb.org/pages/hello-world.html',
-  'https://dyingsignals.love',
-  'https://rentryresource.neocities.org/links'
-]
-
 /* Global variables */
 var webringLinks = {};
 
@@ -170,7 +113,7 @@ class jQuery extends Array {
     } else {
       let valuesArr = [];
       this.forEach((item) => valuesArr.push(item.value));
-      return valuesArr;
+      return valuesArr.length > 1 ? valuesArr : valuesArr[0];
     }
     return this;
   }
@@ -249,7 +192,7 @@ $.ajax = function (args) {
   }
 }
 
-/* Freezeframe class */
+// Freezeframe
 class FreezeImages {
   constructor(options = {}) {
     // Set default params
@@ -304,11 +247,14 @@ class FreezeImages {
 
       // Creates <canvas> of GIF and copies data of first frame of animation
       let canvas = document.createElement("canvas");
-      canvas.width = img.width;
-      canvas.height = img.height;
+      let imgWidth = img.width;
+      let imgHeight = img.height;
+
+      canvas.width = imgWidth;
+      canvas.height = imgHeight;
       canvas.className = `${this.canvasCls} ff-active`;
       canvas.getContext('2d').imageSmoothingEnabled = this.smoothing;
-      canvas.getContext('2d').drawImage(img, 0, 0, img.width, img.height);
+      canvas.getContext('2d').drawImage(img, 0, 0, imgWidth, imgHeight);
 
       // Creates container that will hold both <img> and <canvas>
       let wrapper = document.createElement("div");
@@ -347,16 +293,76 @@ class FreezeImages {
   }
 }
 
-/* Helper functions */
+function loadFreeze() {
+  const f = new FreezeImages({ selector: "freezeframe" });
+
+    // When .play-gif is clicked, images will play
+    $('.play-gif').on('click', () => f.start());
+
+    // When .stop-gif is clicked, images will pause
+    $('.stop-gif').on('click', () => f.stop());
+
+    // When .toggle-gif is clicked, images will play or start depending on its current state
+    $('.toggle-gif').on('click', () => f.toggle());
+}
+
+// Helper functions
 function getRandomIndex(arr) {
   return Math.floor(Math.random() * arr.length);
 }
 
+// Theme Toggle
 function updateButtonAndTheme(labelEl, isDark, theme) {
   const ariaLabel = isDark ? 'light' : 'dark';
   labelEl.attr('aria-label', `Switch to ${ariaLabel} mode`);
   labelEl.html((isDark ? "☀️" : "🌙"));
   $("html").attr('data-theme', theme);
+};
+
+function loadThemeToggle() {
+  const themeSwitchCheckbox = $('#theme-switcher');
+  const themeSwitchLabel = $('#switcher-label');
+  const storedTheme = localStorage.getItem('theme');
+  const systemThemeDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+  let currentTheme = 'light';
+  if (systemThemeDark.matches) currentTheme = 'dark';
+  if (storedTheme !== null) currentTheme = storedTheme;
+
+  updateButtonAndTheme(themeSwitchLabel, currentTheme === 'dark', currentTheme);
+
+  themeSwitchCheckbox.on('change', function () {
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('theme', newTheme);
+    updateButtonAndTheme(themeSwitchLabel, newTheme === 'dark', newTheme);
+    currentTheme = newTheme;
+  });
+}
+
+// Microblog
+const FEED_URL = 'https://status.cafe/users/bechnokid.atom';
+const STATUS_CONTAINER = "status-cafe-widget";
+const EMOJI_HASH = {
+  'normal': ['🙂'],
+  'happy': ['😀','😛', '🥳'],
+  'calm': ['😌'],
+  'excited': ['😄'],
+  'love': ['🥰', '❤️', '😍'],
+  'sad': ['😢','😔', '😩'],
+  'sobbing': ['😭'],
+  'worried': ['😟', '😰', '🥺'],
+  'embarrassed': [ '😂', '😅' ],
+  'confused': ['❓'],
+  'surprised': ['😮','😦','😧','😱'],
+  'annoyed': ['😒','🫤'],
+  'angry': ['😠'],
+  'furious': ['😡','🤬'],
+  'thinking': ['🤔'],
+  'skeptical': ['🤨','🙄'],
+  'dead': ['💀'],
+  'hehe': ['😏'],
+  'lol': ['😆','🤣','😂'],
+  'sigh': ['😑']
 };
 
 const findEmoticon = (obj, fn) =>
@@ -408,94 +414,62 @@ function generateStatusHtml(el, isHome = false){
   return html;
 };
 
-function loadMessages() {
+function loadMicroblog() {
   $.ajax({
     method: 'GET',
-    url: 'https://guestbooks.meadow.cafe/api/v1/get-guestbook-messages/484',
+    url: FEED_URL,
     success: function(response) {
-      let messagesArr = [];
-      for (let idx = 0; idx < response.length; idx++) {
-        const hidden = idx > GUESTBOOK_MSG_LIMIT;
-        const hideLine = idx > GUESTBOOK_MSG_LIMIT - 1;
-        const msgContent = loadMsgContent(response[idx], hidden, hideLine);
-        messagesArr.push(msgContent);
+      const data = new window.DOMParser().parseFromString(response, "text/xml")
+      const entries = data.querySelectorAll('entry');
+      let html = ``;
+      let statusLimit = 5 // Default: 0
+      if (entries.length < 1){
+        html = `<p>No statuses yet.</p>`;
+      } else if (window.location.pathname.includes('/home')){
+        html = generateStatusHtml(entries[0], true);
+      } else {
+        if (statusLimit < 1) statusLimit = entries.length;
+        for (i = 0; i < statusLimit; i++) {
+          html += generateStatusHtml(entries[i]);
+          if (i < statusLimit - 1) html += `<hr class='small'>`;
+        }
       }
-
-      const content = (messagesArr.length > 0) ? messagesArr.join('') : `<p>There are no messages, yet.</p>`
-      $(".guestbook-msg-container").html(content);
-
-      if (messagesArr.length > 0) {
-        loadPageNumbers(messagesArr);
-        setCurrentPage(1);
-
-        $('#prev-btn').on('click', function() {
-          if ((currentPage - 1) > 0) setCurrentPage(currentPage - 1);
-        });
-
-        $('#next-btn').on('click', function() {
-          if ((currentPage + 1) <= 5 ) setCurrentPage(currentPage + 1);
-        })
-
-        $('.pagination-num').on('click', function() {
-          if (!$(this).hasClass('active')) {
-            setCurrentPage(Number(this.getAttribute('data-page-index')));
-          }
-        });
-      }
-    },
-    fail: function(){
-      $(".guestbook-msg-container").html(`<p>Unable to obtain guestbook messages.</p>`);
-    }
-  });
-};
-
-function loadMsgContent(message, hidden) {
-  const dateObj = new Date(message.CreatedAt);
-  const formattedDate = dateObj.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-  const website = (message.Website) ? `<p><strong>Website: </strong><a href='${message.Website}'>${message.Website}</a></p>` : '';
-  const msg = message.Text.replaceAll(/(\r\n)/g, "<br>");
-  return `<div class='guestbook-msg-div sidebar p-3 pb-2 ${hidden ? "d-none" : ''}'><div class="guestbook-msg-header"><p><strong>Name: </strong>${message.Name}</p><p><strong>Sent: </strong>${formattedDate}</p>${website}</div><div class="guestbook-msg-body"><p>${msg}</p></div></div>`;
-};
-
-function loadPageNumbers(msgList) {
-  const numOfPages = Math.ceil(msgList.length / GUESTBOOK_MSG_LIMIT);
-  pageCount = numOfPages;
-
-  let pageNumList = [];
-  for (let i = 1; i <= numOfPages; i++) {
-    const btn = `<button class='pagination-num' data-page-index='${i}' aria-label='Page ${i}'>${i}</button>`;
-    pageNumList.push(btn);
-  }
-  $('#pagination-numbers').html(pageNumList.join(''));
-  $('#guestbook-pagination').removeClass('d-none');
-};
-
-function setCurrentPage(pageNum) {
-  currentPage = pageNum;
-  const prevRange = (pageNum - 1) * GUESTBOOK_MSG_LIMIT;
-  const currRange = pageNum * GUESTBOOK_MSG_LIMIT;
-  const msgList = $('.guestbook-msg-div');
-
-  setCurrentPageNum();
-
-  msgList.each(function(value, i) {
-    if (i >= prevRange && i < currRange) {
-      $(value).removeClass('d-none')
-    } else {
-      $(value).addClass('d-none')
+      $(`#${STATUS_CONTAINER}`).html(html);
     }
   });
 }
 
-function setCurrentPageNum() {
-  $('.pagination-num.active').removeClass('active');
-  $('.pagination-num').each(function(val) {
-    const pageIndex = Number($(val).attr('data-page-index'));
-    if (pageIndex == currentPage) {
-      $(val).addClass('active');
-    }
-  })
-}
+// Webrings
+const RESOURCERINGLIST = [
+  'https://pixelsafari.neocities.org/',
+  'https://www.thefrugalgamer.net/resources.php',
+  'https://y2kstardust.neocities.org/resources',
+  'https://foreverliketh.is/',
+  'https://favicons.neocities.org/',
+  'https://bechnokid.neocities.org/',
+  'https://jasm1nii.xyz/',
+  'https://pixelglade.net/misc/links.html',
+  'https://shinyexe.neocities.org/',
+  'https://trinityexe.neocities.org/homepage',
+  'https://thecozy.cat/',
+  'https://vesselvindicate.neocities.org/',
+  'https://salvaged.nu/',
+  'https://brisray.com/utils/webrings.htm',
+  'https://crisis.city',
+  'https://oerrorpage.neocities.org',
+  'https://bettysgraphics.neocities.org/',
+  'https://baccyflap.com/rsp/',
+  'https://xxhalfemptyxx.neocities.org/',
+  'https://emocowboy.neocities.org/',
+  'https://caitsith.neocities.org/',
+  'https://petrapixel.neocities.org/',
+  'https://graphixbox.neocities.org/',
+  'https://re-nata.neocities.org/themes',
+  'https://chanteryuutai.neocities.org/ItsFreeRealState',
+  'https://beaus-silly-folder.nekoweb.org/pages/hello-world.html',
+  'https://dyingsignals.love',
+  'https://rentryresource.neocities.org/links'
+]
 
 function setWebringLink(ringName, type, site) {
   const linkElement = type == "rand" ? 'a.link-rand' : `a:has(.${type})`;
@@ -506,6 +480,9 @@ function setWebringLink(ringName, type, site) {
 }
 
 function updateWebringLinks(ringName, sites, override = false) {
+  if (ringName == "pokering") {
+    console.log('debug')
+  }
   const idx = sites.findIndex((site) => site.includes('bechnokid'));
   if (!override && idx < 0) return;
 
@@ -518,128 +495,8 @@ function updateWebringLinks(ringName, sites, override = false) {
   setWebringLink(ringName, "next", next);
 }
 
-/* Document on ready */
-$(document).ready(function() {
-
-  /* THEME TOGGLE */
-  const themeSwitchCheckbox = $('#theme-switcher');
-  const themeSwitchLabel = $('#switcher-label');
-  const storedTheme = localStorage.getItem('theme');
-  const systemThemeDark = window.matchMedia("(prefers-color-scheme: dark)");
-
-  let currentTheme = 'light';
-  if (systemThemeDark.matches) currentTheme = 'dark';
-  if (storedTheme !== null) currentTheme = storedTheme;
-
-  updateButtonAndTheme(themeSwitchLabel, currentTheme === 'dark', currentTheme);
-
-  themeSwitchCheckbox.on('change', function () {
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    localStorage.setItem('theme', newTheme);
-    updateButtonAndTheme(themeSwitchLabel, newTheme === 'dark', newTheme);
-    currentTheme = newTheme;
-  });
-
-  /* FREEZEFRAME */
-  if ($('.freezeframe').length > 0) {
-    const f = new FreezeImages({ selector: "freezeframe" });
-
-    // When .play-gif is clicked, images will play
-    $('.play-gif').on('click', () => f.start());
-
-    // When .stop-gif is clicked, images will pause
-    $('.stop-gif').on('click', () => f.stop());
-
-    // When .toggle-gif is clicked, images will play or start depending on its current state
-    $('.toggle-gif').on('click', () => f.toggle());
-  }
-
-  /* MICROBLOG */
-  if ($(`#${STATUS_CONTAINER}`).length > 0) {
-    $.ajax({
-      method: 'GET',
-      url: FEED_URL,
-      success: function(response) {
-        const data = new window.DOMParser().parseFromString(response, "text/xml")
-        const entries = data.querySelectorAll('entry');
-        let html = ``;
-        let statusLimit = 5 // Default: 0
-        if (entries.length < 1){
-          html = `<p>No statuses yet.</p>`;
-        } else if (window.location.pathname.includes('/home')){
-          html = generateStatusHtml(entries[0], true);
-        } else {
-          if (statusLimit < 1) statusLimit = entries.length;
-          for (i = 0; i < statusLimit; i++) {
-            html += generateStatusHtml(entries[i]);
-            if (i < statusLimit - 1) html += `<hr class='small'>`;
-          }
-        }
-        $(`#${STATUS_CONTAINER}`).html(html);
-      }
-    });
-  };
-
-  /* GUESTBOOK */
-  if ($("#guestbooks___guestbook-form").length > 0) {
-    let form = $("#guestbooks___guestbook-form");
-    let errorMsg = "<p class='mt-0'><strong>Please resolve the following errors:</strong></p>"
-
-    // Validation
-    const errorMsgBox = $('.guestbook-error-msg');
-    const nameField = $('input#name');
-    const textField = $('textarea#text');
-    const questionField = $('input#question');
-    const websiteField = $('input#website');
-    const websiteRegex = /(^$|(http(s)?:\/\/)([\w-]+\.)+[\w-]+([\w- ;,.\/?%&=]*))$/i;
-
-    form.on('submit', async function(e){
-      e.preventDefault();
-
-      let errorList = [];
-      if (nameField.val().length == 0) errorList.push('<li>Name is missing.</li>');
-      if (websiteField.val().length > 0 && !websiteRegex.test(websiteField.val())) errorList.push('<li>Invalid URL.</li>');
-      if (textField.val().length == 0) errorList.push('<li>Message is empty.</li>');
-      if (questionField.val() != '8') {
-        let questionErr = (questionField.val().length == 0) ? "Answer is blank." : "Incorrect answer.";
-        errorList.push(`<li>${questionErr}</li>`);
-      }
-
-      if (errorList.length > 0) {
-        let errorListStr = '<ul>';
-        for (let i = 0; i < errorList.length; i++) {
-          errorListStr += errorList[i];
-          if (i == errorList.length - 1) {
-            errorListStr += '</ul>';
-          }
-        }
-        errorMsgBox.html(errorMsg + errorListStr);
-        errorMsgBox.removeClass('d-none');
-      } else {
-        let formData = new FormData(this);
-        const response = await fetch('https://guestbooks.meadow.cafe/guestbook/484/submit', {
-          method: 'POST',
-          body: formData
-        })
-
-        if (response.ok) {
-          this.reset();
-          loadGuestbookMsgs();
-          errorMsgBox.addClass('d-none');
-          errorMsgBox.html('');
-        } else {
-          errorMsg = (response.status === 401) ? 'The answer is incorrect. Please try again.' : await response.text();
-          errorMsgBox.html(`<p>${errorMsg}</p>`);
-          errorMsgBox.removeClass('d-none');
-        }
-      }
-    })
-
-    loadMessages();
-  }
-
-  if ($('.webrings').length > 0) {
-   for (let name in webringLinks) {
+function loadWebrings() {
+  for (let name in webringLinks) {
     let sites = [];
     let override = false;
     if (webringLinks[name]["override"]) {
@@ -650,9 +507,64 @@ $(document).ready(function() {
     }
     updateWebringLinks(name, sites, override);
    }
-  }
+}
 
-  /* LOADING PAGE */
+// Catch a Bishie
+function loadBishieQuiz() {
+  const imgPath = "/assets/images/goodies/pocket_bishies/";
+  $('#bishie-btn-submit').on('click', function() {
+    const values = $('input[type=radio]:checked').val();
+    const isCorrect = values.sort().join('') == answer.sort().join('');
+    if (isCorrect) {
+      $('#bishie-results').html('');
+      let imgContent = '';
+      if (images.length > 0) {
+        imgContent = "<div class='quiz-img-container my-3'>"
+        images.forEach(function(image) {
+          imgContent += `<img src="${imgPath}/${image.img}" alt="I caught ${image.imgAlt}">`;
+        })
+        imgContent += "</div>"
+      } else {
+        imgContent = `<img class="my-2" src="${imgPath}/${imgInfo[0]}" alt="${imgInfo[1]}">`
+      }
+      let content = `<div id='bishie-results'><h1>Congratulations!</h1><p>You got all the questions correct!</p><p>${images.length > 0 ? "Pick any badge from below" : "This badge is yours"}!</p>${imgContent}<p class='text-xs'>(Please save ${images.length > 0 ? "these images" : "this image"} on your own server!)</p></div>`;
+      $('#bishie-content').html(content);
+    } else {
+      $('#bishie-results').html("<p>You failed to snag the bishie! Try again!</p>");
+    }
+  })
+}
+
+// Copy to clipboard
+async function copyText(text) {
+  try {
+    await navigator.clipboard.writeText(text)
+    $('button#copy-btn').html("Code copied!");
+    setTimeout(function () {
+      $('button#copy-btn').html('Copy code');
+    }, 5000);
+  } catch(e) {
+    alert('Failed to copy: ', e);
+  }
+}
+
+function loadCopyTextBtn() {
+  $('button#copy-btn').on('click', () => {
+    const text = $('.copy-text').val();
+    copyText(text);
+  })
+}
+
+// Document on ready
+$(document).ready(function() {
+  loadThemeToggle();
+  if ($('.freezeframe').length > 0) loadFreeze();
+  if ($(`#${STATUS_CONTAINER}`).length > 0) loadMicroblog();
+  if ($('.webrings').length > 0) loadWebrings();
+  if ($('#bishie-btn-submit').length > 0) loadBishieQuiz();
+  if ($('button#copy-btn').length > 0) loadCopyTextBtn();
+
+  // Loading page
   if ($('.loading-sidebar').length > 0) {
     setTimeout(function () {
       $('.loading-sidebar').addClass('d-none');
