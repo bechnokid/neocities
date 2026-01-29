@@ -319,19 +319,18 @@ function updateButtonAndTheme(labelEl, isDark, theme) {
   $("html").attr('data-theme', theme);
 };
 
+const themeSwitchLabel = $('#switcher-label');
+const storedTheme = localStorage.getItem('theme');
+const systemThemeDark = window.matchMedia("(prefers-color-scheme: dark)");
+
+let currentTheme = 'light';
+if (systemThemeDark.matches) currentTheme = 'dark';
+if (storedTheme !== null) currentTheme = storedTheme;
+
+updateButtonAndTheme(themeSwitchLabel, currentTheme === 'dark', currentTheme);
+
 function loadThemeToggle() {
-  const themeSwitchCheckbox = $('#theme-switcher');
-  const themeSwitchLabel = $('#switcher-label');
-  const storedTheme = localStorage.getItem('theme');
-  const systemThemeDark = window.matchMedia("(prefers-color-scheme: dark)");
-
-  let currentTheme = 'light';
-  if (systemThemeDark.matches) currentTheme = 'dark';
-  if (storedTheme !== null) currentTheme = storedTheme;
-
-  updateButtonAndTheme(themeSwitchLabel, currentTheme === 'dark', currentTheme);
-
-  themeSwitchCheckbox.on('change', function () {
+  $('#theme-switcher').on('change', function () {
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     localStorage.setItem('theme', newTheme);
     updateButtonAndTheme(themeSwitchLabel, newTheme === 'dark', newTheme);
@@ -530,7 +529,7 @@ function loadBishieQuiz() {
       let content = `<div id='bishie-results'><h1>Congratulations!</h1><p>You got all the questions correct!</p><p>${images.length > 0 ? "Pick any badge from below" : "This badge is yours"}!</p>${imgContent}<p class='text-xs'>(Please save ${images.length > 0 ? "these images" : "this image"} on your own server!)</p></div>`;
       $('#bishie-content').html(content);
     } else {
-      $('#bishie-results').html("<p>You failed to snag the bishie! Try again!</p>");
+      $('#bishie-results').html(`<p>You failed to snag the bi${imgInfo[2]}! Try again!</p>`);
     }
   })
 }

@@ -59,8 +59,12 @@
   nav,
   dl,
   article.status {
-    border: 8px solid transparent;
-    border-image: var(--border-lace);
+    border-image-slice: 8 fill;
+    border-image-width: 8px;
+    border-image-outset: 0;
+    border-image-repeat: round round;
+    border-image-source: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXAgMAAACdRDwzAAAAAXNSR0IB2cksfwAAAAlQTFRFAAAA/5nC////Z0sH8gAAAAN0Uk5TAP//RFDWIQAAADxJREFUeJxjYA0QdQhlYJBakjVxlQND1spVy1ZNYMhaBQTolBSIcmBgA5IrGWA8rCpJ1wCxFuoIqJMgAABcFUQ1C6DytQAAAABJRU5ErkJggg==");
+    border-style: solid;
     padding: .5rem;
   }
 
@@ -115,19 +119,19 @@
       }
 
       &[href="/"]:before {
-        content: url('https://i.ibb.co/yn7F64Hf/coffee.png');
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAACMklEQVRIS2NkIBEUp0b+h2npnb2ckZB2ggqQDQAZjmzohObs/wW1U/GaQZQFMINoYgE+V6JbiC24CPoAlyHEGA6ykKAFIEXohhFrONEWIHv9zIFV/00cwohyGFEWzO0shydLkAZ9c2OGiyfPwu1MLu8kLxXBDLZw9sKb1E/s3QaWx2URVttBhqvrGzCcXNkA1nz70VuslqjKCYPFzcMbGG5evIDVEgwLQIaDXL1jahrD5hNPCWVUsLyvhTSDR/YsBphvkH2E0wKG1xcYdqyaBnb9jWc/sFqkIcXBAPKFR1gWA4OoAdgCkOO0jO0Y5nVVgH2E0wJVbWMGVg5ugj74/eMrJBivnoX7IDStlIFXQBhsCdUtALkaFMxJZR3UsQDkepAvYD6g2IJ34WngIBFaOYsBxuZd2I8RRI/vXgUHGclBBDKUzdQAJW7Yc+LhFoCC5trZQ2DDUSIZlrFAOfXF40cMdj4J4IjCBr70TIML85RkMXz+8Jbh0JYFDN4xxeDgWjypGZ4nwD4AGR6bVwtPDfevn2ZQ1DRlkFXWxmoJzAKY4aDgAOl5+ew1g7iUKINbSAbcEnCMgwwHJUmQS0AApgGXJSAL0A2HqeXg4ICbtXpWNwM8ScFSA4j+8eMH3BJQUOEDoKBBNxymHp4PYOkWJgEKR5AlIHDp5G68FuiZu4LlYS5HNhxrJINSATaLcNmCzWCQWljpijWZwgxDtgyfN0BBAQPoxTbeygK9ssFlCb5KBwBoMljRH3qygQAAAABJRU5ErkJggg==);
       }
 
       &[href="https://forum.status.cafe"]:before {
-        content: url('https://i.ibb.co/gLvQk14r/cake.png')
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB50lEQVQ4T42UO0gDQRCGZyuxCFaSIhAEJQgWIiRFiIWFgl0sLKzEsxAj0domVRprE6JYmGAn2KQLaGFhSKEgWoj4gDQWvkBNoWk8d+Yye3u5u3jT5LI7890//+yegACxn4mbmGacDFO2uD8UfmW+G1yAMKN0Tn/La4l/oT2BChZbALjLAcTyUJ5+hOWdC6pj5fjMay6gWW1Qe6Sotg5GqUIgtSaBHEb22MorzthA/S1evrBvukIjf+ZMff5WUKF7BDcfdmK4H8q5SeWZrjAQsHVdgND4BsDbj+PtCNXDBWN7ZB76aCt8b0Prac+CYnSBHVTZIoXsQin3AuImQjF8wQx7uAUYGbWBcjDGbAGUQmo5sqISfMEIRFhX0InQgdBpmdR1wAraTACkkxai2vCHpZNCHdD51UU3SAOHEAoRCY4SsJyJO8Cug43HR4dC/RJaQ9aVU1bUX8CcCitQ8bUPsoNtqGym3Dfl62rbPNo9AIQ6IRq4OUdAMdAH5mdbgT2BuOsL5dIuhbgsTmvyiua97zICMYmVWr7JSE1YvxpQNNJgJqu0jAppwjwU19jkAt9x8pXBcihiLAq/0jc9AgG5QH1cpQKcsj4U9BKnzRMmC7zU9VK8tFVXbeIDt8o1gYHeiqUi6Zsu4A/d4gwQsQYM/AAAAABJRU5ErkJggg==);
       }
 
       &[href="/settings"]:before {
-        content: url('https://i.ibb.co/xS4vRWpX/choco.png')
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAB6UlEQVQ4T5WUPyzDQRTHXyMsJE0jOgm1WAwSIYSkCYtRlE1I2k0II8LQoYKxQmuqhNj8iUXCQCIhlZ9IBEsXNL+pItHEZCnf175zrr+ib7nfu/u9z33fu3fnIgebto5zrYl5tRKKX7sS4+05mXDyZc3lBMScQN2z21R/GCF7YIGyy6Nk+rehRYp29CtOSSCgUAXAeSZNfm8DtT1e0U1TJ/swZFEWUKAIAlBAAkPqZoa/KpS0AdTt/i1DI/tRKgtoHsxOYFoxAdMPSN/szxoGYydEyUra3OpVcfpcWTXEoejBwbEzBv8L+LTWzX3mm7xk1eKfPnywMgUrQDEHdThpvZYqZQAkWHLra6kizAGWTb7SfmqYAs275O6q5V+g1oQqNRwYs/jH5/UeHmUDQGAClA3hD87M0cHKkupHBuZrZSlQ48Tq1/fUDygcNDluixhgsPBLjWpyBUR6Ogg/2rZNqayXQabpTY41uTV86QHTTcACDMY28imnq3k0YY5AUx38i7kAK3QChuveVbpRa5YSdxVcxyKFpjozXVEnQM9RhMEAon0YqB+I1A4j1Olm3mkoEysJRN10mD9+zX7t0953exggrMsVVKfc7M6o3aBMWkJXiH4zTVTLI6tuiv7EF0UVJmQTj2+o5KPyCdqNSOyQLY8fAAAAAElFTkSuQmCC);
       }
 
       &[href^="/users"]:before {
-        content: url('https://i.ibb.co/mrrz89Jx/cookie.png')
+        content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAOCAYAAAArMezNAAABXElEQVQ4T2NkwAHi3VX/I0st3HmbEZdabOIYimEGLphRD1EvYsnA8OY4Q0JGIwPIcGIthBuMYSCaM0AGg8C0ykgwzSWvBqZh4ug+AhsMMjTWwxhulHOAD4prYRIgQ9ANRpYDsWEWgL0GM1Re25bh4dXDYLVww6E6927YwrB4x1mEwcbx4CACAZAcDIDUgAxHMRjZ9zCDkTU9ePyc4fDVZyiuhsnDHAVTAzcY2bVowQvmguQP7lgFNthWW4oh0s8eHM7IFoPUYRiMbhjIxbg0gQxWkJUEGwKiYQDZcozIwxa22FwMEkvOTcXtYliqgKdbmPXQ9Avizp08GywKCwYQGxYUMOUg38GCARx5MAlQ6gAbjmTgt4e3wNJZ7cvBNCgIYIaCaC6klAHig9SD1GIYDEujMMtgBsLSJiwTYaRloGO+nV0INxSkHyVLE5td0S1Adgg8g8CjlAwGPocAAPTo1zfJB3EtAAAAAElFTkSuQmCC);
       }
     }
   }
@@ -159,8 +163,12 @@
     max-width: 200px;
     display: block;
     margin: 0 auto;
-    border: 8px solid transparent;
-    border-image: var(--border-lace);
+    border-image-slice: 8 fill;
+    border-image-width: 8px;
+    border-image-outset: .25rem;
+    border-image-repeat: round round;
+    border-image-source: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXAgMAAACdRDwzAAAAAXNSR0IB2cksfwAAAAlQTFRFAAAA/5nC////Z0sH8gAAAAN0Uk5TAP//RFDWIQAAADxJREFUeJxjYA0QdQhlYJBakjVxlQND1spVy1ZNYMhaBQTolBSIcmBgA5IrGWA8rCpJ1wCxFuoIqJMgAABcFUQ1C6DytQAAAABJRU5ErkJggg==");
+    border-style: solid;
   }
 
   .status-username {

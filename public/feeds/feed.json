@@ -13,6 +13,14 @@
   "items": [
     
       {
+        "id": "bechnokid-1/29/2026",
+        "url": "https://bechnokid.neocities.org",
+        "title": "Jan 29, 2026",
+        "content_html": "<p>Hello everyone! I hope you are all doing well. We all experienced a pretty nasty cold front over here in the East Coast, which makes me all the more grateful that I've been working from home. I hope you are all staying warm this winter!</p>\n<p>Here are the latest updates!</p>\n<ul>\n<li>New art in the <a href=\"/art/anime\">Anime</a> and <a href=\"/art/other\">Other</a> sections!</li>\n<li>Lots of new goodies, including:\n<ul>\n<li>Two more <a href=\"/goodies/pocket-bishies\">Pocket Bishounen</a> quizzes to take.</li>\n<li>Lots of graphics I <a href=\"/goodies/adopts\">adopted</a></li>\n<li>Some graphics I collected for <a href=\"/goodies/pixel-clubs\">pixel clubs</a></li>\n</ul>\n</li>\n<li>Added more <a href=\"/links\">links</a>! One day, I'll be brave and ask some of these new sites to be  affiliates! One day!</li>\n<li>Various bug fixes and minor updates</li>\n</ul>\n<p>That's it for now! I hope you all of a wonderful day!</p>\n",
+        "date_published": "2026-01-29T00:00:00Z"
+      },
+    
+      {
         "id": "bechnokid-1/15/2026",
         "url": "https://bechnokid.neocities.org",
         "title": "Jan 15, 2026",
@@ -58,14 +66,6 @@
         "title": "Nov 5, 2025",
         "content_html": "<p>Hello, everyone! I hope all of you are doing alright and that seasonal depression has passed for you. If not, then you can do it! I believe in you!</p>\n<p>It's gotten colder, but thankfully I like colder weather! It means I can bundle up, wear my longer coats, and look like a real anime protagonist! Ok, not really...</p>\n<p>Here are the changes for this update!</p>\n<ul>\n<li>New artwork in the <a href=\"/art/digimon\">Digimon</a> and <a href=\"/art/anime\">Anime</a> sections</li>\n<li>Added a section with my currently active social media accounts in <a href=\"/links\">Links</a></li>\n<li>New <a href=\"/blog\">blog</a> entry where I talk about my grievances with sites that repost graphics without giving credit to the original artists</li>\n<li>Finally decided to join more <a href=\"/joined\">fanlistings</a>!</li>\n<li>Cosmetic updates including:\n<ul>\n<li>Updating the dark mode colors</li>\n<li>Adding an icon after external links as well as changing the text color</li>\n<li>Figuring out how to add line numbers to code blocks for future snippets. This will help in pointing specific lines in any code I share!</li>\n<li>Moving the Play/Stop GIFs buttons to the navigation bar for easier access</li>\n<li>Creating a section dedicated to links that don't have buttons. I encourage others to visit those links!!</li>\n</ul>\n</li>\n</ul>\n<p>That's it for now. See you all next time!</p>\n",
         "date_published": "2025-11-05T00:00:00Z"
-      },
-    
-      {
-        "id": "bechnokid-10/27/2025",
-        "url": "https://bechnokid.neocities.org",
-        "title": "Oct 27, 2025",
-        "content_html": "<p>It's almost Halloween!! I don't even have any special plans! I just love the holiday that much!!!</p>\n<p>The list of updates is small this time. :3</p>\n<ul>\n<li>Added three <a href=\"/quiz-results\">quiz results</a></li>\n<li>Updated <a href=\"/now\">/now</a> and also added a section for older entries! Huge thanks to <a href=\"https://mavisdeluna.art\">Mavis</a> for the idea!</li>\n<li>Other fixes and updates including:\n<ul>\n<li>Adding a loading screen to the <a href=\"/outgoing/webgarden\">Webgarden</a></li>\n<li>Updated the styling for &lt;h3&gt; tags to be underlined in almost every page</li>\n</ul>\n</li>\n</ul>\n",
-        "date_published": "2025-10-27T00:00:00Z"
       }
     
   ]

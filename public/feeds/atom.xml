@@ -5,12 +5,35 @@
   <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
   <link href="https://bechnokid.neocities.org/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2025-10-27T00:00:00Z</updated>
+  <updated>2025-11-05T00:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
+  <entry>
+    <title>Jan 29, 2026 </title>
+    <link href="/home"/>
+    <updated>2026-01-29T00:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Hello everyone! I hope you are all doing well. We all experienced a pretty nasty cold front over here in the East Coast, which makes me all the more grateful that I&#39;ve been working from home. I hope you are all staying warm this winter!&lt;/p&gt;
+&lt;p&gt;Here are the latest updates!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New art in the &lt;a href=&quot;/art/anime&quot;&gt;Anime&lt;/a&gt; and &lt;a href=&quot;/art/other&quot;&gt;Other&lt;/a&gt; sections!&lt;/li&gt;
+&lt;li&gt;Lots of new goodies, including:
+&lt;ul&gt;
+&lt;li&gt;Two more &lt;a href=&quot;/goodies/pocket-bishies&quot;&gt;Pocket Bishounen&lt;/a&gt; quizzes to take.&lt;/li&gt;
+&lt;li&gt;Lots of graphics I &lt;a href=&quot;/goodies/adopts&quot;&gt;adopted&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Some graphics I collected for &lt;a href=&quot;/goodies/pixel-clubs&quot;&gt;pixel clubs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Added more &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt;! One day, I&#39;ll be brave and ask some of these new sites to be  affiliates! One day!&lt;/li&gt;
+&lt;li&gt;Various bug fixes and minor updates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! I hope you all of a wonderful day!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Jan 15, 2026 </title>
     <link href="/home"/>
@@ -209,26 +232,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now. See you all next time!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Oct 27, 2025 </title>
-    <link href="/home"/>
-    <updated>2025-10-27T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;It&#39;s almost Halloween!! I don&#39;t even have any special plans! I just love the holiday that much!!!&lt;/p&gt;
-&lt;p&gt;The list of updates is small this time. :3&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Added three &lt;a href=&quot;/quiz-results&quot;&gt;quiz results&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Updated &lt;a href=&quot;/now&quot;&gt;/now&lt;/a&gt; and also added a section for older entries! Huge thanks to &lt;a href=&quot;https://mavisdeluna.art&quot;&gt;Mavis&lt;/a&gt; for the idea!&lt;/li&gt;
-&lt;li&gt;Other fixes and updates including:
-&lt;ul&gt;
-&lt;li&gt;Adding a loading screen to the &lt;a href=&quot;/outgoing/webgarden&quot;&gt;Webgarden&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Updated the styling for &amp;lt;h3&amp;gt; tags to be underlined in almost every page&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
   
