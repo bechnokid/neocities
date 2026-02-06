@@ -5,12 +5,30 @@
   <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
   <link href="https://bechnokid.neocities.org/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2025-11-05T00:00:00Z</updated>
+  <updated>2025-11-20T00:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
+  <entry>
+    <title>Feb 5, 2026 </title>
+    <link href="/home"/>
+    <updated>2026-02-05T00:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Hello, everyone! I hope things are going ok for all of you! It&#39;s still pretty cold, but I hear that it&#39;ll get warmer next week! Just in time for my birthday!&lt;/p&gt;
+&lt;p&gt;Here&#39;s what&#39;s new in this update!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I moved the light/dark toggle button to be positioned below the navigation sidebar! I figured this might be easier to access since the sidebar is always fixed in one position.&lt;/li&gt;
+&lt;li&gt;New art in the &lt;a href=&quot;/art/anime&quot;&gt;anime&lt;/a&gt; section!&lt;/li&gt;
+&lt;li&gt;Added a new &lt;a href=&quot;/resources/code-snippets&quot;&gt;code snippet&lt;/a&gt;. I think Tumblr veterans might recognize this one. &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_wink.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=&quot;/now&quot;&gt;now&lt;/a&gt; and &lt;a href=&quot;/goodies/pixel-clubs&quot;&gt;pixel club&lt;/a&gt; pages!&lt;/li&gt;
+&lt;li&gt;I will also mention that I also added in new links, but seeing as how I seem to &lt;em&gt;always&lt;/em&gt; add in new links with every update, I figure I won&#39;t announce it this time. &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_embarrassed.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now. See you next time!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Jan 29, 2026 </title>
     <link href="/home"/>
@@ -205,33 +223,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now. Stay warm (or stay cool if in the Southern Hemisphere)!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Nov 5, 2025 </title>
-    <link href="/home"/>
-    <updated>2025-11-05T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Hello, everyone! I hope all of you are doing alright and that seasonal depression has passed for you. If not, then you can do it! I believe in you!&lt;/p&gt;
-&lt;p&gt;It&#39;s gotten colder, but thankfully I like colder weather! It means I can bundle up, wear my longer coats, and look like a real anime protagonist! Ok, not really...&lt;/p&gt;
-&lt;p&gt;Here are the changes for this update!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;New artwork in the &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt; and &lt;a href=&quot;/art/anime&quot;&gt;Anime&lt;/a&gt; sections&lt;/li&gt;
-&lt;li&gt;Added a section with my currently active social media accounts in &lt;a href=&quot;/links&quot;&gt;Links&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;New &lt;a href=&quot;/blog&quot;&gt;blog&lt;/a&gt; entry where I talk about my grievances with sites that repost graphics without giving credit to the original artists&lt;/li&gt;
-&lt;li&gt;Finally decided to join more &lt;a href=&quot;/joined&quot;&gt;fanlistings&lt;/a&gt;!&lt;/li&gt;
-&lt;li&gt;Cosmetic updates including:
-&lt;ul&gt;
-&lt;li&gt;Updating the dark mode colors&lt;/li&gt;
-&lt;li&gt;Adding an icon after external links as well as changing the text color&lt;/li&gt;
-&lt;li&gt;Figuring out how to add line numbers to code blocks for future snippets. This will help in pointing specific lines in any code I share!&lt;/li&gt;
-&lt;li&gt;Moving the Play/Stop GIFs buttons to the navigation bar for easier access&lt;/li&gt;
-&lt;li&gt;Creating a section dedicated to links that don&#39;t have buttons. I encourage others to visit those links!!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now. See you all next time!&lt;/p&gt;
 </content>
   </entry>
   

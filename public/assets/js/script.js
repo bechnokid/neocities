@@ -37,6 +37,10 @@ class jQuery extends Array {
     return [...this[0].parentNode.children].filter(c => c != this[0])
   }
 
+  children() {
+    return [...this[0].children];
+  }
+
   addClass(className) {
     this.each(el => el.classList.add(className));
     return this;
@@ -313,13 +317,17 @@ function getRandomIndex(arr) {
 
 // Theme Toggle
 function updateButtonAndTheme(labelEl, isDark, theme) {
+  const themeVar = theme;
+  $("html").attr('data-theme', themeVar);
+  const element = $(labelEl);
   const ariaLabel = isDark ? 'light' : 'dark';
-  labelEl.attr('aria-label', `Switch to ${ariaLabel} mode`);
-  labelEl.html((isDark ? "☀️" : "🌙"));
-  $("html").attr('data-theme', theme);
+  element.attr('aria-label', `Switch to ${ariaLabel} mode`);
+
+  const iconCls = isDark ? 'ft-sun' : 'ft-moon';
+  $(labelEl + ' i').forEach(el => el.classList = [iconCls]);
 };
 
-const themeSwitchLabel = $('#switcher-label');
+const themeSwitchLabel = '.toggle-mode';
 const storedTheme = localStorage.getItem('theme');
 const systemThemeDark = window.matchMedia("(prefers-color-scheme: dark)");
 
@@ -327,10 +335,10 @@ let currentTheme = 'light';
 if (systemThemeDark.matches) currentTheme = 'dark';
 if (storedTheme !== null) currentTheme = storedTheme;
 
-updateButtonAndTheme(themeSwitchLabel, currentTheme === 'dark', currentTheme);
-
 function loadThemeToggle() {
-  $('#theme-switcher').on('change', function () {
+  updateButtonAndTheme(themeSwitchLabel, currentTheme === 'dark', currentTheme);
+
+  $(themeSwitchLabel).on('click', function () {
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     localStorage.setItem('theme', newTheme);
     updateButtonAndTheme(themeSwitchLabel, newTheme === 'dark', newTheme);
