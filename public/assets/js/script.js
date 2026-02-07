@@ -446,7 +446,7 @@ function loadMicroblog() {
   });
 }
 
-// Webrings
+/* Webrings */
 const RESOURCERINGLIST = [
   'https://pixelsafari.neocities.org/',
   'https://www.thefrugalgamer.net/resources.php',
@@ -478,42 +478,37 @@ const RESOURCERINGLIST = [
   'https://rentryresource.neocities.org/links'
 ]
 
-function setWebringLink(ringName, type, site) {
+function setWebringLink(ringId, type, site) {
   const linkElement = type == "rand" ? 'a.link-rand' : `a:has(.${type})`;
-  const element = $(`.${ringName} ${linkElement}`);
+  const element = $(`.${ringId} ${linkElement}`);
   if (element.length > 0) {
     element.attr('href', site);
   }
 }
 
-function updateWebringLinks(ringName, sites, override = false) {
-  if (ringName == "pokering") {
-    console.log('debug')
-  }
+function updateWebringLinks(params) {
+  const sites = params.sites;
   const idx = sites.findIndex((site) => site.includes('bechnokid'));
-  if (!override && idx < 0) return;
+  if (!params.override && idx < 0) {
+    $(`.${params.id}`).html(`<div class="pending"><p>Waiting to join the <a href="${params.url}">${params.name}</a> webring.</p></div>`);
+    return;
+  };
 
   const prev = (idx > 0) ? sites[idx - 1] : sites[sites.length - 1];
   const next = (idx > 0) ? sites[(idx + 1) % sites.length] : sites[0];
   const rand = sites[getRandomIndex(sites)];
 
-  setWebringLink(ringName, "prev", prev);
-  setWebringLink(ringName, "rand", rand);
-  setWebringLink(ringName, "next", next);
+  setWebringLink(params.id, "prev", prev);
+  setWebringLink(params.id, "rand", rand);
+  setWebringLink(params.id, "next", next);
 }
 
 function loadWebrings() {
-  for (let name in webringLinks) {
-    let sites = [];
-    let override = false;
-    if (webringLinks[name]["override"]) {
-      override = true;
-      sites = webringLinks[name]["sites"];
-    } else {
-      sites = webringLinks[name];
-    }
-    updateWebringLinks(name, sites, override);
-   }
+  for (let ringId in webringLinks) {
+    let webringParams = webringLinks[ringId];
+    webringParams["id"] = ringId;
+    updateWebringLinks(webringParams);
+  }
 }
 
 // Catch a Bishie
@@ -562,6 +557,155 @@ function loadCopyTextBtn() {
   })
 }
 
+// Guestbook
+const GUESTBOOK_MSG_LIMIT = 4;
+
+function loadMessages() {
+  $.ajax({
+    method: 'GET',
+    url: 'https://guestbooks.meadow.cafe/api/v1/get-guestbook-messages/484',
+    success: function(response) {
+      let messagesArr = [];
+      for (let idx = 0; idx < response.length; idx++) {
+        const hidden = idx > GUESTBOOK_MSG_LIMIT;
+        const hideLine = idx > GUESTBOOK_MSG_LIMIT - 1;
+        const msgContent = loadMsgContent(response[idx], hidden, hideLine);
+        messagesArr.push(msgContent);
+      }
+
+      const content = (messagesArr.length > 0) ? messagesArr.join('') : `<p>There are no messages, yet.</p>`
+      $(".guestbook-msg-container").html(content);
+
+      if (messagesArr.length > 0) {
+        loadPageNumbers(messagesArr);
+        setCurrentPage(1);
+
+        $('#prev-btn').on('click', function() {
+          if ((currentPage - 1) > 0) setCurrentPage(currentPage - 1);
+        });
+
+        $('#next-btn').on('click', function() {
+          if ((currentPage + 1) <= 5 ) setCurrentPage(currentPage + 1);
+        })
+
+        $('.pagination-num').on('click', function() {
+          if (!$(this).hasClass('active')) {
+            setCurrentPage(Number(this.getAttribute('data-page-index')));
+          }
+        });
+      }
+    },
+    fail: function(){
+      $(".guestbook-msg-container").html(`<p>Unable to obtain guestbook messages.</p>`);
+    }
+  });
+};
+
+function loadMsgContent(message, hidden) {
+  const dateObj = new Date(message.CreatedAt);
+  const formattedDate = dateObj.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  const website = (message.Website) ? `<p><strong>Website: </strong><a href='${message.Website}'>${message.Website}</a></p>` : '';
+  const msg = message.Text.replaceAll(/(\r\n)/g, "<br>");
+  return `<div class='guestbook-msg-div sidebar p-3 pb-2 ${hidden ? "d-none" : ''}'><div class="guestbook-msg-header"><p><strong>Name: </strong>${message.Name}</p><p><strong>Sent: </strong>${formattedDate}</p>${website}</div><div class="guestbook-msg-body"><p>${msg}</p></div></div>`;
+};
+
+function loadPageNumbers(msgList) {
+  const numOfPages = Math.ceil(msgList.length / GUESTBOOK_MSG_LIMIT);
+  pageCount = numOfPages;
+
+  let pageNumList = [];
+  for (let i = 1; i <= numOfPages; i++) {
+    const btn = `<button class='pagination-num' data-page-index='${i}' aria-label='Page ${i}'>${i}</button>`;
+    pageNumList.push(btn);
+  }
+  $('#pagination-numbers').html(pageNumList.join(''));
+  $('#guestbook-pagination').removeClass('d-none');
+};
+
+function setCurrentPage(pageNum) {
+  currentPage = pageNum;
+  const prevRange = (pageNum - 1) * GUESTBOOK_MSG_LIMIT;
+  const currRange = pageNum * GUESTBOOK_MSG_LIMIT;
+  const msgList = $('.guestbook-msg-div');
+
+  setCurrentPageNum();
+
+  msgList.each(function(value, i) {
+    if (i >= prevRange && i < currRange) {
+      $(value).removeClass('d-none')
+    } else {
+      $(value).addClass('d-none')
+    }
+  });
+}
+
+function setCurrentPageNum() {
+  $('.pagination-num.active').removeClass('active');
+  $('.pagination-num').each(function(val) {
+    const pageIndex = Number($(val).attr('data-page-index'));
+    if (pageIndex == currentPage) {
+      $(val).addClass('active');
+    }
+  })
+}
+
+function loadGuestbook() {
+  let form = $("#guestbooks___guestbook-form");
+  let errorMsg = "<p class='mt-0'><strong>Please resolve the following errors:</strong></p>"
+
+  // Validation
+  const errorMsgBox = $('.guestbook-error-msg');
+  const nameField = $('input#name');
+  const textField = $('textarea#text');
+  const questionField = $('input#question');
+  const websiteField = $('input#website');
+  const websiteRegex = /(^$|(http(s)?:\/\/)([\w-]+\.)+[\w-]+([\w- ;,.\/?%&=]*))$/i;
+
+  form.on('submit', async function(e){
+    e.preventDefault();
+
+    let errorList = [];
+    if (nameField.val().length == 0) errorList.push('<li>Name is missing.</li>');
+    if (websiteField.val().length > 0 && !websiteRegex.test(websiteField.val())) errorList.push('<li>Invalid URL.</li>');
+    if (textField.val().length == 0) errorList.push('<li>Message is empty.</li>');
+    if (questionField.val() != '8') {
+      let questionErr = (questionField.val().length == 0) ? "Answer is blank." : "Incorrect answer.";
+      errorList.push(`<li>${questionErr}</li>`);
+    }
+
+    if (errorList.length > 0) {
+      let errorListStr = '<ul>';
+      for (let i = 0; i < errorList.length; i++) {
+        errorListStr += errorList[i];
+        if (i == errorList.length - 1) {
+          errorListStr += '</ul>';
+        }
+      }
+      errorMsgBox.html(errorMsg + errorListStr);
+      errorMsgBox.removeClass('d-none');
+    } else {
+      let formData = new FormData(this);
+      const response = await fetch('https://guestbooks.meadow.cafe/guestbook/484/submit', {
+        method: 'POST',
+        body: formData
+      })
+
+      if (response.ok) {
+        this.reset();
+        loadGuestbookMsgs();
+        errorMsgBox.addClass('d-none');
+        errorMsgBox.html('');
+      } else {
+        errorMsg = (response.status === 401) ? 'The answer is incorrect. Please try again.' : await response.text();
+        errorMsgBox.html(`<p>${errorMsg}</p>`);
+        errorMsgBox.removeClass('d-none');
+      }
+    }
+  })
+
+  loadMessages();
+}
+
 // Document on ready
 $(document).ready(function() {
   loadThemeToggle();
@@ -570,6 +714,7 @@ $(document).ready(function() {
   if ($('.webrings').length > 0) loadWebrings();
   if ($('#bishie-btn-submit').length > 0) loadBishieQuiz();
   if ($('button#copy-btn').length > 0) loadCopyTextBtn();
+  if ($("#guestbooks___guestbook-form").length > 0) loadGuestbook();
 
   // Loading page
   if ($('.loading-sidebar').length > 0) {

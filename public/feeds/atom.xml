@@ -5,12 +5,34 @@
   <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
   <link href="https://bechnokid.neocities.org/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2025-11-20T00:00:00Z</updated>
+  <updated>2025-11-28T00:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
+  <entry>
+    <title>Feb 7, 2026 </title>
+    <link href="/home"/>
+    <updated>2026-02-07T00:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Whoa, two updates in a week? It&#39;s almost unheard of!&lt;/p&gt;
+&lt;p&gt;Here&#39;s what&#39;s in today&#39;s update!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://bechnokid.neocities.org/tutorials/rss-feed&quot;&gt;New tutorial&lt;/a&gt;! This one is for adding full descriptions to &amp;quot;prettified&amp;quot; RSS Feeds.&lt;/li&gt;
+&lt;li&gt;The old &lt;a href=&quot;https://bechnokid.neocities.org/guestbook&quot;&gt;guestbook&lt;/a&gt; has returned! Yippee!!&lt;/li&gt;
+&lt;li&gt;Added a section for &lt;a href=&quot;https://bechnokid.neocities.org/joined&quot;&gt;pending webrings&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Other fixes such as:
+&lt;ul&gt;
+&lt;li&gt;Reorganizing and cleaning up a lot of pages&lt;/li&gt;
+&lt;li&gt;Culling some of the quiz results and putting them in my &lt;a href=&quot;https://bechnokid.neocities.org/about&quot;&gt;/about&lt;/a&gt; page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! I hope all of you have a great day!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Feb 5, 2026 </title>
     <link href="/home"/>
@@ -21,9 +43,9 @@
 &lt;ul&gt;
 &lt;li&gt;I moved the light/dark toggle button to be positioned below the navigation sidebar! I figured this might be easier to access since the sidebar is always fixed in one position.&lt;/li&gt;
 &lt;li&gt;New art in the &lt;a href=&quot;/art/anime&quot;&gt;anime&lt;/a&gt; section!&lt;/li&gt;
-&lt;li&gt;Added a new &lt;a href=&quot;/resources/code-snippets&quot;&gt;code snippet&lt;/a&gt;. I think Tumblr veterans might recognize this one. &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_wink.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
+&lt;li&gt;Added a new &lt;a href=&quot;/resources/code-snippets&quot;&gt;code snippet&lt;/a&gt;. I think Tumblr veterans might recognize this one. 😉&lt;/li&gt;
 &lt;li&gt;Updated &lt;a href=&quot;/now&quot;&gt;now&lt;/a&gt; and &lt;a href=&quot;/goodies/pixel-clubs&quot;&gt;pixel club&lt;/a&gt; pages!&lt;/li&gt;
-&lt;li&gt;I will also mention that I also added in new links, but seeing as how I seem to &lt;em&gt;always&lt;/em&gt; add in new links with every update, I figure I won&#39;t announce it this time. &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_embarrassed.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
+&lt;li&gt;I will also mention that I also added in new links, but seeing as how I seem to &lt;em&gt;always&lt;/em&gt; add in new links with every update, I figure I won&#39;t announce it this time. 😅&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now. See you next time!&lt;/p&gt;
 </content>
@@ -181,48 +203,6 @@
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now! I hope the holidays don&#39;t become stressful to you! You can do it!&lt;/p&gt;
 &lt;/section&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Nov 20, 2025 </title>
-    <link href="/home"/>
-    <updated>2025-11-20T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Hello, everyone! It&#39;s almost the end of November, which for a lot of you, means the beginning of winter holidays! I live in the US, so we have Thanksgiving coming up next week. I&#39;m not sure what my family and I will be doing on that day, but I know that we don&#39;t usually have turkey!&lt;/p&gt;
-&lt;p&gt;It&#39;s gotten even colder for us here in the Northern Hemisphere. For those in the Southern Hemisphere, I hope you&#39;re all enjoying some warm weather! I wonder what it&#39;s like to celebrate Christmas in the Southern Hemisphere...&lt;/p&gt;
-&lt;p&gt;Here are the changes for this update!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Completed a &lt;a href=&quot;/writing/blog/2025-11-20&quot;&gt;100-question survey for webmasters&lt;/a&gt;!&lt;/li&gt;
-&lt;li&gt;Added some more &lt;a href=&quot;/goodies/adopts&quot;&gt;adopts&lt;/a&gt; as well as some that are orphaned.
-&lt;ul&gt;
-&lt;li&gt;I browsed through a lot of old pixel sites thanks to &lt;a href=&quot;https://kawaiiattic.arunyi.art/&quot;&gt;Kawaii Attic&lt;/a&gt;, and I noticed that there were special adopts that webmasters had that people can sign up or pay to adopt. Since the sites that adopted them went down or the adopts never went up for sale, I took it upon myself to collect some of them and put them up for adoption here!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Added more &lt;a href=&quot;/quiz-results&quot;&gt;quiz results&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Added some &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt; as well as removed some that are dead/inactive.&lt;/li&gt;
-&lt;li&gt;Added a ton of web cliques on home and in &lt;a href=&quot;/joined&quot;&gt;/joined&lt;/a&gt;. They&#39;re so much fun!&lt;/li&gt;
-&lt;li&gt;Updated the layout for the &lt;a href=&quot;/curses&quot;&gt;curses generator&lt;/a&gt;. I don&#39;t have any new ones, yet, but I&#39;m hoping to add more! &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_wink.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
-&lt;li&gt;Updated my &lt;a href=&quot;/about&quot;&gt;/about&lt;/a&gt; page to talk less about my job. I realize I&#39;ve been saying, &amp;quot;Yeah, I&#39;m a &lt;em&gt;software developer&lt;/em&gt;&amp;quot; a lot, which I imagine makes me sound pretty pretentious. &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_embarrassed.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/li&gt;
-&lt;li&gt;Responsiveness changes including:
-&lt;ul&gt;
-&lt;li&gt;Making the site look better on tablets, such as iPads, Kindles, etc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Cosmetic changes including:
-&lt;ul&gt;
-&lt;li&gt;Adding colors for links that have been visited. This should make it a bit easier for users to tell which links they have already visited. If you&#39;re someone like me who cleans up her history every week, this might not be entirely useful to you, but still!&lt;/li&gt;
-&lt;li&gt;Changing the images for my favorite characters in my &lt;a href=&quot;/about&quot;&gt;/about&lt;/a&gt; page.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Bug fixes including:
-&lt;ul&gt;
-&lt;li&gt;Fixing broken links in sitemap&lt;/li&gt;
-&lt;li&gt;Fixed spacing issues in a lot of pages&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now. Stay warm (or stay cool if in the Southern Hemisphere)!&lt;/p&gt;
 </content>
   </entry>
   
