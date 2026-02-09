@@ -5,12 +5,24 @@
   <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
   <link href="https://bechnokid.neocities.org/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2025-11-28T00:00:00Z</updated>
+  <updated>2025-12-08T00:00:00Z</updated>
   <id>https://bechnokid.neocities.org/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.neocities.org</uri>
   </author>
+  <entry>
+    <title>Feb 9, 2026 </title>
+    <link href="/home"/>
+    <updated>2026-02-09T00:00:00Z</updated>
+    <id>https://bechnokid.neocities.org/home</id>
+    <content type="html">&lt;p&gt;Added a new section for affiliates in my &lt;a href=&quot;https://bechnokid.neocities.org/links&quot;&gt;links&lt;/a&gt; section!&lt;/p&gt;
+&lt;p&gt;If you&#39;d like to be an affiliate, just shoot me an email at &lt;strong&gt;bechnokid@yahoo.com&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;The only requirements I have is that your website isn&#39;t just an &amp;quot;About Me&amp;quot; page. Not that those are bad or anything, but I love sites with a ton of content in it, whether it&#39;s art, blogging, writing, anything!&lt;/p&gt;
+&lt;p&gt;That&#39;s it for now! Have a great day, everyone!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Feb 7, 2026 </title>
     <link href="/home"/>
@@ -144,65 +156,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now! See you next time!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Nov 28, 2025 </title>
-    <link href="/home"/>
-    <updated>2025-11-28T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Hi everyone! I had a great Thanksgiving and a peaceful Black Friday. Looking forward to the winter holidays now!&lt;/p&gt;
-&lt;p&gt;Here&#39;s what&#39;s in this joyous update!&lt;/p&gt;
-&lt;section&gt;
-&lt;h4 id=&quot;major-updates&quot; tabindex=&quot;-1&quot;&gt;Major Updates&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;New artwork in &lt;a href=&quot;/art/digimon&quot;&gt;Digimon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/resources/tutorials/freezeframe&quot;&gt;FreezeframeJS tutorial&lt;/a&gt;:
-&lt;ul&gt;
-&lt;li&gt;Created a new script&lt;/li&gt;
-&lt;li&gt;Completely rewrote the tutorial on how to use the new script&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/outgoing/webgarden&quot;&gt;Webgarden&lt;/a&gt;:
-&lt;ul&gt;
-&lt;li&gt;Added more pots&lt;/li&gt;
-&lt;li&gt;Slightly updated the layout so I can fit more pots&lt;/li&gt;
-&lt;li&gt;Minor revamp of my own web garden pot. I noticed the spacing would look off in some other&#39;s sites, oops.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/links&quot;&gt;Links&lt;/a&gt;:
-&lt;ul&gt;
-&lt;li&gt;Added more links&lt;/li&gt;
-&lt;li&gt;Added some sections&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Removed FreezeframeJS script and added my own&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;
-&lt;section&gt;
-&lt;h4 id=&quot;minor-updates&quot; tabindex=&quot;-1&quot;&gt;Minor Updates&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/about&quot;&gt;About Me&lt;/a&gt; page:
-&lt;ul&gt;
-&lt;li&gt;Added more favorite Digimon&lt;/li&gt;
-&lt;li&gt;Replaced static Digimon images with moving ones&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/resources/code-snippets&quot;&gt;Code Snippets&lt;/a&gt; page:
-&lt;ul&gt;
-&lt;li&gt;Added some CSS to allow users to pause the marquee&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Fixed the &lt;a href=&quot;/guestbook&quot;&gt;Guestbook&lt;/a&gt;. I didn&#39;t realize it wasn&#39;t displaying all of the messages, which I deeply apologize for!&lt;/li&gt;
-&lt;li&gt;Other updates and fixes such as:
-&lt;ul&gt;
-&lt;li&gt;Removed the reliance on margins between items (as much as I can) and replacing them with the &lt;code&gt;gap&lt;/code&gt; property used in grids and flex boxes.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now! I hope the holidays don&#39;t become stressful to you! You can do it!&lt;/p&gt;
-&lt;/section&gt;
 </content>
   </entry>
   
