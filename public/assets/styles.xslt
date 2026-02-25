@@ -38,6 +38,7 @@
               </p>
               <div class="d-flex align-items-center flex-gap-2"><span class="text-lg">&#x2190;</span><a class="head-link"><xsl:attribute name="href">/home</xsl:attribute>go back home?</a></div>
             </header>
+            <hr class="small mb-0"/>
             <h2>Recent Updates</h2>
             <main>
               

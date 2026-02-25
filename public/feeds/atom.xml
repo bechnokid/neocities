@@ -3,20 +3,44 @@
 <?xml-stylesheet href="/assets/styles.xslt" type="text/xml"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
   <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
-  <link href="https://bechnokid.neocities.org/feeds/atom.xml" rel="self" type="application/atom+xml" />
+  <link href="https://bechnokid.com/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2025-12-08T00:00:00Z</updated>
-  <id>https://bechnokid.neocities.org/feeds/atom.xml</id>
+  <updated>2025-12-30T00:00:00Z</updated>
+  <id>https://bechnokid.com/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
-    <uri>https://bechnokid.neocities.org</uri>
+    <uri>https://bechnokid.com</uri>
   </author>
+  <entry>
+    <title>Feb 24, 2026 </title>
+    <link href="/home"/>
+    <updated>2026-02-24T00:00:00Z</updated>
+    <id>https://bechnokid.com/home</id>
+    <content type="html">&lt;p&gt;Hi everyone! Hope you&#39;re all doing well! There may not seem to be a lot of updates to the site, but I did a lot of fixes on the back end!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Got a new domain! This site is still hosted by Neocities, so older links should still work. :3&lt;/li&gt;
+&lt;li&gt;There&#39;s some new artwork in the &lt;a href=&quot;https://bechnokid.com/art/anime&quot;&gt;anime&lt;/a&gt;, &lt;a href=&quot;https://bechnokid.com/art/digimon&quot;&gt;Digimon&lt;/a&gt; and &lt;a href=&quot;https://bechnokid.com/art/other&quot;&gt;other&lt;/a&gt; pages!&lt;/li&gt;
+&lt;li&gt;New pages:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://bechnokid.com/uses&quot;&gt;Uses&lt;/a&gt; - a page where I list what I use every day.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bechnokid.com/contact&quot;&gt;Contact&lt;/a&gt; - I basically consolidated my email, guestbook, and social media links into one page!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Made a new &lt;a href=&quot;/https://bechnokid.com/resources/status-cafe/themes&quot;&gt;Status Cafe theme&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Updated credits section in &lt;a href=&quot;https://bechnokid.com/links&quot;&gt;links&lt;/a&gt; page&lt;/li&gt;
+&lt;li&gt;Added some new graphics and cleaned up some pages in general&lt;/li&gt;
+&lt;li&gt;Cleaned up webrings page so the performance can hopefully be better, but I wouldn&#39;t hold my breath lol&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! See you next time!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Feb 9, 2026 </title>
     <link href="/home"/>
     <updated>2026-02-09T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Added a new section for affiliates in my &lt;a href=&quot;https://bechnokid.neocities.org/links&quot;&gt;links&lt;/a&gt; section!&lt;/p&gt;
+    <id>https://bechnokid.com/home</id>
+    <content type="html">&lt;p&gt;Added a new section for affiliates in my &lt;a href=&quot;https://bechnokid.com/links&quot;&gt;links&lt;/a&gt; section!&lt;/p&gt;
 &lt;p&gt;If you&#39;d like to be an affiliate, just shoot me an email at &lt;strong&gt;bechnokid@yahoo.com&lt;/strong&gt;!&lt;/p&gt;
 &lt;p&gt;The only requirements I have is that your website isn&#39;t just an &amp;quot;About Me&amp;quot; page. Not that those are bad or anything, but I love sites with a ton of content in it, whether it&#39;s art, blogging, writing, anything!&lt;/p&gt;
 &lt;p&gt;That&#39;s it for now! Have a great day, everyone!&lt;/p&gt;
@@ -27,17 +51,17 @@
     <title>Feb 7, 2026 </title>
     <link href="/home"/>
     <updated>2026-02-07T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
+    <id>https://bechnokid.com/home</id>
     <content type="html">&lt;p&gt;Whoa, two updates in a week? It&#39;s almost unheard of!&lt;/p&gt;
 &lt;p&gt;Here&#39;s what&#39;s in today&#39;s update!&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://bechnokid.neocities.org/tutorials/rss-feed&quot;&gt;New tutorial&lt;/a&gt;! This one is for adding full descriptions to &amp;quot;prettified&amp;quot; RSS Feeds.&lt;/li&gt;
-&lt;li&gt;The old &lt;a href=&quot;https://bechnokid.neocities.org/guestbook&quot;&gt;guestbook&lt;/a&gt; has returned! Yippee!!&lt;/li&gt;
-&lt;li&gt;Added a section for &lt;a href=&quot;https://bechnokid.neocities.org/joined&quot;&gt;pending webrings&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bechnokid.com/tutorials/rss-feed&quot;&gt;New tutorial&lt;/a&gt;! This one is for adding full descriptions to &amp;quot;prettified&amp;quot; RSS Feeds.&lt;/li&gt;
+&lt;li&gt;The old &lt;a href=&quot;https://bechnokid.com/guestbook&quot;&gt;guestbook&lt;/a&gt; has returned! Yippee!!&lt;/li&gt;
+&lt;li&gt;Added a section for &lt;a href=&quot;https://bechnokid.com/joined&quot;&gt;pending webrings&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Other fixes such as:
 &lt;ul&gt;
 &lt;li&gt;Reorganizing and cleaning up a lot of pages&lt;/li&gt;
-&lt;li&gt;Culling some of the quiz results and putting them in my &lt;a href=&quot;https://bechnokid.neocities.org/about&quot;&gt;/about&lt;/a&gt; page.&lt;/li&gt;
+&lt;li&gt;Culling some of the quiz results and putting them in my &lt;a href=&quot;https://bechnokid.com/about&quot;&gt;/about&lt;/a&gt; page.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -49,7 +73,7 @@
     <title>Feb 5, 2026 </title>
     <link href="/home"/>
     <updated>2026-02-05T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
+    <id>https://bechnokid.com/home</id>
     <content type="html">&lt;p&gt;Hello, everyone! I hope things are going ok for all of you! It&#39;s still pretty cold, but I hear that it&#39;ll get warmer next week! Just in time for my birthday!&lt;/p&gt;
 &lt;p&gt;Here&#39;s what&#39;s new in this update!&lt;/p&gt;
 &lt;ul&gt;
@@ -67,7 +91,7 @@
     <title>Jan 29, 2026 </title>
     <link href="/home"/>
     <updated>2026-01-29T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
+    <id>https://bechnokid.com/home</id>
     <content type="html">&lt;p&gt;Hello everyone! I hope you are all doing well. We all experienced a pretty nasty cold front over here in the East Coast, which makes me all the more grateful that I&#39;ve been working from home. I hope you are all staying warm this winter!&lt;/p&gt;
 &lt;p&gt;Here are the latest updates!&lt;/p&gt;
 &lt;ul&gt;
@@ -90,7 +114,7 @@
     <title>Jan 15, 2026 </title>
     <link href="/home"/>
     <updated>2026-01-15T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
+    <id>https://bechnokid.com/home</id>
     <content type="html">&lt;p&gt;Happy New Year everyone! Today is also the day that the long-awaited version 3.0 of Animal Crossing New Horizons is released! I hope everyone has fun with it.&lt;/p&gt;
 &lt;p&gt;There are some pretty big updates today:&lt;/p&gt;
 &lt;ul&gt;
@@ -112,7 +136,7 @@
     <title>Dec 30, 2025 </title>
     <link href="/home"/>
     <updated>2025-12-30T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
+    <id>https://bechnokid.com/home</id>
     <content type="html">&lt;p&gt;Hi everyone! I hope everyone has had a good time during the winter holidays. This will be the last update for the year. :D&lt;/p&gt;
 &lt;p&gt;There are so many changes in this update that I&#39;m not sure if I can put them all in this single entry without it being too overwhelming. XD&lt;/p&gt;
 &lt;p&gt;So, I&#39;ll list the most important ones (to me)!&lt;/p&gt;
@@ -128,34 +152,6 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Dec 8, 2025 </title>
-    <link href="/home"/>
-    <updated>2025-12-08T00:00:00Z</updated>
-    <id>https://bechnokid.neocities.org/home</id>
-    <content type="html">&lt;p&gt;Hi everyone! It&#39;s another cold day in December. We actually had one snow day here! We sadly haven&#39;t had snow since then, but I&#39;m holding out hop that it will snow on Christmas!&lt;/p&gt;
-&lt;p&gt;This update seems pretty small, but that&#39;s because most of the updates were on the back end! However, an update is still an update!&lt;/p&gt;
-&lt;p&gt;Here are the latest changes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Added new clique: &lt;a href=&quot;https://crystallizing.neocities.org&quot;&gt;Crystallizing&lt;/a&gt;. Yes, I chose that gem specifically because of that one animanga, teehee.&lt;/li&gt;
-&lt;li&gt;Updated &lt;a href=&quot;/feeds&quot;&gt;RSS&lt;/a&gt; and made into page that holds other feeds&lt;/li&gt;
-&lt;li&gt;Cosmetic updates including:
-&lt;ul&gt;
-&lt;li&gt;Unifying colors, especially colors for links&lt;/li&gt;
-&lt;li&gt;Updated &lt;a href=&quot;/not_found&quot;&gt;404 page&lt;/a&gt; image to better match my current look&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Backend updates and fixes including:
-&lt;ul&gt;
-&lt;li&gt;Minifying and bundling CSS for optimization (hopefully the CSS is still readable to use as reference!)&lt;/li&gt;
-&lt;li&gt;Updated CSS and JS code for Freezeframe script thanks to &lt;a href=&quot;https://friendshaped.garden&quot;&gt;FriendShapedPlant&lt;/a&gt;!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now! See you next time!&lt;/p&gt;
 </content>
   </entry>
   

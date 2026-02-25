@@ -1,0 +1,312 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>bechnokid - Status Cafe</title><meta name="description" content="your friends' updates"><link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⭐</text></svg>"><link rel="stylesheet" href="https://status.cafe/assets/style.css" type="text/css" media="all"></head><body><header><nav><a href="/">status.cafe</a> <a href="https://forum.status.cafe">forum</a> <a href="/settings">settings</a> <a href="/users/bechnokid">bechnokid</a> (<a href="/logout">logout</a>)</nav></header><main><div class="cols"><section><h2 id="bechnokid">bechnokid</h2><img src="https://i.ibb.co/FRZDJbr/suifelhunt.png" class="profile-picture"><p><a href="/users/bechnokid.atom">Subscribe via Atom</a></p><dl><dt class="homepage">Homepage</dt><dd class="homepage"><a href="https://bechnokid.com" target="_blank">https://bechnokid.com/</a></dd><dt class="email">Email</dt><dd class="email"><a href="mailto:bechnokid@yahoo.com" target="_blank">bechnokid@yahoo.com</a></dd><dt class="about">About</dt><dd class="about"><p>Rathalos are fearsome male wyverns known as the "Kings of the Skies". Alongside the Rathian, they stake out a wide territory around their nests, and it is the male's role to watch from above.</p><p>Armed with powerful poisonous claws and fiery breath, Rathalos use their aerial prowess to descend on invaders.</p><p class="credit">Theme by <a href="https://bechnokid.com">Bechno Kid</a></p><style>:root {
+    /* General */
+    --body-bg-color: pink;
+    --column-bg-color: white;
+    --heading-color: mistyrose;
+    --heading-shadow-color: lightpink;
+    --heading-text-color: #4c1322;
+    --main-bg-color: mistyrose;
+    --body-border-color: white;
+    --link-color: #f05e81;
+    --main-text-color: #19002b;
+
+    /* Header */
+    --title-text: "Bechno Kid 🖥️🦐";
+    --title-text-color: palevioletred;
+    --header-bg-color: mistyrose;
+    --header-img: url("https://i.ibb.co/RpN099sr/image.png");
+    --pfp-bg-color: thistle;
+    --pfp-border-color: white;
+    --pfp-fit: "contain"; /* or "cover", if needed */
+
+    /* Navigation */
+    --nav-bg-color: mistyrose;
+    --nav-link-color: #f05e81;
+    --nav-separator: "|";
+    --nav-separator-color: lightpink;
+
+    /* Content */
+    --atom-btn-display: block;
+    --icon-border-color: palevioletred;
+    --status-nav-bg-color: white;
+  }
+
+  article.status:nth-of-type(4n) .status-content::before {
+    content: url(https://i.ibb.co/v42M6zgr/sui1.png);
+  }
+
+  article.status:nth-of-type(4n + 1) .status-content::before {
+    content: url(https://i.ibb.co/dw1RSbh7/sui2.png);
+  }
+
+  article.status:nth-of-type(4n + 2) .status-content::before {
+    content: url(https://i.ibb.co/zHsgwyrQ/sui3.png);
+  }
+
+  article.status:nth-of-type(4n + 3) .status-content::before {
+    content: url(https://i.ibb.co/R4PBHny6/image.png);
+  }
+
+  * {
+    scrollbar-color: var(--link-color) var(--body-border-color);
+    scrollbar-width: thin;
+  }
+
+  body {
+    background-color: var(--body-bg-color);
+    font-family: Tahoma, sans-serif;
+    font-size: .9rem;
+    color: var(--main-text-color);
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: var(--heading-shadow-color)
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--heading-color);
+  }
+
+  header {
+    background-color: var(--body-border-color);
+    text-align: center;
+    line-height: 1.5rem;
+    padding: .75rem 1rem;
+    color: var(--nav-separator-color);
+
+    a {
+      color: var(--nav-link-color);
+
+      &:not(:last-child)::after {
+        content: var(--nav-separator);
+        text-decoration: none;
+        display: inline-block;
+        margin: 0 1rem;
+        color: var(--nav-separator-color);
+        font-weight: normal;
+      }
+    }
+  }
+
+  main {
+    background-color: var(--main-bg-color);
+    border: 5px solid var(--body-border-color);
+  }
+
+  h2 {
+    letter-spacing: 2px;
+  }
+
+  a {
+    color: var(--link-color);
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .cols {
+    &:not(:has(.profile-picture))::before {
+      content: var(--title-text);
+      color: var(--title-text-color);
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      padding-top: 1rem;
+    }
+
+    &:has(.profile-picture) {
+      background: var(--main-bg-color) var(--header-img) no-repeat center top;
+    }
+
+    grid-gap: 0;
+
+    > section:first-child {
+      display: flex;
+      flex-direction: column;
+      padding: .5rem;
+      margin: .5rem;
+
+      h2 {
+        display: none;
+      }
+
+      .profile-picture {
+        max-width: 150px;
+        width: 100%;
+        height: 150px;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto 1.75rem;
+        background-color: var(--pfp-bg-color);
+        border: 5px solid var(--pfp-border-color);
+        border-radius: 10rem;
+      }
+
+      & > p {
+        display: var(--atom-btn-display);
+        order: 2;
+        margin: 0 0 1rem;
+        text-align: center;
+        line-height: 2rem;
+
+        &:active {
+          transform: translate(3px, 3px);
+
+          a {
+            border: 0;
+            filter: none;
+          }
+        }
+
+        a {
+          background-color: var(--column-bg-color);
+          filter: drop-shadow(3px 3px var(--heading-shadow-color));
+          padding: .5rem .75rem;
+          border-radius: 1rem;
+          text-decoration: none;
+
+          &:hover {
+            border: 2px solid var(--icon-border-color);
+          }
+        }
+      }
+
+      dl {
+        order: 3;
+        margin: 0;
+        padding: .5rem;
+        background-color: var(--column-bg-color);
+      }
+
+      dt {
+        background-color: var(--heading-color);
+        color: var(--heading-text-color);
+        padding: .25rem .5rem;
+        letter-spacing: 1px;
+        filter: drop-shadow(2px 2px var(--heading-shadow-color));
+      }
+
+      dd {
+        margin: 1rem 1.25rem;
+
+        p.credit {
+          text-align: right;
+          font-size: .8rem;
+        }
+      }
+    }
+
+    > section:last-child {
+      margin: 0 1rem 0;
+
+      h2 {
+        display: none;
+      }
+
+      /* Buttons for older and newer statuses */
+      > p {
+        display: flex;
+        justify-content: space-between;
+        padding: .75rem 1rem;
+        background-color: var(--status-nav-bg-color);
+      }
+
+      .status {
+        background-color: var(--column-bg-color);
+        margin: 0;
+        padding: .5rem;
+
+        a {
+          display: none;
+        }
+
+        .status-username {
+          color: var(--heading-text-color);
+          padding: .25rem .5rem;
+          background-color: var(--heading-color);
+          filter: drop-shadow(2px 2px var(--heading-shadow-color));
+          font-weight: bold;
+        }
+
+        .status-content {
+          display: flex;
+          gap: 1rem;
+          margin: 0;
+          padding: 1rem;
+
+          &::before {
+            border: 1px solid var(--icon-border-color);
+            display: flex;
+            width: 100px;
+            height: 100px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 650px) {
+    header {
+      border: 5px solid var(--body-border-color);
+      border-bottom: 0;
+      background-color: var(--nav-bg-color);
+      text-align: left;
+      line-height: 1rem;
+    }
+
+    .cols {
+      background: var(--main-bg-color) var(--header-img) no-repeat center top;
+
+      &:not(:has(.profile-picture)) {
+        display: flex;
+        flex-wrap: wrap;
+
+        &::before {
+          width: 100%;
+          height: 190px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0;
+          margin-bottom: 1rem;
+          font-size: 3rem;
+        }
+
+        & > section {
+          &:first-child {
+            flex: 1;
+            margin-top: 0;
+            padding-top: 0;
+
+            &::before {
+              content: none;
+            }
+          }
+
+          &:last-child {
+            flex: 2;
+          }
+        }
+      }
+
+      &:has(.profile-picture) > section:last-child {
+        margin: 0 1rem 0 0;
+
+        &::before {
+          content: var(--title-text);
+          display: flex;
+          align-items: center;
+          height: 190px;
+          margin-bottom: 1rem;
+          font-weight: bold;
+          font-size: 3rem;
+          color: var(--title-text-color);
+        }
+      }
+    }
+  }</style></dd></dl></section><section><h2 id="statuses">Statuses</h2><article class="status"><div class="status-username"><a href="https://status.cafe/users/bechnokid">bechnokid</a> ⭐ 1 hour ago</div><p class="status-content">This is a preview for a Status Cafe theme!</p></article><article class="status"><div class="status-username"><a href="https://status.cafe/users/bechnokid">bechnokid</a> 👀 5 days ago</div><p class="status-content">If the preview in this frame is too small, you can take the page's URL and replace "themes" with "preview" to view the theme in full resolution.</p></article><article class="status"><div class="status-username"><a href="https://status.cafe/users/bechnokid">bechnokid</a> 💡 8 days ago</div><p class="status-content">Please note that most of the links in the navigation do not work since this is just a preview. Clicking on them will lead to broken pages!</p></article><article class="status"><div class="status-username"><a href="https://status.cafe/users/bechnokid">bechnokid</a> 🤔 10 days ago</div><p class="status-content">Be sure to read all of a particular theme's notes and/or tips to make the most out of the theme!</p></article><article class="status"><div class="status-username"><a href="https://status.cafe/users/bechnokid">bechnokid</a> ✏️ 13 days ago</div><p class="status-content">If anything looks off, feel free to shoot a message to the email address shown on the left!</p></article><p><a href="bechnokid?page=1">Older statuses</a></p></section></div></main><footer></footer></body></html>

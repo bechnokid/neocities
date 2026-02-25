@@ -3,20 +3,45 @@
 <?xml-stylesheet href="/assets/styles.xslt" type="text/xml"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <atom:link href="https://bechnokid.neocities.org/feeds/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bechnokid.com/feeds/rss.xml" rel="self" type="application/rss+xml" />
     <title>Bechno Kid&#39;s Hideout - RSS Feed</title>
-    <link>https://bechnokid.neocities.org</link>
+    <link>https://bechnokid.com</link>
     <description>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 00:00:00 GMT</lastBuildDate>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <item>
-      <title>Feb 9, 2026</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <guid isPermaLink="false">update-Sun Feb 08 2026 19:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <title>Feb 24, 2026</title>
+      <link>https://bechnokid.com/home</link>
+      <guid isPermaLink="false">update-Mon Feb 23 2026 19:00:00 GMT-0500 (Eastern Standard Time)</guid>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
       <description><![CDATA[
-        <p>Added a new section for affiliates in my <a href="https://bechnokid.neocities.org/links">links</a> section!</p>
+        <p>Hi everyone! Hope you're all doing well! There may not seem to be a lot of updates to the site, but I did a lot of fixes on the back end!</p>
+<ul>
+<li>Got a new domain! This site is still hosted by Neocities, so older links should still work. :3</li>
+<li>There's some new artwork in the <a href="https://bechnokid.com/art/anime">anime</a>, <a href="https://bechnokid.com/art/digimon">Digimon</a> and <a href="https://bechnokid.com/art/other">other</a> pages!</li>
+<li>New pages:
+<ul>
+<li><a href="https://bechnokid.com/uses">Uses</a> - a page where I list what I use every day.</li>
+<li><a href="https://bechnokid.com/contact">Contact</a> - I basically consolidated my email, guestbook, and social media links into one page!</li>
+</ul>
+</li>
+<li>Made a new <a href="/https://bechnokid.com/resources/status-cafe/themes">Status Cafe theme</a>!</li>
+<li>Updated credits section in <a href="https://bechnokid.com/links">links</a> page</li>
+<li>Added some new graphics and cleaned up some pages in general</li>
+<li>Cleaned up webrings page so the performance can hopefully be better, but I wouldn't hold my breath lol</li>
+</ul>
+<p>That's it for now! See you next time!</p>
+        ]]></description>
+    </item>
+    
+    <item>
+      <title>Feb 9, 2026</title>
+      <link>https://bechnokid.com/home</link>
+      <guid isPermaLink="false">update-Sun Feb 08 2026 19:00:00 GMT-0500 (Eastern Standard Time)</guid>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+        <p>Added a new section for affiliates in my <a href="https://bechnokid.com/links">links</a> section!</p>
 <p>If you'd like to be an affiliate, just shoot me an email at <strong>bechnokid@yahoo.com</strong>!</p>
 <p>The only requirements I have is that your website isn't just an &quot;About Me&quot; page. Not that those are bad or anything, but I love sites with a ton of content in it, whether it's art, blogging, writing, anything!</p>
 <p>That's it for now! Have a great day, everyone!</p>
@@ -25,20 +50,20 @@
     
     <item>
       <title>Feb 7, 2026</title>
-      <link>https://bechnokid.neocities.org/home</link>
+      <link>https://bechnokid.com/home</link>
       <guid isPermaLink="false">update-Fri Feb 06 2026 19:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
       <description><![CDATA[
         <p>Whoa, two updates in a week? It's almost unheard of!</p>
 <p>Here's what's in today's update!</p>
 <ul>
-<li><a href="https://bechnokid.neocities.org/tutorials/rss-feed">New tutorial</a>! This one is for adding full descriptions to &quot;prettified&quot; RSS Feeds.</li>
-<li>The old <a href="https://bechnokid.neocities.org/guestbook">guestbook</a> has returned! Yippee!!</li>
-<li>Added a section for <a href="https://bechnokid.neocities.org/joined">pending webrings</a>.</li>
+<li><a href="https://bechnokid.com/tutorials/rss-feed">New tutorial</a>! This one is for adding full descriptions to &quot;prettified&quot; RSS Feeds.</li>
+<li>The old <a href="https://bechnokid.com/guestbook">guestbook</a> has returned! Yippee!!</li>
+<li>Added a section for <a href="https://bechnokid.com/joined">pending webrings</a>.</li>
 <li>Other fixes such as:
 <ul>
 <li>Reorganizing and cleaning up a lot of pages</li>
-<li>Culling some of the quiz results and putting them in my <a href="https://bechnokid.neocities.org/about">/about</a> page.</li>
+<li>Culling some of the quiz results and putting them in my <a href="https://bechnokid.com/about">/about</a> page.</li>
 </ul>
 </li>
 </ul>
@@ -48,9 +73,9 @@
     
     <item>
       <title>Feb 5, 2026</title>
-      <link>https://bechnokid.neocities.org/home</link>
+      <link>https://bechnokid.com/home</link>
       <guid isPermaLink="false">update-Wed Feb 04 2026 19:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
       <description><![CDATA[
         <p>Hello, everyone! I hope things are going ok for all of you! It's still pretty cold, but I hear that it'll get warmer next week! Just in time for my birthday!</p>
 <p>Here's what's new in this update!</p>
@@ -67,9 +92,9 @@
     
     <item>
       <title>Jan 29, 2026</title>
-      <link>https://bechnokid.neocities.org/home</link>
+      <link>https://bechnokid.com/home</link>
       <guid isPermaLink="false">update-Wed Jan 28 2026 19:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
       <description><![CDATA[
         <p>Hello everyone! I hope you are all doing well. We all experienced a pretty nasty cold front over here in the East Coast, which makes me all the more grateful that I've been working from home. I hope you are all staying warm this winter!</p>
 <p>Here are the latest updates!</p>
@@ -91,9 +116,9 @@
     
     <item>
       <title>Jan 15, 2026</title>
-      <link>https://bechnokid.neocities.org/home</link>
+      <link>https://bechnokid.com/home</link>
       <guid isPermaLink="false">update-Wed Jan 14 2026 19:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
       <description><![CDATA[
         <p>Happy New Year everyone! Today is also the day that the long-awaited version 3.0 of Animal Crossing New Horizons is released! I hope everyone has fun with it.</p>
 <p>There are some pretty big updates today:</p>
@@ -114,9 +139,9 @@
     
     <item>
       <title>Dec 30, 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
+      <link>https://bechnokid.com/home</link>
       <guid isPermaLink="false">update-Mon Dec 29 2025 19:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 GMT</pubDate>
       <description><![CDATA[
         <p>Hi everyone! I hope everyone has had a good time during the winter holidays. This will be the last update for the year. :D</p>
 <p>There are so many changes in this update that I'm not sure if I can put them all in this single entry without it being too overwhelming. XD</p>
@@ -133,35 +158,6 @@
 </ul>
 </li>
 </ul>
-        ]]></description>
-    </item>
-    
-    <item>
-      <title>Dec 8, 2025</title>
-      <link>https://bechnokid.neocities.org/home</link>
-      <guid isPermaLink="false">update-Sun Dec 07 2025 19:00:00 GMT-0500 (Eastern Standard Time)</guid>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 GMT</pubDate>
-      <description><![CDATA[
-        <p>Hi everyone! It's another cold day in December. We actually had one snow day here! We sadly haven't had snow since then, but I'm holding out hop that it will snow on Christmas!</p>
-<p>This update seems pretty small, but that's because most of the updates were on the back end! However, an update is still an update!</p>
-<p>Here are the latest changes:</p>
-<ul>
-<li>Added new clique: <a href="https://crystallizing.neocities.org">Crystallizing</a>. Yes, I chose that gem specifically because of that one animanga, teehee.</li>
-<li>Updated <a href="/feeds">RSS</a> and made into page that holds other feeds</li>
-<li>Cosmetic updates including:
-<ul>
-<li>Unifying colors, especially colors for links</li>
-<li>Updated <a href="/not_found">404 page</a> image to better match my current look</li>
-</ul>
-</li>
-<li>Backend updates and fixes including:
-<ul>
-<li>Minifying and bundling CSS for optimization (hopefully the CSS is still readable to use as reference!)</li>
-<li>Updated CSS and JS code for Freezeframe script thanks to <a href="https://friendshaped.garden">FriendShapedPlant</a>!</li>
-</ul>
-</li>
-</ul>
-<p>That's it for now! See you next time!</p>
         ]]></description>
     </item>
     
