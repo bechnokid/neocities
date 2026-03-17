@@ -62,10 +62,10 @@ function generateStatusHtml(el, isHome = false){
     `;
   } else {
     html = `
-    <div class='d-flex row g-3'>
-      <div class='col-md-1 col-3 d-flex justify-content-center'>${emoticonElement}</div>
-      <div class='col-md-11 col-9 d-flex flex-column flex-gap-1 py-2'>
-        <p class='status-date'><strong>${dateString}</strong></p>
+    <div class='sidebar rounded d-flex flex-gap-3 p-3'>
+      <div class='status-mood d-flex justify-content-center'>${emoticonElement}</div>
+      <div class='status-content d-flex flex-column flex-gap-1'>
+        <p class='status-date h3'>${dateString}</p>
         <p class='status-text'>${content}</p>
       </div>
     </div>
@@ -91,7 +91,6 @@ export function loadMicroblog() {
         if (statusLimit < 1) statusLimit = entries.length;
         for (let i = 0; i < statusLimit; i++) {
           html += generateStatusHtml(entries[i]);
-          if (i < statusLimit - 1) html += `<hr class='small'>`;
         }
       }
       $(`#${STATUS_CONTAINER}`).html(html);

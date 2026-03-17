@@ -27,21 +27,19 @@ class FreezeImages {
           align-self: start;
         }
 
-        .ff-container.ff-hover:hover .ff-active {
-          position: absolute;
-          opacity: 0;
-        }
-
-        .ff-container.ff-hover:hover .ff-inactive {
-          position: static;
-          opacity: 1;
-          z-index: 1;
-        }
-
+        .ff-container.ff-hover:hover canvas.ff-active,
         .ff-inactive {
           position: absolute;
           opacity: 0;
-          z-index: -99;
+        }
+
+        .ff-container.ff-hover:hover img.ff-inactive {
+          position: static;
+          opacity: 1;
+        }
+
+        .ff-canvas {
+          pointer-events: none;
         }
       `;
       document.head.appendChild(style);
@@ -53,9 +51,9 @@ class FreezeImages {
       img.className = `${this.imgCls} ff-inactive`;
 
       // Creates <canvas> of GIF and copies data of first frame of animation
-      let canvas = document.createElement("canvas");
-      let imgWidth = img.width;
-      let imgHeight = img.height;
+      const canvas = document.createElement("canvas");
+      const imgWidth = img.width || img.naturalWidth;
+      const imgHeight = img.height || img.naturalHeight;
 
       canvas.width = imgWidth;
       canvas.height = imgHeight;
@@ -64,7 +62,7 @@ class FreezeImages {
       canvas.getContext('2d').drawImage(img, 0, 0, imgWidth, imgHeight);
 
       // Creates container that will hold both <img> and <canvas>
-      let wrapper = document.createElement("div");
+      const wrapper = document.createElement("div");
       wrapper.className = "ff-container";
       if (this.hover) wrapper.classList.add("ff-hover");
 
@@ -101,7 +99,7 @@ class FreezeImages {
 }
 
 export function loadFreeze() {
-  const f = new FreezeImages({ selector: "freezeframe" });
+  const f = new FreezeImages({ selector: "freezeframe", hover: true });
 
   // When .play-gif is clicked, images will play
   $('.play-gif').on('click', () => f.start());

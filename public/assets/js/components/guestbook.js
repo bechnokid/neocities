@@ -65,15 +65,29 @@ function getMessages() {
       $(".guestbook-msg-container").html(content);
 
       if (messagesArr.length > 0) {
-        loadPageNumbers(messagesArr);
+        // Loading pagination
+        const numOfPages = Math.ceil(messagesArr.length / GUESTBOOK_MSG_LIMIT);
+
+        let pageNumList = [];
+        for (let i = 1; i <= numOfPages; i++) {
+          const btn = `<button class='pagination-num' data-page-index='${i}' aria-label='Page ${i}'>${i}</button>`;
+          pageNumList.push(btn);
+        }
+        $('#pagination-numbers').html(pageNumList.join('')).attr("data-num-of-pages", numOfPages);
+        $('#guestbook-pagination').removeClass('d-none');
+
+        // Setting current page
         setCurrentPage(1);
 
-        $('#prev-btn').on('click', function() {
-          if ((currentPage - 1) > 0) setCurrentPage(currentPage - 1);
-        });
+        $('.pagination-btn').on('click', (e) => {
+          const currentPage = Number($('.pagination-num.active').attr('data-page-index'));
+          const numOfPages = Number($('#pagination-numbers').attr('data-num-of-pages'));
 
-        $('#next-btn').on('click', function() {
-          if ((currentPage + 1) <= 5 ) setCurrentPage(currentPage + 1);
+          if (e.target.getAttribute('id') == "prev-btn" && currentPage - 1 > 0) {
+            setCurrentPage(currentPage - 1);
+          } else if (e.target.getAttribute('id') == "next-btn" && currentPage + 1 <= numOfPages) {
+            setCurrentPage(currentPage + 1);
+          }
         })
 
         $('.pagination-num').on('click', function() {
@@ -95,18 +109,6 @@ function loadMsgContent(message, hidden) {
   const website = (message.Website) ? `<p><strong>Website: </strong><a href='${message.Website}'>${message.Website}</a></p>` : '';
   const msg = message.Text.replaceAll(/(\r\n)/g, "<br>");
   return `<div class='guestbook-msg-div sidebar p-3 pb-2 ${hidden ? "d-none" : ''}'><div class="guestbook-msg-header"><p><strong>Name: </strong>${message.Name}</p><p><strong>Sent: </strong>${formattedDate}</p>${website}</div><div class="guestbook-msg-body"><p>${msg}</p></div></div>`;
-};
-
-function loadPageNumbers(msgList) {
-  const numOfPages = Math.ceil(msgList.length / GUESTBOOK_MSG_LIMIT);
-
-  let pageNumList = [];
-  for (let i = 1; i <= numOfPages; i++) {
-    const btn = `<button class='pagination-num' data-page-index='${i}' aria-label='Page ${i}'>${i}</button>`;
-    pageNumList.push(btn);
-  }
-  $('#pagination-numbers').html(pageNumList.join(''));
-  $('#guestbook-pagination').removeClass('d-none');
 };
 
 function setCurrentPage(pageNum) {
