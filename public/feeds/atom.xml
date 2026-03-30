@@ -5,12 +5,29 @@
   <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
   <link href="https://bechnokid.com/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2026-01-15T00:00:00Z</updated>
+  <updated>2026-01-29T00:00:00Z</updated>
   <id>https://bechnokid.com/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.com</uri>
   </author>
+  <entry>
+    <title>Mar 30, 2026 </title>
+    <link href="/home"/>
+    <updated>2026-03-30T00:00:00Z</updated>
+    <id>https://bechnokid.com/home</id>
+    <content type="html">&lt;p&gt;Hi, everyone! I can finally feel spring coming! The trees are blooming and look absolutely beautiful. I can&#39;t wait to eat some of the petals.&lt;/p&gt;
+&lt;p&gt;Here are the details for this update!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in the &lt;a href=&quot;https://bechnokid.com/art/digimon&quot;&gt;Digimon&lt;/a&gt; section.&lt;/li&gt;
+&lt;li&gt;New &lt;a href=&quot;https://bechnokid.com/blog/2026-03-26&quot;&gt;blog entry&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Added the &lt;a href=&quot;https://bechnokid.com/joined&quot;&gt;&amp;quot;no AI&amp;quot; webring&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It&#39;s honestly thanks to the &amp;quot;no AI&amp;quot; webring&#39;s owner that I figured out something wrong with the DNS records for my domain. Thank you, rmf!!&lt;/p&gt;
+&lt;p&gt;That&#39;s it for now, I hope all of you have a great day!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Mar 17, 2026 </title>
     <link href="/home"/>
@@ -133,28 +150,6 @@
 &lt;li&gt;Various bug fixes and minor updates&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now! I hope you all of a wonderful day!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Jan 15, 2026 </title>
-    <link href="/home"/>
-    <updated>2026-01-15T00:00:00Z</updated>
-    <id>https://bechnokid.com/home</id>
-    <content type="html">&lt;p&gt;Happy New Year everyone! Today is also the day that the long-awaited version 3.0 of Animal Crossing New Horizons is released! I hope everyone has fun with it.&lt;/p&gt;
-&lt;p&gt;There are some pretty big updates today:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;New artwork in the &lt;a href=&quot;/art/game&quot;&gt;Games&lt;/a&gt; section! This is technically a crossover piece, but I don&#39;t have enough to make a new section yet lol&lt;/li&gt;
-&lt;li&gt;New page: &lt;a href=&quot;/me/fan&quot;&gt;Fangirling&lt;/a&gt;, a page that&#39;s just me rambling about my experiences and preferences as a fan of media!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/resources/status-cafe/themes&quot;&gt;Status Cafe themes&lt;/a&gt;:
-&lt;ul&gt;
-&lt;li&gt;Did a huge rehaul by improving how a theme is previewed and installing a button that will copy the code to your clipboard, making it easy to just paste it into the text box for the &lt;strong&gt;About&lt;/strong&gt; section,&lt;/li&gt;
-&lt;li&gt;Added a new theme! Those from Neocities in 2022-2023 might recognize it lol. I&#39;m being a little shameless with this one hehe.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Added some more links! The more links I move from my bookmarks to this page, the more cool websites I keep finding. This is what I love about the indie web hehe.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now. I hope everyone has a great day!&lt;/p&gt;
 </content>
   </entry>
   
