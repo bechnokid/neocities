@@ -5,12 +5,28 @@
   <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
   <link href="https://bechnokid.com/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2026-01-29T00:00:00Z</updated>
+  <updated>2026-02-05T00:00:00Z</updated>
   <id>https://bechnokid.com/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.com</uri>
   </author>
+  <entry>
+    <title>Apr 11, 2026 </title>
+    <link href="/home"/>
+    <updated>2026-04-11T00:00:00Z</updated>
+    <id>https://bechnokid.com/home</id>
+    <content type="html">&lt;p&gt;Hi everyone! Very small update this time around since a lot of my taken has been taken up my Monster Hunter Stories 3 &lt;img class=&#39;inline-img&#39; src=&#39;/assets/images/blog/emoticon/emote_embarrassed.png&#39; aria-hidden=&#39;true&#39; alt=&#39;&#39;&gt;&lt;/p&gt;
+&lt;p&gt;Here are the latest updates!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wrote a new &lt;a href=&quot;https://bechnokid.com/blog/2026-04-11&quot;&gt;blog entry&lt;/a&gt; about the newest member in our family!&lt;/li&gt;
+&lt;li&gt;Fixed the CSS in the &lt;a href=&quot;https://bechnokid.com/resources/status-cafe/themes/deviantart-06.html&quot;&gt;deviantART theme&lt;/a&gt; for Status Cafe! That was a little embarrassing, I&#39;m not sure why it worked before!&lt;/li&gt;
+&lt;li&gt;Removed the interactive adopts since I wasn&#39;t taking care of them as often as I&#39;d like to, oops. I prefer physical virtual pets anyhow!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! I hope you all of a wonderful day!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Mar 30, 2026 </title>
     <link href="/home"/>
@@ -127,29 +143,6 @@
 &lt;li&gt;I will also mention that I also added in new links, but seeing as how I seem to &lt;em&gt;always&lt;/em&gt; add in new links with every update, I figure I won&#39;t announce it this time. 😅&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now. See you next time!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Jan 29, 2026 </title>
-    <link href="/home"/>
-    <updated>2026-01-29T00:00:00Z</updated>
-    <id>https://bechnokid.com/home</id>
-    <content type="html">&lt;p&gt;Hello everyone! I hope you are all doing well. We all experienced a pretty nasty cold front over here in the East Coast, which makes me all the more grateful that I&#39;ve been working from home. I hope you are all staying warm this winter!&lt;/p&gt;
-&lt;p&gt;Here are the latest updates!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;New art in the &lt;a href=&quot;/art/anime&quot;&gt;Anime&lt;/a&gt; and &lt;a href=&quot;/art/other&quot;&gt;Other&lt;/a&gt; sections!&lt;/li&gt;
-&lt;li&gt;Lots of new goodies, including:
-&lt;ul&gt;
-&lt;li&gt;Two more &lt;a href=&quot;/goodies/pocket-bishies&quot;&gt;Pocket Bishounen&lt;/a&gt; quizzes to take.&lt;/li&gt;
-&lt;li&gt;Lots of graphics I &lt;a href=&quot;/goodies/adopts&quot;&gt;adopted&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Some graphics I collected for &lt;a href=&quot;/goodies/pixel-clubs&quot;&gt;pixel clubs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Added more &lt;a href=&quot;/links&quot;&gt;links&lt;/a&gt;! One day, I&#39;ll be brave and ask some of these new sites to be  affiliates! One day!&lt;/li&gt;
-&lt;li&gt;Various bug fixes and minor updates&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now! I hope you all of a wonderful day!&lt;/p&gt;
 </content>
   </entry>
   

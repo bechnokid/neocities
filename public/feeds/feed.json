@@ -13,6 +13,14 @@
   "items": [
     
       {
+        "id": "bechnokid-4/11/2026",
+        "url": "https://bechnokid.com",
+        "title": "Apr 11, 2026",
+        "content_html": "<p>Hi everyone! Very small update this time around since a lot of my taken has been taken up my Monster Hunter Stories 3 <img class='inline-img' src='/assets/images/blog/emoticon/emote_embarrassed.png' aria-hidden='true' alt=''></p>\n<p>Here are the latest updates!</p>\n<ul>\n<li>Wrote a new <a href=\"https://bechnokid.com/blog/2026-04-11\">blog entry</a> about the newest member in our family!</li>\n<li>Fixed the CSS in the <a href=\"https://bechnokid.com/resources/status-cafe/themes/deviantart-06.html\">deviantART theme</a> for Status Cafe! That was a little embarrassing, I'm not sure why it worked before!</li>\n<li>Removed the interactive adopts since I wasn't taking care of them as often as I'd like to, oops. I prefer physical virtual pets anyhow!</li>\n</ul>\n<p>That's it for now! I hope you all of a wonderful day!</p>\n",
+        "date_published": "2026-04-11T00:00:00Z"
+      },
+    
+      {
         "id": "bechnokid-3/30/2026",
         "url": "https://bechnokid.com",
         "title": "Mar 30, 2026",
@@ -58,14 +66,6 @@
         "title": "Feb 5, 2026",
         "content_html": "<p>Hello, everyone! I hope things are going ok for all of you! It's still pretty cold, but I hear that it'll get warmer next week! Just in time for my birthday!</p>\n<p>Here's what's new in this update!</p>\n<ul>\n<li>I moved the light/dark toggle button to be positioned below the navigation sidebar! I figured this might be easier to access since the sidebar is always fixed in one position.</li>\n<li>New art in the <a href=\"/art/anime\">anime</a> section!</li>\n<li>Added a new <a href=\"/resources/code-snippets\">code snippet</a>. I think Tumblr veterans might recognize this one. 😉</li>\n<li>Updated <a href=\"/now\">now</a> and <a href=\"/goodies/pixel-clubs\">pixel club</a> pages!</li>\n<li>I will also mention that I also added in new links, but seeing as how I seem to <em>always</em> add in new links with every update, I figure I won't announce it this time. 😅</li>\n</ul>\n<p>That's it for now. See you next time!</p>\n",
         "date_published": "2026-02-05T00:00:00Z"
-      },
-    
-      {
-        "id": "bechnokid-1/29/2026",
-        "url": "https://bechnokid.com",
-        "title": "Jan 29, 2026",
-        "content_html": "<p>Hello everyone! I hope you are all doing well. We all experienced a pretty nasty cold front over here in the East Coast, which makes me all the more grateful that I've been working from home. I hope you are all staying warm this winter!</p>\n<p>Here are the latest updates!</p>\n<ul>\n<li>New art in the <a href=\"/art/anime\">Anime</a> and <a href=\"/art/other\">Other</a> sections!</li>\n<li>Lots of new goodies, including:\n<ul>\n<li>Two more <a href=\"/goodies/pocket-bishies\">Pocket Bishounen</a> quizzes to take.</li>\n<li>Lots of graphics I <a href=\"/goodies/adopts\">adopted</a></li>\n<li>Some graphics I collected for <a href=\"/goodies/pixel-clubs\">pixel clubs</a></li>\n</ul>\n</li>\n<li>Added more <a href=\"/links\">links</a>! One day, I'll be brave and ask some of these new sites to be  affiliates! One day!</li>\n<li>Various bug fixes and minor updates</li>\n</ul>\n<p>That's it for now! I hope you all of a wonderful day!</p>\n",
-        "date_published": "2026-01-29T00:00:00Z"
       }
     
   ]
