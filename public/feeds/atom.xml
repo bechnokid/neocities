@@ -5,12 +5,28 @@
   <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
   <link href="https://bechnokid.com/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2026-02-05T00:00:00Z</updated>
+  <updated>2026-02-07T00:00:00Z</updated>
   <id>https://bechnokid.com/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.com</uri>
   </author>
+  <entry>
+    <title>Apr 27, 2026 </title>
+    <link href="/home"/>
+    <updated>2026-04-27T00:00:00Z</updated>
+    <id>https://bechnokid.com/home</id>
+    <content type="html">&lt;p&gt;Nothing comes close to a real spring day like experiencing 90 degree weather one day and then experiencing 40 degree weather the next day!&lt;/p&gt;
+&lt;p&gt;Here&#39;s what&#39;s in this update!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New artwork in the &lt;a href=&quot;https://bechnokid.com/art/digimon&quot;&gt;digimon&lt;/a&gt; and &lt;a href=&quot;https://bechnokid.com/art/other&quot;&gt;other&lt;/a&gt; sections!&lt;/li&gt;
+&lt;li&gt;Updated &lt;a href=&quot;https://bechnokid.com/now&quot;&gt;/now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Filled out a new questionnaire! You can find it in my &lt;a href=&quot;https://bechnokid.com/blog&quot;&gt;blog&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now. See you next time!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>Apr 11, 2026 </title>
     <link href="/home"/>
@@ -125,24 +141,6 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;That&#39;s it for now! I hope all of you have a great day!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Feb 5, 2026 </title>
-    <link href="/home"/>
-    <updated>2026-02-05T00:00:00Z</updated>
-    <id>https://bechnokid.com/home</id>
-    <content type="html">&lt;p&gt;Hello, everyone! I hope things are going ok for all of you! It&#39;s still pretty cold, but I hear that it&#39;ll get warmer next week! Just in time for my birthday!&lt;/p&gt;
-&lt;p&gt;Here&#39;s what&#39;s new in this update!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;I moved the light/dark toggle button to be positioned below the navigation sidebar! I figured this might be easier to access since the sidebar is always fixed in one position.&lt;/li&gt;
-&lt;li&gt;New art in the &lt;a href=&quot;/art/anime&quot;&gt;anime&lt;/a&gt; section!&lt;/li&gt;
-&lt;li&gt;Added a new &lt;a href=&quot;/resources/code-snippets&quot;&gt;code snippet&lt;/a&gt;. I think Tumblr veterans might recognize this one. 😉&lt;/li&gt;
-&lt;li&gt;Updated &lt;a href=&quot;/now&quot;&gt;now&lt;/a&gt; and &lt;a href=&quot;/goodies/pixel-clubs&quot;&gt;pixel club&lt;/a&gt; pages!&lt;/li&gt;
-&lt;li&gt;I will also mention that I also added in new links, but seeing as how I seem to &lt;em&gt;always&lt;/em&gt; add in new links with every update, I figure I won&#39;t announce it this time. 😅&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now. See you next time!&lt;/p&gt;
 </content>
   </entry>
   

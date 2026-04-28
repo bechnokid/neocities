@@ -11,7 +11,6 @@
         </title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-        <link rel="stylesheet" href="https://fonts.upset.dev/css2?family=Mochiy+Pop+One&amp;display=swap"/>
         <link rel="stylesheet" href="/assets/css/feed.css"/>
         <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon"/>
       </head>

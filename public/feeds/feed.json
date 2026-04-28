@@ -13,6 +13,14 @@
   "items": [
     
       {
+        "id": "bechnokid-4/27/2026",
+        "url": "https://bechnokid.com",
+        "title": "Apr 27, 2026",
+        "content_html": "<p>Nothing comes close to a real spring day like experiencing 90 degree weather one day and then experiencing 40 degree weather the next day!</p>\n<p>Here's what's in this update!</p>\n<ul>\n<li>New artwork in the <a href=\"https://bechnokid.com/art/digimon\">digimon</a> and <a href=\"https://bechnokid.com/art/other\">other</a> sections!</li>\n<li>Updated <a href=\"https://bechnokid.com/now\">/now</a></li>\n<li>Filled out a new questionnaire! You can find it in my <a href=\"https://bechnokid.com/blog\">blog</a>.</li>\n</ul>\n<p>That's it for now. See you next time!</p>\n",
+        "date_published": "2026-04-27T00:00:00Z"
+      },
+    
+      {
         "id": "bechnokid-4/11/2026",
         "url": "https://bechnokid.com",
         "title": "Apr 11, 2026",
@@ -58,14 +66,6 @@
         "title": "Feb 7, 2026",
         "content_html": "<p>Whoa, two updates in a week? It's almost unheard of!</p>\n<p>Here's what's in today's update!</p>\n<ul>\n<li><a href=\"https://bechnokid.com/tutorials/rss-feed\">New tutorial</a>! This one is for adding full descriptions to &quot;prettified&quot; RSS Feeds.</li>\n<li>The old <a href=\"https://bechnokid.com/guestbook\">guestbook</a> has returned! Yippee!!</li>\n<li>Added a section for <a href=\"https://bechnokid.com/joined\">pending webrings</a>.</li>\n<li>Other fixes such as:\n<ul>\n<li>Reorganizing and cleaning up a lot of pages</li>\n<li>Culling some of the quiz results and putting them in my <a href=\"https://bechnokid.com/about\">/about</a> page.</li>\n</ul>\n</li>\n</ul>\n<p>That's it for now! I hope all of you have a great day!</p>\n",
         "date_published": "2026-02-07T00:00:00Z"
-      },
-    
-      {
-        "id": "bechnokid-2/5/2026",
-        "url": "https://bechnokid.com",
-        "title": "Feb 5, 2026",
-        "content_html": "<p>Hello, everyone! I hope things are going ok for all of you! It's still pretty cold, but I hear that it'll get warmer next week! Just in time for my birthday!</p>\n<p>Here's what's new in this update!</p>\n<ul>\n<li>I moved the light/dark toggle button to be positioned below the navigation sidebar! I figured this might be easier to access since the sidebar is always fixed in one position.</li>\n<li>New art in the <a href=\"/art/anime\">anime</a> section!</li>\n<li>Added a new <a href=\"/resources/code-snippets\">code snippet</a>. I think Tumblr veterans might recognize this one. 😉</li>\n<li>Updated <a href=\"/now\">now</a> and <a href=\"/goodies/pixel-clubs\">pixel club</a> pages!</li>\n<li>I will also mention that I also added in new links, but seeing as how I seem to <em>always</em> add in new links with every update, I figure I won't announce it this time. 😅</li>\n</ul>\n<p>That's it for now. See you next time!</p>\n",
-        "date_published": "2026-02-05T00:00:00Z"
       }
     
   ]
