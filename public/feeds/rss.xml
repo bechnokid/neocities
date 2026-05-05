@@ -11,6 +11,20 @@
     <lastBuildDate>Sat, 07 Feb 2026 00:00:00 GMT</lastBuildDate>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <item>
+      <title>May 4, 2026</title>
+      <link>https://bechnokid.com/home</link>
+      <guid isPermaLink="false">update-Sun May 03 2026 20:00:00 GMT-0400 (Eastern Daylight Time)</guid>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[
+        <p>Very small update this time, but it's an important one!</p>
+<ul>
+<li>Apparently, the security question in my <a href="https://bechnokid.com/guestbook">guestbook</a> wouldn't accept any answer, regardless if it was correct or not! This has now been fixed. Thank you for your patience!</li>
+</ul>
+<p>That's it for now. See you next time!</p>
+        ]]></description>
+    </item>
+    
+    <item>
       <title>Apr 27, 2026</title>
       <link>https://bechnokid.com/home</link>
       <guid isPermaLink="false">update-Sun Apr 26 2026 20:00:00 GMT-0400 (Eastern Daylight Time)</guid>

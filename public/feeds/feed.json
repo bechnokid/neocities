@@ -13,6 +13,14 @@
   "items": [
     
       {
+        "id": "bechnokid-5/4/2026",
+        "url": "https://bechnokid.com",
+        "title": "May 4, 2026",
+        "content_html": "<p>Very small update this time, but it's an important one!</p>\n<ul>\n<li>Apparently, the security question in my <a href=\"https://bechnokid.com/guestbook\">guestbook</a> wouldn't accept any answer, regardless if it was correct or not! This has now been fixed. Thank you for your patience!</li>\n</ul>\n<p>That's it for now. See you next time!</p>\n",
+        "date_published": "2026-05-04T00:00:00Z"
+      },
+    
+      {
         "id": "bechnokid-4/27/2026",
         "url": "https://bechnokid.com",
         "title": "Apr 27, 2026",

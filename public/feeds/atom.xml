@@ -12,6 +12,19 @@
     <uri>https://bechnokid.com</uri>
   </author>
   <entry>
+    <title>May 4, 2026 </title>
+    <link href="/home"/>
+    <updated>2026-05-04T00:00:00Z</updated>
+    <id>https://bechnokid.com/home</id>
+    <content type="html">&lt;p&gt;Very small update this time, but it&#39;s an important one!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apparently, the security question in my &lt;a href=&quot;https://bechnokid.com/guestbook&quot;&gt;guestbook&lt;/a&gt; wouldn&#39;t accept any answer, regardless if it was correct or not! This has now been fixed. Thank you for your patience!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now. See you next time!&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
     <title>Apr 27, 2026 </title>
     <link href="/home"/>
     <updated>2026-04-27T00:00:00Z</updated>

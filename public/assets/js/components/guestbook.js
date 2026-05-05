@@ -1,6 +1,6 @@
 const GUESTBOOK_MSG_LIMIT = 4;
 
-async function submitMessage() {
+async function submitMessage(form) {
   const errorMsgBox = $('.guestbook-error-msg');
   const nameField = $('input#name');
   const textField = $('textarea#text');
@@ -13,10 +13,7 @@ async function submitMessage() {
   if (nameField.val().length == 0) errorList.push('<li>Name is missing.</li>');
   if (websiteField.val().length > 0 && !websiteRegex.test(websiteField.val())) errorList.push('<li>Invalid URL.</li>');
   if (textField.val().length == 0) errorList.push('<li>Message is empty.</li>');
-  if (questionField.val() != '8') {
-    let questionErr = (questionField.val().length == 0) ? "Answer is blank." : "Incorrect answer.";
-    errorList.push(`<li>${questionErr}</li>`);
-  }
+  if (questionField.val().length == 0) errorList.push(`<li>"Answer is blank."}</li>`);
 
   if (errorList.length > 0) {
     let errorListStr = '<ul>';
@@ -29,15 +26,15 @@ async function submitMessage() {
     errorMsgBox.html(errorMsg + errorListStr);
     errorMsgBox.removeClass('d-none');
   } else {
-    let formData = new FormData(this);
+    let formData = new FormData(form[0]);
     const response = await fetch('https://guestbooks.meadow.cafe/guestbook/484/submit', {
       method: 'POST',
       body: formData
     })
 
     if (response.ok) {
-      this.reset();
-      loadGuestbookMsgs();
+      form[0].reset();
+      getMessages();
       errorMsgBox.addClass('d-none');
       errorMsgBox.html('');
     } else {
@@ -141,7 +138,7 @@ export function loadGuestbook() {
   let form = $("#guestbooks___guestbook-form");
   form.on('submit', function(e) {
     e.preventDefault();
-    submitMessage();
+    submitMessage(form);
   });
 
   getMessages();
