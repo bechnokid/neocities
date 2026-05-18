@@ -5,12 +5,29 @@
   <title>Bechno Kid&#39;s Hideout - Atom Feed</title>
   <link href="https://bechnokid.com/feeds/atom.xml" rel="self" type="application/atom+xml" />
   <subtitle>The latest (and greatest?) from a beet disguised as a masked humanoid entity.</subtitle>
-  <updated>2026-02-07T00:00:00Z</updated>
+  <updated>2026-02-09T00:00:00Z</updated>
   <id>https://bechnokid.com/feeds/atom.xml</id>
   <author>
     <name>Bechno Kid&#39;s Hideout</name>
     <uri>https://bechnokid.com</uri>
   </author>
+  <entry>
+    <title>May 17, 2026 </title>
+    <link href="/home"/>
+    <updated>2026-05-17T00:00:00Z</updated>
+    <id>https://bechnokid.com/home</id>
+    <content type="html">&lt;p&gt;Hi, everyone! I hope everyone&#39;s been doing well. It&#39;s getting warmer, which is something I&#39;m not really looking forward to.&lt;/p&gt;
+&lt;p&gt;I hear my state is going to break the temperature records this year, but it seems like it gets hotter every year!&lt;/p&gt;
+&lt;p&gt;Here&#39;s what&#39;s in this update!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New art in the &lt;a href=&quot;https://bechnokid.com/art/digimon&quot;&gt;Digimon&lt;/a&gt; sections!&lt;/li&gt;
+&lt;li&gt;Updated the &lt;a href=&quot;https://bechnokid.com/now&quot;&gt;now&lt;/a&gt; page for May!&lt;/li&gt;
+&lt;li&gt;Slight update to the layout, such as putting polka dots in the headers, and putting some icons in the navigation and update bars! Trying to make my site a little bit cuter, heh heh.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&#39;s it for now! I hope all of you have a great day!&lt;/p&gt;
+</content>
+  </entry>
+  
   <entry>
     <title>May 4, 2026 </title>
     <link href="/home"/>
@@ -132,28 +149,6 @@
 &lt;p&gt;If you&#39;d like to be an affiliate, just shoot me an email at &lt;strong&gt;bechnokid@yahoo.com&lt;/strong&gt;!&lt;/p&gt;
 &lt;p&gt;The only requirements I have is that your website isn&#39;t just an &amp;quot;About Me&amp;quot; page. Not that those are bad or anything, but I love sites with a ton of content in it, whether it&#39;s art, blogging, writing, anything!&lt;/p&gt;
 &lt;p&gt;That&#39;s it for now! Have a great day, everyone!&lt;/p&gt;
-</content>
-  </entry>
-  
-  <entry>
-    <title>Feb 7, 2026 </title>
-    <link href="/home"/>
-    <updated>2026-02-07T00:00:00Z</updated>
-    <id>https://bechnokid.com/home</id>
-    <content type="html">&lt;p&gt;Whoa, two updates in a week? It&#39;s almost unheard of!&lt;/p&gt;
-&lt;p&gt;Here&#39;s what&#39;s in today&#39;s update!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://bechnokid.com/tutorials/rss-feed&quot;&gt;New tutorial&lt;/a&gt;! This one is for adding full descriptions to &amp;quot;prettified&amp;quot; RSS Feeds.&lt;/li&gt;
-&lt;li&gt;The old &lt;a href=&quot;https://bechnokid.com/guestbook&quot;&gt;guestbook&lt;/a&gt; has returned! Yippee!!&lt;/li&gt;
-&lt;li&gt;Added a section for &lt;a href=&quot;https://bechnokid.com/joined&quot;&gt;pending webrings&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Other fixes such as:
-&lt;ul&gt;
-&lt;li&gt;Reorganizing and cleaning up a lot of pages&lt;/li&gt;
-&lt;li&gt;Culling some of the quiz results and putting them in my &lt;a href=&quot;https://bechnokid.com/about&quot;&gt;/about&lt;/a&gt; page.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;That&#39;s it for now! I hope all of you have a great day!&lt;/p&gt;
 </content>
   </entry>
   
