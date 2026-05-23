@@ -192,18 +192,6 @@ $.ajax = function (args) {
   }
 }
 
-// Load theme
-function updateButtonAndTheme(labelEl, isDark, theme) {
-  const themeVar = theme;
-  $("html").attr('data-theme', themeVar);
-  const element = $(labelEl);
-  const ariaLabel = isDark ? 'light' : 'dark';
-  element.attr('aria-label', `Switch to ${ariaLabel} mode`);
-
-  const iconCls = isDark ? 'ft-sun' : 'ft-moon';
-  $(labelEl + ' i').forEach(el => el.classList = [iconCls]);
-};
-
 const themeSwitchLabel = '.toggle-mode';
 const storedTheme = localStorage.getItem('theme');
 const systemThemeDark = window.matchMedia("(prefers-color-scheme: dark)");
@@ -212,34 +200,7 @@ let currentTheme = 'light';
 if (systemThemeDark.matches) currentTheme = 'dark';
 if (storedTheme !== null) currentTheme = storedTheme;
 
-updateButtonAndTheme(themeSwitchLabel, currentTheme === 'dark', currentTheme);
-
 /* HELPER FUNCTIONS */
-
-// Copy to clipboard
-async function copyText(text) {
-  try {
-    await navigator.clipboard.writeText(text)
-    $('button#copy-btn').html("Code copied!");
-    setTimeout(function () {
-      $('button#copy-btn').html('Copy code');
-    }, 5000);
-  } catch(e) {
-    alert('Failed to copy: ', e);
-  }
-}
-
-function loadCopyTextBtn() {
-  $('button#copy-btn').on('click', () => {
-    const text = $('.copy-text').val();
-    copyText(text);
-  })
-}
-
-// Get random number
-function getRandomIndex(arr) {
-  return Math.floor(Math.random() * arr.length);
-}
 
 // Remove 'no-js' class
 $('html').removeClass('no-js');
